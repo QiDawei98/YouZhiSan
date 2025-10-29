@@ -1,0 +1,29 @@
+#Popova M N, Chukalina E P, Stanislavchuk T N, 等, 2007. Optical spectra, crystal-field parameters, and magnetic susceptibility of multiferroic NdFe3(BO3)4[J/OL]. Physical Review B, 75(22): 224435. DOI:10.1103/PhysRevB.75.224435.
+
+ion ND3+
+
+SYMMETRY D3
+
+time 15
+
+****************************
+
+4I9/2
+0.0
+8.05897287
+17.481771918
+27.400507758
+39.922911756
+
+4F9/2
+1809.177417216
+1813.0209273540002
+1814.012800938
+1825.419347154
+1837.44581436
+
+4G7/2
+2337.1021323
+2342.3094686160002
+2347.764773328
+2354.831872614

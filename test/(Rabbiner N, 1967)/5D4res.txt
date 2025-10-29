@@ -1,0 +1,28 @@
+*************************************************************
+**beta program for spectroscopy analysis with crystal field**
+**author: Qi Dawei                                         **
+**Powered by PyCrystalField                                **
+*************************************************************
+The following term symbols will be fitted:
+['5D4']
+Ion: TB3+
+Energy unit: mev
+ 
+==================================================================
+*************************Resuls***********************************
+ 
+Fitted Crystal Field Parameters:
+Ar40: -34.799509006787574
+Ar44: -173.99754503393785
+Ar60: -19.519497856023676
+Ar64: 409.9094549764972
+ 
+Sum of Squared Differences: 1.5843110762210046
+ 
+Comparison between theoretical and experimental energies: 
+Theoretical      Experimental
+5D4
+  0.000000  :    0.000000
+ 11.908184  :   11.158578
+ 13.500622  :   12.522404
+ 14.638078  :   14.382167

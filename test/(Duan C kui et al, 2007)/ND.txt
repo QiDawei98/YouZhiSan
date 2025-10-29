@@ -1,0 +1,23 @@
+#Duan C kui, Tanner P A, Makhov V N, et al, 2007. Vacuum ultraviolet spectra and crystal field analysis of YAlO3 doped with Nd3+ and Er3+[J/OL]. Physical Review B, 75(19): 195130. DOI:10.1103/PhysRevB.75.195130.
+
+
+ION nd3+
+
+symmetry C1H
+
+time 5
+
+****************************************
+
+4G7/2
+2336.606195508
+2345.7810261600002
+2355.327809406
+2366.85833982
+
+4G9/2
+2400.4580574780002
+None
+2408.269061952
+2417.319908406
+None

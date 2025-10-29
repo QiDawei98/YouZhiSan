@@ -1,0 +1,69 @@
+*************************************************************
+**beta program for spectroscopy analysis with crystal field**
+**author: Qi Dawei                                         **
+**Powered by PyCrystalField                                **
+*************************************************************
+Reloaded modules: YZS_lib
+*************************************************************
+**beta program for spectroscopy analysis with crystal field**
+**author: Qi Dawei                                         **
+**Powered by PyCrystalField                                **
+*************************************************************
+Warning: The energy list for term '7F2' was not sorted.
+Warning: The energy list for term '7F3' was not sorted.
+Warning: The energy list for term '7F4' was not sorted.
+Warning: The energy list for term '7F5' was not sorted.
+The following term symbols will be fitted:
+['7F1', '7F2', '7F3', '7F4', '7F5']
+Ion: EU3+
+Energy unit: mev
+ 
+==================================================================
+*************************Resuls***********************************
+ 
+Fitted Crystal Field Parameters:
+Ar20: 1.2009628152103415
+Ar40: 5.975048118891678
+Ar44: -78.44205875107434
+Ar60: 9.330760830276876
+Ar64: 8.092483186080663
+ 
+Sum of Squared Differences: 261.4862693451755
+ 
+Comparison between theoretical and experimental energies: 
+Theoretical      Experimental
+7F1
+  0.000000  :    0.000000
+  0.720578  :    5.194888
+ 
+7F2
+  0.000000  :    0.000000
+  6.670476  :    6.075167
+ 14.132023  :   12.683461
+ 19.921793  :   22.279745
+ 
+7F3
+  0.000000  :    0.000000
+  2.770734  :    2.256491
+  7.046267  :    5.975981
+  8.103428  :    6.099964
+ 12.742247  :   12.671063
+ 
+7F4
+  0.000000  :    0.000000
+  7.729734  :   16.117790
+ 22.855705  :   20.791949
+ 24.694282  :   22.192957
+ 25.318587  :   27.648209
+ 26.539388  :   35.756697
+ 42.365663  :   45.005829
+ 
+7F5
+  0.000000  :    0.000000
+  3.381350  :    6.199150
+ 10.665387  :   14.877960
+ 13.946879  :   14.877960
+ 21.685638  :   20.457195
+ 24.703529  :   22.068974
+ 27.598818  :   24.672617
+ 36.558972  :   39.054645
