@@ -8,7 +8,7 @@ import numpy as np
 
 
 if __name__ == "__main__":
-    file_path = r"D:\Calculation_Results\(Brecher C et al, 1967)\template_sym.txt"
+    file_path = r"D:\Calculation_Results\(Gruber J B et al, 1960)\#Gruber J B, Conway J G, 1960. Crys.txt"
     with open (file_path, 'r') as file:
         lines = file.readlines()
         
@@ -324,7 +324,8 @@ if __name__ == "__main__":
                     EXNRG[block_name].append(float(line.rstrip()))
                     continue
                 elif re.fullmatch(r"NONE", line.rstrip()):
-                    EXNRG[block_name].append(line.rstrip())
+                    #EXNRG[block_name].append(line.rstrip())
+                    EXNRG[block_name].append(None)
                     continue
                 #A blank line is required to separate different term symbol blocks.
                 elif line.isspace():
@@ -588,7 +589,7 @@ if __name__ == "__main__":
         for i in range(len(EXNRG[key])):
             if isinstance(EXNRG[key][i], float):
                 print(f"{best_THNRG[key][i]:10.6f}  :  {EXNRG[key][i]:10.6f}")
-            elif isinstance(EXNRG[key][i], str):
+            elif isinstance(EXNRG[key][i], type(None)):
                 print(f"{best_THNRG[key][i]:10.6f}  :   None")
             else:
                 raise ValueError
@@ -598,7 +599,7 @@ if __name__ == "__main__":
         
     if sys.platform == "win32":
         import winsound
-        winsound.Beep(15000, 4000)
-        winsound.Beep(440, 40000)
+        winsound.Beep(15000, 400)
+        winsound.Beep(440, 4000)
     
     

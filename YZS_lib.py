@@ -1182,7 +1182,8 @@ def worker(run_duration_minutes, individual_bounds, constraints, core_func, EXNR
             mc_Ar = Ar_array
             min_difference = difference
             
-    return min_difference, mc_Ar
+
+ #   return min_difference, mc_Ar
     
     assert isinstance(mc_Ar, np.ndarray) and mc_Ar.ndim == 1
             
@@ -1249,6 +1250,7 @@ def create_energy_level_plot(THNRG, EXNRG):
     for energy_list in all_values:
         global_all_energies.extend([e for e in energy_list if e is not None])
 
+        
     y_limits = None
     if global_all_energies:
         min_e, max_e = min(global_all_energies), max(global_all_energies)
@@ -1327,6 +1329,4 @@ def create_energy_level_plot(THNRG, EXNRG):
 
     # Display the plot
     plt.show()    
-    
-    
-            
+
