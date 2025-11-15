@@ -392,6 +392,13 @@ if __name__ == "__main__":
             if EXNRG[key] != sorted(EXNRG[key]):
                 print(f"Warning: The energy list for term '{key}' was not sorted.")
                 EXNRG[key].sort()
+            else:
+                last_float = -np.inf
+                for item in EXNRG[key]:
+                    if item < last_float:
+                        print(f"Error: The energy list for term '{key}' was not sorted.")
+                        raise ValueError
+                    last_float = item
         
     for key, value in EXNRG.items():
         # normalises the energies with respect to the first energy.
