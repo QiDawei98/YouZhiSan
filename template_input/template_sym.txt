@@ -1,5 +1,5 @@
 # Case insensitive
-# Energy unit: MeV
+# Energy unit: meV
 
 #BRECHER C, SAMELSON H, LEMPICKI A, et al, 1967. Polarized Spectra and Crystal-Field Parameters of Eu+3 in YVO4[J/OL]. Physical Review, 155(2): 178-187. DOI:10.1103/PhysRev.155.178.
 
