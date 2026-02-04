@@ -967,9 +967,10 @@ def allowed_cfp(site_symmetry):
     
     #triclinic
     elif site_symmetry in {'C1', 'S2'}:
-        return {'AR20':None, 'AR22':None, 'AR2-2':None, 'AR40':None, 'AR42':None,
-                'AR4-2':None, 'AR44':None, 'AR4-4':None, 'AR60':None, 'AR62':None,
-                'AR6-2':None, 'AR64':None, 'AR6-4':None, 'AR66':None, 'AR6-6':None}
+        return {'AR20':None, 'AR21':None, 'AR22':None, 'AR2-2':None,
+                'AR40':None, 'AR41':None, 'AR4-1':None, 'AR42':None, 'AR4-2':None,
+                'AR43':None, 'AR4-3':None, 'AR44':None, 'AR4-4':None,
+                'AR60':None}
     #Mulak, J. (2003). Physica B: Condensed Matter 337, 173–179.
 
 def reconstruct_and_run(p_ind, constraints, core_func, *extra_args):
