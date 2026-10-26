@@ -382,16 +382,16 @@ if __name__ == "__main__":
             print("Dubious degeneracy for term " + key + '.')
             raise ValueError
         
-    if symmetry not in YZS_lib.cubic_symmetry and ion == 'TB3+' and any(key != '7F6' for key in EXNRG):
-        print("Cubic symmetry isn't supported for excited states of Tb3+.")
-        sys.exit()
+    # if symmetry not in YZS_lib.cubic_symmetry and ion == 'TB3+' and any(key != '7F6' for key in EXNRG):
+    #     print("Cubic symmetry isn't supported for excited states of Tb3+.")
+    #     sys.exit()
     # ground state '7F6' is provided by (Stevens, 1952) and (Hutchings, 1964)
     # This is the best the author can offer, as I don't know how to calculate the theta value.
-    if ion == 'TB3+' and Ar_dict and any(key != '7F6' for key in EXNRG):
-        for item in Ar_dict:
-            if item[2] == '2':
-                print("Second order crystal field parameters aren't supported for excited states of Tb3+")
-                sys.exit()    
+    # if ion == 'TB3+' and Ar_dict and any(key != '7F6' for key in EXNRG):
+    #     for item in Ar_dict:
+    #         if item[2] == '2':
+    #             print("Second order crystal field parameters aren't supported for excited states of Tb3+")
+    #             sys.exit()
     
     # Energy lists with missing energies will not be sorted. The user should provide an already-sorted energy list themselves.
     # It is possible to sort an energy list when all energies are provided. However, it is highly recommended that the user do it themselves.
@@ -468,6 +468,14 @@ if __name__ == "__main__":
     if len(term_not_to_fit) > 0:
         print("The following term symbols will not be fitted:")
         print(term_not_to_fit)
+        
+    if any(term != '7F6' for term in term_to_fit) and ion == 'TB3+':
+        if type(symmetry) == str and symmetry not in YZS_lib.cubic_symmetry:
+            print("Non-cubic symmetry isn't supported for excited states of Tb3+.")
+            sys.exit()
+        if any(item[2] == '2' for item in Ar_dict):
+            print("Second order crystal field parameters aren't supported for excited states of Tb3+.")
+            sys.exit()
         
     #Format of individual bounds: [(-10.0, 10.0), (-10.0, 10.0), (-10.0, 10.0), (-100.0, 100.0), (-10.0, 10.0)]
     assert isinstance(individual_bounds, list)
