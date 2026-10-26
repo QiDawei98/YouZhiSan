@@ -556,7 +556,7 @@ if __name__ == "__main__":
         p_full[dep] = p_full[ind] * ratio
     
     
-    best_THNRG = YZS_lib.THNRG(ion = ion, Ar_dict = Ar_dict, p = p_full, term_to_fit = term_to_fit, alt_thet_enabled = False)
+    best_THNRG = YZS_lib.THNRG(ion = ion, Ar_dict = Ar_dict, p = p_full, term_to_fit = term_to_fit, alt_thet_enabled = alt_thet_enabled)
     
     best_Ar = Ar_dict.copy()
     assert len(best_Ar) == len(p_full)
