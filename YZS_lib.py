@@ -420,7 +420,7 @@ def PCM_Ar(ciffile, mag_ion = None, Zaxis = None, Yaxis = None,
             assert len(nmlabels) == len(imported_cif[1].B)
             for i in range(len(nmlabels)):
                 n = int(nmlabels[i][0])
-                m = int(nmlabels[i][1])
+                m = int(nmlabels[i][1:])
                 print(f'    A^{n}_{m}<r^{n}>: ', end='')
                 print(imported_cif[1].B[i] / cef.theta(centralion, n))     
             
@@ -438,7 +438,7 @@ def PCM_Ar(ciffile, mag_ion = None, Zaxis = None, Yaxis = None,
             assert len(nmlabels) == len(imported_cif[0][1].B)
             for i in range(len(nmlabels)):
                 n = int(nmlabels[i][0])
-                m = int(nmlabels[i][1])
+                m = int(nmlabels[i][1:])
                 print(f'    A^{n}_{m}<r^{n}>: ', end='')
                 print(imported_cif[0][1].B[i] / cef.theta(centralion, int(nmlabels[i][0]))) 
             print('')
@@ -448,7 +448,7 @@ def PCM_Ar(ciffile, mag_ion = None, Zaxis = None, Yaxis = None,
             assert len(nmlabels) == len(imported_cif[1][1].B)
             for i in range(len(nmlabels)):
                 n = int(nmlabels[i][0])
-                m = int(nmlabels[i][1])
+                m = int(nmlabels[i][1:])
                 print(f'    A^{n}_{m}<r^{n}>: ', end='')
                 print(imported_cif[1][1].B[i] / cef.theta(centralion, int(nmlabels[i][0]))) 
             print('')
@@ -458,7 +458,7 @@ def PCM_Ar(ciffile, mag_ion = None, Zaxis = None, Yaxis = None,
             assert len(nmlabels) == len(imported_cif[2][1].B)
             for i in range(len(nmlabels)):
                 n = int(nmlabels[i][0])
-                m = int(nmlabels[i][1])
+                m = int(nmlabels[i][1:])
                 print(f'    A^{n}_{m}<r^{n}>: ', end='')
                 print(imported_cif[2][1].B[i] / cef.theta(centralion, int(nmlabels[i][0]))) 
             print('')
@@ -815,7 +815,7 @@ def HAM_Eigen(ion, Ardict, LaTeX = False):
     for key, value in Ardict.items():
         assert isinstance(key, str)
         assert isinstance(value, (int, float))
-        assert re.match(r'^Ar\d{2}$', key)
+        assert re.fullmatch(r'Ar(2-?[0-2]|4-?[0-4]|6-?[0-6])', key), f"Invalid parameter key: {key}"
     
     ion = ion[0] + ion[1].lower() + ion[2:]
     
