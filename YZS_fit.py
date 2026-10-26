@@ -144,6 +144,9 @@ if __name__ == "__main__":
     elif TIME_num > 1:
         print("More than one TIME found.")
         raise SyntaxError
+    elif ALT_num > 1:
+        print("More than one ALT_THET found.")
+        raise SyntaxError
         
     #energies
     in_block = False
