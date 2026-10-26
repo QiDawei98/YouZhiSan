@@ -244,7 +244,7 @@ if __name__ == "__main__":
                 if len(Ar_dict) == 0:
                     print('No crystal field parameters found in the file')
                     raise SyntaxError
-            continue
+            # continue
     
             
         if m := re.fullmatch(r"\*+", line.rstrip()):
