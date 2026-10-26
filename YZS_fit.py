@@ -395,18 +395,28 @@ if __name__ == "__main__":
     
     # Energy lists with missing energies will not be sorted. The user should provide an already-sorted energy list themselves.
     # It is possible to sort an energy list when all energies are provided. However, it is highly recommended that the user do it themselves.
-    for key in EXNRG:
-        if all(isinstance(item, float) for item in EXNRG[key]):
-            if EXNRG[key] != sorted(EXNRG[key]):
+    # for key in EXNRG:
+    #     if all(isinstance(item, float) for item in EXNRG[key]):
+    #         if EXNRG[key] != sorted(EXNRG[key]):
+    #             print(f"Warning: The energy list for term '{key}' was not sorted.")
+    #             EXNRG[key].sort()
+    #         else:
+    #             last_float = -np.inf
+    #             for item in EXNRG[key]:
+    #                 if item < last_float:
+    #                     print(f"Error: The energy list for term '{key}' was not sorted.")
+    #                     raise ValueError
+    #                 last_float = item
+
+    for key, levels in EXNRG.items():
+        valid_nums = [x for x in levels if x is not None]
+        if valid_nums != sorted(valid_nums):
+            if len(valid_nums) == len(levels):
                 print(f"Warning: The energy list for term '{key}' was not sorted.")
-                EXNRG[key].sort()
+                levels.sort()
             else:
-                last_float = -np.inf
-                for item in EXNRG[key]:
-                    if item < last_float:
-                        print(f"Error: The energy list for term '{key}' was not sorted.")
-                        raise ValueError
-                    last_float = item
+                print(f"Error: The energy list for term '{key}' was not sorted.")
+                raise ValueError
         
     for key, value in EXNRG.items():
         # normalises the energies with respect to the first energy.
