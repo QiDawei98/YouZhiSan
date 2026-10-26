@@ -209,7 +209,7 @@ if __name__ == "__main__":
     shared_bounds = None
     symmetry = None
     time = None
-    alt_thet_enabled = None
+    alt_thet_enabled = False
     for line in lines:
         if in_block:
             # print(line)
