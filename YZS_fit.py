@@ -332,9 +332,9 @@ if __name__ == "__main__":
                     continue
                 #A blank line is required to separate different term symbol blocks.
                 elif line.isspace():
-                    if len(EXNRG[block_name]) == 0:
-                        print('No energy found for ' + block_name)
-                        raise SyntaxError
+                    # if len(EXNRG[block_name]) == 0:
+                    #     print('No energy found for ' + block_name)
+                    #     raise SyntaxError
                     in_block = False
                     continue
                 # else:
@@ -364,6 +364,11 @@ if __name__ == "__main__":
             
     # --- END: Extract Information ---
     # Information will be further checked and processed for fitting.
+            
+    for block_name, energies in EXNRG.items():
+        if len(energies) == 0:
+            print('No energy found for ' + block_name)
+            raise SyntaxError
             
     for key, value in EXNRG.items():
         m = re.match(r'\d+[A-Z](\d+\/\d+|\d+)', key)
