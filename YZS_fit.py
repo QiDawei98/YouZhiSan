@@ -303,7 +303,7 @@ if __name__ == "__main__":
     if alt_thet_enabled:
         if ion not in {key[0].upper() for key in YZS_lib.alt_Thet.keys()}:
             print(f"No alternative theta values for {ion}.")
-            print("Ions with alternative theta values ininclude:")
+            print("Ions with alternative theta values include:")
             print({key[0] for key in YZS_lib.alt_Thet.keys()})
             raise ValueError
 
