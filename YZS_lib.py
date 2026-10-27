@@ -1155,6 +1155,8 @@ def worker(run_duration_minutes, individual_bounds, constraints, core_func, EXNR
     
     sys.stdout = open(os.devnull, 'w')
     
+    np.random.seed()
+    
     min_difference = float('inf')
     mc_Ar = None
     
