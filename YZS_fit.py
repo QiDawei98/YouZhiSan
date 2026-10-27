@@ -568,6 +568,9 @@ if __name__ == "__main__":
         ),
         method='Powell',  
         bounds = filtered_bounds)
+
+    if best_result_tuple[0] < final_result.fun:
+        final_result.fun, final_result.x = best_result_tuple
  
     
     print(' ')

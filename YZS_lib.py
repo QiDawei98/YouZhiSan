@@ -1222,13 +1222,15 @@ def worker(run_duration_minutes, individual_bounds, constraints, core_func, EXNR
         take_step=BoundedStep(filtered_bounds),
 #       niter = 1000
     )
+    if bh_result.fun < min_difference:
+        min_difference, mc_Ar = bh_result.fun, bh_result.x
     
     da_result = dual_annealing(
         func=lambda p: reconstruct_and_run(
             p, constraints, core_func, EXNRG, ion, Ar_dict, term_to_fit, alt_thet_enabled
         ),
         bounds=filtered_bounds,
-        x0=bh_result.x,
+        x0=mc_Ar,
 #       maxiter = 10000,
 #       visit = 2.9,
 #       maxfun = 1e10,
@@ -1237,8 +1239,10 @@ def worker(run_duration_minutes, individual_bounds, constraints, core_func, EXNR
             "bounds": filtered_bounds
         }
     )
+    if da_result.fun < min_difference:
+        min_difference, mc_Ar = da_result.fun, da_result.x
       
-    return da_result.fun, da_result.x
+    return min_difference, mc_Ar
             
         
 def create_energy_level_plot(THNRG, EXNRG):
