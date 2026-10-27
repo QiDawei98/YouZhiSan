@@ -480,16 +480,17 @@ if __name__ == "__main__":
     #Format of individual bounds: [(-10.0, 10.0), (-10.0, 10.0), (-10.0, 10.0), (-100.0, 100.0), (-10.0, 10.0)]
     assert isinstance(individual_bounds, list)
     assert all(isinstance(item, (tuple, type(None))) for item in individual_bounds)
-    if all(isinstance(item, tuple) for item in individual_bounds):
-        assert all(isinstance(item[0], (float, type(None))) and
-                   isinstance(item[1], (float, type(None)))
-                   for item in individual_bounds)
-        for item in individual_bounds:
-            if isinstance(item[0], float) and isinstance(item[1], float):
-                if item[0] >= item[1]:
-                    print("Invalid individual bound: ")
-                    print(item)
-                    raise ValueError
+    # if all(isinstance(item, tuple) for item in individual_bounds):
+    assert all(isinstance(item[0], (float, type(None))) and
+               isinstance(item[1], (float, type(None)))
+               for item in individual_bounds if item is not None)
+    for item in individual_bounds:
+        if isinstance(item, tuple):
+            # if isinstance(item[0], float) and isinstance(item[1], float):
+            if item[0] >= item[1]:
+                print("Invalid individual bound: ")
+                print(item)
+                raise ValueError
                 
     
     
