@@ -224,6 +224,7 @@ def get_stark_levels_count(site_symmetry, J):
         Example: 'T' 'C3v'
     J: int or float
     ----------
+    (The information from this book is incorrect and is not used here now)
     Hänninen, P. & Härmä, H. (2011). Lanthanide Luminescence: Photophysical, 
     Analytical and Biological Aspects Berlin, Heidelberg: Springer.
     
@@ -243,10 +244,11 @@ def get_stark_levels_count(site_symmetry, J):
     
     Cubic_int = {0:1, 1:1, 2:2, 3:3, 4:4, 5:4, 6:6, 7:6, 8:7}
     Hexagonal_int = {0:1, 1:2, 2:3, 3:5, 4:6, 5:7, 6:9, 7:10, 8:11}
-    trig_tet_int = {0:1, 1:2, 2:4, 3:5, 4:7, 5:8, 6:10, 7:11, 8:13}
+    Trigonal_int = {0:1, 1:2, 2:3, 3:5, 4:6, 5:7, 6:9, 7:10, 8:11}
+    Tetragonal_int = {0:1, 1:2, 2:4, 3:5, 4:7, 5:8, 6:10, 7:11, 8:13}
     Low_int = {0:1, 1:3, 2:5, 3:7, 4:9, 5:11, 6:13, 7:15, 8:17}
     
-    Cubic_half = {0.5:1, 1.5:1, 2.5:2, 3.5:3, 4.5:3, 5.5:4, 6.5:5, 7.5:6, 8.5:6}
+    Cubic_half = {0.5:1, 1.5:1, 2.5:2, 3.5:3, 4.5:3, 5.5:4, 6.5:5, 7.5:5, 8.5:6}
     Others_half = {0.5:1, 1.5:2, 2.5:3, 3.5:4, 4.5:5, 5.5:6, 6.5:7, 7.5:8, 8.5:9}
     
     if isinstance(J, int):
@@ -254,8 +256,10 @@ def get_stark_levels_count(site_symmetry, J):
             return Cubic_int[J]
         elif site_symmetry in Hexagonal:
             return Hexagonal_int[J]
-        elif site_symmetry in Trigonal | Tetragonal:
-            return trig_tet_int[J]
+        elif site_symmetry in Trigonal:
+            return Trigonal_int[J]
+        elif site_symmetry in Tetragonal:
+            return Tetragonal_int[J]
         elif site_symmetry in Low:
             return Low_int[J]
     elif isinstance(J, float):
