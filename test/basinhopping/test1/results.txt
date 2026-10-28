@@ -1,0 +1,24 @@
+Starting Benchmark: 30 trials per configuration, 50 BH iterations each.
+
+================== Benchmark: Rastrigin_10D (Dim=10) ==================
+Ratio: 10% | Mode: clip     | Best:     2.9849 | Median:     6.9647 | Mean:     6.6994 +/-   2.0541 | Viol%:   2.4% | Time: 0.212s
+Ratio: 10% | Mode: reflect  | Best:     2.9849 | Median:     5.9698 | Mean:     6.7657 +/-   2.6623 | Viol%:   3.5% | Time: 0.213s
+Ratio: 10% | Mode: resample | Best:     2.9849 | Median:     5.9698 | Mean:     6.5336 +/-   2.3501 | Viol%:   2.1% | Time: 0.216s
+Ratio: 20% | Mode: clip     | Best:     4.9748 | Median:    12.4370 | Mean:    12.1053 +/-   4.4279 | Viol%:   4.7% | Time: 0.223s
+Ratio: 20% | Mode: reflect  | Best:     4.9748 | Median:    11.4420 | Mean:    11.2430 +/-   3.4672 | Viol%:   6.0% | Time: 0.229s
+Ratio: 20% | Mode: resample | Best:     2.9849 | Median:    12.4370 | Mean:    11.1104 +/-   3.6519 | Viol%:   4.1% | Time: 0.234s
+Ratio: 30% | Mode: clip     | Best:     5.9698 | Median:    19.8992 | Mean:    19.0368 +/-   5.4962 | Viol%:  22.9% | Time: 0.252s
+Ratio: 30% | Mode: reflect  | Best:     6.9647 | Median:    18.4067 | Mean:    18.4067 +/-   5.4541 | Viol%:  27.1% | Time: 0.259s
+Ratio: 30% | Mode: resample | Best:     7.9597 | Median:    16.9143 | Mean:    17.3454 +/-   6.1100 | Viol%:  15.7% | Time: 0.237s
+
+
+================== Benchmark: Schwefel_10D (Dim=10) ==================
+Ratio: 10% | Mode: clip     | Best:   473.7533 | Median:   908.0327 | Mean:   947.5628 +/- 239.4223 | Viol%:  40.9% | Time: 0.181s
+Ratio: 10% | Mode: reflect  | Best:   572.4547 | Median:  1026.4710 | Mean:   966.6946 +/- 225.2013 | Viol%:  30.2% | Time: 0.189s
+Ratio: 10% | Mode: resample | Best:   651.4190 | Median:  1026.4710 | Mean:  1047.5288 +/- 201.1113 | Viol%:  29.5% | Time: 0.198s
+Ratio: 20% | Mode: clip     | Best:   118.4383 | Median:   731.1351 | Mean:   767.2731 +/- 283.5374 | Viol%:  83.7% | Time: 0.184s
+Ratio: 20% | Mode: reflect  | Best:   236.8767 | Median:   741.0036 | Mean:   746.7228 +/- 303.2345 | Viol%:  78.7% | Time: 0.187s
+Ratio: 20% | Mode: resample | Best:   651.4190 | Median:   968.0117 | Mean:  1031.3241 +/- 222.9579 | Viol%:  74.8% | Time: 0.211s
+Ratio: 30% | Mode: clip     | Best:   118.4383 | Median:   950.5408 | Mean:   946.8755 +/- 283.7200 | Viol%:  94.5% | Time: 0.203s
+Ratio: 30% | Mode: reflect  | Best:   356.8321 | Median:   928.5282 | Mean:   901.1705 +/- 230.2879 | Viol%:  93.1% | Time: 0.203s
+Ratio: 30% | Mode: resample | Best:   631.7766 | Median:  1046.2813 | Mean:  1045.4335 +/- 226.2125 | Viol%:  90.3% | Time: 0.193s

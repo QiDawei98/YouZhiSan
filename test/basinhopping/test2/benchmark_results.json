@@ -1,0 +1,5645 @@
+[
+  {
+    "case_name": "(Gruber J B et al, 1960) / #Gruber J B, Conway J G, 1960. Crys.txt",
+    "is_real": true,
+    "symmetry": "C6V",
+    "dim": 4,
+    "f0": 3688.7959805462797,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 9.981319675846999,
+        "ssd_drop": 3678.814660870433,
+        "nfev": 4500,
+        "nit": 25,
+        "time_sec": 27.9240083694458,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 9.98131967469314,
+        "ssd_drop": 3678.8146608715865,
+        "nfev": 4437,
+        "nit": 25,
+        "time_sec": 29.092868328094482,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 4.432273998391546,
+        "ssd_drop": 3684.3637065478883,
+        "nfev": 6066,
+        "nit": 25,
+        "time_sec": 39.75427031517029,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 4.432273999278053,
+        "ssd_drop": 3684.3637065470016,
+        "nfev": 5337,
+        "nit": 25,
+        "time_sec": 35.64147329330444,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 3.747296598053766,
+        "ssd_drop": 3685.048683948226,
+        "nfev": 7218,
+        "nit": 25,
+        "time_sec": 46.73797369003296,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 3.747296892632068,
+        "ssd_drop": 3685.0486836536475,
+        "nfev": 6120,
+        "nit": 25,
+        "time_sec": 40.41258478164673,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 3.747296859619919,
+        "ssd_drop": 3685.04868368666,
+        "nfev": 5328,
+        "nit": 25,
+        "time_sec": 34.40802788734436,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 3.7472968578020915,
+        "ssd_drop": 3685.0486836884775,
+        "nfev": 5319,
+        "nit": 25,
+        "time_sec": 35.094836473464966,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 4.43227399977239,
+        "ssd_drop": 3684.3637065465073,
+        "nfev": 4707,
+        "nit": 25,
+        "time_sec": 31.821897506713867,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 4.432274003212635,
+        "ssd_drop": 3684.363706543067,
+        "nfev": 5130,
+        "nit": 25,
+        "time_sec": 33.78189706802368,
+        "violation_rate": 0.08,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Gruber J B et al, 1960) / #Gruber J B, Conway J G, 1960. Crys.txt",
+    "is_real": true,
+    "symmetry": "C6V",
+    "dim": 4,
+    "f0": 8430.665544613532,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 11.719353632601646,
+        "ssd_drop": 8418.94619098093,
+        "nfev": 3591,
+        "nit": 25,
+        "time_sec": 22.647666931152344,
+        "violation_rate": 0.44,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 5.070270523909703,
+        "ssd_drop": 8425.595274089623,
+        "nfev": 4221,
+        "nit": 25,
+        "time_sec": 27.387814044952393,
+        "violation_rate": 0.32,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 11.719353630176885,
+        "ssd_drop": 8418.946190983355,
+        "nfev": 4608,
+        "nit": 25,
+        "time_sec": 29.897271394729614,
+        "violation_rate": 0.32,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 5.070270523563096,
+        "ssd_drop": 8425.595274089968,
+        "nfev": 4356,
+        "nit": 25,
+        "time_sec": 28.943219900131226,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 5.070270523611612,
+        "ssd_drop": 8425.595274089921,
+        "nfev": 5094,
+        "nit": 25,
+        "time_sec": 33.906657218933105,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 5.070270522082951,
+        "ssd_drop": 8425.595274091449,
+        "nfev": 5067,
+        "nit": 25,
+        "time_sec": 33.404454708099365,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 4.808105117107589,
+        "ssd_drop": 8425.857439496423,
+        "nfev": 5958,
+        "nit": 25,
+        "time_sec": 39.09654712677002,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 4.808105115271262,
+        "ssd_drop": 8425.85743949826,
+        "nfev": 5778,
+        "nit": 25,
+        "time_sec": 36.626402139663696,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 5.0702705248258795,
+        "ssd_drop": 8425.595274088706,
+        "nfev": 4761,
+        "nit": 25,
+        "time_sec": 31.02415418624878,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 5.07027052391264,
+        "ssd_drop": 8425.59527408962,
+        "nfev": 5247,
+        "nit": 25,
+        "time_sec": 34.40613055229187,
+        "violation_rate": 0.12,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Gruber J B et al, 1960) / #Gruber J B, Conway J G, 1960. Crys.txt",
+    "is_real": true,
+    "symmetry": "C6V",
+    "dim": 4,
+    "f0": 3239.9893259374962,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 9.981319676580823,
+        "ssd_drop": 3230.0080062609154,
+        "nfev": 4968,
+        "nit": 25,
+        "time_sec": 30.591408014297485,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 9.981319677334447,
+        "ssd_drop": 3230.008006260162,
+        "nfev": 4689,
+        "nit": 25,
+        "time_sec": 30.25090479850769,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 9.981319677285416,
+        "ssd_drop": 3230.008006260211,
+        "nfev": 4734,
+        "nit": 25,
+        "time_sec": 31.860771894454956,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 10.117577732942383,
+        "ssd_drop": 3229.871748204554,
+        "nfev": 4698,
+        "nit": 25,
+        "time_sec": 30.906819343566895,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 9.981319675928525,
+        "ssd_drop": 3230.0080062615675,
+        "nfev": 4869,
+        "nit": 25,
+        "time_sec": 31.966267347335815,
+        "violation_rate": 0.24,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 9.981319677008507,
+        "ssd_drop": 3230.008006260488,
+        "nfev": 4338,
+        "nit": 25,
+        "time_sec": 29.396000146865845,
+        "violation_rate": 0.24,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 9.981319676856176,
+        "ssd_drop": 3230.00800626064,
+        "nfev": 4806,
+        "nit": 25,
+        "time_sec": 32.360087633132935,
+        "violation_rate": 0.28,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 9.981319679111998,
+        "ssd_drop": 3230.0080062583843,
+        "nfev": 4734,
+        "nit": 25,
+        "time_sec": 31.665929555892944,
+        "violation_rate": 0.24,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 4.43227399889956,
+        "ssd_drop": 3235.5570519385965,
+        "nfev": 4761,
+        "nit": 25,
+        "time_sec": 31.6091365814209,
+        "violation_rate": 0.24,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 3.747296613896703,
+        "ssd_drop": 3236.2420293235996,
+        "nfev": 5967,
+        "nit": 25,
+        "time_sec": 39.1956582069397,
+        "violation_rate": 0.04,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Wong E Y et al, 1961) / (Wong E Y et al, 1961).txt",
+    "is_real": true,
+    "symmetry": "D3H",
+    "dim": 4,
+    "f0": 1336586.3075353638,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 21.942185400958166,
+        "ssd_drop": 1336564.3653499628,
+        "nfev": 7848,
+        "nit": 25,
+        "time_sec": 58.908135414123535,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 21.942185400958166,
+        "ssd_drop": 1336564.3653499628,
+        "nfev": 7848,
+        "nit": 25,
+        "time_sec": 60.102500915527344,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 21.94218540013183,
+        "ssd_drop": 1336564.3653499638,
+        "nfev": 7020,
+        "nit": 25,
+        "time_sec": 55.22243571281433,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 21.94218540013183,
+        "ssd_drop": 1336564.3653499638,
+        "nfev": 7020,
+        "nit": 25,
+        "time_sec": 54.55310845375061,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 21.942185402847176,
+        "ssd_drop": 1336564.365349961,
+        "nfev": 8685,
+        "nit": 25,
+        "time_sec": 65.66893196105957,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 21.942185402847176,
+        "ssd_drop": 1336564.365349961,
+        "nfev": 8685,
+        "nit": 25,
+        "time_sec": 66.36478900909424,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 21.942185399460282,
+        "ssd_drop": 1336564.3653499645,
+        "nfev": 8829,
+        "nit": 25,
+        "time_sec": 67.6206922531128,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 21.942185399460282,
+        "ssd_drop": 1336564.3653499645,
+        "nfev": 8829,
+        "nit": 25,
+        "time_sec": 67.52843046188354,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 21.942185398757623,
+        "ssd_drop": 1336564.3653499652,
+        "nfev": 8019,
+        "nit": 25,
+        "time_sec": 61.03185272216797,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 21.942185398757623,
+        "ssd_drop": 1336564.3653499652,
+        "nfev": 8019,
+        "nit": 25,
+        "time_sec": 60.47375822067261,
+        "violation_rate": 0.0,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Wong E Y et al, 1961) / (Wong E Y et al, 1961).txt",
+    "is_real": true,
+    "symmetry": "D3H",
+    "dim": 4,
+    "f0": 54930.013229107106,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 21.94218539930305,
+        "ssd_drop": 54908.0710437078,
+        "nfev": 7839,
+        "nit": 25,
+        "time_sec": 58.96698045730591,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 21.94218539930305,
+        "ssd_drop": 54908.0710437078,
+        "nfev": 7839,
+        "nit": 25,
+        "time_sec": 60.7354781627655,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 21.94218540250174,
+        "ssd_drop": 54908.07104370461,
+        "nfev": 8379,
+        "nit": 25,
+        "time_sec": 65.55243253707886,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 21.94218540250174,
+        "ssd_drop": 54908.07104370461,
+        "nfev": 8379,
+        "nit": 25,
+        "time_sec": 64.2759530544281,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 42.09052300228667,
+        "ssd_drop": 54887.92270610482,
+        "nfev": 9891,
+        "nit": 25,
+        "time_sec": 75.09140396118164,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 42.09052300228667,
+        "ssd_drop": 54887.92270610482,
+        "nfev": 9891,
+        "nit": 25,
+        "time_sec": 74.46540927886963,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 21.94218539917635,
+        "ssd_drop": 54908.07104370793,
+        "nfev": 9054,
+        "nit": 25,
+        "time_sec": 70.03808045387268,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 21.94218539917635,
+        "ssd_drop": 54908.07104370793,
+        "nfev": 9054,
+        "nit": 25,
+        "time_sec": 67.81144380569458,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 21.942185402414413,
+        "ssd_drop": 54908.071043704695,
+        "nfev": 8379,
+        "nit": 25,
+        "time_sec": 63.31078910827637,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 21.942185402414413,
+        "ssd_drop": 54908.071043704695,
+        "nfev": 8379,
+        "nit": 25,
+        "time_sec": 63.4690465927124,
+        "violation_rate": 0.0,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Wong E Y et al, 1961) / (Wong E Y et al, 1961).txt",
+    "is_real": true,
+    "symmetry": "D3H",
+    "dim": 4,
+    "f0": 765582.7398596543,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 21.942185396158962,
+        "ssd_drop": 765560.7976742581,
+        "nfev": 8496,
+        "nit": 25,
+        "time_sec": 62.76808190345764,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 21.942185396158962,
+        "ssd_drop": 765560.7976742581,
+        "nfev": 8496,
+        "nit": 25,
+        "time_sec": 65.26582765579224,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 21.94218539861974,
+        "ssd_drop": 765560.7976742557,
+        "nfev": 8091,
+        "nit": 25,
+        "time_sec": 62.48766088485718,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 21.94218539861974,
+        "ssd_drop": 765560.7976742557,
+        "nfev": 8091,
+        "nit": 25,
+        "time_sec": 62.0544331073761,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 21.94218539750044,
+        "ssd_drop": 765560.7976742568,
+        "nfev": 10089,
+        "nit": 25,
+        "time_sec": 75.3014190196991,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 21.94218539750044,
+        "ssd_drop": 765560.7976742568,
+        "nfev": 10089,
+        "nit": 25,
+        "time_sec": 74.47653985023499,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 21.942185400689233,
+        "ssd_drop": 765560.7976742537,
+        "nfev": 11961,
+        "nit": 25,
+        "time_sec": 89.10219407081604,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 21.942185400689233,
+        "ssd_drop": 765560.7976742537,
+        "nfev": 11961,
+        "nit": 25,
+        "time_sec": 87.67826104164124,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 21.94218540553458,
+        "ssd_drop": 765560.7976742488,
+        "nfev": 7758,
+        "nit": 25,
+        "time_sec": 58.581947326660156,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 21.94218540553458,
+        "ssd_drop": 765560.7976742488,
+        "nfev": 7758,
+        "nit": 25,
+        "time_sec": 59.52677917480469,
+        "violation_rate": 0.0,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Crosswhite H M et al, 1961) / (Crosswhite H M et al, 1961).txt",
+    "is_real": true,
+    "symmetry": "C6V",
+    "dim": 4,
+    "f0": 803401.8599636634,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 1.6334096877872226,
+        "ssd_drop": 803400.2265539756,
+        "nfev": 8154,
+        "nit": 25,
+        "time_sec": 64.42996454238892,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 1.6334096877872226,
+        "ssd_drop": 803400.2265539756,
+        "nfev": 8154,
+        "nit": 25,
+        "time_sec": 67.21862697601318,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 1.6334096867583014,
+        "ssd_drop": 803400.2265539767,
+        "nfev": 8163,
+        "nit": 25,
+        "time_sec": 67.93649411201477,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 1.6334096867583014,
+        "ssd_drop": 803400.2265539767,
+        "nfev": 8163,
+        "nit": 25,
+        "time_sec": 66.17271280288696,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 1.6334096870153254,
+        "ssd_drop": 803400.2265539764,
+        "nfev": 8082,
+        "nit": 25,
+        "time_sec": 65.99132466316223,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 1.6334096870153254,
+        "ssd_drop": 803400.2265539764,
+        "nfev": 8082,
+        "nit": 25,
+        "time_sec": 66.50803589820862,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 1.746821736730304,
+        "ssd_drop": 803400.1131419267,
+        "nfev": 8874,
+        "nit": 25,
+        "time_sec": 73.87197160720825,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.746821736730304,
+        "ssd_drop": 803400.1131419267,
+        "nfev": 8874,
+        "nit": 25,
+        "time_sec": 71.13508868217468,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 4.55962221378134,
+        "ssd_drop": 803397.3003414496,
+        "nfev": 8622,
+        "nit": 25,
+        "time_sec": 69.93698811531067,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 4.55962221378134,
+        "ssd_drop": 803397.3003414496,
+        "nfev": 8622,
+        "nit": 25,
+        "time_sec": 69.27543520927429,
+        "violation_rate": 0.0,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Crosswhite H M et al, 1961) / (Crosswhite H M et al, 1961).txt",
+    "is_real": true,
+    "symmetry": "C6V",
+    "dim": 4,
+    "f0": 547962.5588481311,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 1.9797333921932239,
+        "ssd_drop": 547960.5791147389,
+        "nfev": 8811,
+        "nit": 25,
+        "time_sec": 69.48203253746033,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 1.9797333921932239,
+        "ssd_drop": 547960.5791147389,
+        "nfev": 8811,
+        "nit": 25,
+        "time_sec": 70.2989010810852,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 1.6334096879567932,
+        "ssd_drop": 547960.9254384432,
+        "nfev": 7317,
+        "nit": 25,
+        "time_sec": 59.81954002380371,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 1.6334096879567932,
+        "ssd_drop": 547960.9254384432,
+        "nfev": 7317,
+        "nit": 25,
+        "time_sec": 58.99221992492676,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 1.6334096872240949,
+        "ssd_drop": 547960.9254384439,
+        "nfev": 7776,
+        "nit": 25,
+        "time_sec": 64.0752215385437,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 1.6334096872240949,
+        "ssd_drop": 547960.9254384439,
+        "nfev": 7776,
+        "nit": 25,
+        "time_sec": 63.17825651168823,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 1.6334096871348593,
+        "ssd_drop": 547960.925438444,
+        "nfev": 7794,
+        "nit": 25,
+        "time_sec": 65.44517660140991,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.6334096871348593,
+        "ssd_drop": 547960.925438444,
+        "nfev": 7794,
+        "nit": 25,
+        "time_sec": 62.68778371810913,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 4.559622213198239,
+        "ssd_drop": 547957.9992259179,
+        "nfev": 7632,
+        "nit": 25,
+        "time_sec": 61.36238121986389,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 4.559622213198239,
+        "ssd_drop": 547957.9992259179,
+        "nfev": 7632,
+        "nit": 25,
+        "time_sec": 62.414639472961426,
+        "violation_rate": 0.0,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Crosswhite H M et al, 1961) / (Crosswhite H M et al, 1961).txt",
+    "is_real": true,
+    "symmetry": "C6V",
+    "dim": 4,
+    "f0": 2584135.981946393,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 1.6334096868452577,
+        "ssd_drop": 2584134.348536706,
+        "nfev": 7560,
+        "nit": 25,
+        "time_sec": 60.750648498535156,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 1.6334096868452577,
+        "ssd_drop": 2584134.348536706,
+        "nfev": 7560,
+        "nit": 25,
+        "time_sec": 62.61840462684631,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 1.6334096867233456,
+        "ssd_drop": 2584134.348536706,
+        "nfev": 7875,
+        "nit": 25,
+        "time_sec": 65.42964172363281,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 1.6334096867233456,
+        "ssd_drop": 2584134.348536706,
+        "nfev": 7875,
+        "nit": 25,
+        "time_sec": 64.07638883590698,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 1.6334096864421233,
+        "ssd_drop": 2584134.3485367065,
+        "nfev": 8370,
+        "nit": 25,
+        "time_sec": 68.2111611366272,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 1.6334096864421233,
+        "ssd_drop": 2584134.3485367065,
+        "nfev": 8370,
+        "nit": 25,
+        "time_sec": 68.79028797149658,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 1.6334096872516872,
+        "ssd_drop": 2584134.3485367056,
+        "nfev": 8397,
+        "nit": 25,
+        "time_sec": 70.43073654174805,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.6334096872516872,
+        "ssd_drop": 2584134.3485367056,
+        "nfev": 8397,
+        "nit": 25,
+        "time_sec": 67.47998595237732,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 1.6334096860186393,
+        "ssd_drop": 2584134.348536707,
+        "nfev": 9306,
+        "nit": 25,
+        "time_sec": 74.17791938781738,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 1.6334096860186393,
+        "ssd_drop": 2584134.348536707,
+        "nfev": 9306,
+        "nit": 25,
+        "time_sec": 74.94746804237366,
+        "violation_rate": 0.0,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
+    "is_real": true,
+    "symmetry": "D3H",
+    "dim": 4,
+    "f0": 1129745.2929695186,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 2.365453935898613,
+        "ssd_drop": 1129742.9275155826,
+        "nfev": 6660,
+        "nit": 25,
+        "time_sec": 57.55794358253479,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 2.365453935898613,
+        "ssd_drop": 1129742.9275155826,
+        "nfev": 6660,
+        "nit": 25,
+        "time_sec": 59.631248235702515,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 2.365453935814272,
+        "ssd_drop": 1129742.9275155826,
+        "nfev": 7254,
+        "nit": 25,
+        "time_sec": 63.41778826713562,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 2.365453935814272,
+        "ssd_drop": 1129742.9275155826,
+        "nfev": 7254,
+        "nit": 25,
+        "time_sec": 63.55967712402344,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 2.365453935807307,
+        "ssd_drop": 1129742.9275155829,
+        "nfev": 7542,
+        "nit": 25,
+        "time_sec": 66.90479254722595,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 2.365453935807307,
+        "ssd_drop": 1129742.9275155829,
+        "nfev": 7542,
+        "nit": 25,
+        "time_sec": 66.77045512199402,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 19.95562372966719,
+        "ssd_drop": 1129725.337345789,
+        "nfev": 8604,
+        "nit": 25,
+        "time_sec": 77.30980324745178,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 19.95562372966719,
+        "ssd_drop": 1129725.337345789,
+        "nfev": 8604,
+        "nit": 25,
+        "time_sec": 73.95309662818909,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 2.365453936239019,
+        "ssd_drop": 1129742.9275155824,
+        "nfev": 8388,
+        "nit": 25,
+        "time_sec": 73.56946158409119,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 2.365453936239019,
+        "ssd_drop": 1129742.9275155824,
+        "nfev": 8388,
+        "nit": 25,
+        "time_sec": 73.89619565010071,
+        "violation_rate": 0.0,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
+    "is_real": true,
+    "symmetry": "D3H",
+    "dim": 4,
+    "f0": 5491792.718538425,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 2.3654539354068245,
+        "ssd_drop": 5491790.35308449,
+        "nfev": 7326,
+        "nit": 25,
+        "time_sec": 64.30602359771729,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 2.3654539354068245,
+        "ssd_drop": 5491790.35308449,
+        "nfev": 7326,
+        "nit": 25,
+        "time_sec": 65.5456075668335,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 2.365453934412958,
+        "ssd_drop": 5491790.353084491,
+        "nfev": 8406,
+        "nit": 25,
+        "time_sec": 75.7273223400116,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 2.365453934412958,
+        "ssd_drop": 5491790.353084491,
+        "nfev": 8406,
+        "nit": 25,
+        "time_sec": 74.2773129940033,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 2.3654539366656815,
+        "ssd_drop": 5491790.353084488,
+        "nfev": 7992,
+        "nit": 25,
+        "time_sec": 71.2454104423523,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 2.3654539366656815,
+        "ssd_drop": 5491790.353084488,
+        "nfev": 7992,
+        "nit": 25,
+        "time_sec": 71.4803535938263,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 2.365453935239644,
+        "ssd_drop": 5491790.35308449,
+        "nfev": 7515,
+        "nit": 25,
+        "time_sec": 68.13646459579468,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 2.365453935239644,
+        "ssd_drop": 5491790.35308449,
+        "nfev": 7515,
+        "nit": 25,
+        "time_sec": 66.9246597290039,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 2.3654539361755047,
+        "ssd_drop": 5491790.353084489,
+        "nfev": 8181,
+        "nit": 25,
+        "time_sec": 71.86747670173645,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 2.3654539361755047,
+        "ssd_drop": 5491790.353084489,
+        "nfev": 8181,
+        "nit": 25,
+        "time_sec": 72.44268870353699,
+        "violation_rate": 0.0,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
+    "is_real": true,
+    "symmetry": "D3H",
+    "dim": 4,
+    "f0": 939869.5952111626,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 2.365453936077241,
+        "ssd_drop": 939867.2297572265,
+        "nfev": 7965,
+        "nit": 25,
+        "time_sec": 69.60058689117432,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 2.365453936077241,
+        "ssd_drop": 939867.2297572265,
+        "nfev": 7965,
+        "nit": 25,
+        "time_sec": 69.74332809448242,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 2.3654539353746724,
+        "ssd_drop": 939867.2297572272,
+        "nfev": 7380,
+        "nit": 25,
+        "time_sec": 66.22559356689453,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 2.3654539353746724,
+        "ssd_drop": 939867.2297572272,
+        "nfev": 7380,
+        "nit": 25,
+        "time_sec": 64.79762029647827,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 2.3654539352234,
+        "ssd_drop": 939867.2297572274,
+        "nfev": 7560,
+        "nit": 25,
+        "time_sec": 67.77314639091492,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 2.3654539352234,
+        "ssd_drop": 939867.2297572274,
+        "nfev": 7560,
+        "nit": 25,
+        "time_sec": 67.9026985168457,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 2.365453935532383,
+        "ssd_drop": 939867.229757227,
+        "nfev": 7884,
+        "nit": 25,
+        "time_sec": 71.63749837875366,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 2.365453935532383,
+        "ssd_drop": 939867.229757227,
+        "nfev": 7884,
+        "nit": 25,
+        "time_sec": 70.63876414299011,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 2.3654539357602395,
+        "ssd_drop": 939867.2297572268,
+        "nfev": 8343,
+        "nit": 25,
+        "time_sec": 72.86399865150452,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 2.3654539357602395,
+        "ssd_drop": 939867.2297572268,
+        "nfev": 8343,
+        "nit": 25,
+        "time_sec": 73.28780961036682,
+        "violation_rate": 0.0,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "is_real": true,
+    "symmetry": "D6",
+    "dim": 4,
+    "f0": 400326.7450107711,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 1.2041501297593238,
+        "ssd_drop": 400325.54086064134,
+        "nfev": 10845,
+        "nit": 25,
+        "time_sec": 74.88118553161621,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 1.2041501297593238,
+        "ssd_drop": 400325.54086064134,
+        "nfev": 10845,
+        "nit": 25,
+        "time_sec": 75.56158256530762,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 1.2041501297593238,
+        "ssd_drop": 400325.54086064134,
+        "nfev": 10638,
+        "nit": 25,
+        "time_sec": 74.96518802642822,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 1.2041501297593238,
+        "ssd_drop": 400325.54086064134,
+        "nfev": 10638,
+        "nit": 25,
+        "time_sec": 72.98951816558838,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 1.2041501297593238,
+        "ssd_drop": 400325.54086064134,
+        "nfev": 9657,
+        "nit": 25,
+        "time_sec": 67.22432494163513,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 1.2041501297593238,
+        "ssd_drop": 400325.54086064134,
+        "nfev": 9657,
+        "nit": 25,
+        "time_sec": 68.7693350315094,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 1.2041501297593238,
+        "ssd_drop": 400325.54086064134,
+        "nfev": 7614,
+        "nit": 25,
+        "time_sec": 54.93853044509888,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.2041501297593238,
+        "ssd_drop": 400325.54086064134,
+        "nfev": 7614,
+        "nit": 25,
+        "time_sec": 53.963860750198364,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 1.2041501297593238,
+        "ssd_drop": 400325.54086064134,
+        "nfev": 9333,
+        "nit": 25,
+        "time_sec": 65.53284478187561,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 1.2041501297593238,
+        "ssd_drop": 400325.54086064134,
+        "nfev": 9333,
+        "nit": 25,
+        "time_sec": 65.77337765693665,
+        "violation_rate": 0.0,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "is_real": true,
+    "symmetry": "D6",
+    "dim": 4,
+    "f0": 340891.60208025534,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 1.2698607763799727,
+        "ssd_drop": 340890.33221947897,
+        "nfev": 11052,
+        "nit": 25,
+        "time_sec": 75.72750329971313,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 1.2698607763799727,
+        "ssd_drop": 340890.33221947897,
+        "nfev": 11052,
+        "nit": 25,
+        "time_sec": 75.57187604904175,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 2.0355167805770265,
+        "ssd_drop": 340889.5665634748,
+        "nfev": 9891,
+        "nit": 25,
+        "time_sec": 69.98655724525452,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 2.0355167805770265,
+        "ssd_drop": 340889.5665634748,
+        "nfev": 9891,
+        "nit": 25,
+        "time_sec": 68.67616987228394,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 1.204150129242093,
+        "ssd_drop": 340890.3979301261,
+        "nfev": 8712,
+        "nit": 25,
+        "time_sec": 62.930458307266235,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 1.204150129242093,
+        "ssd_drop": 340890.3979301261,
+        "nfev": 8712,
+        "nit": 25,
+        "time_sec": 61.873767614364624,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 1.2698607771218982,
+        "ssd_drop": 340890.3322194782,
+        "nfev": 9378,
+        "nit": 25,
+        "time_sec": 67.61608529090881,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.2698607771218982,
+        "ssd_drop": 340890.3322194782,
+        "nfev": 9378,
+        "nit": 25,
+        "time_sec": 65.59011268615723,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 1.2698607757872415,
+        "ssd_drop": 340890.33221947955,
+        "nfev": 7983,
+        "nit": 25,
+        "time_sec": 55.97607707977295,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 1.2698607757872415,
+        "ssd_drop": 340890.33221947955,
+        "nfev": 7983,
+        "nit": 25,
+        "time_sec": 56.82531666755676,
+        "violation_rate": 0.0,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "is_real": true,
+    "symmetry": "D6",
+    "dim": 4,
+    "f0": 1398465.60735614,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 1.2041501291091967,
+        "ssd_drop": 1398464.4032060108,
+        "nfev": 9612,
+        "nit": 25,
+        "time_sec": 65.70052099227905,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 1.2041501291091967,
+        "ssd_drop": 1398464.4032060108,
+        "nfev": 9612,
+        "nit": 25,
+        "time_sec": 66.53948855400085,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 1.204150130109698,
+        "ssd_drop": 1398464.4032060099,
+        "nfev": 10323,
+        "nit": 25,
+        "time_sec": 72.43975234031677,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 1.204150130109698,
+        "ssd_drop": 1398464.4032060099,
+        "nfev": 10323,
+        "nit": 25,
+        "time_sec": 70.4731285572052,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 1.2041501292967773,
+        "ssd_drop": 1398464.4032060106,
+        "nfev": 11124,
+        "nit": 25,
+        "time_sec": 76.63577032089233,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 1.2041501292967773,
+        "ssd_drop": 1398464.4032060106,
+        "nfev": 11124,
+        "nit": 25,
+        "time_sec": 76.66460514068604,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 1.204150130415297,
+        "ssd_drop": 1398464.4032060094,
+        "nfev": 9414,
+        "nit": 25,
+        "time_sec": 66.37276697158813,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.204150130415297,
+        "ssd_drop": 1398464.4032060094,
+        "nfev": 9414,
+        "nit": 25,
+        "time_sec": 66.02059841156006,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 1.2041501300276292,
+        "ssd_drop": 1398464.4032060099,
+        "nfev": 8577,
+        "nit": 25,
+        "time_sec": 60.357436656951904,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 1.2041501300276292,
+        "ssd_drop": 1398464.4032060099,
+        "nfev": 8577,
+        "nit": 25,
+        "time_sec": 59.72437381744385,
+        "violation_rate": 0.0,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Koningstein J A et al, 1964) / (Koningstein J A et al, 1964).txt",
+    "is_real": true,
+    "symmetry": "C4V",
+    "dim": 5,
+    "f0": 14653.006089360799,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 1.909988332832186e-15,
+        "ssd_drop": 14653.006089360799,
+        "nfev": 6952,
+        "nit": 25,
+        "time_sec": 20.848196983337402,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 1.701991391047827e-15,
+        "ssd_drop": 14653.006089360799,
+        "nfev": 7480,
+        "nit": 25,
+        "time_sec": 21.439116716384888,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 8.107281199490822e-13,
+        "ssd_drop": 14653.006089360799,
+        "nfev": 6721,
+        "nit": 25,
+        "time_sec": 21.513206720352173,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 2.8956050321529186e-14,
+        "ssd_drop": 14653.006089360799,
+        "nfev": 6237,
+        "nit": 25,
+        "time_sec": 19.766092777252197,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 1.5815015332305764e-14,
+        "ssd_drop": 14653.006089360799,
+        "nfev": 6743,
+        "nit": 25,
+        "time_sec": 21.061715126037598,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 6.88050794737267e-14,
+        "ssd_drop": 14653.006089360799,
+        "nfev": 6303,
+        "nit": 25,
+        "time_sec": 19.89322018623352,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 1.959899105396306e-14,
+        "ssd_drop": 14653.006089360799,
+        "nfev": 6523,
+        "nit": 25,
+        "time_sec": 21.021153688430786,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 5.525987158405592e-15,
+        "ssd_drop": 14653.006089360799,
+        "nfev": 7920,
+        "nit": 25,
+        "time_sec": 24.1998188495636,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 9.090056465348442e-16,
+        "ssd_drop": 14653.006089360799,
+        "nfev": 7139,
+        "nit": 25,
+        "time_sec": 23.55567479133606,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 3.022197640187974e-14,
+        "ssd_drop": 14653.006089360799,
+        "nfev": 7161,
+        "nit": 25,
+        "time_sec": 22.383599996566772,
+        "violation_rate": 0.08,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Koningstein J A et al, 1964) / (Koningstein J A et al, 1964).txt",
+    "is_real": true,
+    "symmetry": "C4V",
+    "dim": 5,
+    "f0": 90967.31192221996,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 1.4760600096211905e-13,
+        "ssd_drop": 90967.31192221996,
+        "nfev": 5643,
+        "nit": 25,
+        "time_sec": 17.196823358535767,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 2.2530134912886793e-15,
+        "ssd_drop": 90967.31192221996,
+        "nfev": 5687,
+        "nit": 25,
+        "time_sec": 17.98449182510376,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 7.540000111524067e-16,
+        "ssd_drop": 90967.31192221996,
+        "nfev": 6369,
+        "nit": 25,
+        "time_sec": 19.735974073410034,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 7.540000111524067e-16,
+        "ssd_drop": 90967.31192221996,
+        "nfev": 6369,
+        "nit": 25,
+        "time_sec": 20.089008808135986,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 4.2930190282664315e-15,
+        "ssd_drop": 90967.31192221996,
+        "nfev": 8107,
+        "nit": 25,
+        "time_sec": 26.015855312347412,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 9.642979355809568e-15,
+        "ssd_drop": 90967.31192221996,
+        "nfev": 6314,
+        "nit": 25,
+        "time_sec": 19.077800273895264,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 8.323394660963809e-14,
+        "ssd_drop": 90967.31192221996,
+        "nfev": 7645,
+        "nit": 25,
+        "time_sec": 24.39061975479126,
+        "violation_rate": 0.36,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 6.765013312457109e-15,
+        "ssd_drop": 90967.31192221996,
+        "nfev": 7194,
+        "nit": 25,
+        "time_sec": 22.558383226394653,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 5.691804472043801e-14,
+        "ssd_drop": 90967.31192221996,
+        "nfev": 6754,
+        "nit": 25,
+        "time_sec": 21.686947345733643,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 3.0740195726154844e-15,
+        "ssd_drop": 90967.31192221996,
+        "nfev": 7392,
+        "nit": 25,
+        "time_sec": 24.47355008125305,
+        "violation_rate": 0.2,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Koningstein J A et al, 1964) / (Koningstein J A et al, 1964).txt",
+    "is_real": true,
+    "symmetry": "C4V",
+    "dim": 5,
+    "f0": 59933.23203498083,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 4.9353976185674346e-14,
+        "ssd_drop": 59933.23203498083,
+        "nfev": 6083,
+        "nit": 25,
+        "time_sec": 17.991889238357544,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 4.9353976185674346e-14,
+        "ssd_drop": 59933.23203498083,
+        "nfev": 6083,
+        "nit": 25,
+        "time_sec": 19.171924352645874,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 4.249995964867884e-14,
+        "ssd_drop": 59933.23203498083,
+        "nfev": 7007,
+        "nit": 25,
+        "time_sec": 22.17948579788208,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 5.444999188700593e-15,
+        "ssd_drop": 59933.23203498083,
+        "nfev": 6864,
+        "nit": 25,
+        "time_sec": 21.53810429573059,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 3.542891872902713e-14,
+        "ssd_drop": 59933.23203498083,
+        "nfev": 6996,
+        "nit": 25,
+        "time_sec": 21.996024131774902,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 4.680048097253269e-16,
+        "ssd_drop": 59933.23203498083,
+        "nfev": 7040,
+        "nit": 25,
+        "time_sec": 23.043334484100342,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 3.264602874723266e-14,
+        "ssd_drop": 59933.23203498083,
+        "nfev": 7095,
+        "nit": 25,
+        "time_sec": 22.29801058769226,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 8.107001838998714e-15,
+        "ssd_drop": 59933.23203498083,
+        "nfev": 6237,
+        "nit": 25,
+        "time_sec": 18.720759391784668,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 3.794027827476785e-15,
+        "ssd_drop": 59933.23203498083,
+        "nfev": 7029,
+        "nit": 25,
+        "time_sec": 21.248907804489136,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 3.850094458954936e-14,
+        "ssd_drop": 59933.23203498083,
+        "nfev": 6545,
+        "nit": 25,
+        "time_sec": 19.49079155921936,
+        "violation_rate": 0.24,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Capobianco J A et al, 1997) / (Capobianco J A et al, 1997).txt",
+    "is_real": true,
+    "symmetry": "D2D",
+    "dim": 5,
+    "f0": 838046.000851601,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 83.49357764559258,
+        "ssd_drop": 837962.5072739554,
+        "nfev": 11770,
+        "nit": 25,
+        "time_sec": 144.160560131073,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 83.49357764559258,
+        "ssd_drop": 837962.5072739554,
+        "nfev": 11770,
+        "nit": 25,
+        "time_sec": 142.74031329154968,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 83.49357764118781,
+        "ssd_drop": 837962.5072739598,
+        "nfev": 13563,
+        "nit": 25,
+        "time_sec": 164.17342114448547,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 83.49357764118781,
+        "ssd_drop": 837962.5072739598,
+        "nfev": 13563,
+        "nit": 25,
+        "time_sec": 161.78971147537231,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 83.49357763855684,
+        "ssd_drop": 837962.5072739625,
+        "nfev": 13244,
+        "nit": 25,
+        "time_sec": 159.05072236061096,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 83.49357763855684,
+        "ssd_drop": 837962.5072739625,
+        "nfev": 13244,
+        "nit": 25,
+        "time_sec": 154.31758213043213,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 88.67825623074371,
+        "ssd_drop": 837957.3225953702,
+        "nfev": 12947,
+        "nit": 25,
+        "time_sec": 147.8788504600525,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 88.67825623074371,
+        "ssd_drop": 837957.3225953702,
+        "nfev": 12947,
+        "nit": 25,
+        "time_sec": 144.01503491401672,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 83.49357764319139,
+        "ssd_drop": 837962.5072739578,
+        "nfev": 13420,
+        "nit": 25,
+        "time_sec": 148.46277236938477,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 83.49357764358648,
+        "ssd_drop": 837962.5072739575,
+        "nfev": 14014,
+        "nit": 25,
+        "time_sec": 155.0608720779419,
+        "violation_rate": 0.08,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Capobianco J A et al, 1997) / (Capobianco J A et al, 1997).txt",
+    "is_real": true,
+    "symmetry": "D2D",
+    "dim": 5,
+    "f0": 5662222.283380308,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 83.49357763815627,
+        "ssd_drop": 5662138.7898026705,
+        "nfev": 13299,
+        "nit": 25,
+        "time_sec": 161.8173050880432,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 83.49357763815627,
+        "ssd_drop": 5662138.7898026705,
+        "nfev": 13299,
+        "nit": 25,
+        "time_sec": 160.86893701553345,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 83.49357765552878,
+        "ssd_drop": 5662138.789802653,
+        "nfev": 12903,
+        "nit": 25,
+        "time_sec": 155.3460714817047,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 83.49357765552878,
+        "ssd_drop": 5662138.789802653,
+        "nfev": 12903,
+        "nit": 25,
+        "time_sec": 153.307950258255,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 83.4935776436173,
+        "ssd_drop": 5662138.789802665,
+        "nfev": 11605,
+        "nit": 25,
+        "time_sec": 138.872332572937,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 83.4935776436173,
+        "ssd_drop": 5662138.789802665,
+        "nfev": 11605,
+        "nit": 25,
+        "time_sec": 134.42989587783813,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 88.67825623210297,
+        "ssd_drop": 5662133.605124076,
+        "nfev": 13585,
+        "nit": 25,
+        "time_sec": 155.44404983520508,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 88.67825623210297,
+        "ssd_drop": 5662133.605124076,
+        "nfev": 13585,
+        "nit": 25,
+        "time_sec": 149.6154067516327,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 88.6782562353073,
+        "ssd_drop": 5662133.605124073,
+        "nfev": 11044,
+        "nit": 25,
+        "time_sec": 122.10542416572571,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 88.6782562353073,
+        "ssd_drop": 5662133.605124073,
+        "nfev": 11044,
+        "nit": 25,
+        "time_sec": 122.17222142219543,
+        "violation_rate": 0.0,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Capobianco J A et al, 1997) / (Capobianco J A et al, 1997).txt",
+    "is_real": true,
+    "symmetry": "D2D",
+    "dim": 5,
+    "f0": 6580726.518779178,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 83.49357764486297,
+        "ssd_drop": 6580643.025201533,
+        "nfev": 11913,
+        "nit": 25,
+        "time_sec": 144.4280140399933,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 83.49357764486297,
+        "ssd_drop": 6580643.025201533,
+        "nfev": 11913,
+        "nit": 25,
+        "time_sec": 144.07484602928162,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 83.49357764967459,
+        "ssd_drop": 6580643.025201528,
+        "nfev": 12342,
+        "nit": 25,
+        "time_sec": 148.39527535438538,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 83.49357764967459,
+        "ssd_drop": 6580643.025201528,
+        "nfev": 12342,
+        "nit": 25,
+        "time_sec": 146.26044750213623,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 83.49357784787419,
+        "ssd_drop": 6580643.02520133,
+        "nfev": 15455,
+        "nit": 25,
+        "time_sec": 182.5461916923523,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 83.49357784787419,
+        "ssd_drop": 6580643.02520133,
+        "nfev": 15455,
+        "nit": 25,
+        "time_sec": 175.8452763557434,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 83.49357764844912,
+        "ssd_drop": 6580643.025201529,
+        "nfev": 12067,
+        "nit": 25,
+        "time_sec": 134.0080909729004,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 83.49357764844912,
+        "ssd_drop": 6580643.025201529,
+        "nfev": 12067,
+        "nit": 25,
+        "time_sec": 133.30481147766113,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 83.49357764226392,
+        "ssd_drop": 6580643.025201536,
+        "nfev": 11726,
+        "nit": 25,
+        "time_sec": 129.31868481636047,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 83.49357764226392,
+        "ssd_drop": 6580643.025201536,
+        "nfev": 11902,
+        "nit": 25,
+        "time_sec": 131.21132493019104,
+        "violation_rate": 0.08,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Popova M N et al, 2007) / (Popova M N et al, 2007).txt",
+    "is_real": true,
+    "symmetry": "D3",
+    "dim": 6,
+    "f0": 89798.0656433043,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 10.079048483230643,
+        "ssd_drop": 89787.98659482108,
+        "nfev": 18213,
+        "nit": 25,
+        "time_sec": 148.40001821517944,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 10.079048483230643,
+        "ssd_drop": 89787.98659482108,
+        "nfev": 17745,
+        "nit": 25,
+        "time_sec": 141.91828966140747,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 10.079048482330554,
+        "ssd_drop": 89787.98659482197,
+        "nfev": 16614,
+        "nit": 25,
+        "time_sec": 132.45339846611023,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 10.079048482330554,
+        "ssd_drop": 89787.98659482197,
+        "nfev": 16965,
+        "nit": 25,
+        "time_sec": 136.83848690986633,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 10.079048498742877,
+        "ssd_drop": 89787.98659480557,
+        "nfev": 19188,
+        "nit": 25,
+        "time_sec": 149.66068983078003,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 10.079048498742877,
+        "ssd_drop": 89787.98659480557,
+        "nfev": 19188,
+        "nit": 25,
+        "time_sec": 144.1955943107605,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 10.079048524028174,
+        "ssd_drop": 89787.98659478028,
+        "nfev": 16523,
+        "nit": 25,
+        "time_sec": 120.60377931594849,
+        "violation_rate": 0.24,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 10.079048524028174,
+        "ssd_drop": 89787.98659478028,
+        "nfev": 17381,
+        "nit": 25,
+        "time_sec": 126.62134146690369,
+        "violation_rate": 0.24,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 10.079048485445487,
+        "ssd_drop": 89787.98659481885,
+        "nfev": 17589,
+        "nit": 25,
+        "time_sec": 126.8050286769867,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 10.079048485445487,
+        "ssd_drop": 89787.98659481885,
+        "nfev": 18655,
+        "nit": 25,
+        "time_sec": 134.1097412109375,
+        "violation_rate": 0.2,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Popova M N et al, 2007) / (Popova M N et al, 2007).txt",
+    "is_real": true,
+    "symmetry": "D3",
+    "dim": 6,
+    "f0": 1671433.319150745,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 10.079048485092752,
+        "ssd_drop": 1671423.24010226,
+        "nfev": 16887,
+        "nit": 25,
+        "time_sec": 137.00184655189514,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 10.079048483061744,
+        "ssd_drop": 1671423.2401022618,
+        "nfev": 17433,
+        "nit": 25,
+        "time_sec": 138.10517644882202,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 10.07904848225826,
+        "ssd_drop": 1671423.2401022627,
+        "nfev": 16185,
+        "nit": 25,
+        "time_sec": 130.52444505691528,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 10.07904848774506,
+        "ssd_drop": 1671423.240102257,
+        "nfev": 15912,
+        "nit": 25,
+        "time_sec": 126.55179476737976,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 10.07904848337291,
+        "ssd_drop": 1671423.2401022615,
+        "nfev": 18824,
+        "nit": 25,
+        "time_sec": 144.06599354743958,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 10.079048482080639,
+        "ssd_drop": 1671423.240102263,
+        "nfev": 16575,
+        "nit": 25,
+        "time_sec": 124.4366466999054,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 10.079048485486732,
+        "ssd_drop": 1671423.2401022594,
+        "nfev": 16146,
+        "nit": 25,
+        "time_sec": 116.54671812057495,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 10.079048484388192,
+        "ssd_drop": 1671423.2401022606,
+        "nfev": 16705,
+        "nit": 25,
+        "time_sec": 121.10838723182678,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 10.0790484922675,
+        "ssd_drop": 1671423.2401022527,
+        "nfev": 17862,
+        "nit": 25,
+        "time_sec": 129.33463549613953,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 10.079048487691608,
+        "ssd_drop": 1671423.2401022573,
+        "nfev": 17953,
+        "nit": 25,
+        "time_sec": 129.28409481048584,
+        "violation_rate": 0.2,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Popova M N et al, 2007) / (Popova M N et al, 2007).txt",
+    "is_real": true,
+    "symmetry": "D3",
+    "dim": 6,
+    "f0": 599720.8940974604,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 18.0014081193436,
+        "ssd_drop": 599702.8926893411,
+        "nfev": 19227,
+        "nit": 25,
+        "time_sec": 155.41634678840637,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 18.00140812076272,
+        "ssd_drop": 599702.8926893397,
+        "nfev": 17108,
+        "nit": 25,
+        "time_sec": 135.71525931358337,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 10.079048491585059,
+        "ssd_drop": 599710.8150489689,
+        "nfev": 19084,
+        "nit": 25,
+        "time_sec": 153.16284155845642,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 10.079048486875209,
+        "ssd_drop": 599710.8150489735,
+        "nfev": 18733,
+        "nit": 25,
+        "time_sec": 146.28373003005981,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 22.405713140011486,
+        "ssd_drop": 599698.4883843204,
+        "nfev": 16705,
+        "nit": 25,
+        "time_sec": 125.77981376647949,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 22.405713140011486,
+        "ssd_drop": 599698.4883843204,
+        "nfev": 16705,
+        "nit": 25,
+        "time_sec": 122.93042731285095,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 17.992159031544073,
+        "ssd_drop": 599702.9019384289,
+        "nfev": 18044,
+        "nit": 25,
+        "time_sec": 130.69191813468933,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 17.992159031544073,
+        "ssd_drop": 599702.9019384289,
+        "nfev": 18044,
+        "nit": 25,
+        "time_sec": 130.81904244422913,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 10.079048482761326,
+        "ssd_drop": 599710.8150489776,
+        "nfev": 18590,
+        "nit": 25,
+        "time_sec": 134.2046709060669,
+        "violation_rate": 0.32,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 11.664707841209477,
+        "ssd_drop": 599709.2293896192,
+        "nfev": 19227,
+        "nit": 25,
+        "time_sec": 138.53605818748474,
+        "violation_rate": 0.36,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Chen X Y et al, 2005) / (Chen X Y et al, 2005).txt",
+    "is_real": true,
+    "symmetry": "C2V",
+    "dim": 9,
+    "f0": 74399.67855869816,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 1325.041593621185,
+        "ssd_drop": 73074.63696507698,
+        "nfev": 15941,
+        "nit": 25,
+        "time_sec": 190.29847288131714,
+        "violation_rate": 0.84,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 1325.041593629002,
+        "ssd_drop": 73074.63696506915,
+        "nfev": 20197,
+        "nit": 25,
+        "time_sec": 237.29209733009338,
+        "violation_rate": 0.88,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 579.5011754559331,
+        "ssd_drop": 73820.17738324222,
+        "nfev": 25631,
+        "nit": 25,
+        "time_sec": 294.37537908554077,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 831.2028537457338,
+        "ssd_drop": 73568.47570495242,
+        "nfev": 21945,
+        "nit": 25,
+        "time_sec": 243.82144594192505,
+        "violation_rate": 0.84,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 579.5011756591716,
+        "ssd_drop": 73820.17738303899,
+        "nfev": 26752,
+        "nit": 25,
+        "time_sec": 296.68461084365845,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 579.5011761427306,
+        "ssd_drop": 73820.17738255543,
+        "nfev": 27075,
+        "nit": 25,
+        "time_sec": 274.8197751045227,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 579.501175756517,
+        "ssd_drop": 73820.17738294163,
+        "nfev": 26372,
+        "nit": 25,
+        "time_sec": 242.78953957557678,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 552.3627407026137,
+        "ssd_drop": 73847.31581799555,
+        "nfev": 27569,
+        "nit": 25,
+        "time_sec": 235.22469568252563,
+        "violation_rate": 0.6,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 579.5011761836435,
+        "ssd_drop": 73820.1773825145,
+        "nfev": 27968,
+        "nit": 25,
+        "time_sec": 157.05711674690247,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 552.3627406085985,
+        "ssd_drop": 73847.31581808956,
+        "nfev": 25460,
+        "nit": 25,
+        "time_sec": 121.28225088119507,
+        "violation_rate": 0.68,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Chen X Y et al, 2005) / (Chen X Y et al, 2005).txt",
+    "is_real": true,
+    "symmetry": "C2V",
+    "dim": 9,
+    "f0": 13260.945232389086,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 552.3627405552738,
+        "ssd_drop": 12708.582491833811,
+        "nfev": 29431,
+        "nit": 25,
+        "time_sec": 346.71234130859375,
+        "violation_rate": 0.6,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 552.362740588419,
+        "ssd_drop": 12708.582491800666,
+        "nfev": 31806,
+        "nit": 25,
+        "time_sec": 366.16068816185,
+        "violation_rate": 0.6,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 552.3627405783518,
+        "ssd_drop": 12708.582491810734,
+        "nfev": 31673,
+        "nit": 25,
+        "time_sec": 351.1984541416168,
+        "violation_rate": 0.64,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 552.3627405506261,
+        "ssd_drop": 12708.582491838459,
+        "nfev": 31008,
+        "nit": 25,
+        "time_sec": 339.2697741985321,
+        "violation_rate": 0.64,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 552.362741099117,
+        "ssd_drop": 12708.582491289968,
+        "nfev": 33041,
+        "nit": 25,
+        "time_sec": 306.2124807834625,
+        "violation_rate": 0.64,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 552.3627413553888,
+        "ssd_drop": 12708.582491033696,
+        "nfev": 34580,
+        "nit": 25,
+        "time_sec": 292.2482295036316,
+        "violation_rate": 0.64,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 579.5011755061436,
+        "ssd_drop": 12681.444056882941,
+        "nfev": 29450,
+        "nit": 25,
+        "time_sec": 165.31241250038147,
+        "violation_rate": 0.44,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 579.5011753407188,
+        "ssd_drop": 12681.444057048368,
+        "nfev": 29963,
+        "nit": 25,
+        "time_sec": 139.18952322006226,
+        "violation_rate": 0.44,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 552.3627422458366,
+        "ssd_drop": 12708.58249014325,
+        "nfev": 27759,
+        "nit": 25,
+        "time_sec": 93.59853959083557,
+        "violation_rate": 0.72,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 552.3627412924743,
+        "ssd_drop": 12708.582491096611,
+        "nfev": 29811,
+        "nit": 25,
+        "time_sec": 93.76890158653259,
+        "violation_rate": 0.72,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "(Chen X Y et al, 2005) / (Chen X Y et al, 2005).txt",
+    "is_real": true,
+    "symmetry": "C2V",
+    "dim": 9,
+    "f0": 57750.862705969674,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 567.2440557726381,
+        "ssd_drop": 57183.61865019704,
+        "nfev": 23389,
+        "nit": 25,
+        "time_sec": 278.1732361316681,
+        "violation_rate": 0.48,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 567.2440557154448,
+        "ssd_drop": 57183.618650254226,
+        "nfev": 23275,
+        "nit": 25,
+        "time_sec": 273.1441934108734,
+        "violation_rate": 0.48,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 567.2440557523448,
+        "ssd_drop": 57183.61865021733,
+        "nfev": 23636,
+        "nit": 25,
+        "time_sec": 267.4521133899689,
+        "violation_rate": 0.6,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 567.244055743857,
+        "ssd_drop": 57183.61865022581,
+        "nfev": 23883,
+        "nit": 25,
+        "time_sec": 265.02835631370544,
+        "violation_rate": 0.6,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 567.2440556900874,
+        "ssd_drop": 57183.61865027959,
+        "nfev": 25023,
+        "nit": 25,
+        "time_sec": 276.108473777771,
+        "violation_rate": 0.6,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 567.2440600129012,
+        "ssd_drop": 57183.61864595677,
+        "nfev": 26961,
+        "nit": 25,
+        "time_sec": 255.17955589294434,
+        "violation_rate": 0.56,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 567.2440562423831,
+        "ssd_drop": 57183.618649727294,
+        "nfev": 25593,
+        "nit": 25,
+        "time_sec": 231.30496215820312,
+        "violation_rate": 0.64,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 567.244055968855,
+        "ssd_drop": 57183.61865000082,
+        "nfev": 27341,
+        "nit": 25,
+        "time_sec": 216.65707540512085,
+        "violation_rate": 0.64,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 552.3627413162503,
+        "ssd_drop": 57198.49996465343,
+        "nfev": 27151,
+        "nit": 25,
+        "time_sec": 133.89036631584167,
+        "violation_rate": 0.72,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 552.3627407016396,
+        "ssd_drop": 57198.499965268034,
+        "nfev": 26980,
+        "nit": 25,
+        "time_sec": 122.74708008766174,
+        "violation_rate": 0.72,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_01 [Dy3+ in C6V, 4 params, 6H5/2,6F7/2]",
+    "is_real": false,
+    "symmetry": "C6V",
+    "dim": 4,
+    "f0": 304.72173103830926,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 1.0599996602662018e-16,
+        "ssd_drop": 304.72173103830926,
+        "nfev": 5049,
+        "nit": 25,
+        "time_sec": 19.498361587524414,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 1.0599996602662018e-16,
+        "ssd_drop": 304.72173103830926,
+        "nfev": 5049,
+        "nit": 25,
+        "time_sec": 19.07496666908264,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 1.394559995638245e-12,
+        "ssd_drop": 304.72173103830784,
+        "nfev": 4986,
+        "nit": 25,
+        "time_sec": 18.813225507736206,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 1.394559995638245e-12,
+        "ssd_drop": 304.72173103830784,
+        "nfev": 4986,
+        "nit": 25,
+        "time_sec": 20.339045763015747,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 1.3675178941736266,
+        "ssd_drop": 303.35421314413566,
+        "nfev": 4347,
+        "nit": 25,
+        "time_sec": 16.92891263961792,
+        "violation_rate": 0.48,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 1.3675178938291197,
+        "ssd_drop": 303.3542131444801,
+        "nfev": 4347,
+        "nit": 25,
+        "time_sec": 16.656418800354004,
+        "violation_rate": 0.48,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 1.3675178948059183,
+        "ssd_drop": 303.35421314350333,
+        "nfev": 4401,
+        "nit": 25,
+        "time_sec": 16.43868350982666,
+        "violation_rate": 0.56,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.3675178962274483,
+        "ssd_drop": 303.3542131420818,
+        "nfev": 5364,
+        "nit": 25,
+        "time_sec": 19.771929502487183,
+        "violation_rate": 0.56,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 6.16211700348992e-12,
+        "ssd_drop": 304.7217310383031,
+        "nfev": 5121,
+        "nit": 25,
+        "time_sec": 19.461294412612915,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 7.304999897086115e-14,
+        "ssd_drop": 304.7217310383092,
+        "nfev": 5175,
+        "nit": 25,
+        "time_sec": 20.58207654953003,
+        "violation_rate": 0.16,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_01 [Dy3+ in C6V, 4 params, 6H5/2,6F7/2]",
+    "is_real": false,
+    "symmetry": "C6V",
+    "dim": 4,
+    "f0": 34503.56797566342,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 1.8534000064977015e-14,
+        "ssd_drop": 34503.56797566342,
+        "nfev": 5058,
+        "nit": 25,
+        "time_sec": 19.791865348815918,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 1.8534000064977015e-14,
+        "ssd_drop": 34503.56797566342,
+        "nfev": 5058,
+        "nit": 25,
+        "time_sec": 19.433465242385864,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 2.3454998379973705e-14,
+        "ssd_drop": 34503.56797566342,
+        "nfev": 5679,
+        "nit": 25,
+        "time_sec": 21.367108821868896,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 2.3454998379973705e-14,
+        "ssd_drop": 34503.56797566342,
+        "nfev": 5679,
+        "nit": 25,
+        "time_sec": 23.71280336380005,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 1.7215620109000781e-12,
+        "ssd_drop": 34503.56797566342,
+        "nfev": 5409,
+        "nit": 25,
+        "time_sec": 20.72897458076477,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 1.7215620109000781e-12,
+        "ssd_drop": 34503.56797566342,
+        "nfev": 5409,
+        "nit": 25,
+        "time_sec": 20.916714906692505,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 7.425699992643622e-14,
+        "ssd_drop": 34503.56797566342,
+        "nfev": 5454,
+        "nit": 25,
+        "time_sec": 20.42878270149231,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 7.425699992643622e-14,
+        "ssd_drop": 34503.56797566342,
+        "nfev": 5454,
+        "nit": 25,
+        "time_sec": 20.56127119064331,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 1.120209999270493e-12,
+        "ssd_drop": 34503.56797566342,
+        "nfev": 5364,
+        "nit": 25,
+        "time_sec": 21.073267459869385,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 1.120209999270493e-12,
+        "ssd_drop": 34503.56797566342,
+        "nfev": 5364,
+        "nit": 25,
+        "time_sec": 20.53670072555542,
+        "violation_rate": 0.0,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_01 [Dy3+ in C6V, 4 params, 6H5/2,6F7/2]",
+    "is_real": false,
+    "symmetry": "C6V",
+    "dim": 4,
+    "f0": 8157.582899918749,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 1.7157999835499173e-14,
+        "ssd_drop": 8157.582899918749,
+        "nfev": 5229,
+        "nit": 25,
+        "time_sec": 20.011292695999146,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 1.7157999835499173e-14,
+        "ssd_drop": 8157.582899918749,
+        "nfev": 5229,
+        "nit": 25,
+        "time_sec": 19.558481693267822,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 3.1142000319934316e-14,
+        "ssd_drop": 8157.582899918749,
+        "nfev": 5139,
+        "nit": 25,
+        "time_sec": 19.221462965011597,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 3.1142000319934316e-14,
+        "ssd_drop": 8157.582899918749,
+        "nfev": 5139,
+        "nit": 25,
+        "time_sec": 21.906425714492798,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 1.48766100590922e-12,
+        "ssd_drop": 8157.582899918747,
+        "nfev": 5598,
+        "nit": 25,
+        "time_sec": 21.040820121765137,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 1.48766100590922e-12,
+        "ssd_drop": 8157.582899918747,
+        "nfev": 5598,
+        "nit": 25,
+        "time_sec": 21.12827777862549,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 1.8235300204552283e-13,
+        "ssd_drop": 8157.582899918749,
+        "nfev": 5697,
+        "nit": 25,
+        "time_sec": 21.402626752853394,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.8235300204552283e-13,
+        "ssd_drop": 8157.582899918749,
+        "nfev": 5859,
+        "nit": 25,
+        "time_sec": 21.760324716567993,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 1.48766100590922e-12,
+        "ssd_drop": 8157.582899918747,
+        "nfev": 5607,
+        "nit": 25,
+        "time_sec": 21.561928510665894,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 1.48766100590922e-12,
+        "ssd_drop": 8157.582899918747,
+        "nfev": 5652,
+        "nit": 25,
+        "time_sec": 21.149226188659668,
+        "violation_rate": 0.12,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_02 [Sm3+ in C6V, 4 params, 6H7/2,6H5/2]",
+    "is_real": false,
+    "symmetry": "C6V",
+    "dim": 4,
+    "f0": 10237.708440606031,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 219.8804259018307,
+        "ssd_drop": 10017.8280147042,
+        "nfev": 3321,
+        "nit": 25,
+        "time_sec": 12.717970609664917,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 219.88042589571296,
+        "ssd_drop": 10017.828014710318,
+        "nfev": 3951,
+        "nit": 25,
+        "time_sec": 14.683682441711426,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 219.8804258944966,
+        "ssd_drop": 10017.828014711535,
+        "nfev": 3897,
+        "nit": 25,
+        "time_sec": 14.44481110572815,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 219.88042588479806,
+        "ssd_drop": 10017.828014721234,
+        "nfev": 4221,
+        "nit": 25,
+        "time_sec": 15.490936040878296,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 1.7652999524837303e-14,
+        "ssd_drop": 10237.708440606031,
+        "nfev": 4302,
+        "nit": 25,
+        "time_sec": 18.61466097831726,
+        "violation_rate": 0.32,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 4.4300004986006204e-15,
+        "ssd_drop": 10237.708440606031,
+        "nfev": 4761,
+        "nit": 25,
+        "time_sec": 17.66309428215027,
+        "violation_rate": 0.32,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 9.073999995221679e-15,
+        "ssd_drop": 10237.708440606031,
+        "nfev": 5166,
+        "nit": 25,
+        "time_sec": 20.01639413833618,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 8.678999567480008e-15,
+        "ssd_drop": 10237.708440606031,
+        "nfev": 6579,
+        "nit": 25,
+        "time_sec": 23.352761268615723,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 7.031851100941464e-11,
+        "ssd_drop": 10237.70844060596,
+        "nfev": 5562,
+        "nit": 25,
+        "time_sec": 20.688254356384277,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 1.5253899890955318e-13,
+        "ssd_drop": 10237.708440606031,
+        "nfev": 4716,
+        "nit": 25,
+        "time_sec": 17.4806010723114,
+        "violation_rate": 0.32,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_02 [Sm3+ in C6V, 4 params, 6H7/2,6H5/2]",
+    "is_real": false,
+    "symmetry": "C6V",
+    "dim": 4,
+    "f0": 4167.372886127485,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 0.40359653937220746,
+        "ssd_drop": 4166.969289588113,
+        "nfev": 7839,
+        "nit": 25,
+        "time_sec": 28.597880601882935,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 0.40359653937220746,
+        "ssd_drop": 4166.969289588113,
+        "nfev": 7839,
+        "nit": 25,
+        "time_sec": 30.33181595802307,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 0.40359653908462845,
+        "ssd_drop": 4166.9692895884,
+        "nfev": 8064,
+        "nit": 25,
+        "time_sec": 30.24073576927185,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 0.40359653908462845,
+        "ssd_drop": 4166.9692895884,
+        "nfev": 8064,
+        "nit": 25,
+        "time_sec": 29.421433210372925,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 0.40359653876759616,
+        "ssd_drop": 4166.969289588717,
+        "nfev": 6759,
+        "nit": 25,
+        "time_sec": 25.63820457458496,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 0.40359653876759616,
+        "ssd_drop": 4166.969289588717,
+        "nfev": 6759,
+        "nit": 25,
+        "time_sec": 25.488544702529907,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 1.0589999762921558e-15,
+        "ssd_drop": 4167.372886127485,
+        "nfev": 6867,
+        "nit": 25,
+        "time_sec": 25.85836434364319,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.0589999762921558e-15,
+        "ssd_drop": 4167.372886127485,
+        "nfev": 6849,
+        "nit": 25,
+        "time_sec": 25.94490385055542,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 1.2040004763505493e-15,
+        "ssd_drop": 4167.372886127485,
+        "nfev": 6858,
+        "nit": 25,
+        "time_sec": 25.216508626937866,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 1.2040004763505493e-15,
+        "ssd_drop": 4167.372886127485,
+        "nfev": 6318,
+        "nit": 25,
+        "time_sec": 23.246631860733032,
+        "violation_rate": 0.04,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_02 [Sm3+ in C6V, 4 params, 6H7/2,6H5/2]",
+    "is_real": false,
+    "symmetry": "C6V",
+    "dim": 4,
+    "f0": 17255.196633790045,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 0.4035965404342041,
+        "ssd_drop": 17254.793037249612,
+        "nfev": 8154,
+        "nit": 25,
+        "time_sec": 30.184951066970825,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 0.4035965404342041,
+        "ssd_drop": 17254.793037249612,
+        "nfev": 8154,
+        "nit": 25,
+        "time_sec": 32.74066114425659,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 0.4035965417376546,
+        "ssd_drop": 17254.793037248306,
+        "nfev": 6984,
+        "nit": 25,
+        "time_sec": 25.642103672027588,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 0.4035965417376546,
+        "ssd_drop": 17254.793037248306,
+        "nfev": 6984,
+        "nit": 25,
+        "time_sec": 25.772931575775146,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 0.4035965480739117,
+        "ssd_drop": 17254.793037241972,
+        "nfev": 6318,
+        "nit": 25,
+        "time_sec": 24.06951093673706,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 0.4035965480739117,
+        "ssd_drop": 17254.793037241972,
+        "nfev": 6318,
+        "nit": 25,
+        "time_sec": 23.734277486801147,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 2.943800003262608e-14,
+        "ssd_drop": 17255.196633790045,
+        "nfev": 6921,
+        "nit": 25,
+        "time_sec": 25.919599533081055,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 2.943800003262608e-14,
+        "ssd_drop": 17255.196633790045,
+        "nfev": 6921,
+        "nit": 25,
+        "time_sec": 25.95188021659851,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 5.51303998738847e-13,
+        "ssd_drop": 17255.196633790045,
+        "nfev": 5940,
+        "nit": 25,
+        "time_sec": 22.725675582885742,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 5.51303998738847e-13,
+        "ssd_drop": 17255.196633790045,
+        "nfev": 5940,
+        "nit": 25,
+        "time_sec": 22.31237483024597,
+        "violation_rate": 0.0,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_03 [Pm3+ in D4, 5 params, 5I4]",
+    "is_real": false,
+    "symmetry": "D4",
+    "dim": 5,
+    "f0": 1598461.2130096308,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 1.409674016373626e-12,
+        "ssd_drop": 1598461.2130096308,
+        "nfev": 17138,
+        "nit": 25,
+        "time_sec": 51.67758011817932,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 1.409674016373626e-12,
+        "ssd_drop": 1598461.2130096308,
+        "nfev": 17138,
+        "nit": 25,
+        "time_sec": 50.11638927459717,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 1.3813089985702505e-12,
+        "ssd_drop": 1598461.2130096308,
+        "nfev": 16434,
+        "nit": 25,
+        "time_sec": 47.346052169799805,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 1.3813089985702505e-12,
+        "ssd_drop": 1598461.2130096308,
+        "nfev": 16434,
+        "nit": 25,
+        "time_sec": 47.41698408126831,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 7.019490539794485e-13,
+        "ssd_drop": 1598461.2130096308,
+        "nfev": 16742,
+        "nit": 25,
+        "time_sec": 49.0661187171936,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 7.019490539794485e-13,
+        "ssd_drop": 1598461.2130096308,
+        "nfev": 16742,
+        "nit": 25,
+        "time_sec": 49.39083242416382,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 3.8609100075890327e-13,
+        "ssd_drop": 1598461.2130096308,
+        "nfev": 15312,
+        "nit": 25,
+        "time_sec": 45.67648792266846,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 3.8609100075890327e-13,
+        "ssd_drop": 1598461.2130096308,
+        "nfev": 15312,
+        "nit": 25,
+        "time_sec": 44.939475297927856,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 1.271978004501527e-12,
+        "ssd_drop": 1598461.2130096308,
+        "nfev": 15818,
+        "nit": 25,
+        "time_sec": 45.80540347099304,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 1.271978004501527e-12,
+        "ssd_drop": 1598461.2130096308,
+        "nfev": 15686,
+        "nit": 25,
+        "time_sec": 43.50633406639099,
+        "violation_rate": 0.2,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_03 [Pm3+ in D4, 5 params, 5I4]",
+    "is_real": false,
+    "symmetry": "D4",
+    "dim": 5,
+    "f0": 12064593.740172729,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 3.2900520714440695,
+        "ssd_drop": 12064590.450120658,
+        "nfev": 15862,
+        "nit": 25,
+        "time_sec": 45.633774518966675,
+        "violation_rate": 0.24,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 3.2900520705937106,
+        "ssd_drop": 12064590.450120658,
+        "nfev": 15345,
+        "nit": 25,
+        "time_sec": 43.83864450454712,
+        "violation_rate": 0.36,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 3.2900520716755635,
+        "ssd_drop": 12064590.450120658,
+        "nfev": 15675,
+        "nit": 25,
+        "time_sec": 44.72991466522217,
+        "violation_rate": 0.36,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 3.290052071342373,
+        "ssd_drop": 12064590.450120658,
+        "nfev": 15444,
+        "nit": 25,
+        "time_sec": 44.56986904144287,
+        "violation_rate": 0.36,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 3.2900520711616017,
+        "ssd_drop": 12064590.450120658,
+        "nfev": 14157,
+        "nit": 25,
+        "time_sec": 41.57811641693115,
+        "violation_rate": 0.36,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 4.314289061093005,
+        "ssd_drop": 12064589.425883668,
+        "nfev": 15059,
+        "nit": 25,
+        "time_sec": 43.929320335388184,
+        "violation_rate": 0.32,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 1.4484549932680843e-12,
+        "ssd_drop": 12064593.740172729,
+        "nfev": 16797,
+        "nit": 25,
+        "time_sec": 45.560052156448364,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.4484549932680843e-12,
+        "ssd_drop": 12064593.740172729,
+        "nfev": 16797,
+        "nit": 25,
+        "time_sec": 45.98442220687866,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 2.9278310773515556e-12,
+        "ssd_drop": 12064593.740172729,
+        "nfev": 15147,
+        "nit": 25,
+        "time_sec": 38.12211728096008,
+        "violation_rate": 0.36,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 0.062475448768635554,
+        "ssd_drop": 12064593.67769728,
+        "nfev": 16665,
+        "nit": 25,
+        "time_sec": 43.02226734161377,
+        "violation_rate": 0.36,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_03 [Pm3+ in D4, 5 params, 5I4]",
+    "is_real": false,
+    "symmetry": "D4",
+    "dim": 5,
+    "f0": 9728.98503464471,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 3.2900520715914414,
+        "ssd_drop": 9725.694982573117,
+        "nfev": 14751,
+        "nit": 25,
+        "time_sec": 42.40039896965027,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 3.2900520715405857,
+        "ssd_drop": 9725.694982573168,
+        "nfev": 14256,
+        "nit": 25,
+        "time_sec": 42.05674171447754,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 3.2900520706932626,
+        "ssd_drop": 9725.694982574016,
+        "nfev": 14608,
+        "nit": 25,
+        "time_sec": 42.806373834609985,
+        "violation_rate": 0.44,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 3.2900520706932626,
+        "ssd_drop": 9725.694982574016,
+        "nfev": 14872,
+        "nit": 25,
+        "time_sec": 43.59381103515625,
+        "violation_rate": 0.44,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 3.29005207068851,
+        "ssd_drop": 9725.694982574021,
+        "nfev": 14355,
+        "nit": 25,
+        "time_sec": 43.04161882400513,
+        "violation_rate": 0.48,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 3.29005207068851,
+        "ssd_drop": 9725.694982574021,
+        "nfev": 14630,
+        "nit": 25,
+        "time_sec": 42.47832727432251,
+        "violation_rate": 0.48,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 3.290052073839563,
+        "ssd_drop": 9725.694982570869,
+        "nfev": 15378,
+        "nit": 25,
+        "time_sec": 40.743447065353394,
+        "violation_rate": 0.48,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 3.2900520726366898,
+        "ssd_drop": 9725.694982572073,
+        "nfev": 14476,
+        "nit": 25,
+        "time_sec": 41.93584656715393,
+        "violation_rate": 0.48,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 2.266183031241965e-12,
+        "ssd_drop": 9728.985034644707,
+        "nfev": 16225,
+        "nit": 25,
+        "time_sec": 40.62340450286865,
+        "violation_rate": 0.24,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 1.7858290454163734e-12,
+        "ssd_drop": 9728.985034644707,
+        "nfev": 16192,
+        "nit": 25,
+        "time_sec": 42.282989263534546,
+        "violation_rate": 0.24,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_04 [Ce3+ in D4, 5 params, 2F5/2]",
+    "is_real": false,
+    "symmetry": "D4",
+    "dim": 5,
+    "f0": 9642.878493986327,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 0.0,
+        "ssd_drop": 9642.878493986327,
+        "nfev": 2343,
+        "nit": 25,
+        "time_sec": 4.902751922607422,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 0.0,
+        "ssd_drop": 9642.878493986327,
+        "nfev": 2343,
+        "nit": 25,
+        "time_sec": 5.130655527114868,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 4.000000661922995e-18,
+        "ssd_drop": 9642.878493986327,
+        "nfev": 2464,
+        "nit": 25,
+        "time_sec": 5.7587316036224365,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 4.000000661922995e-18,
+        "ssd_drop": 9642.878493986327,
+        "nfev": 2464,
+        "nit": 25,
+        "time_sec": 5.290712118148804,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 3.9999722402617004e-18,
+        "ssd_drop": 9642.878493986327,
+        "nfev": 2717,
+        "nit": 25,
+        "time_sec": 5.955664157867432,
+        "violation_rate": 0.24,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 3.9999722402617004e-18,
+        "ssd_drop": 9642.878493986327,
+        "nfev": 2717,
+        "nit": 25,
+        "time_sec": 5.966280460357666,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 4.999972405742449e-18,
+        "ssd_drop": 9642.878493986327,
+        "nfev": 2640,
+        "nit": 25,
+        "time_sec": 6.15811014175415,
+        "violation_rate": 0.44,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 4.999972405742449e-18,
+        "ssd_drop": 9642.878493986327,
+        "nfev": 2563,
+        "nit": 25,
+        "time_sec": 5.75251579284668,
+        "violation_rate": 0.36,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 2.500000413701872e-17,
+        "ssd_drop": 9642.878493986327,
+        "nfev": 2970,
+        "nit": 25,
+        "time_sec": 6.672313690185547,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 1.7000009918613298e-17,
+        "ssd_drop": 9642.878493986327,
+        "nfev": 2915,
+        "nit": 25,
+        "time_sec": 6.5881805419921875,
+        "violation_rate": 0.48,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_04 [Ce3+ in D4, 5 params, 2F5/2]",
+    "is_real": false,
+    "symmetry": "D4",
+    "dim": 5,
+    "f0": 19337.62840896502,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 1.4090002331623751e-15,
+        "ssd_drop": 19337.62840896502,
+        "nfev": 2739,
+        "nit": 25,
+        "time_sec": 5.951785564422607,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 8.200007751828554e-17,
+        "ssd_drop": 19337.62840896502,
+        "nfev": 2673,
+        "nit": 25,
+        "time_sec": 6.290929079055786,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 3.9999921354145095e-17,
+        "ssd_drop": 19337.62840896502,
+        "nfev": 2860,
+        "nit": 25,
+        "time_sec": 6.128294467926025,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 9.999980338536274e-18,
+        "ssd_drop": 19337.62840896502,
+        "nfev": 2893,
+        "nit": 25,
+        "time_sec": 6.1706297397613525,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 1.0000001654807488e-18,
+        "ssd_drop": 19337.62840896502,
+        "nfev": 2618,
+        "nit": 25,
+        "time_sec": 6.009409427642822,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 2.2099997262241923e-16,
+        "ssd_drop": 19337.62840896502,
+        "nfev": 2739,
+        "nit": 25,
+        "time_sec": 6.2786242961883545,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 2.4999982820747506e-17,
+        "ssd_drop": 19337.62840896502,
+        "nfev": 2706,
+        "nit": 25,
+        "time_sec": 5.683773517608643,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.1599987708725844e-16,
+        "ssd_drop": 19337.62840896502,
+        "nfev": 2750,
+        "nit": 25,
+        "time_sec": 6.013592720031738,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 1.0000001654807488e-18,
+        "ssd_drop": 19337.62840896502,
+        "nfev": 2893,
+        "nit": 25,
+        "time_sec": 6.4730751514434814,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 1.0000072709213161e-18,
+        "ssd_drop": 19337.62840896502,
+        "nfev": 2838,
+        "nit": 25,
+        "time_sec": 6.365304231643677,
+        "violation_rate": 0.24,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_04 [Ce3+ in D4, 5 params, 2F5/2]",
+    "is_real": false,
+    "symmetry": "D4",
+    "dim": 5,
+    "f0": 4205.35412609269,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 1.3059999674278925e-15,
+        "ssd_drop": 4205.35412609269,
+        "nfev": 2574,
+        "nit": 25,
+        "time_sec": 5.627220630645752,
+        "violation_rate": 0.28,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 1.6999975102015102e-16,
+        "ssd_drop": 4205.35412609269,
+        "nfev": 2530,
+        "nit": 25,
+        "time_sec": 5.371541738510132,
+        "violation_rate": 0.28,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 2.000007436402065e-18,
+        "ssd_drop": 4205.35412609269,
+        "nfev": 2849,
+        "nit": 25,
+        "time_sec": 6.071567535400391,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 1.0000072709213161e-18,
+        "ssd_drop": 4205.35412609269,
+        "nfev": 2860,
+        "nit": 25,
+        "time_sec": 6.560945272445679,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 2.3199983943960174e-16,
+        "ssd_drop": 4205.35412609269,
+        "nfev": 2882,
+        "nit": 25,
+        "time_sec": 6.872117757797241,
+        "violation_rate": 0.32,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 1.0000072709213161e-18,
+        "ssd_drop": 4205.35412609269,
+        "nfev": 3113,
+        "nit": 25,
+        "time_sec": 7.0407092571258545,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 0.0,
+        "ssd_drop": 4205.35412609269,
+        "nfev": 2937,
+        "nit": 25,
+        "time_sec": 6.58918571472168,
+        "violation_rate": 0.24,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 0.0,
+        "ssd_drop": 4205.35412609269,
+        "nfev": 2750,
+        "nit": 25,
+        "time_sec": 6.317308187484741,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 8.000001323845991e-17,
+        "ssd_drop": 4205.35412609269,
+        "nfev": 3014,
+        "nit": 25,
+        "time_sec": 6.625559329986572,
+        "violation_rate": 0.4,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 2.000007436402065e-18,
+        "ssd_drop": 4205.35412609269,
+        "nfev": 2992,
+        "nit": 25,
+        "time_sec": 7.0358288288116455,
+        "violation_rate": 0.28,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_05 [Dy3+ in D2D, 5 params, 6H7/2,6H13/2]",
+    "is_real": false,
+    "symmetry": "D2D",
+    "dim": 5,
+    "f0": 132989.73612401244,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 1.0355461002153076e-11,
+        "ssd_drop": 132989.73612401244,
+        "nfev": 17468,
+        "nit": 25,
+        "time_sec": 97.35465097427368,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 4.6529629946457464e-12,
+        "ssd_drop": 132989.73612401244,
+        "nfev": 18953,
+        "nit": 25,
+        "time_sec": 103.88329362869263,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 8.200010900282705e-11,
+        "ssd_drop": 132989.73612401236,
+        "nfev": 16500,
+        "nit": 25,
+        "time_sec": 88.88416028022766,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 1.3300109000324638e-11,
+        "ssd_drop": 132989.73612401244,
+        "nfev": 17138,
+        "nit": 25,
+        "time_sec": 88.80617499351501,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 160.61358100419824,
+        "ssd_drop": 132829.12254300824,
+        "nfev": 10164,
+        "nit": 25,
+        "time_sec": 54.69220471382141,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 6.544176493836659,
+        "ssd_drop": 132983.19194751862,
+        "nfev": 11220,
+        "nit": 25,
+        "time_sec": 57.98636794090271,
+        "violation_rate": 0.48,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 160.61358100886687,
+        "ssd_drop": 132829.12254300358,
+        "nfev": 9812,
+        "nit": 25,
+        "time_sec": 49.70244240760803,
+        "violation_rate": 0.6,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.8486467004068315e-11,
+        "ssd_drop": 132989.73612401242,
+        "nfev": 16621,
+        "nit": 25,
+        "time_sec": 83.55944204330444,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 1.5996000371516847e-14,
+        "ssd_drop": 132989.73612401244,
+        "nfev": 18480,
+        "nit": 25,
+        "time_sec": 93.82937407493591,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 2.6824500466649003e-13,
+        "ssd_drop": 132989.73612401244,
+        "nfev": 18084,
+        "nit": 25,
+        "time_sec": 91.04887771606445,
+        "violation_rate": 0.08,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_05 [Dy3+ in D2D, 5 params, 6H7/2,6H13/2]",
+    "is_real": false,
+    "symmetry": "D2D",
+    "dim": 5,
+    "f0": 103805.29223769029,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 160.6135810040183,
+        "ssd_drop": 103644.67865668627,
+        "nfev": 8536,
+        "nit": 25,
+        "time_sec": 49.28508281707764,
+        "violation_rate": 0.28,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 160.61358101266376,
+        "ssd_drop": 103644.67865667763,
+        "nfev": 8569,
+        "nit": 25,
+        "time_sec": 49.191359758377075,
+        "violation_rate": 0.28,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 5.921440019017343e-13,
+        "ssd_drop": 103805.29223769029,
+        "nfev": 11572,
+        "nit": 25,
+        "time_sec": 66.59115362167358,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 1.5919100044633782e-12,
+        "ssd_drop": 103805.29223769029,
+        "nfev": 11352,
+        "nit": 25,
+        "time_sec": 63.65867066383362,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 2.6205460015182325e-12,
+        "ssd_drop": 103805.29223769029,
+        "nfev": 14839,
+        "nit": 25,
+        "time_sec": 78.20697712898254,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 2.6205460015182325e-12,
+        "ssd_drop": 103805.29223769029,
+        "nfev": 14839,
+        "nit": 25,
+        "time_sec": 77.53343439102173,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 1.5908000290341177e-14,
+        "ssd_drop": 103805.29223769029,
+        "nfev": 14388,
+        "nit": 25,
+        "time_sec": 76.22738695144653,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.5908000290341177e-14,
+        "ssd_drop": 103805.29223769029,
+        "nfev": 14388,
+        "nit": 25,
+        "time_sec": 72.6701250076294,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 6.544176489796315,
+        "ssd_drop": 103798.74806120049,
+        "nfev": 13255,
+        "nit": 25,
+        "time_sec": 66.79453253746033,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 6.544176489796315,
+        "ssd_drop": 103798.74806120049,
+        "nfev": 13233,
+        "nit": 25,
+        "time_sec": 67.42005944252014,
+        "violation_rate": 0.04,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_05 [Dy3+ in D2D, 5 params, 6H7/2,6H13/2]",
+    "is_real": false,
+    "symmetry": "D2D",
+    "dim": 5,
+    "f0": 73519.39590011792,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 1.0284289995892123e-12,
+        "ssd_drop": 73519.39590011792,
+        "nfev": 17160,
+        "nit": 25,
+        "time_sec": 97.2442991733551,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 1.0284289995892123e-12,
+        "ssd_drop": 73519.39590011792,
+        "nfev": 17160,
+        "nit": 25,
+        "time_sec": 94.85297346115112,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 5.816100011924e-14,
+        "ssd_drop": 73519.39590011792,
+        "nfev": 16346,
+        "nit": 25,
+        "time_sec": 87.35393166542053,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 1.006000031914597e-14,
+        "ssd_drop": 73519.39590011792,
+        "nfev": 17446,
+        "nit": 25,
+        "time_sec": 90.40651392936707,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 5.258265999603451e-12,
+        "ssd_drop": 73519.39590011792,
+        "nfev": 14784,
+        "nit": 25,
+        "time_sec": 78.52860879898071,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 6.49730895985241e-10,
+        "ssd_drop": 73519.39590011726,
+        "nfev": 14630,
+        "nit": 25,
+        "time_sec": 74.00821661949158,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 5.887216993273269e-12,
+        "ssd_drop": 73519.39590011792,
+        "nfev": 11550,
+        "nit": 25,
+        "time_sec": 57.93755769729614,
+        "violation_rate": 0.28,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 9.603751939178238,
+        "ssd_drop": 73509.79214817873,
+        "nfev": 11836,
+        "nit": 25,
+        "time_sec": 60.14742875099182,
+        "violation_rate": 0.28,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 6.54417648903038,
+        "ssd_drop": 73512.85172362889,
+        "nfev": 11517,
+        "nit": 25,
+        "time_sec": 58.56470036506653,
+        "violation_rate": 0.16,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 6.544176490845361,
+        "ssd_drop": 73512.85172362707,
+        "nfev": 11770,
+        "nit": 25,
+        "time_sec": 60.018146276474,
+        "violation_rate": 0.16,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_06 [Pr3+ in D2D, 5 params, 3P1,1G4]",
+    "is_real": false,
+    "symmetry": "D2D",
+    "dim": 5,
+    "f0": 218583.58223951724,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 2.7948880257000523e-07,
+        "ssd_drop": 218583.58223923776,
+        "nfev": 8547,
+        "nit": 25,
+        "time_sec": 38.37264585494995,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 0.7544325994651824,
+        "ssd_drop": 218582.82780691778,
+        "nfev": 8976,
+        "nit": 25,
+        "time_sec": 40.25025773048401,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 0.6174700517351086,
+        "ssd_drop": 218582.9647694655,
+        "nfev": 9614,
+        "nit": 25,
+        "time_sec": 41.825299978256226,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 0.6174700521466925,
+        "ssd_drop": 218582.9647694651,
+        "nfev": 9306,
+        "nit": 25,
+        "time_sec": 39.116833448410034,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 0.6174700517463396,
+        "ssd_drop": 218582.9647694655,
+        "nfev": 8492,
+        "nit": 25,
+        "time_sec": 36.97834777832031,
+        "violation_rate": 0.24,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 0.911509493846919,
+        "ssd_drop": 218582.67073002338,
+        "nfev": 8503,
+        "nit": 25,
+        "time_sec": 32.88484168052673,
+        "violation_rate": 0.24,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 0.7544325990840715,
+        "ssd_drop": 218582.82780691815,
+        "nfev": 8426,
+        "nit": 25,
+        "time_sec": 33.62017798423767,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 0.7544326001733411,
+        "ssd_drop": 218582.82780691708,
+        "nfev": 8305,
+        "nit": 25,
+        "time_sec": 32.99302005767822,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 0.754432599796878,
+        "ssd_drop": 218582.82780691746,
+        "nfev": 8811,
+        "nit": 25,
+        "time_sec": 34.164520502090454,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 0.754432599796878,
+        "ssd_drop": 218582.82780691746,
+        "nfev": 8844,
+        "nit": 25,
+        "time_sec": 36.35751461982727,
+        "violation_rate": 0.08,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_06 [Pr3+ in D2D, 5 params, 3P1,1G4]",
+    "is_real": false,
+    "symmetry": "D2D",
+    "dim": 5,
+    "f0": 21100.649859732377,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 517.2984004007282,
+        "ssd_drop": 20583.35145933165,
+        "nfev": 8008,
+        "nit": 25,
+        "time_sec": 33.36148738861084,
+        "violation_rate": 0.48,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 517.2984003937315,
+        "ssd_drop": 20583.351459338646,
+        "nfev": 7854,
+        "nit": 25,
+        "time_sec": 30.24155592918396,
+        "violation_rate": 0.48,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 517.2984004187103,
+        "ssd_drop": 20583.351459313668,
+        "nfev": 8239,
+        "nit": 25,
+        "time_sec": 32.863617181777954,
+        "violation_rate": 0.56,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 517.2984003924819,
+        "ssd_drop": 20583.351459339894,
+        "nfev": 8239,
+        "nit": 25,
+        "time_sec": 32.50151252746582,
+        "violation_rate": 0.56,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 517.2984004011314,
+        "ssd_drop": 20583.351459331247,
+        "nfev": 8316,
+        "nit": 25,
+        "time_sec": 32.234495639801025,
+        "violation_rate": 0.56,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 3.0048669935198947e-12,
+        "ssd_drop": 21100.649859732373,
+        "nfev": 8800,
+        "nit": 25,
+        "time_sec": 35.901729106903076,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 517.2984004209603,
+        "ssd_drop": 20583.351459311416,
+        "nfev": 8481,
+        "nit": 25,
+        "time_sec": 33.34077548980713,
+        "violation_rate": 0.6,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 0.7334507270650874,
+        "ssd_drop": 21099.916409005313,
+        "nfev": 8811,
+        "nit": 25,
+        "time_sec": 33.24976825714111,
+        "violation_rate": 0.56,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 517.2984004242822,
+        "ssd_drop": 20583.351459308094,
+        "nfev": 9218,
+        "nit": 25,
+        "time_sec": 34.054776430130005,
+        "violation_rate": 0.6,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 6.504122870388049e-10,
+        "ssd_drop": 21100.649859731726,
+        "nfev": 11209,
+        "nit": 25,
+        "time_sec": 41.918824434280396,
+        "violation_rate": 0.2,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_06 [Pr3+ in D2D, 5 params, 3P1,1G4]",
+    "is_real": false,
+    "symmetry": "D2D",
+    "dim": 5,
+    "f0": 183923.22816447035,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 2.78541469223382e-07,
+        "ssd_drop": 183923.2281641918,
+        "nfev": 11462,
+        "nit": 25,
+        "time_sec": 44.468796491622925,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 2.78541469223382e-07,
+        "ssd_drop": 183923.2281641918,
+        "nfev": 11462,
+        "nit": 25,
+        "time_sec": 46.14216709136963,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 0.5406850501039697,
+        "ssd_drop": 183922.68747942024,
+        "nfev": 10582,
+        "nit": 25,
+        "time_sec": 41.746092796325684,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 0.5406850501039697,
+        "ssd_drop": 183922.68747942024,
+        "nfev": 10582,
+        "nit": 25,
+        "time_sec": 40.02266216278076,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 0.5406850554955355,
+        "ssd_drop": 183922.68747941486,
+        "nfev": 10956,
+        "nit": 25,
+        "time_sec": 41.043333292007446,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 0.5406850554955355,
+        "ssd_drop": 183922.68747941486,
+        "nfev": 10956,
+        "nit": 25,
+        "time_sec": 41.28178262710571,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 0.5406850495422937,
+        "ssd_drop": 183922.6874794208,
+        "nfev": 10923,
+        "nit": 25,
+        "time_sec": 41.59231114387512,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 0.5406850495422937,
+        "ssd_drop": 183922.6874794208,
+        "nfev": 10923,
+        "nit": 25,
+        "time_sec": 41.208614349365234,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 0.6174700515611363,
+        "ssd_drop": 183922.61069441878,
+        "nfev": 11682,
+        "nit": 25,
+        "time_sec": 43.92886161804199,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 0.6174700515611363,
+        "ssd_drop": 183922.61069441878,
+        "nfev": 11682,
+        "nit": 25,
+        "time_sec": 43.41278576850891,
+        "violation_rate": 0.0,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_07 [Pr3+ in D3, 6 params, 1G4,1D2]",
+    "is_real": false,
+    "symmetry": "D3",
+    "dim": 6,
+    "f0": 215685.59950185567,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 7.220214167741919,
+        "ssd_drop": 215678.37928768792,
+        "nfev": 17628,
+        "nit": 25,
+        "time_sec": 81.06349897384644,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 7.220214167741919,
+        "ssd_drop": 215678.37928768792,
+        "nfev": 17121,
+        "nit": 25,
+        "time_sec": 76.6333577632904,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 7.220214167683941,
+        "ssd_drop": 215678.37928768797,
+        "nfev": 17290,
+        "nit": 25,
+        "time_sec": 75.64542937278748,
+        "violation_rate": 0.32,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 7.220214174726544,
+        "ssd_drop": 215678.37928768093,
+        "nfev": 18200,
+        "nit": 25,
+        "time_sec": 80.38562774658203,
+        "violation_rate": 0.32,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 2.3769844035520553e-11,
+        "ssd_drop": 215685.59950185564,
+        "nfev": 17108,
+        "nit": 25,
+        "time_sec": 74.93994903564453,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 1.8306555999020733e-11,
+        "ssd_drop": 215685.59950185564,
+        "nfev": 17342,
+        "nit": 25,
+        "time_sec": 76.35339617729187,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 9.265724889840273,
+        "ssd_drop": 215676.33377696582,
+        "nfev": 16588,
+        "nit": 25,
+        "time_sec": 72.4376893043518,
+        "violation_rate": 0.36,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.1038931060084813,
+        "ssd_drop": 215684.49560874965,
+        "nfev": 16549,
+        "nit": 25,
+        "time_sec": 72.1081268787384,
+        "violation_rate": 0.2,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 7.538762989369179e-12,
+        "ssd_drop": 215685.59950185567,
+        "nfev": 18473,
+        "nit": 25,
+        "time_sec": 79.95670485496521,
+        "violation_rate": 0.4,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 2.755519993635336e-13,
+        "ssd_drop": 215685.59950185567,
+        "nfev": 18616,
+        "nit": 25,
+        "time_sec": 77.15957593917847,
+        "violation_rate": 0.4,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_07 [Pr3+ in D3, 6 params, 1G4,1D2]",
+    "is_real": false,
+    "symmetry": "D3",
+    "dim": 6,
+    "f0": 397001.7094550781,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 65.59924012096198,
+        "ssd_drop": 396936.11021495715,
+        "nfev": 11609,
+        "nit": 25,
+        "time_sec": 52.347996950149536,
+        "violation_rate": 0.72,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 65.59924011578508,
+        "ssd_drop": 396936.11021496233,
+        "nfev": 11778,
+        "nit": 25,
+        "time_sec": 51.55113339424133,
+        "violation_rate": 0.72,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 1.850399007400863e-12,
+        "ssd_drop": 397001.7094550781,
+        "nfev": 16536,
+        "nit": 25,
+        "time_sec": 72.75730276107788,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 1.850399007400863e-12,
+        "ssd_drop": 397001.7094550781,
+        "nfev": 16341,
+        "nit": 25,
+        "time_sec": 72.38874244689941,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 5.701961861328084e-10,
+        "ssd_drop": 397001.70945507754,
+        "nfev": 16783,
+        "nit": 25,
+        "time_sec": 74.3132164478302,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 8.63703500573322e-12,
+        "ssd_drop": 397001.7094550781,
+        "nfev": 16341,
+        "nit": 25,
+        "time_sec": 72.07763457298279,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 1.1038931055734091,
+        "ssd_drop": 397000.60556197254,
+        "nfev": 16952,
+        "nit": 25,
+        "time_sec": 74.75012707710266,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.1038931055734091,
+        "ssd_drop": 397000.60556197254,
+        "nfev": 17004,
+        "nit": 25,
+        "time_sec": 74.41082978248596,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 1.1973385001252559e-11,
+        "ssd_drop": 397001.7094550781,
+        "nfev": 17355,
+        "nit": 25,
+        "time_sec": 75.63146591186523,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 1.1973385001252559e-11,
+        "ssd_drop": 397001.7094550781,
+        "nfev": 17277,
+        "nit": 25,
+        "time_sec": 71.031818151474,
+        "violation_rate": 0.08,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_07 [Pr3+ in D3, 6 params, 1G4,1D2]",
+    "is_real": false,
+    "symmetry": "D3",
+    "dim": 6,
+    "f0": 84256.94287710474,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 8.243822345757884,
+        "ssd_drop": 84248.69905475898,
+        "nfev": 16887,
+        "nit": 25,
+        "time_sec": 74.2736644744873,
+        "violation_rate": 0.28,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 8.243822345256369,
+        "ssd_drop": 84248.69905475948,
+        "nfev": 17745,
+        "nit": 25,
+        "time_sec": 78.03567028045654,
+        "violation_rate": 0.28,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 8.794110654841884,
+        "ssd_drop": 84248.1487664499,
+        "nfev": 17862,
+        "nit": 25,
+        "time_sec": 78.12803912162781,
+        "violation_rate": 0.4,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 7.220214168282523,
+        "ssd_drop": 84249.72266293646,
+        "nfev": 18460,
+        "nit": 25,
+        "time_sec": 80.82051873207092,
+        "violation_rate": 0.36,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 6.570401975552728e-12,
+        "ssd_drop": 84256.94287710474,
+        "nfev": 16965,
+        "nit": 25,
+        "time_sec": 74.35558152198792,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 6.570401975552728e-12,
+        "ssd_drop": 84256.94287710474,
+        "nfev": 17017,
+        "nit": 25,
+        "time_sec": 74.11998271942139,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 2.9781999876992568e-12,
+        "ssd_drop": 84256.94287710474,
+        "nfev": 17537,
+        "nit": 25,
+        "time_sec": 73.92764639854431,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.1496048800219807e-10,
+        "ssd_drop": 84256.94287710462,
+        "nfev": 17030,
+        "nit": 25,
+        "time_sec": 62.066248178482056,
+        "violation_rate": 0.08,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 1.5012943996153247e-11,
+        "ssd_drop": 84256.94287710472,
+        "nfev": 18395,
+        "nit": 25,
+        "time_sec": 65.63544201850891,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 7.381439997579859e-12,
+        "ssd_drop": 84256.94287710472,
+        "nfev": 17810,
+        "nit": 25,
+        "time_sec": 63.06711959838867,
+        "violation_rate": 0.12,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_08 [Eu3+ in D3, 6 params, 7F4,7F3]",
+    "is_real": false,
+    "symmetry": "D3",
+    "dim": 6,
+    "f0": 85140.13975548532,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 0.0003747921652951247,
+        "ssd_drop": 85140.13938069316,
+        "nfev": 19214,
+        "nit": 25,
+        "time_sec": 90.32837986946106,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 0.0003747921652951247,
+        "ssd_drop": 85140.13938069316,
+        "nfev": 19214,
+        "nit": 25,
+        "time_sec": 90.44303631782532,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 0.0003747921634462064,
+        "ssd_drop": 85140.13938069316,
+        "nfev": 17472,
+        "nit": 25,
+        "time_sec": 81.71868562698364,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 0.0003747921634462064,
+        "ssd_drop": 85140.13938069316,
+        "nfev": 17472,
+        "nit": 25,
+        "time_sec": 81.35335874557495,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 0.00037479215810320684,
+        "ssd_drop": 85140.13938069316,
+        "nfev": 16796,
+        "nit": 25,
+        "time_sec": 76.01727986335754,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 0.00037479215810320684,
+        "ssd_drop": 85140.13938069316,
+        "nfev": 16796,
+        "nit": 25,
+        "time_sec": 66.58602166175842,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 1.9907888971895726e-11,
+        "ssd_drop": 85140.1397554853,
+        "nfev": 16796,
+        "nit": 25,
+        "time_sec": 63.99956512451172,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.9907888971895726e-11,
+        "ssd_drop": 85140.1397554853,
+        "nfev": 16796,
+        "nit": 25,
+        "time_sec": 64.3957188129425,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 3.387738019917903e-12,
+        "ssd_drop": 85140.13975548532,
+        "nfev": 15418,
+        "nit": 25,
+        "time_sec": 57.27210760116577,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 3.387738019917903e-12,
+        "ssd_drop": 85140.13975548532,
+        "nfev": 15418,
+        "nit": 25,
+        "time_sec": 56.74139189720154,
+        "violation_rate": 0.0,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_08 [Eu3+ in D3, 6 params, 7F4,7F3]",
+    "is_real": false,
+    "symmetry": "D3",
+    "dim": 6,
+    "f0": 39470.710386487044,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 0.0003747921369605592,
+        "ssd_drop": 39470.71001169491,
+        "nfev": 17420,
+        "nit": 25,
+        "time_sec": 82.0066773891449,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 0.00037479213556367133,
+        "ssd_drop": 39470.71001169491,
+        "nfev": 18083,
+        "nit": 25,
+        "time_sec": 84.62967038154602,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 0.0003747921581513117,
+        "ssd_drop": 39470.710011694886,
+        "nfev": 16887,
+        "nit": 25,
+        "time_sec": 78.64175415039062,
+        "violation_rate": 0.4,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 0.0003747921491733875,
+        "ssd_drop": 39470.71001169489,
+        "nfev": 16887,
+        "nit": 25,
+        "time_sec": 76.7178111076355,
+        "violation_rate": 0.4,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 0.00037479214050359805,
+        "ssd_drop": 39470.7100116949,
+        "nfev": 18161,
+        "nit": 25,
+        "time_sec": 72.80394315719604,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 0.00037479213231505945,
+        "ssd_drop": 39470.710011694915,
+        "nfev": 18213,
+        "nit": 25,
+        "time_sec": 69.26761817932129,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 1.8716589912511606e-12,
+        "ssd_drop": 39470.710386487044,
+        "nfev": 19643,
+        "nit": 25,
+        "time_sec": 74.52353310585022,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.8716589912511606e-12,
+        "ssd_drop": 39470.710386487044,
+        "nfev": 19643,
+        "nit": 25,
+        "time_sec": 71.79643249511719,
+        "violation_rate": 0.0,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 1.841985894630736e-11,
+        "ssd_drop": 39470.71038648702,
+        "nfev": 17758,
+        "nit": 25,
+        "time_sec": 63.57408285140991,
+        "violation_rate": 0.04,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 1.6787339956295483e-11,
+        "ssd_drop": 39470.71038648703,
+        "nfev": 17979,
+        "nit": 25,
+        "time_sec": 69.61450910568237,
+        "violation_rate": 0.04,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_08 [Eu3+ in D3, 6 params, 7F4,7F3]",
+    "is_real": false,
+    "symmetry": "D3",
+    "dim": 6,
+    "f0": 60078.494335170195,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 35.70150049651093,
+        "ssd_drop": 60042.79283467368,
+        "nfev": 13754,
+        "nit": 25,
+        "time_sec": 64.66362285614014,
+        "violation_rate": 0.64,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 69.89800263754869,
+        "ssd_drop": 60008.596332532645,
+        "nfev": 13858,
+        "nit": 25,
+        "time_sec": 64.87850832939148,
+        "violation_rate": 0.76,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 35.701500509767556,
+        "ssd_drop": 60042.792834660424,
+        "nfev": 15275,
+        "nit": 25,
+        "time_sec": 71.142578125,
+        "violation_rate": 0.68,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 35.70150050091268,
+        "ssd_drop": 60042.79283466928,
+        "nfev": 16653,
+        "nit": 25,
+        "time_sec": 77.73340654373169,
+        "violation_rate": 0.64,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 57.32173944128997,
+        "ssd_drop": 60021.1725957289,
+        "nfev": 14833,
+        "nit": 25,
+        "time_sec": 64.33086395263672,
+        "violation_rate": 0.8,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 35.701500499618746,
+        "ssd_drop": 60042.792834670574,
+        "nfev": 17043,
+        "nit": 25,
+        "time_sec": 64.79432940483093,
+        "violation_rate": 0.64,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 57.32173944003047,
+        "ssd_drop": 60021.17259573017,
+        "nfev": 13390,
+        "nit": 25,
+        "time_sec": 51.330920457839966,
+        "violation_rate": 0.84,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 57.32173944418595,
+        "ssd_drop": 60021.172595726006,
+        "nfev": 13611,
+        "nit": 25,
+        "time_sec": 51.665762186050415,
+        "violation_rate": 0.84,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 57.3217394473723,
+        "ssd_drop": 60021.17259572282,
+        "nfev": 13390,
+        "nit": 25,
+        "time_sec": 49.54094338417053,
+        "violation_rate": 0.84,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 35.701500499070264,
+        "ssd_drop": 60042.79283467113,
+        "nfev": 16601,
+        "nit": 25,
+        "time_sec": 60.988988399505615,
+        "violation_rate": 0.72,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
+    "is_real": false,
+    "symmetry": "C2V",
+    "dim": 9,
+    "f0": 3897.6546070568593,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 5.5259999573455155e-14,
+        "ssd_drop": 3897.6546070568593,
+        "nfev": 13509,
+        "nit": 25,
+        "time_sec": 79.84420084953308,
+        "violation_rate": 0.48,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 5.132010056993674e-13,
+        "ssd_drop": 3897.654607056859,
+        "nfev": 13490,
+        "nit": 25,
+        "time_sec": 79.51958465576172,
+        "violation_rate": 0.4,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 3.843599937045364e-13,
+        "ssd_drop": 3897.654607056859,
+        "nfev": 16663,
+        "nit": 25,
+        "time_sec": 97.56545734405518,
+        "violation_rate": 0.44,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 6.081149996205662e-13,
+        "ssd_drop": 3897.654607056859,
+        "nfev": 16872,
+        "nit": 25,
+        "time_sec": 88.25843667984009,
+        "violation_rate": 0.56,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 1.1937099660056665e-13,
+        "ssd_drop": 3897.6546070568593,
+        "nfev": 19437,
+        "nit": 25,
+        "time_sec": 95.80697441101074,
+        "violation_rate": 0.56,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 1.1050999284984702e-14,
+        "ssd_drop": 3897.6546070568593,
+        "nfev": 22078,
+        "nit": 25,
+        "time_sec": 106.06826567649841,
+        "violation_rate": 0.44,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 3.0377000248408654e-14,
+        "ssd_drop": 3897.6546070568593,
+        "nfev": 20539,
+        "nit": 25,
+        "time_sec": 96.22244477272034,
+        "violation_rate": 0.76,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.0186300214813025e-13,
+        "ssd_drop": 3897.6546070568593,
+        "nfev": 20767,
+        "nit": 25,
+        "time_sec": 97.82823729515076,
+        "violation_rate": 0.6,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 7.55542002444818e-13,
+        "ssd_drop": 3897.6546070568584,
+        "nfev": 20444,
+        "nit": 25,
+        "time_sec": 91.0617322921753,
+        "violation_rate": 0.64,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 1.4619998937669612e-15,
+        "ssd_drop": 3897.6546070568593,
+        "nfev": 22667,
+        "nit": 25,
+        "time_sec": 97.4922423362732,
+        "violation_rate": 0.56,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
+    "is_real": false,
+    "symmetry": "C2V",
+    "dim": 9,
+    "f0": 10579.944326082827,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 8.23229001474116e-13,
+        "ssd_drop": 10579.944326082827,
+        "nfev": 17366,
+        "nit": 25,
+        "time_sec": 102.62180590629578,
+        "violation_rate": 0.76,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 8.875999390469595e-15,
+        "ssd_drop": 10579.944326082827,
+        "nfev": 18069,
+        "nit": 25,
+        "time_sec": 105.73302364349365,
+        "violation_rate": 0.64,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 1.6546900198713555e-13,
+        "ssd_drop": 10579.944326082827,
+        "nfev": 16473,
+        "nit": 25,
+        "time_sec": 86.4337682723999,
+        "violation_rate": 0.84,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 2.4610899576315564e-13,
+        "ssd_drop": 10579.944326082827,
+        "nfev": 18240,
+        "nit": 25,
+        "time_sec": 89.55079507827759,
+        "violation_rate": 0.68,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 1.602599992351028e-14,
+        "ssd_drop": 10579.944326082827,
+        "nfev": 17765,
+        "nit": 25,
+        "time_sec": 86.07598233222961,
+        "violation_rate": 0.64,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 3.1910007127902214e-15,
+        "ssd_drop": 10579.944326082827,
+        "nfev": 18411,
+        "nit": 25,
+        "time_sec": 86.02490973472595,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 7.68949983290459e-14,
+        "ssd_drop": 10579.944326082827,
+        "nfev": 22268,
+        "nit": 25,
+        "time_sec": 106.70678782463074,
+        "violation_rate": 0.64,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 2.2240300028862228e-13,
+        "ssd_drop": 10579.944326082827,
+        "nfev": 18886,
+        "nit": 25,
+        "time_sec": 84.89063286781311,
+        "violation_rate": 0.32,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 6.04580001778287e-14,
+        "ssd_drop": 10579.944326082827,
+        "nfev": 19798,
+        "nit": 25,
+        "time_sec": 87.68789863586426,
+        "violation_rate": 0.72,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 1.007010026805952e-13,
+        "ssd_drop": 10579.944326082827,
+        "nfev": 18981,
+        "nit": 25,
+        "time_sec": 74.75560760498047,
+        "violation_rate": 0.56,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
+    "is_real": false,
+    "symmetry": "C2V",
+    "dim": 9,
+    "f0": 8020.002449548663,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 665.346554289339,
+        "ssd_drop": 7354.655895259324,
+        "nfev": 17271,
+        "nit": 25,
+        "time_sec": 102.07541704177856,
+        "violation_rate": 0.96,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 665.3465542883573,
+        "ssd_drop": 7354.655895260306,
+        "nfev": 19494,
+        "nit": 25,
+        "time_sec": 112.16422629356384,
+        "violation_rate": 0.96,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 1.5328000550521912e-14,
+        "ssd_drop": 8020.002449548663,
+        "nfev": 19171,
+        "nit": 25,
+        "time_sec": 95.59004378318787,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 1.5642799828123625e-13,
+        "ssd_drop": 8020.002449548663,
+        "nfev": 20387,
+        "nit": 25,
+        "time_sec": 100.30922627449036,
+        "violation_rate": 0.4,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 4.7389996189231614e-15,
+        "ssd_drop": 8020.002449548663,
+        "nfev": 20102,
+        "nit": 25,
+        "time_sec": 95.75124907493591,
+        "violation_rate": 0.72,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 7.633300049557159e-14,
+        "ssd_drop": 8020.002449548663,
+        "nfev": 19228,
+        "nit": 25,
+        "time_sec": 91.87975311279297,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 9.99600027569262e-15,
+        "ssd_drop": 8020.002449548663,
+        "nfev": 20957,
+        "nit": 25,
+        "time_sec": 95.03757858276367,
+        "violation_rate": 0.6,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.1988199692315912e-13,
+        "ssd_drop": 8020.002449548663,
+        "nfev": 22135,
+        "nit": 25,
+        "time_sec": 98.52777409553528,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 9.682599943877091e-14,
+        "ssd_drop": 8020.002449548663,
+        "nfev": 19209,
+        "nit": 25,
+        "time_sec": 78.16928601264954,
+        "violation_rate": 0.72,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 8.253000608984572e-15,
+        "ssd_drop": 8020.002449548663,
+        "nfev": 21261,
+        "nit": 25,
+        "time_sec": 64.00466275215149,
+        "violation_rate": 0.8,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_10 [Yb3+ in C2V, 9 params, 2F7/2,2F5/2]",
+    "is_real": false,
+    "symmetry": "C2V",
+    "dim": 9,
+    "f0": 6937.119437038085,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 3.64370006366025e-14,
+        "ssd_drop": 6937.119437038085,
+        "nfev": 15333,
+        "nit": 25,
+        "time_sec": 90.297935962677,
+        "violation_rate": 0.6,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 1.762299895854411e-14,
+        "ssd_drop": 6937.119437038085,
+        "nfev": 13490,
+        "nit": 25,
+        "time_sec": 76.83660578727722,
+        "violation_rate": 0.48,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 8.226600058208496e-14,
+        "ssd_drop": 6937.119437038085,
+        "nfev": 15960,
+        "nit": 25,
+        "time_sec": 79.57629466056824,
+        "violation_rate": 0.56,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 1.7631999600942955e-13,
+        "ssd_drop": 6937.119437038085,
+        "nfev": 16302,
+        "nit": 25,
+        "time_sec": 80.58882999420166,
+        "violation_rate": 0.56,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 6.066299724168373e-14,
+        "ssd_drop": 6937.119437038085,
+        "nfev": 18221,
+        "nit": 25,
+        "time_sec": 87.7057991027832,
+        "violation_rate": 0.64,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 3.490299762584962e-14,
+        "ssd_drop": 6937.119437038085,
+        "nfev": 16530,
+        "nit": 25,
+        "time_sec": 76.84690976142883,
+        "violation_rate": 0.56,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 2.4021400096936847e-13,
+        "ssd_drop": 6937.119437038085,
+        "nfev": 17328,
+        "nit": 25,
+        "time_sec": 84.29694557189941,
+        "violation_rate": 0.72,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 5.318299877500433e-14,
+        "ssd_drop": 6937.119437038085,
+        "nfev": 19323,
+        "nit": 25,
+        "time_sec": 87.22718715667725,
+        "violation_rate": 0.72,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 8.501000461729992e-15,
+        "ssd_drop": 6937.119437038085,
+        "nfev": 18791,
+        "nit": 25,
+        "time_sec": 83.51656866073608,
+        "violation_rate": 0.76,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 3.615899570206516e-14,
+        "ssd_drop": 6937.119437038085,
+        "nfev": 17214,
+        "nit": 25,
+        "time_sec": 70.93455147743225,
+        "violation_rate": 0.76,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_10 [Yb3+ in C2V, 9 params, 2F7/2,2F5/2]",
+    "is_real": false,
+    "symmetry": "C2V",
+    "dim": 9,
+    "f0": 62416.14510643878,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 5.372199111217771e-14,
+        "ssd_drop": 62416.14510643878,
+        "nfev": 12939,
+        "nit": 25,
+        "time_sec": 75.92158317565918,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 5.372199111217771e-14,
+        "ssd_drop": 62416.14510643878,
+        "nfev": 12844,
+        "nit": 25,
+        "time_sec": 73.34220218658447,
+        "violation_rate": 0.12,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 5.0876997981291076e-14,
+        "ssd_drop": 62416.14510643878,
+        "nfev": 15542,
+        "nit": 25,
+        "time_sec": 78.98108959197998,
+        "violation_rate": 0.4,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 5.0876997981291076e-14,
+        "ssd_drop": 62416.14510643878,
+        "nfev": 14364,
+        "nit": 25,
+        "time_sec": 70.99331784248352,
+        "violation_rate": 0.32,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 4.197399723987516e-14,
+        "ssd_drop": 62416.14510643878,
+        "nfev": 15808,
+        "nit": 25,
+        "time_sec": 77.27292728424072,
+        "violation_rate": 0.36,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 3.134099823011861e-14,
+        "ssd_drop": 62416.14510643878,
+        "nfev": 16473,
+        "nit": 25,
+        "time_sec": 78.27257943153381,
+        "violation_rate": 0.32,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 1.2071399679793834e-13,
+        "ssd_drop": 62416.14510643878,
+        "nfev": 18145,
+        "nit": 25,
+        "time_sec": 87.34282207489014,
+        "violation_rate": 0.68,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 7.081099732936666e-14,
+        "ssd_drop": 62416.14510643878,
+        "nfev": 19209,
+        "nit": 25,
+        "time_sec": 87.17292475700378,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 3.139299875031437e-14,
+        "ssd_drop": 62416.14510643878,
+        "nfev": 18487,
+        "nit": 25,
+        "time_sec": 81.94407272338867,
+        "violation_rate": 0.56,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 2.177000024875409e-14,
+        "ssd_drop": 62416.14510643878,
+        "nfev": 17689,
+        "nit": 25,
+        "time_sec": 75.78928542137146,
+        "violation_rate": 0.56,
+        "success": true
+      }
+    }
+  },
+  {
+    "case_name": "Synthetic_10 [Yb3+ in C2V, 9 params, 2F7/2,2F5/2]",
+    "is_real": false,
+    "symmetry": "C2V",
+    "dim": 9,
+    "f0": 64042.14547922219,
+    "runs": {
+      "10%_clip (Baseline)": {
+        "final_ssd": 2.794800068844914e-14,
+        "ssd_drop": 64042.14547922219,
+        "nfev": 15143,
+        "nit": 25,
+        "time_sec": 89.09497451782227,
+        "violation_rate": 0.32,
+        "success": true
+      },
+      "10%_reflect": {
+        "final_ssd": 1.9894899977540971e-13,
+        "ssd_drop": 64042.14547922219,
+        "nfev": 16511,
+        "nit": 25,
+        "time_sec": 88.6203031539917,
+        "violation_rate": 0.28,
+        "success": true
+      },
+      "15%_clip": {
+        "final_ssd": 1.686299729800671e-14,
+        "ssd_drop": 64042.14547922219,
+        "nfev": 17632,
+        "nit": 25,
+        "time_sec": 87.14156484603882,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "15%_reflect": {
+        "final_ssd": 6.832400069079799e-14,
+        "ssd_drop": 64042.14547922219,
+        "nfev": 15979,
+        "nit": 25,
+        "time_sec": 77.91113567352295,
+        "violation_rate": 0.56,
+        "success": true
+      },
+      "20%_clip": {
+        "final_ssd": 2.976799898589347e-14,
+        "ssd_drop": 64042.14547922219,
+        "nfev": 16967,
+        "nit": 25,
+        "time_sec": 80.80055975914001,
+        "violation_rate": 0.56,
+        "success": true
+      },
+      "20%_reflect (Target)": {
+        "final_ssd": 1.4782799329828284e-13,
+        "ssd_drop": 64042.14547922219,
+        "nfev": 17917,
+        "nit": 25,
+        "time_sec": 86.57758164405823,
+        "violation_rate": 0.72,
+        "success": true
+      },
+      "25%_clip": {
+        "final_ssd": 2.82620004561929e-14,
+        "ssd_drop": 64042.14547922219,
+        "nfev": 17233,
+        "nit": 25,
+        "time_sec": 78.90135908126831,
+        "violation_rate": 0.72,
+        "success": true
+      },
+      "25%_reflect": {
+        "final_ssd": 1.5259998475143005e-14,
+        "ssd_drop": 64042.14547922219,
+        "nfev": 18031,
+        "nit": 25,
+        "time_sec": 80.32038760185242,
+        "violation_rate": 0.52,
+        "success": true
+      },
+      "30%_clip": {
+        "final_ssd": 1.2166199738113972e-13,
+        "ssd_drop": 64042.14547922219,
+        "nfev": 19798,
+        "nit": 25,
+        "time_sec": 86.33663702011108,
+        "violation_rate": 0.56,
+        "success": true
+      },
+      "30%_reflect": {
+        "final_ssd": 3.8850996886503486e-14,
+        "ssd_drop": 64042.14547922219,
+        "nfev": 18620,
+        "nit": 25,
+        "time_sec": 67.16334414482117,
+        "violation_rate": 0.32,
+        "success": true
+      }
+    }
+  }
+]
