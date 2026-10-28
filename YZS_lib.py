@@ -1217,7 +1217,9 @@ def worker(run_duration_minutes, individual_bounds, constraints, core_func, EXNR
         x0=mc_Ar,
         minimizer_kwargs={
             'method': 'L-BFGS-B',
+            'jac': '3-point',
             'bounds': filtered_bounds,
+            'options': {'finite_diff_rel_step': 1e-4},
         },
         take_step=BoundedStep(filtered_bounds),
 #       niter = 1000
@@ -1236,7 +1238,9 @@ def worker(run_duration_minutes, individual_bounds, constraints, core_func, EXNR
 #       maxfun = 1e10,
         minimizer_kwargs={
             "method": "L-BFGS-B",
-            "bounds": filtered_bounds
+            "jac": "3-point",
+            "bounds": filtered_bounds,
+            "options": {"finite_diff_rel_step": 1e-4},
         }
     )
     if da_result.fun < min_difference:

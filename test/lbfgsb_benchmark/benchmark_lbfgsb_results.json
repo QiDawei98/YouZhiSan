@@ -1,0 +1,5746 @@
+[
+  {
+    "case": "Synthetic_076 [Dy3+ in C1H, 6F5/2,6H5/2]",
+    "is_real": false,
+    "initial_ssd": 2250.5849963704245,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 0.08457792342970036,
+        "nit": 40,
+        "nfev": 1200,
+        "time_sec": 11.934935331344604,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2250.500418446995
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 2.2531581069361337e-11,
+        "nit": 25,
+        "nfev": 435,
+        "time_sec": 4.283168315887451,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2250.5849963704018
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 2.3316561669020844e-09,
+        "nit": 25,
+        "nfev": 435,
+        "time_sec": 4.299447059631348,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2250.584996368093
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 1.5245874987929137e-10,
+        "nit": 25,
+        "nfev": 841,
+        "time_sec": 8.062735795974731,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2250.584996370272
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 1.55315380924088e-10,
+        "nit": 25,
+        "nfev": 841,
+        "time_sec": 7.959676027297974,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2250.584996370269
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 1.188100039104507e-10,
+        "nit": 25,
+        "nfev": 841,
+        "time_sec": 8.703388214111328,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2250.584996370306
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 7.699714089192577e-11,
+        "nit": 25,
+        "nfev": 841,
+        "time_sec": 8.396841049194336,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2250.5849963703477
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 3.56163995379422e-06,
+        "nit": 32,
+        "nfev": 810,
+        "time_sec": 8.065770626068115,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2250.5849928087846
+      }
+    }
+  },
+  {
+    "case": "(Brecher C et al, 1967) / template_sym.txt",
+    "is_real": true,
+    "initial_ssd": 457548.5707636917,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 4891.320844107283,
+        "nit": 31,
+        "nfev": 576,
+        "time_sec": 5.0499091148376465,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 452657.24991958437
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 4833.677791062061,
+        "nit": 34,
+        "nfev": 756,
+        "time_sec": 6.895504474639893,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 452714.89297262963
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 4743.304740116192,
+        "nit": 37,
+        "nfev": 900,
+        "time_sec": 7.158300876617432,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 452805.2660235755
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 4729.49340257811,
+        "nit": 48,
+        "nfev": 2090,
+        "time_sec": 16.8992280960083,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 452819.07736111357
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 4712.625076206924,
+        "nit": 60,
+        "nfev": 1804,
+        "time_sec": 15.985231637954712,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 452835.94568748475
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 4747.485838972042,
+        "nit": 32,
+        "nfev": 957,
+        "time_sec": 7.920599937438965,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 452801.08492471965
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 4891.840823353977,
+        "nit": 18,
+        "nfev": 561,
+        "time_sec": 4.428505182266235,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 452656.7299403377
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 4852.19527007194,
+        "nit": 26,
+        "nfev": 390,
+        "time_sec": 3.4494540691375732,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 452696.37549361977
+      }
+    }
+  },
+  {
+    "case": "(Chen X Y et al, 2005) / (Chen X Y et al, 2005).txt",
+    "is_real": true,
+    "initial_ssd": 50000.25032420212,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 1452.3858739437965,
+        "nit": 37,
+        "nfev": 870,
+        "time_sec": 11.554710388183594,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 48547.86445025832
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 1432.036352878492,
+        "nit": 29,
+        "nfev": 600,
+        "time_sec": 7.471489191055298,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 48568.213971323625
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 1432.0363139172835,
+        "nit": 31,
+        "nfev": 400,
+        "time_sec": 5.758597373962402,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 48568.214010284835
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 1432.0363137509416,
+        "nit": 31,
+        "nfev": 760,
+        "time_sec": 9.734972715377808,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 48568.21401045118
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 1432.036313768063,
+        "nit": 31,
+        "nfev": 760,
+        "time_sec": 10.211051940917969,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 48568.21401043406
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 1432.0363137356887,
+        "nit": 31,
+        "nfev": 760,
+        "time_sec": 10.083574771881104,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 48568.21401046643
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 1432.0363137349452,
+        "nit": 31,
+        "nfev": 760,
+        "time_sec": 9.746997594833374,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 48568.21401046717
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 1432.0367151639196,
+        "nit": 33,
+        "nfev": 450,
+        "time_sec": 6.507016181945801,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 48568.2136090382
+      }
+    }
+  },
+  {
+    "case": "(Brecher C et al, 1967) / template_sym.txt",
+    "is_real": true,
+    "initial_ssd": 1063307.1789270109,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 4636.703985839308,
+        "nit": 40,
+        "nfev": 1104,
+        "time_sec": 9.156622886657715,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1058670.4749411715
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 4713.2421336981,
+        "nit": 41,
+        "nfev": 978,
+        "time_sec": 8.307727813720703,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1058593.9367933127
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 5037.172556194602,
+        "nit": 13,
+        "nfev": 570,
+        "time_sec": 4.5367431640625,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1058270.0063708161
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 4616.210276966816,
+        "nit": 35,
+        "nfev": 1573,
+        "time_sec": 12.417653560638428,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1058690.968650044
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 4682.184375916363,
+        "nit": 61,
+        "nfev": 2629,
+        "time_sec": 21.58888816833496,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1058624.9945510945
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 4679.227405882224,
+        "nit": 31,
+        "nfev": 1617,
+        "time_sec": 13.346924543380737,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1058627.9515211286
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 4693.079868865597,
+        "nit": 29,
+        "nfev": 1232,
+        "time_sec": 10.230001211166382,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1058614.0990581452
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 5040.185415922342,
+        "nit": 8,
+        "nfev": 246,
+        "time_sec": 1.9065754413604736,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1058266.9935110884
+      }
+    }
+  },
+  {
+    "case": "(Chen X Y et al, 2005) / (Chen X Y et al, 2005).txt",
+    "is_real": true,
+    "initial_ssd": 212388.80290939612,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 1345.2452119147792,
+        "nit": 33,
+        "nfev": 580,
+        "time_sec": 7.651824951171875,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 211043.55769748133
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 1396.757700733623,
+        "nit": 46,
+        "nfev": 590,
+        "time_sec": 8.330419301986694,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 210992.0452086625
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 1395.7211243709983,
+        "nit": 34,
+        "nfev": 930,
+        "time_sec": 11.842161893844604,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 210993.08178502513
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 1395.6717454374057,
+        "nit": 53,
+        "nfev": 1425,
+        "time_sec": 18.404024839401245,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 210993.13116395872
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 1396.7576901060959,
+        "nit": 46,
+        "nfev": 1045,
+        "time_sec": 13.884422063827515,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 210992.04521929004
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 1396.757717297858,
+        "nit": 28,
+        "nfev": 646,
+        "time_sec": 8.491267919540405,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 210992.04519209827
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 1396.7576901504385,
+        "nit": 36,
+        "nfev": 798,
+        "time_sec": 10.47587275505066,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 210992.0452192457
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 1396.7592199881526,
+        "nit": 38,
+        "nfev": 760,
+        "time_sec": 9.203027725219727,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 210992.04368940796
+      }
+    }
+  },
+  {
+    "case": "(Duan C kui et al, 2007) / ND.txt",
+    "is_real": true,
+    "initial_ssd": 346472.84510400065,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 0.008009739946215195,
+        "nit": 40,
+        "nfev": 945,
+        "time_sec": 10.999374866485596,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 346472.8370942607
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 1.3944647171306557e-10,
+        "nit": 33,
+        "nfev": 585,
+        "time_sec": 6.892132043838501,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 346472.84510400053
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 8.863306801899961e-09,
+        "nit": 39,
+        "nfev": 1050,
+        "time_sec": 12.612403392791748,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 346472.8451039918
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 4.16613175622295e-11,
+        "nit": 35,
+        "nfev": 1189,
+        "time_sec": 13.870129823684692,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 346472.8451040006
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 2.9111278374170515e-11,
+        "nit": 36,
+        "nfev": 1247,
+        "time_sec": 13.813171863555908,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 346472.8451040006
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 1.17347657641244e-10,
+        "nit": 34,
+        "nfev": 1102,
+        "time_sec": 12.961493253707886,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 346472.84510400053
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 4.028975424404732e-10,
+        "nit": 35,
+        "nfev": 1160,
+        "time_sec": 13.522757768630981,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 346472.84510400024
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 7.856693669149048e-05,
+        "nit": 34,
+        "nfev": 1140,
+        "time_sec": 12.26959490776062,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 346472.8450254337
+      }
+    }
+  },
+  {
+    "case": "(Brecher C et al, 1967) / template_sym.txt",
+    "is_real": true,
+    "initial_ssd": 84991.02968814869,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 4739.23530906413,
+        "nit": 31,
+        "nfev": 714,
+        "time_sec": 5.988056421279907,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 80251.79437908456
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 4690.883015956377,
+        "nit": 40,
+        "nfev": 858,
+        "time_sec": 7.613861083984375,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 80300.1466721923
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 4700.240451261869,
+        "nit": 39,
+        "nfev": 1038,
+        "time_sec": 8.324539422988892,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 80290.78923688682
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 4676.488292579958,
+        "nit": 63,
+        "nfev": 2233,
+        "time_sec": 18.50974178314209,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 80314.54139556873
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 4677.890304732755,
+        "nit": 63,
+        "nfev": 3058,
+        "time_sec": 24.221683502197266,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 80313.13938341592
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 4684.246445796424,
+        "nit": 71,
+        "nfev": 2684,
+        "time_sec": 21.676026344299316,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 80306.78324235226
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 4683.338424029412,
+        "nit": 52,
+        "nfev": 1738,
+        "time_sec": 13.153693675994873,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 80307.69126411928
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 4765.008052198104,
+        "nit": 16,
+        "nfev": 300,
+        "time_sec": 2.312466859817505,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 80226.02163595059
+      }
+    }
+  },
+  {
+    "case": "(Chen X Y et al, 2005) / (Chen X Y et al, 2005).txt",
+    "is_real": true,
+    "initial_ssd": 11348.977791051642,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 1222.5055483547862,
+        "nit": 41,
+        "nfev": 740,
+        "time_sec": 10.044618844985962,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 10126.472242696856
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 1154.752677817701,
+        "nit": 59,
+        "nfev": 780,
+        "time_sec": 10.849183559417725,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 10194.22511323394
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 1154.7526467070597,
+        "nit": 43,
+        "nfev": 540,
+        "time_sec": 7.732307195663452,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 10194.225144344582
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 1154.7526546773652,
+        "nit": 53,
+        "nfev": 1235,
+        "time_sec": 16.097575664520264,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 10194.225136374276
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 1154.752727193085,
+        "nit": 50,
+        "nfev": 1197,
+        "time_sec": 15.977494239807129,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 10194.225063858557
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 1154.75264659114,
+        "nit": 52,
+        "nfev": 1273,
+        "time_sec": 16.99463415145874,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 10194.225144460503
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 1154.7526485000067,
+        "nit": 51,
+        "nfev": 1235,
+        "time_sec": 14.945855617523193,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 10194.225142551635
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 1154.754422580489,
+        "nit": 48,
+        "nfev": 950,
+        "time_sec": 11.6708402633667,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 10194.223368471154
+      }
+    }
+  },
+  {
+    "case": "(Brecher C et al, 1967) / template_sym.txt",
+    "is_real": true,
+    "initial_ssd": 515426.0725924829,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 4724.1725929846725,
+        "nit": 38,
+        "nfev": 1044,
+        "time_sec": 8.565856218338013,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 510701.8999994982
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 4681.229060416738,
+        "nit": 36,
+        "nfev": 876,
+        "time_sec": 7.268760442733765,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 510744.84353206615
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 4658.2019646393765,
+        "nit": 41,
+        "nfev": 1218,
+        "time_sec": 9.675651550292969,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 510767.87062784354
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 4619.334212910347,
+        "nit": 111,
+        "nfev": 4169,
+        "time_sec": 34.457693576812744,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 510806.7383795726
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 4676.713170060802,
+        "nit": 65,
+        "nfev": 2728,
+        "time_sec": 21.88042140007019,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 510749.3594224221
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 4842.205429510384,
+        "nit": 24,
+        "nfev": 803,
+        "time_sec": 6.13187575340271,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 510583.8671629725
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 4660.181169636657,
+        "nit": 53,
+        "nfev": 2046,
+        "time_sec": 15.219310522079468,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 510765.89142284624
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 4914.113646648522,
+        "nit": 18,
+        "nfev": 552,
+        "time_sec": 4.256317615509033,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 510511.95894583437
+      }
+    }
+  },
+  {
+    "case": "(Capobianco J A et al, 1997) / (Capobianco J A et al, 1997).txt",
+    "is_real": true,
+    "initial_ssd": 7082654.157075086,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 139.77207213421968,
+        "nit": 33,
+        "nfev": 540,
+        "time_sec": 6.978049278259277,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 7082514.385002951
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 83.49357876021806,
+        "nit": 36,
+        "nfev": 264,
+        "time_sec": 3.382394313812256,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 7082570.663496326
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 83.4935780031633,
+        "nit": 39,
+        "nfev": 252,
+        "time_sec": 3.1082382202148438,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 7082570.663497083
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 83.49357766978923,
+        "nit": 40,
+        "nfev": 473,
+        "time_sec": 5.779860258102417,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 7082570.663497416
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 83.49357766285432,
+        "nit": 40,
+        "nfev": 473,
+        "time_sec": 5.80493426322937,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 7082570.663497423
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 83.49357767486454,
+        "nit": 40,
+        "nfev": 473,
+        "time_sec": 5.751753807067871,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 7082570.663497411
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 83.49357768067331,
+        "nit": 40,
+        "nfev": 473,
+        "time_sec": 5.791906356811523,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 7082570.663497405
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 91.95433795986159,
+        "nit": 29,
+        "nfev": 276,
+        "time_sec": 3.3850293159484863,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 7082562.202737126
+      }
+    }
+  },
+  {
+    "case": "(Capobianco J A et al, 1997) / (Capobianco J A et al, 1997).txt",
+    "is_real": true,
+    "initial_ssd": 1138087.8508187458,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 114.50997611192678,
+        "nit": 23,
+        "nfev": 438,
+        "time_sec": 5.053076505661011,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 1137973.340842634
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 113.31603890046185,
+        "nit": 25,
+        "nfev": 228,
+        "time_sec": 2.8299973011016846,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1137974.5347798453
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 113.31603661068287,
+        "nit": 26,
+        "nfev": 222,
+        "time_sec": 2.763137102127075,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1137974.5347821352
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 113.31603789068761,
+        "nit": 26,
+        "nfev": 429,
+        "time_sec": 5.219608783721924,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1137974.534780855
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 113.31603653956981,
+        "nit": 27,
+        "nfev": 440,
+        "time_sec": 5.301986932754517,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1137974.5347822062
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 113.31603659165772,
+        "nit": 26,
+        "nfev": 363,
+        "time_sec": 4.320032835006714,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1137974.534782154
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 113.31603647416557,
+        "nit": 25,
+        "nfev": 341,
+        "time_sec": 4.110055923461914,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1137974.5347822716
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 113.3173160005339,
+        "nit": 24,
+        "nfev": 228,
+        "time_sec": 2.6885902881622314,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1137974.5335027452
+      }
+    }
+  },
+  {
+    "case": "(Capobianco J A et al, 1997) / (Capobianco J A et al, 1997).txt",
+    "is_real": true,
+    "initial_ssd": 6966326.854595378,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 85.33743244654725,
+        "nit": 25,
+        "nfev": 258,
+        "time_sec": 3.0892322063446045,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 6966241.517162931
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 93.42785664560023,
+        "nit": 31,
+        "nfev": 234,
+        "time_sec": 2.8880443572998047,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 6966233.4267387325
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 93.42785597364744,
+        "nit": 30,
+        "nfev": 210,
+        "time_sec": 2.7562646865844727,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 6966233.426739404
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 93.42785585201133,
+        "nit": 30,
+        "nfev": 407,
+        "time_sec": 4.9431233406066895,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 6966233.426739526
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 93.42785584690068,
+        "nit": 31,
+        "nfev": 396,
+        "time_sec": 4.816682577133179,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 6966233.426739532
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 93.42785584766207,
+        "nit": 31,
+        "nfev": 396,
+        "time_sec": 4.849640607833862,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 6966233.426739531
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 93.42785584640868,
+        "nit": 31,
+        "nfev": 539,
+        "time_sec": 6.254730224609375,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 6966233.426739532
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 93.42993961125067,
+        "nit": 29,
+        "nfev": 288,
+        "time_sec": 3.6313283443450928,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 6966233.424655767
+      }
+    }
+  },
+  {
+    "case": "(Brecher C et al, 1967) / template_sym.txt",
+    "is_real": true,
+    "initial_ssd": 304797.7347384835,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 4861.4857499834725,
+        "nit": 29,
+        "nfev": 978,
+        "time_sec": 7.996958255767822,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 299936.24898850004
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 4900.035147808154,
+        "nit": 17,
+        "nfev": 474,
+        "time_sec": 3.786048650741577,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 299897.69959067536
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 4899.924512123807,
+        "nit": 16,
+        "nfev": 384,
+        "time_sec": 2.96989107131958,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 299897.8102263597
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 4746.933083948908,
+        "nit": 42,
+        "nfev": 1672,
+        "time_sec": 12.7322518825531,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 300050.8016545346
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 4685.679673685074,
+        "nit": 41,
+        "nfev": 1254,
+        "time_sec": 9.520886898040771,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 300112.05506479845
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 4702.315705085665,
+        "nit": 36,
+        "nfev": 1892,
+        "time_sec": 14.02649736404419,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 300095.41903339786
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 4805.687436343964,
+        "nit": 30,
+        "nfev": 913,
+        "time_sec": 6.905756711959839,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 299992.0473021395
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 4901.793819228611,
+        "nit": 13,
+        "nfev": 258,
+        "time_sec": 1.9992494583129883,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 299895.9409192549
+      }
+    }
+  },
+  {
+    "case": "(Brecher C et al, 1967) / template_sym.txt",
+    "is_real": true,
+    "initial_ssd": 161873.03702272417,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 4696.827053313439,
+        "nit": 45,
+        "nfev": 756,
+        "time_sec": 6.49097752571106,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 157176.20996941073
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 4711.306128335124,
+        "nit": 33,
+        "nfev": 864,
+        "time_sec": 8.028079986572266,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 157161.73089438904
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 4816.17507741414,
+        "nit": 28,
+        "nfev": 660,
+        "time_sec": 5.472981691360474,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 157056.86194531003
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 4698.815094050699,
+        "nit": 55,
+        "nfev": 2222,
+        "time_sec": 16.836646556854248,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 157174.22192867348
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 4698.838347891528,
+        "nit": 52,
+        "nfev": 2035,
+        "time_sec": 15.251891374588013,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 157174.19867483265
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 4818.994178909014,
+        "nit": 29,
+        "nfev": 825,
+        "time_sec": 6.322225332260132,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 157054.04284381514
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 4813.602039092745,
+        "nit": 31,
+        "nfev": 1144,
+        "time_sec": 8.621493101119995,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 157059.43498363142
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 4817.984876825133,
+        "nit": 28,
+        "nfev": 702,
+        "time_sec": 5.39692497253418,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 157055.05214589904
+      }
+    }
+  },
+  {
+    "case": "(Capobianco J A et al, 1997) / (Capobianco J A et al, 1997).txt",
+    "is_real": true,
+    "initial_ssd": 5409863.598741216,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 117.82371200760323,
+        "nit": 19,
+        "nfev": 228,
+        "time_sec": 2.7218968868255615,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5409745.7750292085
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 114.25326484705582,
+        "nit": 35,
+        "nfev": 264,
+        "time_sec": 3.195145606994629,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5409749.345476368
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 114.25326366457938,
+        "nit": 33,
+        "nfev": 228,
+        "time_sec": 2.7803444862365723,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5409749.345477551
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 114.2532634617059,
+        "nit": 34,
+        "nfev": 451,
+        "time_sec": 5.328425884246826,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5409749.345477754
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 114.25326347414676,
+        "nit": 34,
+        "nfev": 418,
+        "time_sec": 5.153550148010254,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5409749.345477741
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 114.25326345827006,
+        "nit": 34,
+        "nfev": 418,
+        "time_sec": 4.9569151401519775,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5409749.345477757
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 114.2532634522199,
+        "nit": 34,
+        "nfev": 418,
+        "time_sec": 5.2064597606658936,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5409749.345477764
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 114.25727666153024,
+        "nit": 34,
+        "nfev": 222,
+        "time_sec": 2.8387985229492188,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5409749.341464554
+      }
+    }
+  },
+  {
+    "case": "(Popova M N et al, 2007) / (Popova M N et al, 2007).txt",
+    "is_real": true,
+    "initial_ssd": 1000787.807058699,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 127.08394163680025,
+        "nit": 34,
+        "nfev": 637,
+        "time_sec": 4.843427658081055,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1000660.7231170621
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 75.94382179893076,
+        "nit": 36,
+        "nfev": 399,
+        "time_sec": 3.106283187866211,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1000711.8632369001
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 75.94381391617785,
+        "nit": 35,
+        "nfev": 301,
+        "time_sec": 2.3815722465515137,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1000711.8632447828
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 75.94381389621034,
+        "nit": 34,
+        "nfev": 520,
+        "time_sec": 4.202397584915161,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1000711.8632448028
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 75.9438138815695,
+        "nit": 34,
+        "nfev": 520,
+        "time_sec": 4.1004438400268555,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1000711.8632448174
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 75.94381388905676,
+        "nit": 34,
+        "nfev": 520,
+        "time_sec": 4.080750226974487,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1000711.8632448099
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 75.94381388578577,
+        "nit": 34,
+        "nfev": 520,
+        "time_sec": 4.1431803703308105,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1000711.8632448132
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 75.94423177723888,
+        "nit": 32,
+        "nfev": 308,
+        "time_sec": 2.504509449005127,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1000711.8628269217
+      }
+    }
+  },
+  {
+    "case": "(Popova M N et al, 2007) / (Popova M N et al, 2007).txt",
+    "is_real": true,
+    "initial_ssd": 323091.89621156536,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 41.35638071930538,
+        "nit": 13,
+        "nfev": 217,
+        "time_sec": 1.664146900177002,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 323050.5398308461
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 37.325978771178846,
+        "nit": 41,
+        "nfev": 413,
+        "time_sec": 3.3111588954925537,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 323054.57023279415
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 37.32597837531015,
+        "nit": 41,
+        "nfev": 322,
+        "time_sec": 2.604233741760254,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 323054.57023319
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 37.32597828872187,
+        "nit": 43,
+        "nfev": 611,
+        "time_sec": 5.019359350204468,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 323054.57023327664
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 37.325978223353076,
+        "nit": 41,
+        "nfev": 585,
+        "time_sec": 4.6031904220581055,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 323054.570233342
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 37.32597821246333,
+        "nit": 41,
+        "nfev": 585,
+        "time_sec": 4.770894765853882,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 323054.5702333529
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 37.32597821292919,
+        "nit": 41,
+        "nfev": 598,
+        "time_sec": 4.700716733932495,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 323054.5702333524
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 37.32637119111012,
+        "nit": 41,
+        "nfev": 322,
+        "time_sec": 2.7139129638671875,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 323054.5698403742
+      }
+    }
+  },
+  {
+    "case": "(Popova M N et al, 2007) / (Popova M N et al, 2007).txt",
+    "is_real": true,
+    "initial_ssd": 75468.9444208885,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 74.19059375147866,
+        "nit": 48,
+        "nfev": 686,
+        "time_sec": 5.33584189414978,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 75394.75382713701
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 84.68050360117418,
+        "nit": 34,
+        "nfev": 273,
+        "time_sec": 2.229138135910034,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 75384.26391728732
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 84.68050362310957,
+        "nit": 34,
+        "nfev": 266,
+        "time_sec": 2.139636516571045,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 75384.26391726539
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 84.68050356482397,
+        "nit": 34,
+        "nfev": 507,
+        "time_sec": 3.9917612075805664,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 75384.26391732367
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 84.68050355920667,
+        "nit": 34,
+        "nfev": 481,
+        "time_sec": 3.9329116344451904,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 75384.26391732928
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 84.68050352799042,
+        "nit": 34,
+        "nfev": 481,
+        "time_sec": 3.764906883239746,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 75384.2639173605
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 84.68050353853502,
+        "nit": 34,
+        "nfev": 481,
+        "time_sec": 3.857713460922241,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 75384.26391734996
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 84.68112859590897,
+        "nit": 33,
+        "nfev": 266,
+        "time_sec": 2.1852076053619385,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 75384.26329229258
+      }
+    }
+  },
+  {
+    "case": "(Capobianco J A et al, 1997) / (Capobianco J A et al, 1997).txt",
+    "is_real": true,
+    "initial_ssd": 178085.1130171482,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 90.70147732980946,
+        "nit": 69,
+        "nfev": 756,
+        "time_sec": 9.05306363105774,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 177994.4115398184
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 88.6782563987966,
+        "nit": 35,
+        "nfev": 288,
+        "time_sec": 3.6056413650512695,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 177996.4347607494
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 88.67825633284363,
+        "nit": 33,
+        "nfev": 264,
+        "time_sec": 3.184861660003662,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 177996.43476081535
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 95.16560364234199,
+        "nit": 32,
+        "nfev": 462,
+        "time_sec": 5.410869359970093,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 177989.94741350584
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 88.67825622549853,
+        "nit": 34,
+        "nfev": 594,
+        "time_sec": 7.0776307582855225,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 177996.43476092268
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 88.67825623219291,
+        "nit": 32,
+        "nfev": 473,
+        "time_sec": 5.694838047027588,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 177996.434760916
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 88.6782562348109,
+        "nit": 30,
+        "nfev": 429,
+        "time_sec": 5.1425395011901855,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 177996.43476091337
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 88.67887243990835,
+        "nit": 39,
+        "nfev": 486,
+        "time_sec": 5.780303478240967,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 177996.4341447083
+      }
+    }
+  },
+  {
+    "case": "(Popova M N et al, 2007) / (Popova M N et al, 2007).txt",
+    "is_real": true,
+    "initial_ssd": 2645524.361000792,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 48.50394700920198,
+        "nit": 18,
+        "nfev": 252,
+        "time_sec": 1.918928861618042,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2645475.857053783
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 75.98083307575422,
+        "nit": 42,
+        "nfev": 378,
+        "time_sec": 3.0088281631469727,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2645448.380167716
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 75.98082731568849,
+        "nit": 41,
+        "nfev": 336,
+        "time_sec": 2.7108895778656006,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2645448.3801734764
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 75.98082700616143,
+        "nit": 40,
+        "nfev": 546,
+        "time_sec": 4.563318490982056,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2645448.380173786
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 75.98082700695495,
+        "nit": 41,
+        "nfev": 585,
+        "time_sec": 4.6105406284332275,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2645448.380173785
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 75.9808269933688,
+        "nit": 40,
+        "nfev": 702,
+        "time_sec": 5.481670379638672,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2645448.3801737987
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 75.98082703436266,
+        "nit": 42,
+        "nfev": 559,
+        "time_sec": 4.479607343673706,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2645448.3801737577
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 75.98159551891928,
+        "nit": 41,
+        "nfev": 385,
+        "time_sec": 3.179056406021118,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2645448.379405273
+      }
+    }
+  },
+  {
+    "case": "(Capobianco J A et al, 1997) / (Capobianco J A et al, 1997).txt",
+    "is_real": true,
+    "initial_ssd": 6255144.049888515,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 87.23172984380301,
+        "nit": 57,
+        "nfev": 870,
+        "time_sec": 10.462168216705322,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 6255056.818158671
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 91.95139288718119,
+        "nit": 50,
+        "nfev": 402,
+        "time_sec": 4.854958772659302,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 6255052.098495628
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 114.25326383868585,
+        "nit": 50,
+        "nfev": 360,
+        "time_sec": 4.65778374671936,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 6255029.796624676
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 124.47071774581944,
+        "nit": 41,
+        "nfev": 561,
+        "time_sec": 6.717667579650879,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 6255019.579170769
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 124.47071773177296,
+        "nit": 42,
+        "nfev": 583,
+        "time_sec": 6.971981048583984,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 6255019.579170783
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 124.47071772662406,
+        "nit": 43,
+        "nfev": 583,
+        "time_sec": 6.9193339347839355,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 6255019.579170789
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 124.47071774885347,
+        "nit": 42,
+        "nfev": 561,
+        "time_sec": 6.603623151779175,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 6255019.579170766
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 160.21314469291423,
+        "nit": 36,
+        "nfev": 264,
+        "time_sec": 3.306790590286255,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 6254983.836743822
+      }
+    }
+  },
+  {
+    "case": "(Crosswhite H M et al, 1961) / (Crosswhite H M et al, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 38047.963811104186,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 24.607803810197336,
+        "nit": 25,
+        "nfev": 235,
+        "time_sec": 1.865518569946289,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 38023.35600729399
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 1.7468217277208256,
+        "nit": 36,
+        "nfev": 230,
+        "time_sec": 1.7805678844451904,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 38046.216989376466
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 4.5810224661854,
+        "nit": 29,
+        "nfev": 170,
+        "time_sec": 1.4179515838623047,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 38043.382788638
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 4.581022407530407,
+        "nit": 29,
+        "nfev": 306,
+        "time_sec": 2.4732401371002197,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 38043.382788696654
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 4.581022406909597,
+        "nit": 29,
+        "nfev": 306,
+        "time_sec": 2.372485399246216,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 38043.38278869728
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 4.581022407126384,
+        "nit": 29,
+        "nfev": 306,
+        "time_sec": 2.4013564586639404,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 38043.38278869706
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 4.581022408464761,
+        "nit": 29,
+        "nfev": 306,
+        "time_sec": 2.312703847885132,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 38043.38278869572
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 4.560686907650012,
+        "nit": 27,
+        "nfev": 220,
+        "time_sec": 1.6903371810913086,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 38043.403124196535
+      }
+    }
+  },
+  {
+    "case": "(Crosswhite H M et al, 1961) / (Crosswhite H M et al, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 287404.1387989152,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 1.731361173612466,
+        "nit": 32,
+        "nfev": 305,
+        "time_sec": 2.4235827922821045,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 287402.4074377416
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 1.6334096940077174,
+        "nit": 32,
+        "nfev": 200,
+        "time_sec": 1.7139511108398438,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 287402.5053892212
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 1.74766317117675,
+        "nit": 31,
+        "nfev": 205,
+        "time_sec": 1.6493842601776123,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 287402.391135744
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 1.7476631071799014,
+        "nit": 32,
+        "nfev": 342,
+        "time_sec": 2.6302647590637207,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 287402.391135808
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 1.7476631081366503,
+        "nit": 32,
+        "nfev": 333,
+        "time_sec": 2.530095100402832,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 287402.3911358071
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 1.7476631063511385,
+        "nit": 32,
+        "nfev": 333,
+        "time_sec": 2.5746049880981445,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 287402.39113580884
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 1.747663107137103,
+        "nit": 32,
+        "nfev": 450,
+        "time_sec": 3.461686849594116,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 287402.3911358081
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 1.6342378203692574,
+        "nit": 29,
+        "nfev": 385,
+        "time_sec": 2.8744876384735107,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 287402.50456109486
+      }
+    }
+  },
+  {
+    "case": "(Crosswhite H M et al, 1961) / (Crosswhite H M et al, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 521639.7051659834,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 27.147277645515146,
+        "nit": 28,
+        "nfev": 265,
+        "time_sec": 2.0197646617889404,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 521612.5578883379
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 25.48662362275704,
+        "nit": 28,
+        "nfev": 220,
+        "time_sec": 1.7483747005462646,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 521614.21854236064
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 27.035849576336574,
+        "nit": 31,
+        "nfev": 210,
+        "time_sec": 1.6466426849365234,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 521612.66931640706
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 27.035849479844938,
+        "nit": 31,
+        "nfev": 540,
+        "time_sec": 4.098016023635864,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 521612.66931650357
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 27.035849479307338,
+        "nit": 30,
+        "nfev": 351,
+        "time_sec": 2.7642719745635986,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 521612.6693165041
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 27.035849480123456,
+        "nit": 31,
+        "nfev": 360,
+        "time_sec": 2.7957849502563477,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 521612.6693165033
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 27.03584948671226,
+        "nit": 31,
+        "nfev": 360,
+        "time_sec": 2.8869688510894775,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 521612.6693164967
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 25.51526268814248,
+        "nit": 24,
+        "nfev": 255,
+        "time_sec": 1.93782639503479,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 521614.18990329525
+      }
+    }
+  },
+  {
+    "case": "(Crosswhite H M et al, 1961) / (Crosswhite H M et al, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 592344.0829122156,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 24.468267474527497,
+        "nit": 29,
+        "nfev": 395,
+        "time_sec": 3.0558741092681885,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 592319.614644741
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 24.8334959708876,
+        "nit": 27,
+        "nfev": 190,
+        "time_sec": 1.5813472270965576,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 592319.2494162447
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 25.48662382100816,
+        "nit": 31,
+        "nfev": 215,
+        "time_sec": 1.7104666233062744,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 592318.5962883946
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 25.486623591031535,
+        "nit": 31,
+        "nfev": 369,
+        "time_sec": 2.873309850692749,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 592318.5962886246
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 25.486623591654375,
+        "nit": 29,
+        "nfev": 423,
+        "time_sec": 3.111013650894165,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 592318.596288624
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 25.486623588297896,
+        "nit": 30,
+        "nfev": 711,
+        "time_sec": 5.172451496124268,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 592318.5962886274
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 25.486623589536226,
+        "nit": 30,
+        "nfev": 711,
+        "time_sec": 5.213667631149292,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 592318.5962886261
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 24.834766212498437,
+        "nit": 23,
+        "nfev": 355,
+        "time_sec": 2.6232686042785645,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 592319.2481460031
+      }
+    }
+  },
+  {
+    "case": "(Popova M N et al, 2007) / (Popova M N et al, 2007).txt",
+    "is_real": true,
+    "initial_ssd": 230975.2416951706,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 47.67934509568307,
+        "nit": 25,
+        "nfev": 308,
+        "time_sec": 2.4112160205841064,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 230927.56235007494
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 37.32598000763079,
+        "nit": 42,
+        "nfev": 490,
+        "time_sec": 3.9675934314727783,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 230937.915715163
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 37.325978431637566,
+        "nit": 46,
+        "nfev": 371,
+        "time_sec": 3.0573952198028564,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 230937.91571673896
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 37.32597821594189,
+        "nit": 46,
+        "nfev": 663,
+        "time_sec": 5.248553276062012,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 230937.91571695468
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 37.32597838828158,
+        "nit": 45,
+        "nfev": 650,
+        "time_sec": 5.115776777267456,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 230937.91571678233
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 37.32597824419089,
+        "nit": 45,
+        "nfev": 637,
+        "time_sec": 5.038607358932495,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 230937.91571692642
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 37.32597820432224,
+        "nit": 46,
+        "nfev": 663,
+        "time_sec": 5.199902772903442,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 230937.9157169663
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 37.32637137260194,
+        "nit": 41,
+        "nfev": 329,
+        "time_sec": 2.6229965686798096,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 230937.91532379802
+      }
+    }
+  },
+  {
+    "case": "(Crosswhite H M et al, 1961) / (Crosswhite H M et al, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 1052251.1723715933,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 31.526961653723927,
+        "nit": 23,
+        "nfev": 245,
+        "time_sec": 1.8106358051300049,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1052219.6454099396
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 25.20296027360316,
+        "nit": 38,
+        "nfev": 365,
+        "time_sec": 2.895796298980713,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1052225.9694113196
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 25.203038518778747,
+        "nit": 32,
+        "nfev": 445,
+        "time_sec": 3.4095797538757324,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 1052225.9693330745
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 25.203039035677428,
+        "nit": 33,
+        "nfev": 531,
+        "time_sec": 4.095698356628418,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1052225.9693325576
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 25.202965128841708,
+        "nit": 36,
+        "nfev": 495,
+        "time_sec": 3.67876935005188,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1052225.9694064644
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 25.20319337528592,
+        "nit": 31,
+        "nfev": 513,
+        "time_sec": 3.886423349380493,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1052225.969178218
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 25.203146709043267,
+        "nit": 33,
+        "nfev": 720,
+        "time_sec": 5.278929948806763,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1052225.9692248842
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 25.235927047568453,
+        "nit": 24,
+        "nfev": 205,
+        "time_sec": 1.645709753036499,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1052225.9364445456
+      }
+    }
+  },
+  {
+    "case": "(Crosswhite H M et al, 1961) / (Crosswhite H M et al, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 1131111.4328477336,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 2.940967111665887,
+        "nit": 41,
+        "nfev": 395,
+        "time_sec": 3.0235588550567627,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1131108.491880622
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 1.6334097218424504,
+        "nit": 33,
+        "nfev": 185,
+        "time_sec": 1.5089364051818848,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1131109.7994380118
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 1.6334097552965607,
+        "nit": 32,
+        "nfev": 180,
+        "time_sec": 1.5258331298828125,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1131109.7994379783
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 1.6334096882362215,
+        "nit": 31,
+        "nfev": 306,
+        "time_sec": 2.344987154006958,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1131109.7994380454
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 1.6334096874634154,
+        "nit": 31,
+        "nfev": 306,
+        "time_sec": 2.4362523555755615,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1131109.799438046
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 1.6334096874233808,
+        "nit": 31,
+        "nfev": 306,
+        "time_sec": 2.370002031326294,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1131109.7994380463
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 1.6334096882270297,
+        "nit": 31,
+        "nfev": 306,
+        "time_sec": 2.320183515548706,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1131109.7994380454
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 1.7480599496997375,
+        "nit": 28,
+        "nfev": 225,
+        "time_sec": 1.8781492710113525,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1131109.684787784
+      }
+    }
+  },
+  {
+    "case": "Synthetic_034 [Sm3+ in S2, 6H11/2,6H7/2]",
+    "is_real": false,
+    "initial_ssd": 3435.0570687278514,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 184.40255275874233,
+        "nit": 18,
+        "nfev": 645,
+        "time_sec": 7.0173046588897705,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3250.654515969109
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 72.74359374818054,
+        "nit": 106,
+        "nfev": 2100,
+        "time_sec": 24.501548051834106,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3362.313474979671
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 72.74359181555755,
+        "nit": 119,
+        "nfev": 2070,
+        "time_sec": 24.01697039604187,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3362.313476912294
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 77.52039047113561,
+        "nit": 50,
+        "nfev": 1798,
+        "time_sec": 20.46292805671692,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3357.5366782567157
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 91.70970266956681,
+        "nit": 34,
+        "nfev": 1276,
+        "time_sec": 13.252869367599487,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3343.3473660582845
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 72.95684866815269,
+        "nit": 85,
+        "nfev": 2813,
+        "time_sec": 28.405505418777466,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3362.1002200596986
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 72.74359172121885,
+        "nit": 102,
+        "nfev": 3422,
+        "time_sec": 34.49602508544922,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3362.3134770066326
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 72.74418878204118,
+        "nit": 99,
+        "nfev": 1635,
+        "time_sec": 16.894949674606323,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3362.3128799458104
+      }
+    }
+  },
+  {
+    "case": "(Erath E H, 1961) / (Erath E H, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 512708.88304271706,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 150.37606929258578,
+        "nit": 22,
+        "nfev": 370,
+        "time_sec": 3.1597650051116943,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 512558.50697342446
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 46.98104817247204,
+        "nit": 28,
+        "nfev": 185,
+        "time_sec": 1.7394039630889893,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 512661.9019945446
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 46.98104820004999,
+        "nit": 32,
+        "nfev": 195,
+        "time_sec": 1.6975069046020508,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 512661.901994517
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 46.98104803177652,
+        "nit": 29,
+        "nfev": 333,
+        "time_sec": 2.8478615283966064,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 512661.9019946853
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 46.98104803695496,
+        "nit": 29,
+        "nfev": 324,
+        "time_sec": 2.7355399131774902,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 512661.9019946801
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 46.98104803605374,
+        "nit": 31,
+        "nfev": 333,
+        "time_sec": 2.897416353225708,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 512661.901994681
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 46.98104803997933,
+        "nit": 30,
+        "nfev": 306,
+        "time_sec": 2.7207159996032715,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 512661.9019946771
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 56.638544993134225,
+        "nit": 27,
+        "nfev": 195,
+        "time_sec": 1.7345983982086182,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 512652.24449772394
+      }
+    }
+  },
+  {
+    "case": "(Erath E H, 1961) / (Erath E H, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 1790512.9915422176,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 66.54895160926385,
+        "nit": 38,
+        "nfev": 330,
+        "time_sec": 2.9200546741485596,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1790446.4425906083
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 59.593070919171446,
+        "nit": 26,
+        "nfev": 210,
+        "time_sec": 1.8234763145446777,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1790453.3984712984
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 59.593071054342666,
+        "nit": 24,
+        "nfev": 165,
+        "time_sec": 1.4427134990692139,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1790453.3984711631
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 59.59307083036877,
+        "nit": 25,
+        "nfev": 297,
+        "time_sec": 2.4866702556610107,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1790453.398471387
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 59.59307083552907,
+        "nit": 25,
+        "nfev": 306,
+        "time_sec": 2.549372911453247,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1790453.398471382
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 59.593070833087246,
+        "nit": 25,
+        "nfev": 297,
+        "time_sec": 2.580577850341797,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1790453.3984713845
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 59.593070836711625,
+        "nit": 25,
+        "nfev": 297,
+        "time_sec": 2.568291425704956,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1790453.3984713808
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 59.595457149014116,
+        "nit": 26,
+        "nfev": 195,
+        "time_sec": 1.7619960308074951,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1790453.3960850686
+      }
+    }
+  },
+  {
+    "case": "(Popova M N et al, 2007) / (Popova M N et al, 2007).txt",
+    "is_real": true,
+    "initial_ssd": 941349.9919810805,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 107.55221319851027,
+        "nit": 26,
+        "nfev": 329,
+        "time_sec": 2.628418445587158,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 941242.439767882
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 19.157951544415962,
+        "nit": 57,
+        "nfev": 602,
+        "time_sec": 4.758288383483887,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 941330.8340295361
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 19.157951559013,
+        "nit": 45,
+        "nfev": 427,
+        "time_sec": 3.567183256149292,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 941330.8340295214
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 19.157951501092548,
+        "nit": 64,
+        "nfev": 1092,
+        "time_sec": 8.526731491088867,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 941330.8340295794
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 19.157951489466388,
+        "nit": 49,
+        "nfev": 988,
+        "time_sec": 7.65054178237915,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 941330.8340295911
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 19.15795149357061,
+        "nit": 71,
+        "nfev": 1209,
+        "time_sec": 9.362831830978394,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 941330.834029587
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 19.157951512472632,
+        "nit": 64,
+        "nfev": 1079,
+        "time_sec": 8.518920421600342,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 941330.834029568
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 20.465860880722023,
+        "nit": 39,
+        "nfev": 399,
+        "time_sec": 3.2850539684295654,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 941329.5261201998
+      }
+    }
+  },
+  {
+    "case": "(Gruber J B et al, 1960) / #Gruber J B, Conway J G, 1960. Crys.txt",
+    "is_real": true,
+    "initial_ssd": 1886.578419132802,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 17.660912299609898,
+        "nit": 14,
+        "nfev": 180,
+        "time_sec": 1.1132941246032715,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1868.9175068331922
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 17.298025556193522,
+        "nit": 17,
+        "nfev": 115,
+        "time_sec": 0.7599644660949707,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1869.2803935766085
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 17.298025581641404,
+        "nit": 17,
+        "nfev": 105,
+        "time_sec": 0.6620619297027588,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1869.2803935511606
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 17.298025535173284,
+        "nit": 17,
+        "nfev": 189,
+        "time_sec": 1.1966543197631836,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1869.2803935976287
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 17.298025540177253,
+        "nit": 17,
+        "nfev": 189,
+        "time_sec": 1.2484872341156006,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1869.280393592625
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 17.29802553522608,
+        "nit": 18,
+        "nfev": 198,
+        "time_sec": 1.2824671268463135,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1869.280393597576
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 17.298025539128048,
+        "nit": 19,
+        "nfev": 207,
+        "time_sec": 1.2859094142913818,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1869.280393593674
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 17.29837125863957,
+        "nit": 17,
+        "nfev": 105,
+        "time_sec": 0.6156260967254639,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1869.2800478741626
+      }
+    }
+  },
+  {
+    "case": "(Gruber J B et al, 1960) / #Gruber J B, Conway J G, 1960. Crys.txt",
+    "is_real": true,
+    "initial_ssd": 713.8544024281218,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 91.73686351188513,
+        "nit": 14,
+        "nfev": 205,
+        "time_sec": 1.2930748462677002,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 622.1175389162368
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 91.65677383690151,
+        "nit": 17,
+        "nfev": 145,
+        "time_sec": 1.0002212524414062,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 622.1976285912203
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 91.6567737021161,
+        "nit": 17,
+        "nfev": 105,
+        "time_sec": 0.7219023704528809,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 622.1976287260057
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 91.65677366678372,
+        "nit": 17,
+        "nfev": 180,
+        "time_sec": 1.1619908809661865,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 622.1976287613381
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 91.65677367615957,
+        "nit": 17,
+        "nfev": 180,
+        "time_sec": 1.1130867004394531,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 622.1976287519623
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 91.65677366277278,
+        "nit": 19,
+        "nfev": 198,
+        "time_sec": 1.3284575939178467,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 622.197628765349
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 91.65677365587408,
+        "nit": 17,
+        "nfev": 315,
+        "time_sec": 1.8614470958709717,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 622.1976287722478
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 91.65710053795894,
+        "nit": 16,
+        "nfev": 200,
+        "time_sec": 1.2119085788726807,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 622.1973018901629
+      }
+    }
+  },
+  {
+    "case": "(Gruber J B et al, 1960) / #Gruber J B, Conway J G, 1960. Crys.txt",
+    "is_real": true,
+    "initial_ssd": 4911.26645103988,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 19.75827720736551,
+        "nit": 22,
+        "nfev": 365,
+        "time_sec": 2.235710859298706,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 4891.508173832514
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 17.315433036901794,
+        "nit": 17,
+        "nfev": 120,
+        "time_sec": 0.7766358852386475,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 4893.951018002978
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 17.315432993531505,
+        "nit": 17,
+        "nfev": 100,
+        "time_sec": 0.6593601703643799,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 4893.9510180463485
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 17.315432957072616,
+        "nit": 17,
+        "nfev": 369,
+        "time_sec": 2.15702486038208,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 4893.951018082807
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 17.315432961013283,
+        "nit": 17,
+        "nfev": 180,
+        "time_sec": 1.1098661422729492,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 4893.951018078867
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 17.31543295832458,
+        "nit": 17,
+        "nfev": 180,
+        "time_sec": 1.1296582221984863,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 4893.951018081555
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 17.31543296034838,
+        "nit": 17,
+        "nfev": 207,
+        "time_sec": 1.2797996997833252,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 4893.951018079531
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 17.315763859474583,
+        "nit": 16,
+        "nfev": 95,
+        "time_sec": 0.5935430526733398,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 4893.950687180405
+      }
+    }
+  },
+  {
+    "case": "(Gruber J B et al, 1960) / #Gruber J B, Conway J G, 1960. Crys.txt",
+    "is_real": true,
+    "initial_ssd": 3613.3933899938456,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 12.122151169813105,
+        "nit": 16,
+        "nfev": 275,
+        "time_sec": 1.674952745437622,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3601.2712388240325
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 12.052333294504527,
+        "nit": 14,
+        "nfev": 95,
+        "time_sec": 0.7111990451812744,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3601.341056699341
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 12.052333261441365,
+        "nit": 14,
+        "nfev": 105,
+        "time_sec": 0.6576879024505615,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3601.3410567324045
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 12.052333247704347,
+        "nit": 14,
+        "nfev": 153,
+        "time_sec": 0.9882245063781738,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3601.3410567461415
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 12.052333247588113,
+        "nit": 14,
+        "nfev": 153,
+        "time_sec": 0.9605309963226318,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3601.3410567462574
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 12.052333248151154,
+        "nit": 14,
+        "nfev": 243,
+        "time_sec": 1.3912978172302246,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3601.3410567456945
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 12.052333246728438,
+        "nit": 14,
+        "nfev": 153,
+        "time_sec": 1.006415605545044,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3601.3410567471174
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 12.052501916504244,
+        "nit": 14,
+        "nfev": 125,
+        "time_sec": 0.7855238914489746,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3601.3408880773413
+      }
+    }
+  },
+  {
+    "case": "(Erath E H, 1961) / (Erath E H, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 3707810.839253936,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 201.55808049809065,
+        "nit": 25,
+        "nfev": 335,
+        "time_sec": 2.7382938861846924,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3707609.281173438
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 40.07113486074241,
+        "nit": 25,
+        "nfev": 190,
+        "time_sec": 1.629699468612671,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3707770.7681190753
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 40.0711349253379,
+        "nit": 25,
+        "nfev": 170,
+        "time_sec": 1.4654262065887451,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3707770.7681190106
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 40.0711347209233,
+        "nit": 24,
+        "nfev": 297,
+        "time_sec": 2.521219491958618,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3707770.768119215
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 40.07113471873833,
+        "nit": 24,
+        "nfev": 441,
+        "time_sec": 3.635166883468628,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3707770.7681192174
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 40.07113472750862,
+        "nit": 24,
+        "nfev": 288,
+        "time_sec": 2.473825216293335,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3707770.7681192085
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 40.07113472206999,
+        "nit": 26,
+        "nfev": 306,
+        "time_sec": 2.5580430030822754,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3707770.768119214
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 2.36755831754984,
+        "nit": 32,
+        "nfev": 275,
+        "time_sec": 2.373950719833374,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3707808.4716956182
+      }
+    }
+  },
+  {
+    "case": "(Erath E H, 1961) / (Erath E H, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 429324.4667998473,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 149.93335865637204,
+        "nit": 47,
+        "nfev": 640,
+        "time_sec": 5.411886930465698,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 429174.53344119096
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 27.922876922657377,
+        "nit": 34,
+        "nfev": 235,
+        "time_sec": 2.0433883666992188,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 429296.54392292467
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 27.922877070660928,
+        "nit": 31,
+        "nfev": 200,
+        "time_sec": 1.7233872413635254,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 429296.54392277665
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 27.92287685740461,
+        "nit": 33,
+        "nfev": 387,
+        "time_sec": 3.2416112422943115,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 429296.5439229899
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 27.922876858657173,
+        "nit": 31,
+        "nfev": 378,
+        "time_sec": 3.269686222076416,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 429296.54392298864
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 27.922876857129754,
+        "nit": 34,
+        "nfev": 396,
+        "time_sec": 3.502488136291504,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 429296.5439229902
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 27.92287685836591,
+        "nit": 33,
+        "nfev": 387,
+        "time_sec": 3.2164173126220703,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 429296.54392298893
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 40.07275772863852,
+        "nit": 26,
+        "nfev": 225,
+        "time_sec": 1.9576516151428223,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 429284.3940421187
+      }
+    }
+  },
+  {
+    "case": "(Gruber J B et al, 1960) / #Gruber J B, Conway J G, 1960. Crys.txt",
+    "is_real": true,
+    "initial_ssd": 2219.849970550167,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 10.603870660851403,
+        "nit": 14,
+        "nfev": 285,
+        "time_sec": 1.6546828746795654,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 2209.2460998893157
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 9.981319693427446,
+        "nit": 15,
+        "nfev": 100,
+        "time_sec": 0.6373627185821533,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2209.86865085674
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 9.981319684173833,
+        "nit": 16,
+        "nfev": 100,
+        "time_sec": 0.6433858871459961,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2209.8686508659935
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 9.981319681052067,
+        "nit": 16,
+        "nfev": 171,
+        "time_sec": 1.0369226932525635,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2209.8686508691153
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 9.981319680672561,
+        "nit": 16,
+        "nfev": 171,
+        "time_sec": 1.1360034942626953,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2209.8686508694946
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 9.981319678615499,
+        "nit": 16,
+        "nfev": 171,
+        "time_sec": 1.0759363174438477,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2209.868650871552
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 9.981319678438368,
+        "nit": 16,
+        "nfev": 207,
+        "time_sec": 1.2348432540893555,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2209.8686508717287
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 9.981389470445666,
+        "nit": 14,
+        "nfev": 110,
+        "time_sec": 0.6796913146972656,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2209.8685810797215
+      }
+    }
+  },
+  {
+    "case": "(Gruber J B et al, 1960) / #Gruber J B, Conway J G, 1960. Crys.txt",
+    "is_real": true,
+    "initial_ssd": 496.24296858170203,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 17.597405350621784,
+        "nit": 19,
+        "nfev": 155,
+        "time_sec": 0.9511981010437012,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 478.64556323108025
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 17.595370517489133,
+        "nit": 18,
+        "nfev": 120,
+        "time_sec": 0.726372480392456,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 478.6475980642129
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 17.59537035285512,
+        "nit": 17,
+        "nfev": 105,
+        "time_sec": 0.649592399597168,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 478.6475982288469
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 17.595370296199736,
+        "nit": 17,
+        "nfev": 180,
+        "time_sec": 1.1551616191864014,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 478.6475982855023
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 17.595370297351778,
+        "nit": 17,
+        "nfev": 180,
+        "time_sec": 1.1127398014068604,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 478.64759828435024
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 17.595370299052487,
+        "nit": 17,
+        "nfev": 180,
+        "time_sec": 1.1215300559997559,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 478.64759828264954
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 17.595370295571186,
+        "nit": 17,
+        "nfev": 180,
+        "time_sec": 1.0943491458892822,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 478.64759828613086
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 17.595729632350242,
+        "nit": 16,
+        "nfev": 175,
+        "time_sec": 1.055725336074829,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 478.6472389493518
+      }
+    }
+  },
+  {
+    "case": "(Erath E H, 1961) / (Erath E H, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 908713.26227533,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 2.3670036702338466,
+        "nit": 47,
+        "nfev": 620,
+        "time_sec": 5.078932523727417,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 908710.8952716598
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 2.365453939305993,
+        "nit": 26,
+        "nfev": 185,
+        "time_sec": 1.6103010177612305,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 908710.8968213907
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 2.365454245670745,
+        "nit": 25,
+        "nfev": 180,
+        "time_sec": 1.5726368427276611,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 908710.8968210843
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 2.365453936620574,
+        "nit": 26,
+        "nfev": 297,
+        "time_sec": 2.613605499267578,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 908710.8968213934
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 2.3654539362062508,
+        "nit": 26,
+        "nfev": 306,
+        "time_sec": 2.5681581497192383,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 908710.8968213939
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 2.3654539354030475,
+        "nit": 26,
+        "nfev": 585,
+        "time_sec": 4.695300817489624,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 908710.8968213946
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 2.3654539356260607,
+        "nit": 26,
+        "nfev": 423,
+        "time_sec": 3.4816136360168457,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 908710.8968213944
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 2.3685717430843236,
+        "nit": 24,
+        "nfev": 245,
+        "time_sec": 2.079664468765259,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 908710.8937035869
+      }
+    }
+  },
+  {
+    "case": "(Erath E H, 1961) / (Erath E H, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 1743896.4550230633,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 74.2359324432411,
+        "nit": 49,
+        "nfev": 435,
+        "time_sec": 3.9251644611358643,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1743822.21909062
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 134.17390565841148,
+        "nit": 32,
+        "nfev": 220,
+        "time_sec": 1.994762897491455,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1743762.281117405
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 134.17390567644622,
+        "nit": 27,
+        "nfev": 175,
+        "time_sec": 1.6633000373840332,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1743762.2811173869
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 134.17390546231218,
+        "nit": 27,
+        "nfev": 414,
+        "time_sec": 3.368600368499756,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1743762.281117601
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 134.1739054591656,
+        "nit": 27,
+        "nfev": 459,
+        "time_sec": 3.7763991355895996,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1743762.281117604
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 134.1739054542624,
+        "nit": 27,
+        "nfev": 441,
+        "time_sec": 3.6264238357543945,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1743762.281117609
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 134.17390546445077,
+        "nit": 27,
+        "nfev": 315,
+        "time_sec": 2.6033029556274414,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1743762.281117599
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 134.1761106830513,
+        "nit": 26,
+        "nfev": 350,
+        "time_sec": 2.839111328125,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1743762.2789123803
+      }
+    }
+  },
+  {
+    "case": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "is_real": true,
+    "initial_ssd": 81472.8374129285,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 82.92519591242649,
+        "nit": 13,
+        "nfev": 130,
+        "time_sec": 0.8818814754486084,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 81389.91221701607
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 19.55473556359395,
+        "nit": 25,
+        "nfev": 280,
+        "time_sec": 1.957813024520874,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 81453.2826773649
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 19.554735941612627,
+        "nit": 24,
+        "nfev": 310,
+        "time_sec": 1.996901273727417,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 81453.28267698688
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 19.554735508226116,
+        "nit": 23,
+        "nfev": 261,
+        "time_sec": 1.6788508892059326,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 81453.28267742027
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 19.55473550491878,
+        "nit": 23,
+        "nfev": 261,
+        "time_sec": 1.7990796566009521,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 81453.28267742357
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 19.554735509951705,
+        "nit": 23,
+        "nfev": 261,
+        "time_sec": 1.821406602859497,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 81453.28267741854
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 19.554735505831033,
+        "nit": 24,
+        "nfev": 270,
+        "time_sec": 1.7901310920715332,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 81453.28267742266
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 19.560592536596705,
+        "nit": 30,
+        "nfev": 215,
+        "time_sec": 1.7025153636932373,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 81453.2768203919
+      }
+    }
+  },
+  {
+    "case": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "is_real": true,
+    "initial_ssd": 385694.4226111615,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 2.3181804038647185,
+        "nit": 21,
+        "nfev": 205,
+        "time_sec": 1.467515230178833,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 385692.10443075764
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 17.293660465562883,
+        "nit": 26,
+        "nfev": 160,
+        "time_sec": 1.0858590602874756,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 385677.1289506959
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 17.293660518780857,
+        "nit": 25,
+        "nfev": 145,
+        "time_sec": 0.9586870670318604,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 385677.1289506427
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 17.293660419666907,
+        "nit": 26,
+        "nfev": 423,
+        "time_sec": 2.7326624393463135,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 385677.12895074184
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 17.293660419060775,
+        "nit": 26,
+        "nfev": 270,
+        "time_sec": 1.8637876510620117,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 385677.1289507424
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 17.29366042222028,
+        "nit": 26,
+        "nfev": 495,
+        "time_sec": 3.2180840969085693,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 385677.1289507393
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 17.29366042534416,
+        "nit": 26,
+        "nfev": 270,
+        "time_sec": 1.9814608097076416,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 385677.12895073614
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 2.036289750035327,
+        "nit": 25,
+        "nfev": 240,
+        "time_sec": 1.644317865371704,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 385692.38632141147
+      }
+    }
+  },
+  {
+    "case": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "is_real": true,
+    "initial_ssd": 89954.20060264849,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 2.3240292206719926,
+        "nit": 35,
+        "nfev": 295,
+        "time_sec": 2.125366449356079,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 89951.87657342781
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 17.98760889347888,
+        "nit": 25,
+        "nfev": 185,
+        "time_sec": 1.300260066986084,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 89936.212993755
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 17.987609131829878,
+        "nit": 24,
+        "nfev": 165,
+        "time_sec": 1.0896458625793457,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 89936.21299351666
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 17.98760880691411,
+        "nit": 25,
+        "nfev": 495,
+        "time_sec": 3.2782576084136963,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 89936.21299384157
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 17.98760881123426,
+        "nit": 25,
+        "nfev": 441,
+        "time_sec": 2.877206563949585,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 89936.21299383725
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 17.987608809192274,
+        "nit": 25,
+        "nfev": 378,
+        "time_sec": 2.5924665927886963,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 89936.21299383929
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 17.98760880965407,
+        "nit": 25,
+        "nfev": 306,
+        "time_sec": 2.0673956871032715,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 89936.21299383884
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 17.99172009206801,
+        "nit": 24,
+        "nfev": 215,
+        "time_sec": 1.448296070098877,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 89936.20888255643
+      }
+    }
+  },
+  {
+    "case": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "is_real": true,
+    "initial_ssd": 341905.2956543939,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 17.378490792081443,
+        "nit": 43,
+        "nfev": 420,
+        "time_sec": 2.8192026615142822,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 341887.91716360184
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 3.4520468570651546,
+        "nit": 23,
+        "nfev": 195,
+        "time_sec": 1.2989778518676758,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 341901.84360753687
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 3.4520469078713774,
+        "nit": 21,
+        "nfev": 150,
+        "time_sec": 1.091064214706421,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 341901.84360748605
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 3.452046840166185,
+        "nit": 22,
+        "nfev": 243,
+        "time_sec": 1.6631577014923096,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 341901.84360755375
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 3.4520468415733503,
+        "nit": 21,
+        "nfev": 234,
+        "time_sec": 1.5147769451141357,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 341901.84360755235
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 3.452046840520562,
+        "nit": 21,
+        "nfev": 234,
+        "time_sec": 1.726872444152832,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 341901.8436075534
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 14.676023195154496,
+        "nit": 27,
+        "nfev": 405,
+        "time_sec": 2.792741537094116,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 341890.61963119876
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 3.4532811041239224,
+        "nit": 20,
+        "nfev": 255,
+        "time_sec": 1.6838130950927734,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 341901.8423732898
+      }
+    }
+  },
+  {
+    "case": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "is_real": true,
+    "initial_ssd": 5458.657360057192,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 17.416988170123272,
+        "nit": 28,
+        "nfev": 410,
+        "time_sec": 2.6302220821380615,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 5441.240371887068
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 2.035516783660671,
+        "nit": 21,
+        "nfev": 165,
+        "time_sec": 1.1129074096679688,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5456.621843273531
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 2.035516898947849,
+        "nit": 21,
+        "nfev": 200,
+        "time_sec": 1.3804924488067627,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5456.621843158244
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 2.0355167807032473,
+        "nit": 20,
+        "nfev": 468,
+        "time_sec": 3.037242889404297,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5456.621843276489
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 2.0355167819877305,
+        "nit": 20,
+        "nfev": 252,
+        "time_sec": 1.721472978591919,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5456.621843275204
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 2.0355167807544414,
+        "nit": 20,
+        "nfev": 252,
+        "time_sec": 1.8056893348693848,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5456.621843276437
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 2.035516780766685,
+        "nit": 20,
+        "nfev": 252,
+        "time_sec": 1.6885769367218018,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5456.621843276425
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 2.0361178660617836,
+        "nit": 17,
+        "nfev": 235,
+        "time_sec": 1.5235683917999268,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5456.6212421911305
+      }
+    }
+  },
+  {
+    "case": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "is_real": true,
+    "initial_ssd": 1154435.7400316703,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 15.276250821830065,
+        "nit": 19,
+        "nfev": 175,
+        "time_sec": 1.1631102561950684,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1154420.4637808485
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 17.376945832502656,
+        "nit": 29,
+        "nfev": 210,
+        "time_sec": 1.4186952114105225,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1154418.3630858378
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 17.376946435105857,
+        "nit": 31,
+        "nfev": 235,
+        "time_sec": 1.541137933731079,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1154418.3630852352
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 17.788489225511878,
+        "nit": 28,
+        "nfev": 315,
+        "time_sec": 2.228362798690796,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1154417.9515424448
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 17.788489225510165,
+        "nit": 28,
+        "nfev": 315,
+        "time_sec": 2.158902406692505,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1154417.9515424448
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 17.788489227131553,
+        "nit": 28,
+        "nfev": 315,
+        "time_sec": 2.332873582839966,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1154417.9515424431
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 17.788489228994994,
+        "nit": 28,
+        "nfev": 315,
+        "time_sec": 2.192119598388672,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1154417.9515424413
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 18.18037501333592,
+        "nit": 25,
+        "nfev": 240,
+        "time_sec": 1.6417481899261475,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1154417.559656657
+      }
+    }
+  },
+  {
+    "case": "(Wong E Y et al, 1961) / (Wong E Y et al, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 863201.101938176,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 226.6500492880369,
+        "nit": 22,
+        "nfev": 315,
+        "time_sec": 2.261505603790283,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 862974.4518888879
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 83.61089706847042,
+        "nit": 27,
+        "nfev": 195,
+        "time_sec": 1.4405803680419922,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 863117.4910411075
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 83.61089717568376,
+        "nit": 27,
+        "nfev": 220,
+        "time_sec": 1.5879223346710205,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 863117.4910410002
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 83.61089703985319,
+        "nit": 27,
+        "nfev": 288,
+        "time_sec": 2.1173126697540283,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 863117.4910411361
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 83.61089703804923,
+        "nit": 27,
+        "nfev": 288,
+        "time_sec": 2.225623607635498,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 863117.491041138
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 83.61089703980416,
+        "nit": 27,
+        "nfev": 288,
+        "time_sec": 2.0064079761505127,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 863117.4910411362
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 83.61089703503468,
+        "nit": 27,
+        "nfev": 288,
+        "time_sec": 2.0986392498016357,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 863117.491041141
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 83.61246553264783,
+        "nit": 26,
+        "nfev": 240,
+        "time_sec": 1.7489476203918457,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 863117.4894726434
+      }
+    }
+  },
+  {
+    "case": "(Wong E Y et al, 1961) / (Wong E Y et al, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 2404281.4822199517,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 53.77511072384633,
+        "nit": 37,
+        "nfev": 460,
+        "time_sec": 3.2045412063598633,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2404227.707109228
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 33.88637369661569,
+        "nit": 24,
+        "nfev": 140,
+        "time_sec": 1.018949270248413,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2404247.5958462553
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 33.88637381635847,
+        "nit": 24,
+        "nfev": 135,
+        "time_sec": 1.0690150260925293,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2404247.595846135
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 33.88637364075372,
+        "nit": 24,
+        "nfev": 234,
+        "time_sec": 1.823014736175537,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2404247.5958463107
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 33.88637363913995,
+        "nit": 24,
+        "nfev": 234,
+        "time_sec": 1.74070405960083,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2404247.5958463126
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 33.886373641305184,
+        "nit": 24,
+        "nfev": 234,
+        "time_sec": 1.702967882156372,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2404247.5958463103
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 33.886373634085736,
+        "nit": 24,
+        "nfev": 234,
+        "time_sec": 1.7259080410003662,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2404247.5958463177
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 21.94343955080509,
+        "nit": 27,
+        "nfev": 155,
+        "time_sec": 1.1797690391540527,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 2404259.538780401
+      }
+    }
+  },
+  {
+    "case": "(Wong E Y et al, 1961) / (Wong E Y et al, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 398190.12245356326,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 267.79812467062493,
+        "nit": 32,
+        "nfev": 280,
+        "time_sec": 2.1279892921447754,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 397922.32432889263
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 33.8863736619914,
+        "nit": 25,
+        "nfev": 175,
+        "time_sec": 1.2719521522521973,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 398156.2360799013
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 33.88637373808352,
+        "nit": 26,
+        "nfev": 190,
+        "time_sec": 1.3614864349365234,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 398156.2360798252
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 33.88637363665059,
+        "nit": 26,
+        "nfev": 306,
+        "time_sec": 2.2187278270721436,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 398156.2360799266
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 33.88637363769473,
+        "nit": 26,
+        "nfev": 306,
+        "time_sec": 2.3234028816223145,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 398156.23607992555
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 33.88637363509193,
+        "nit": 26,
+        "nfev": 306,
+        "time_sec": 2.261373519897461,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 398156.2360799282
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 33.88637364163887,
+        "nit": 26,
+        "nfev": 306,
+        "time_sec": 2.238924026489258,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 398156.2360799216
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 33.88860297615946,
+        "nit": 27,
+        "nfev": 185,
+        "time_sec": 1.379870891571045,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 398156.2338505871
+      }
+    }
+  },
+  {
+    "case": "(Wong E Y et al, 1961) / bound60.txt",
+    "is_real": true,
+    "initial_ssd": 933391.7895305404,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 33.91244730270896,
+        "nit": 24,
+        "nfev": 260,
+        "time_sec": 1.818683385848999,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 933357.8770832376
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 33.88637390879389,
+        "nit": 18,
+        "nfev": 120,
+        "time_sec": 0.8414499759674072,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 933357.9031566315
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 33.88637386127191,
+        "nit": 17,
+        "nfev": 115,
+        "time_sec": 0.8571181297302246,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 933357.9031566791
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 33.88637363636492,
+        "nit": 17,
+        "nfev": 216,
+        "time_sec": 1.597731113433838,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 933357.903156904
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 33.88637364033451,
+        "nit": 17,
+        "nfev": 189,
+        "time_sec": 1.3864924907684326,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 933357.9031569
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 33.8863736363497,
+        "nit": 17,
+        "nfev": 198,
+        "time_sec": 1.4404077529907227,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 933357.903156904
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 33.88637363368821,
+        "nit": 17,
+        "nfev": 180,
+        "time_sec": 1.301743745803833,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 933357.9031569067
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 33.88853090729798,
+        "nit": 18,
+        "nfev": 155,
+        "time_sec": 1.2454137802124023,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 933357.900999633
+      }
+    }
+  },
+  {
+    "case": "(Wong E Y et al, 1961) / (Wong E Y et al, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 1056516.4764049528,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 21.96685835982152,
+        "nit": 37,
+        "nfev": 345,
+        "time_sec": 2.498478651046753,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1056494.509546593
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 33.88637369868743,
+        "nit": 26,
+        "nfev": 190,
+        "time_sec": 1.3822414875030518,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1056482.590031254
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 33.88637378673796,
+        "nit": 27,
+        "nfev": 170,
+        "time_sec": 1.2427723407745361,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1056482.590031166
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 33.88637364776855,
+        "nit": 26,
+        "nfev": 288,
+        "time_sec": 2.1063151359558105,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1056482.590031305
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 33.88637364507183,
+        "nit": 26,
+        "nfev": 288,
+        "time_sec": 2.066551685333252,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1056482.5900313077
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 33.88637364634357,
+        "nit": 26,
+        "nfev": 288,
+        "time_sec": 2.087273120880127,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1056482.5900313065
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 33.88637364280136,
+        "nit": 26,
+        "nfev": 288,
+        "time_sec": 2.08493971824646,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1056482.59003131
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 33.88854477567954,
+        "nit": 25,
+        "nfev": 155,
+        "time_sec": 1.1909754276275635,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1056482.587860177
+      }
+    }
+  },
+  {
+    "case": "(Wong E Y et al, 1961) / bound60.txt",
+    "is_real": true,
+    "initial_ssd": 742759.5608576225,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 80.9935096981653,
+        "nit": 35,
+        "nfev": 330,
+        "time_sec": 2.53275990486145,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 742678.5673479243
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 85.73742656630716,
+        "nit": 16,
+        "nfev": 100,
+        "time_sec": 0.690392255783081,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 742673.8234310562
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 85.73742642530672,
+        "nit": 16,
+        "nfev": 100,
+        "time_sec": 0.7749323844909668,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 742673.8234311972
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 85.73742641221344,
+        "nit": 16,
+        "nfev": 171,
+        "time_sec": 1.2012755870819092,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 742673.8234312104
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 85.73742641274998,
+        "nit": 16,
+        "nfev": 171,
+        "time_sec": 1.274632453918457,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 742673.8234312098
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 85.73742641915882,
+        "nit": 16,
+        "nfev": 171,
+        "time_sec": 1.2117176055908203,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 742673.8234312034
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 85.7374264163995,
+        "nit": 16,
+        "nfev": 171,
+        "time_sec": 1.2329115867614746,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 742673.8234312062
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 85.73874867907328,
+        "nit": 16,
+        "nfev": 100,
+        "time_sec": 0.7456326484680176,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 742673.8221089435
+      }
+    }
+  },
+  {
+    "case": "(Wong E Y et al, 1961) / bound60.txt",
+    "is_real": true,
+    "initial_ssd": 704348.0055781221,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 42.11208741950821,
+        "nit": 28,
+        "nfev": 280,
+        "time_sec": 2.0054335594177246,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 704305.8934907026
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 56.90727293608603,
+        "nit": 23,
+        "nfev": 160,
+        "time_sec": 1.2048981189727783,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 704291.098305186
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 33.886373849162204,
+        "nit": 26,
+        "nfev": 155,
+        "time_sec": 1.1376073360443115,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 704314.119204273
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 33.88637363895885,
+        "nit": 26,
+        "nfev": 279,
+        "time_sec": 2.16719651222229,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 704314.1192044831
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 33.88637363813944,
+        "nit": 26,
+        "nfev": 279,
+        "time_sec": 2.05631422996521,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 704314.1192044839
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 33.886373643182466,
+        "nit": 26,
+        "nfev": 279,
+        "time_sec": 2.171945095062256,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 704314.1192044789
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 33.886373642430485,
+        "nit": 26,
+        "nfev": 279,
+        "time_sec": 2.0827040672302246,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 704314.1192044796
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 54.050492849052304,
+        "nit": 24,
+        "nfev": 225,
+        "time_sec": 1.677534580230713,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 704293.955085273
+      }
+    }
+  },
+  {
+    "case": "(Wong E Y et al, 1961) / (Wong E Y et al, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 3484897.6649648454,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 107.13085000546135,
+        "nit": 34,
+        "nfev": 405,
+        "time_sec": 3.004934787750244,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3484790.53411484
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 42.09052350261293,
+        "nit": 28,
+        "nfev": 245,
+        "time_sec": 1.8102073669433594,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3484855.5744413426
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 42.09052385056853,
+        "nit": 32,
+        "nfev": 240,
+        "time_sec": 1.8293182849884033,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3484855.5744409948
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 42.090523003290784,
+        "nit": 33,
+        "nfev": 387,
+        "time_sec": 2.8633313179016113,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3484855.5744418423
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 42.09052299885908,
+        "nit": 33,
+        "nfev": 396,
+        "time_sec": 2.911393165588379,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3484855.5744418465
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 42.09052300536858,
+        "nit": 33,
+        "nfev": 387,
+        "time_sec": 2.8573122024536133,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3484855.57444184
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 42.09052300634187,
+        "nit": 33,
+        "nfev": 387,
+        "time_sec": 2.8133068084716797,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3484855.574441839
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 42.09842752862362,
+        "nit": 28,
+        "nfev": 250,
+        "time_sec": 1.8393726348876953,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3484855.566537317
+      }
+    }
+  },
+  {
+    "case": "(Wong E Y et al, 1961) / (Wong E Y et al, 1961).txt",
+    "is_real": true,
+    "initial_ssd": 3051143.349815869,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 159.8734497117626,
+        "nit": 47,
+        "nfev": 625,
+        "time_sec": 4.4737207889556885,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3050983.476366157
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 158.40359443970368,
+        "nit": 24,
+        "nfev": 445,
+        "time_sec": 3.108147621154785,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3050984.946221429
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 158.40292991788382,
+        "nit": 22,
+        "nfev": 415,
+        "time_sec": 3.004157781600952,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3050984.946885951
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 158.38342162256896,
+        "nit": 24,
+        "nfev": 477,
+        "time_sec": 3.3134334087371826,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3050984.966394246
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 158.38716988946638,
+        "nit": 25,
+        "nfev": 495,
+        "time_sec": 3.4653639793395996,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3050984.962645979
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 158.3871009750211,
+        "nit": 25,
+        "nfev": 711,
+        "time_sec": 4.98699426651001,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3050984.9627148937
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 158.40067197419546,
+        "nit": 23,
+        "nfev": 432,
+        "time_sec": 2.983637571334839,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 3050984.9491438945
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 158.4533967831996,
+        "nit": 18,
+        "nfev": 320,
+        "time_sec": 2.387235164642334,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 3050984.8964190856
+      }
+    }
+  },
+  {
+    "case": "(Wong E Y et al, 1961) / bound60.txt",
+    "is_real": true,
+    "initial_ssd": 701043.2298939095,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 21.944646537424227,
+        "nit": 29,
+        "nfev": 265,
+        "time_sec": 2.007505178451538,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 701021.2852473721
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 83.61089710346357,
+        "nit": 19,
+        "nfev": 140,
+        "time_sec": 1.0409629344940186,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 700959.6189968061
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 83.6108971577063,
+        "nit": 18,
+        "nfev": 125,
+        "time_sec": 0.9126620292663574,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 700959.6189967518
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 83.61089703559533,
+        "nit": 17,
+        "nfev": 567,
+        "time_sec": 3.822559356689453,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 700959.618996874
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 83.61089704385437,
+        "nit": 18,
+        "nfev": 216,
+        "time_sec": 1.6107215881347656,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 700959.6189968657
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 83.61089703612822,
+        "nit": 18,
+        "nfev": 216,
+        "time_sec": 1.5028505325317383,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 700959.6189968734
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 83.61089703571862,
+        "nit": 18,
+        "nfev": 333,
+        "time_sec": 2.461003541946411,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 700959.6189968738
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 83.61234389821391,
+        "nit": 17,
+        "nfev": 185,
+        "time_sec": 1.3585906028747559,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 700959.6175500114
+      }
+    }
+  },
+  {
+    "case": "Synthetic_035 [Nd3+ in C1, 4G9/2,4G7/2]",
+    "is_real": false,
+    "initial_ssd": 38017.00643562928,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 2.3773613212347144,
+        "nit": 53,
+        "nfev": 2790,
+        "time_sec": 27.224675178527832,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 38014.629074308046
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 6.907828639865103e-10,
+        "nit": 98,
+        "nfev": 1770,
+        "time_sec": 19.365975856781006,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 38017.00643562859
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 5.155047540541946e-07,
+        "nit": 174,
+        "nfev": 3495,
+        "time_sec": 37.38324451446533,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 38017.00643511378
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 6.986216924810142e-05,
+        "nit": 155,
+        "nfev": 5597,
+        "time_sec": 52.71564483642578,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 38017.00636576711
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 8.736182361031576e-10,
+        "nit": 94,
+        "nfev": 3277,
+        "time_sec": 30.478529453277588,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 38017.006435628406
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 0.23232787844343178,
+        "nit": 31,
+        "nfev": 1102,
+        "time_sec": 10.262962102890015,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 38016.77410775083
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 5.328592879001173e-10,
+        "nit": 94,
+        "nfev": 3306,
+        "time_sec": 30.777287483215332,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 38017.00643562875
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 0.19237861416848848,
+        "nit": 41,
+        "nfev": 1170,
+        "time_sec": 11.011889696121216,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 38016.81405701511
+      }
+    }
+  },
+  {
+    "case": "(Wong E Y et al, 1961) / bound60.txt",
+    "is_real": true,
+    "initial_ssd": 748095.4847025822,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 237.42536690297413,
+        "nit": 35,
+        "nfev": 385,
+        "time_sec": 2.7723183631896973,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 747858.0593356793
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 158.4082002941009,
+        "nit": 34,
+        "nfev": 385,
+        "time_sec": 2.8480629920959473,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 747937.0765022881
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 224.22830121509784,
+        "nit": 23,
+        "nfev": 155,
+        "time_sec": 1.2115387916564941,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 747871.2564013671
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 158.38452620654868,
+        "nit": 36,
+        "nfev": 657,
+        "time_sec": 4.82444167137146,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 747937.1001763757
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 158.4225513805401,
+        "nit": 40,
+        "nfev": 1062,
+        "time_sec": 7.500898599624634,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 747937.0621512017
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 224.22830113013725,
+        "nit": 23,
+        "nfev": 297,
+        "time_sec": 2.1429226398468018,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 747871.2564014521
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 224.22830110896854,
+        "nit": 24,
+        "nfev": 297,
+        "time_sec": 2.2449846267700195,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 747871.2564014733
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 158.46848942874612,
+        "nit": 25,
+        "nfev": 275,
+        "time_sec": 1.9688825607299805,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 747937.0162131535
+      }
+    }
+  },
+  {
+    "case": "(Wong E Y et al, 1961) / bound60.txt",
+    "is_real": true,
+    "initial_ssd": 15552.91669931418,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 107.3203001797352,
+        "nit": 24,
+        "nfev": 315,
+        "time_sec": 2.1649649143218994,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 15445.596399134445
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 158.3869773256368,
+        "nit": 27,
+        "nfev": 385,
+        "time_sec": 2.7804548740386963,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 15394.529721988543
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 158.3882041918374,
+        "nit": 26,
+        "nfev": 310,
+        "time_sec": 2.248370409011841,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 15394.528495122344
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 158.41324024955264,
+        "nit": 28,
+        "nfev": 675,
+        "time_sec": 4.701627731323242,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 15394.503459064628
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 158.42011706486156,
+        "nit": 39,
+        "nfev": 819,
+        "time_sec": 5.789278268814087,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 15394.49658224932
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 158.40468246263765,
+        "nit": 30,
+        "nfev": 702,
+        "time_sec": 4.828810214996338,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 15394.512016851542
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 158.40122595333185,
+        "nit": 28,
+        "nfev": 594,
+        "time_sec": 4.298605918884277,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 15394.515473360849
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 158.4535443966784,
+        "nit": 26,
+        "nfev": 305,
+        "time_sec": 2.1697630882263184,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 15394.463154917503
+      }
+    }
+  },
+  {
+    "case": "Synthetic_011 [Yb3+ in C1, 2F5/2]",
+    "is_real": false,
+    "initial_ssd": 5814.0830990181,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 1.080082004990861e-12,
+        "nit": 12,
+        "nfev": 210,
+        "time_sec": 0.8729612827301025,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5814.083099018099
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 3.4663040155178713e-12,
+        "nit": 9,
+        "nfev": 165,
+        "time_sec": 0.6524426937103271,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5814.083099018097
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 8.005930600452415e-11,
+        "nit": 9,
+        "nfev": 690,
+        "time_sec": 2.5456535816192627,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 5814.08309901802
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 6.331273042548683e-12,
+        "nit": 9,
+        "nfev": 319,
+        "time_sec": 1.2088520526885986,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5814.083099018094
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 6.615304994394626e-12,
+        "nit": 9,
+        "nfev": 319,
+        "time_sec": 1.25423002243042,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5814.083099018094
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 5.185960079137453e-13,
+        "nit": 9,
+        "nfev": 319,
+        "time_sec": 1.247514009475708,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5814.083099018099
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 2.597098493423361e-11,
+        "nit": 9,
+        "nfev": 319,
+        "time_sec": 1.1592838764190674,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 5814.083099018074
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 1.573470279858527e-07,
+        "nit": 8,
+        "nfev": 750,
+        "time_sec": 2.8286075592041016,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 5814.083098860753
+      }
+    }
+  },
+  {
+    "case": "Synthetic_023 [Ce3+ in C1, 2F5/2]",
+    "is_real": false,
+    "initial_ssd": 57165.50248502871,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 3.9204992454454144e-14,
+        "nit": 10,
+        "nfev": 165,
+        "time_sec": 0.6181585788726807,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 57165.50248502871
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 7.081274593811458e-11,
+        "nit": 8,
+        "nfev": 135,
+        "time_sec": 0.5812263488769531,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 57165.502485028635
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 7.094991206417358e-09,
+        "nit": 8,
+        "nfev": 135,
+        "time_sec": 0.5067949295043945,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 57165.502485021614
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 8.078899109350919e-14,
+        "nit": 8,
+        "nfev": 261,
+        "time_sec": 0.9826757907867432,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 57165.50248502871
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 5.34499736730859e-15,
+        "nit": 8,
+        "nfev": 261,
+        "time_sec": 1.0846209526062012,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 57165.50248502871
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 4.9585616797278547e-11,
+        "nit": 8,
+        "nfev": 261,
+        "time_sec": 1.0119497776031494,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 57165.50248502866
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 4.802155089671813e-10,
+        "nit": 8,
+        "nfev": 290,
+        "time_sec": 1.0904784202575684,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 57165.50248502823
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 4.227137396461189e-05,
+        "nit": 10,
+        "nfev": 540,
+        "time_sec": 2.017436981201172,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 57165.50244275734
+      }
+    }
+  },
+  {
+    "case": "(\u9ad8\u8fdb\u4e91 \u7b49, 2015) / (\u9ad8\u8fdb\u4e91 \u7b49, 2015).txt",
+    "is_real": true,
+    "initial_ssd": 540407.173517463,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 3762.3548358625576,
+        "nit": 76,
+        "nfev": 2085,
+        "time_sec": 25.72409725189209,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 536644.8186816005
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 3690.258166047345,
+        "nit": 173,
+        "nfev": 3435,
+        "time_sec": 43.75596070289612,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 536716.9153514156
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 3690.2572399020346,
+        "nit": 138,
+        "nfev": 2415,
+        "time_sec": 29.470762252807617,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 536716.916277561
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 3696.2106752643776,
+        "nit": 51,
+        "nfev": 1682,
+        "time_sec": 19.174598693847656,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 536710.9628421987
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 3693.721345128606,
+        "nit": 77,
+        "nfev": 3219,
+        "time_sec": 36.1393620967865,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 536713.4521723344
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 3690.258517837637,
+        "nit": 106,
+        "nfev": 3480,
+        "time_sec": 39.01404023170471,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 536716.9149996254
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 3690.2771465322994,
+        "nit": 105,
+        "nfev": 3915,
+        "time_sec": 43.92571449279785,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 536716.8963709307
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 3700.3996056122187,
+        "nit": 45,
+        "nfev": 885,
+        "time_sec": 10.144700765609741,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 536706.7739118508
+      }
+    }
+  },
+  {
+    "case": "Synthetic_017 [Eu3+ in C3, 7F1,7F4]",
+    "is_real": false,
+    "initial_ssd": 24394.679549193082,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 16.209824891453284,
+        "nit": 13,
+        "nfev": 549,
+        "time_sec": 2.9457902908325195,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 24378.46972430163
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 8.568308969910899e-10,
+        "nit": 65,
+        "nfev": 675,
+        "time_sec": 3.8973124027252197,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 24394.679549192224
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 7.042146441882678e-08,
+        "nit": 63,
+        "nfev": 693,
+        "time_sec": 4.256983518600464,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 24394.679549122662
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 1.4325621196178843e-10,
+        "nit": 60,
+        "nfev": 1224,
+        "time_sec": 6.748812198638916,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 24394.67954919294
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 1.40467400086996e-12,
+        "nit": 64,
+        "nfev": 1326,
+        "time_sec": 7.371287107467651,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 24394.679549193082
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 2.5005729787895503e-10,
+        "nit": 82,
+        "nfev": 1683,
+        "time_sec": 9.354131698608398,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 24394.67954919283
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 8.821651877950975e-10,
+        "nit": 58,
+        "nfev": 1173,
+        "time_sec": 6.489648342132568,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 24394.679549192202
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 0.0006764903113278299,
+        "nit": 59,
+        "nfev": 909,
+        "time_sec": 5.073862075805664,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 24394.67887270277
+      }
+    }
+  },
+  {
+    "case": "Synthetic_015 [Sm3+ in S6, 6H9/2,6H7/2]",
+    "is_real": false,
+    "initial_ssd": 76690.15916009477,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 48.66542843635515,
+        "nit": 21,
+        "nfev": 702,
+        "time_sec": 4.532894611358643,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 76641.49373165841
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 24.95797738266405,
+        "nit": 69,
+        "nfev": 774,
+        "time_sec": 5.497445583343506,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 76665.2011827121
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 24.906369080443206,
+        "nit": 63,
+        "nfev": 684,
+        "time_sec": 4.828784465789795,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 76665.25279101433
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 24.95797684970254,
+        "nit": 63,
+        "nfev": 1224,
+        "time_sec": 8.104997396469116,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 76665.20118324507
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 24.95797685863578,
+        "nit": 57,
+        "nfev": 1105,
+        "time_sec": 7.151869058609009,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 76665.20118323613
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 24.957976840955343,
+        "nit": 60,
+        "nfev": 1139,
+        "time_sec": 7.365668058395386,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 76665.20118325381
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 24.95797684361377,
+        "nit": 52,
+        "nfev": 1071,
+        "time_sec": 7.066882133483887,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 76665.20118325116
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 24.90669717619701,
+        "nit": 61,
+        "nfev": 756,
+        "time_sec": 5.114563465118408,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 76665.25246291858
+      }
+    }
+  },
+  {
+    "case": "Synthetic_015 [Sm3+ in S6, 6H9/2,6H7/2]",
+    "is_real": false,
+    "initial_ssd": 81701.6262278851,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 0.04368661170688672,
+        "nit": 46,
+        "nfev": 810,
+        "time_sec": 5.407347202301025,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 81701.5825412734
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 0.00018214616104494837,
+        "nit": 59,
+        "nfev": 621,
+        "time_sec": 4.261927604675293,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 81701.62604573894
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 0.00018221038386361963,
+        "nit": 67,
+        "nfev": 837,
+        "time_sec": 5.78435754776001,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 81701.62604567473
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 0.00018220524390544202,
+        "nit": 67,
+        "nfev": 1360,
+        "time_sec": 8.893060207366943,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 81701.62604567986
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 0.00018219196517289287,
+        "nit": 74,
+        "nfev": 1394,
+        "time_sec": 8.99370002746582,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 81701.62604569313
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 0.00018210997322026418,
+        "nit": 63,
+        "nfev": 1258,
+        "time_sec": 8.264518022537231,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 81701.62604577513
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 0.00018213551142358522,
+        "nit": 60,
+        "nfev": 1207,
+        "time_sec": 7.900850534439087,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 81701.6260457496
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 0.01597031481122572,
+        "nit": 34,
+        "nfev": 450,
+        "time_sec": 2.9428768157958984,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 81701.6102575703
+      }
+    }
+  },
+  {
+    "case": "Synthetic_079 [Tm3+ in S6, 3F3,1G4]",
+    "is_real": false,
+    "initial_ssd": 485499.512960571,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 250.11943042074606,
+        "nit": 36,
+        "nfev": 693,
+        "time_sec": 4.415820837020874,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 485249.39353015024
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 45.74399460306374,
+        "nit": 46,
+        "nfev": 567,
+        "time_sec": 3.9225263595581055,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 485453.76896596793
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 45.743949311168095,
+        "nit": 64,
+        "nfev": 666,
+        "time_sec": 4.430293798446655,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 485453.76901125984
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 45.74395681824013,
+        "nit": 54,
+        "nfev": 1224,
+        "time_sec": 7.745523691177368,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 485453.76900375274
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 45.74397647750718,
+        "nit": 56,
+        "nfev": 1258,
+        "time_sec": 7.962780952453613,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 485453.76898409345
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 45.74396194387221,
+        "nit": 53,
+        "nfev": 1258,
+        "time_sec": 7.895863771438599,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 485453.7689986271
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 45.74394945145403,
+        "nit": 55,
+        "nfev": 1190,
+        "time_sec": 7.658052682876587,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 485453.76901111956
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 45.74592603664746,
+        "nit": 52,
+        "nfev": 846,
+        "time_sec": 5.322921514511108,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 485453.7670345343
+      }
+    }
+  },
+  {
+    "case": "Synthetic_017 [Eu3+ in C3, 7F1,7F4]",
+    "is_real": false,
+    "initial_ssd": 121328.07434164526,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 33.82414988523755,
+        "nit": 40,
+        "nfev": 693,
+        "time_sec": 4.0324084758758545,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 121294.25019176002
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 2.972350299566662e-09,
+        "nit": 68,
+        "nfev": 846,
+        "time_sec": 4.891356945037842,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 121328.07434164229
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 2.707245365549513e-07,
+        "nit": 79,
+        "nfev": 1044,
+        "time_sec": 5.80828857421875,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 121328.07434137454
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 1.1048382013401326e-11,
+        "nit": 65,
+        "nfev": 1394,
+        "time_sec": 7.878521680831909,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 121328.07434164525
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 2.576244138392724e-10,
+        "nit": 59,
+        "nfev": 1309,
+        "time_sec": 7.193760633468628,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 121328.074341645
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 4.919946430006216e-10,
+        "nit": 60,
+        "nfev": 1309,
+        "time_sec": 7.206358194351196,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 121328.07434164477
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 2.532802629515707e-10,
+        "nit": 66,
+        "nfev": 1479,
+        "time_sec": 8.103200674057007,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 121328.07434164501
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 0.003046180303352417,
+        "nit": 79,
+        "nfev": 1026,
+        "time_sec": 5.888610601425171,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 121328.07129546496
+      }
+    }
+  },
+  {
+    "case": "Synthetic_047 [Sm3+ in C2, 6H9/2]",
+    "is_real": false,
+    "initial_ssd": 1761.5033809189597,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 6.371730268262141e-10,
+        "nit": 30,
+        "nfev": 540,
+        "time_sec": 3.302046775817871,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1761.5033809183226
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 3.9191123008047225e-11,
+        "nit": 15,
+        "nfev": 255,
+        "time_sec": 1.5276098251342773,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1761.5033809189206
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 2.436220349910072e-10,
+        "nit": 16,
+        "nfev": 270,
+        "time_sec": 1.5611388683319092,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1761.5033809187162
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 2.976358805353541e-11,
+        "nit": 15,
+        "nfev": 493,
+        "time_sec": 2.826174736022949,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1761.50338091893
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 3.038290504255388e-11,
+        "nit": 15,
+        "nfev": 493,
+        "time_sec": 2.836768388748169,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1761.5033809189292
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 1.5821767015906026e-11,
+        "nit": 15,
+        "nfev": 493,
+        "time_sec": 2.9001917839050293,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1761.5033809189438
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 4.8816410989869004e-11,
+        "nit": 15,
+        "nfev": 493,
+        "time_sec": 2.8633036613464355,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1761.5033809189108
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 1.7078143335993948e-05,
+        "nit": 14,
+        "nfev": 795,
+        "time_sec": 4.635915279388428,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1761.5033638408163
+      }
+    }
+  },
+  {
+    "case": "Synthetic_001 [Nd3+ in C1H, 4G9/2]",
+    "is_real": false,
+    "initial_ssd": 1752.388872729592,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 8.750695739066136e-05,
+        "nit": 87,
+        "nfev": 2685,
+        "time_sec": 15.65037727355957,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1752.3887852226346
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 1.189698999165178e-10,
+        "nit": 27,
+        "nfev": 480,
+        "time_sec": 2.7658491134643555,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1752.3888727294732
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 1.1437208794752425e-08,
+        "nit": 27,
+        "nfev": 480,
+        "time_sec": 2.857661485671997,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1752.388872718155
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 5.346000003587144e-15,
+        "nit": 28,
+        "nfev": 957,
+        "time_sec": 5.682695627212524,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1752.388872729592
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 7.139998765687298e-16,
+        "nit": 28,
+        "nfev": 957,
+        "time_sec": 5.410904169082642,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1752.388872729592
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 3.1982210005930835e-12,
+        "nit": 28,
+        "nfev": 957,
+        "time_sec": 5.505898475646973,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1752.388872729589
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 5.11870299379721e-11,
+        "nit": 28,
+        "nfev": 957,
+        "time_sec": 5.555372476577759,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1752.388872729541
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 0.0001091111289193291,
+        "nit": 27,
+        "nfev": 930,
+        "time_sec": 5.546921253204346,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 1752.3887636184631
+      }
+    }
+  },
+  {
+    "case": "Synthetic_074 [Ce3+ in C1, 2F5/2]",
+    "is_real": false,
+    "initial_ssd": 565.0959131260735,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 6.684820093107557e-11,
+        "nit": 11,
+        "nfev": 210,
+        "time_sec": 0.8118436336517334,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 565.0959131260066
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 8.026164102880517e-11,
+        "nit": 9,
+        "nfev": 210,
+        "time_sec": 0.8115386962890625,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 565.0959131259932
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 6.798120132881877e-10,
+        "nit": 10,
+        "nfev": 345,
+        "time_sec": 1.313443899154663,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 565.0959131253936
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 2.5035699004991715e-13,
+        "nit": 9,
+        "nfev": 406,
+        "time_sec": 1.5910038948059082,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 565.0959131260732
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 1.0329998853034329e-14,
+        "nit": 9,
+        "nfev": 406,
+        "time_sec": 1.5862698554992676,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 565.0959131260735
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 1.769812808141713e-10,
+        "nit": 9,
+        "nfev": 406,
+        "time_sec": 1.5975673198699951,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 565.0959131258965
+      },
+      "7. Model 2 R2 (rel=1e-3, 3-pt)": {
+        "final_ssd": 1.8932277778515176e-09,
+        "nit": 9,
+        "nfev": 435,
+        "time_sec": 1.6389069557189941,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 565.0959131241802
+      },
+      "8. Model 1 (eps=1e-2, 2-pt, loose tol)": {
+        "final_ssd": 4.7568188312234434e-05,
+        "nit": 7,
+        "nfev": 690,
+        "time_sec": 2.6257050037384033,
+        "success": false,
+        "premature_stop": false,
+        "ssd_drop": 565.0958655578852
+      }
+    }
+  },
+  {
+    "case": "Synthetic_079 [Tm3+ in S6, 3F3,1G4]",
+    "is_real": false,
+    "initial_ssd": 173570.42164191706,
+    "configs": {
+      "1. Default (eps=1e-8, 2-pt)": {
+        "final_ssd": 330.04043744409984,
+        "nit": 26,
+        "nfev": 513,
+        "time_sec": 3.258018970489502,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 173240.38120447294
+      },
+      "2. Option B (eps=1e-5, 2-pt)": {
+        "final_ssd": 102.93831345524771,
+        "nit": 90,
+        "nfev": 1026,
+        "time_sec": 6.932617902755737,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 173467.48332846182
+      },
+      "3. Option B tune (eps=1e-4, 2-pt)": {
+        "final_ssd": 102.93831206167818,
+        "nit": 91,
+        "nfev": 1008,
+        "time_sec": 6.555392265319824,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 173467.48332985537
+      },
+      "4. Option A (rel=1e-4, 3-pt) [Current Repo]": {
+        "final_ssd": 102.9383114940907,
+        "nit": 90,
+        "nfev": 1887,
+        "time_sec": 12.106174945831299,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 173467.48333042295
+      },
+      "5. Option A tune tight (rel=5e-5, 3-pt)": {
+        "final_ssd": 19.094490420903877,
+        "nit": 103,
+        "nfev": 2006,
+        "time_sec": 12.862349271774292,
+        "success": true,
+        "premature_stop": false,
+        "ssd_drop": 173551.32715149614
+      },
+      "6. Option A tune loose (rel=5e-4, 3-pt)": {
+        "final_ssd": 173570.42164191706,
+        "nit": 1,
+        "nfev": 51,
+        "time_sec": 0.307478666305542,
+        "success": true,
+        "premature_stop": 
