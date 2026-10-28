@@ -283,7 +283,7 @@ if __name__ == "__main__":
         print("Execution time cannot be zero.")
         raise ValueError
     elif time == None:
-        time = 15
+        time = 5
     
     if ion not in {key[0].upper() for key in YZS_lib.Thet.keys()}:
         print(f'Ion not allowed: {ion}')
