@@ -75,10 +75,10 @@ if __name__ == "__main__":
     in_block = False    
     for line in lines:
         if in_block:
-            if re.fullmatch(r"\s{4}(AR\d-?\d)", line.rstrip()):
+            if re.fullmatch(r"\s{4}(AR(?:2-?[0-2]|4-?[0-4]|6-?[0-6]))", line.rstrip()):
                 PAR_exist = True
                 continue
-            elif re.fullmatch(r"\s{4}(AR\d-?\d)\s+\(\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*\)", line.rstrip()):
+            elif re.fullmatch(r"\s{4}(AR(?:2-?[0-2]|4-?[0-4]|6-?[0-6]))\s+\(\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*\)", line.rstrip()):
                 PAR_exist = True
                 continue
             # elif line.isspace():
@@ -213,14 +213,14 @@ if __name__ == "__main__":
     for line in lines:
         if in_block:
             # print(line)
-            if m := re.fullmatch(r"\s{4}(AR\d-?\d)", line.rstrip()):
+            if m := re.fullmatch(r"\s{4}(AR(?:2-?[0-2]|4-?[0-4]|6-?[0-6]))", line.rstrip()):
                 if m.group(1) in Ar_dict:
                     print(f"Duplicate crystal field parameters: {m.group(1)}")
                     raise ValueError
                 Ar_dict[m.group(1)] = None
                 individual_bounds.append(None)
                 continue
-            elif m := re.fullmatch(r"\s{4}(AR\d-?\d)\s+\(\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*\)", line.rstrip()):
+            elif m := re.fullmatch(r"\s{4}(AR(?:2-?[0-2]|4-?[0-4]|6-?[0-6]))\s+\(\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)\s*\)", line.rstrip()):
                 if m.group(1) in Ar_dict:
                     print(f"Duplicate crystal field parameters: {m.group(1)}")
                     raise ValueError
