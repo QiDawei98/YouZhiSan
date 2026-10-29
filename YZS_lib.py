@@ -6,8 +6,8 @@ Created on Wed Aug 28 19:14:03 2024
 """
 
 print('*************************************************************')
-print('**beta program for spectroscopy analysis with crystal field**')
-print('**author: Qi Dawei                                         **')
+print('**YouZhiSan    油纸伞                                      **')
+print('**Qi Dawei and friends.                                    **')
 print('**Powered by PyCrystalField                                **')
 print('*************************************************************')
 
