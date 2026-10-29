@@ -534,6 +534,11 @@ if __name__ == "__main__":
     else:
         constraints = {}
     
+    for dep, (ind, ratio) in constraints.items():
+        low_ind, high_ind = individual_bounds[ind]
+        dep_scaled = (individual_bounds[dep][0] / ratio, individual_bounds[dep][1] / ratio)
+        individual_bounds[ind] = (max(low_ind, min(dep_scaled)), min(high_ind, max(dep_scaled)))
+    
     with Pool(processes = cpu_count()) as pool:
         args_for_worker = [(
             time,                 #for run_duration_minutes
