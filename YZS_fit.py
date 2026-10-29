@@ -636,7 +636,9 @@ if __name__ == "__main__":
         
     if sys.platform == "win32":
         import winsound
-        winsound.Beep(15000, 400)
-        winsound.Beep(440, 4000)
+        winsound.Beep(440, 1000)
+        winsound.Beep(294, 1000)
+        winsound.Beep(196, 1000)
+        winsound.Beep(659, 1000)
     
     
