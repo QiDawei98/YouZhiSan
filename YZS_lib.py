@@ -1164,14 +1164,13 @@ def worker(run_duration_minutes, individual_bounds, constraints, core_func, EXNR
     min_difference = float('inf')
     mc_Ar = None
     
+    indices_to_remove = set(constraints.keys())
+    filtered_bounds = [bound for i, bound in enumerate(individual_bounds) if i not in indices_to_remove]
+    
     start_time = time.time()
     run_duration_seconds = run_duration_minutes * 60
     
     while time.time() - start_time < run_duration_seconds:
-        indices_to_remove = set(constraints.keys())
-        
-        filtered_bounds = [bound for i, bound in enumerate(individual_bounds) if i not in indices_to_remove]
-        
         Ar_array = np.array([np.random.uniform(low, high) for low, high in filtered_bounds])
         
         difference = reconstruct_and_run(
