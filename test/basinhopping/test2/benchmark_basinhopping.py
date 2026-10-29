@@ -22,7 +22,7 @@ test_root = os.path.abspath(os.path.join(current_dir, "..", ".."))
 repo_root = os.path.abspath(os.path.join(current_dir, "..", "..", ".."))
 
 site_pkg = r"C:\ProgramData\anaconda3\envs\PyCrystalField\Lib\site-packages"
-if site_pkg not in sys.path:
+if os.path.exists(site_pkg) and site_pkg not in sys.path:
     sys.path.insert(0, site_pkg)
 
 if repo_root not in sys.path:
@@ -205,11 +205,11 @@ def generate_synthetic_cases(seed=2026):
 # ==============================================================================
 def evaluate_instance_task(task_args):
     """
-    Evaluates all 10 configurations on a single (case, initial_p0, base_seed) tuple.
+    Evaluates all 10 configurations on a single (case, initial_p0, base_seed, trial_idx) tuple.
     """
     sys.stdout = open(os.devnull, 'w')
 
-    case_info, p0, instance_seed = task_args
+    case_info, p0, instance_seed, trial_idx = task_args
     bounds = case_info["bounds"]
     constraints = case_info["constraints"]
     EXNRG = copy.deepcopy(case_info["EXNRG"])
@@ -228,6 +228,8 @@ def evaluate_instance_task(task_args):
         "case_name": case_info["case_name"],
         "is_real": case_info["is_real"],
         "symmetry": case_info["symmetry"],
+        "ion": ion,
+        "trial_idx": trial_idx,
         "dim": len(bounds),
         "f0": float(f0) if np.isfinite(f0) else None,
         "runs": {}
@@ -269,6 +271,20 @@ def evaluate_instance_task(task_args):
             final_ssd = float(res.fun) if np.isfinite(res.fun) else float(f0)
             viol_rate = step_taker.boundary_violations / max(1, step_taker.total_steps)
 
+            # Reconstruct parameter dictionaries
+            p_opt = res.x
+            total_vars = len(p_opt) + len(constraints)
+            p_full = np.zeros(total_vars)
+            ind_indices = sorted(list(set(range(total_vars)) - set(constraints.keys())))
+            p_full[ind_indices] = p_opt
+            for dep, (ind, ratio_val) in constraints.items():
+                p_full[dep] = p_full[ind] * ratio_val
+
+            all_keys = list(Ar_dict.keys())
+            full_cfp = {k: float(round(p_full[i], 6)) for i, k in enumerate(all_keys)}
+            ind_keys = [all_keys[i] for i in ind_indices]
+            ind_cfp = {k: float(round(p_opt[i], 6)) for i, k in enumerate(ind_keys)}
+
             instance_result["runs"][cfg_name] = {
                 "final_ssd": final_ssd,
                 "ssd_drop": float(max(0.0, f0 - final_ssd)),
@@ -276,7 +292,9 @@ def evaluate_instance_task(task_args):
                 "nit": int(res.nit),
                 "time_sec": float(elapsed),
                 "violation_rate": float(viol_rate),
-                "success": bool(res.lowest_optimization_result.success)
+                "success": bool(res.lowest_optimization_result.success),
+                "independent_cfp": ind_cfp,
+                "full_cfp": full_cfp
             }
         except Exception as e:
             instance_result["runs"][cfg_name] = {
@@ -317,10 +335,10 @@ def main():
 
     for case in all_cases:
         bounds = case["bounds"]
-        for _ in range(3):
+        for trial_idx in range(3):
             p0 = np.array([np.random.uniform(b[0], b[1]) for b in bounds])
             instance_seed = 1000 + len(tasks) * 17
-            tasks.append((case, p0, instance_seed))
+            tasks.append((case, p0, instance_seed, trial_idx + 1))
 
     print(f"Constructed {len(tasks)} paired problem instances ({len(tasks)} x {len(CONFIGURATIONS)} = {len(tasks)*len(CONFIGURATIONS)} total basinhopping runs).")
     print("Launching parallel worker pool...\n")
@@ -333,11 +351,39 @@ def main():
 
     print(f"Parallel benchmarking completed in {total_wall:.2f} seconds ({total_wall/60.0:.2f} minutes).\n")
 
-    # Save raw JSON
+    # Save raw benchmark JSON
     json_path = os.path.join(out_dir, "benchmark_results.json")
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(all_results, f, indent=2)
     print(f"Raw results saved to: {json_path}")
+
+    # Export dedicated fitted CFP parameters for 10%_reflect
+    target_cfg = "10%_reflect"
+    cfp_export = []
+    for idx, inst in enumerate(all_results):
+        if target_cfg in inst["runs"]:
+            r = inst["runs"][target_cfg]
+            cfp_export.append({
+                "task_idx": idx,
+                "case_name": inst["case_name"],
+                "is_real": inst["is_real"],
+                "symmetry": inst["symmetry"],
+                "ion": inst.get("ion", ""),
+                "trial_idx": inst.get("trial_idx", 1),
+                "dim": inst["dim"],
+                "f0": inst["f0"],
+                "final_ssd": r["final_ssd"],
+                "time_sec": r["time_sec"],
+                "nfev": r["nfev"],
+                "nit": r["nit"],
+                "success": r["success"],
+                "independent_cfp": r.get("independent_cfp", {}),
+                "full_cfp": r.get("full_cfp", {})
+            })
+    cfp_path = os.path.join(out_dir, "fitted_cfp_10pct_reflect.json")
+    with open(cfp_path, 'w', encoding='utf-8') as f:
+        json.dump(cfp_export, f, indent=2)
+    print(f"Fitted CFP parameters for 10%_reflect saved to: {cfp_path}")
 
     # ==============================================================================
     # 6. Statistical Analysis & Paired Comparisons

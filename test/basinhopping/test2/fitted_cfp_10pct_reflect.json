@@ -1,0 +1,1703 @@
+[
+  {
+    "task_idx": 0,
+    "case_name": "(Gruber J B et al, 1960) / #Gruber J B, Conway J G, 1960. Crys.txt",
+    "is_real": true,
+    "symmetry": "C6V",
+    "ion": "TM3+",
+    "trial_idx": 1,
+    "dim": 4,
+    "f0": 3688.7959805462797,
+    "final_ssd": 9.98131967469314,
+    "time_sec": 110.92836213111877,
+    "nfev": 4437,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 15.082093,
+      "AR40": -25.150115,
+      "AR60": 0.904535,
+      "AR66": 51.677866
+    },
+    "full_cfp": {
+      "AR20": 15.082093,
+      "AR40": -25.150115,
+      "AR60": 0.904535,
+      "AR66": 51.677866
+    }
+  },
+  {
+    "task_idx": 1,
+    "case_name": "(Gruber J B et al, 1960) / #Gruber J B, Conway J G, 1960. Crys.txt",
+    "is_real": true,
+    "symmetry": "C6V",
+    "ion": "TM3+",
+    "trial_idx": 2,
+    "dim": 4,
+    "f0": 8430.665544613532,
+    "final_ssd": 5.070270523909703,
+    "time_sec": 106.07976055145264,
+    "nfev": 4221,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 14.223019,
+      "AR40": 27.885473,
+      "AR60": -16.118672,
+      "AR66": 13.29734
+    },
+    "full_cfp": {
+      "AR20": 14.223019,
+      "AR40": 27.885473,
+      "AR60": -16.118672,
+      "AR66": 13.29734
+    }
+  },
+  {
+    "task_idx": 2,
+    "case_name": "(Gruber J B et al, 1960) / #Gruber J B, Conway J G, 1960. Crys.txt",
+    "is_real": true,
+    "symmetry": "C6V",
+    "ion": "TM3+",
+    "trial_idx": 3,
+    "dim": 4,
+    "f0": 3239.9893259374962,
+    "final_ssd": 9.981319677334447,
+    "time_sec": 114.4590232372284,
+    "nfev": 4689,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 15.082081,
+      "AR40": -25.150119,
+      "AR60": 0.904537,
+      "AR66": 51.677891
+    },
+    "full_cfp": {
+      "AR20": 15.082081,
+      "AR40": -25.150119,
+      "AR60": 0.904537,
+      "AR66": 51.677891
+    }
+  },
+  {
+    "task_idx": 3,
+    "case_name": "(Wong E Y et al, 1961) / (Wong E Y et al, 1961).txt",
+    "is_real": true,
+    "symmetry": "D3H",
+    "ion": "TM3+",
+    "trial_idx": 1,
+    "dim": 4,
+    "f0": 1336586.3075353638,
+    "final_ssd": 21.942185400958166,
+    "time_sec": 161.14469075202942,
+    "nfev": 7848,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 15.957156,
+      "AR40": -9.423646,
+      "AR60": -3.998947,
+      "AR66": -50.619858
+    },
+    "full_cfp": {
+      "AR20": 15.957156,
+      "AR40": -9.423646,
+      "AR60": -3.998947,
+      "AR66": -50.619858
+    }
+  },
+  {
+    "task_idx": 4,
+    "case_name": "(Wong E Y et al, 1961) / (Wong E Y et al, 1961).txt",
+    "is_real": true,
+    "symmetry": "D3H",
+    "ion": "TM3+",
+    "trial_idx": 2,
+    "dim": 4,
+    "f0": 54930.013229107106,
+    "final_ssd": 21.94218539930305,
+    "time_sec": 160.17443871498108,
+    "nfev": 7839,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 15.95715,
+      "AR40": -9.423647,
+      "AR60": -3.998947,
+      "AR66": -50.619853
+    },
+    "full_cfp": {
+      "AR20": 15.95715,
+      "AR40": -9.423647,
+      "AR60": -3.998947,
+      "AR66": -50.619853
+    }
+  },
+  {
+    "task_idx": 5,
+    "case_name": "(Wong E Y et al, 1961) / (Wong E Y et al, 1961).txt",
+    "is_real": true,
+    "symmetry": "D3H",
+    "ion": "TM3+",
+    "trial_idx": 3,
+    "dim": 4,
+    "f0": 765582.7398596543,
+    "final_ssd": 21.942185396158962,
+    "time_sec": 157.47870588302612,
+    "nfev": 8496,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 15.957157,
+      "AR40": -9.423647,
+      "AR60": -3.998948,
+      "AR66": 50.619858
+    },
+    "full_cfp": {
+      "AR20": 15.957157,
+      "AR40": -9.423647,
+      "AR60": -3.998948,
+      "AR66": 50.619858
+    }
+  },
+  {
+    "task_idx": 6,
+    "case_name": "(Crosswhite H M et al, 1961) / (Crosswhite H M et al, 1961).txt",
+    "is_real": true,
+    "symmetry": "C6V",
+    "ion": "DY3+",
+    "trial_idx": 1,
+    "dim": 4,
+    "f0": 803401.8599636634,
+    "final_ssd": 1.6334096877872226,
+    "time_sec": 165.5927972793579,
+    "nfev": 8154,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 11.021147,
+      "AR40": -4.995898,
+      "AR60": -2.825919,
+      "AR66": 30.470431
+    },
+    "full_cfp": {
+      "AR20": 11.021147,
+      "AR40": -4.995898,
+      "AR60": -2.825919,
+      "AR66": 30.470431
+    }
+  },
+  {
+    "task_idx": 7,
+    "case_name": "(Crosswhite H M et al, 1961) / (Crosswhite H M et al, 1961).txt",
+    "is_real": true,
+    "symmetry": "C6V",
+    "ion": "DY3+",
+    "trial_idx": 2,
+    "dim": 4,
+    "f0": 547962.5588481311,
+    "final_ssd": 1.9797333921932239,
+    "time_sec": 161.91675448417664,
+    "nfev": 8811,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 11.467015,
+      "AR40": -5.315456,
+      "AR60": -2.767066,
+      "AR66": -26.692984
+    },
+    "full_cfp": {
+      "AR20": 11.467015,
+      "AR40": -5.315456,
+      "AR60": -2.767066,
+      "AR66": -26.692984
+    }
+  },
+  {
+    "task_idx": 8,
+    "case_name": "(Crosswhite H M et al, 1961) / (Crosswhite H M et al, 1961).txt",
+    "is_real": true,
+    "symmetry": "C6V",
+    "ion": "DY3+",
+    "trial_idx": 3,
+    "dim": 4,
+    "f0": 2584135.981946393,
+    "final_ssd": 1.6334096868452577,
+    "time_sec": 153.62458777427673,
+    "nfev": 7560,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 11.021147,
+      "AR40": -4.995899,
+      "AR60": -2.825919,
+      "AR66": 30.47043
+    },
+    "full_cfp": {
+      "AR20": 11.021147,
+      "AR40": -4.995899,
+      "AR60": -2.825919,
+      "AR66": 30.47043
+    }
+  },
+  {
+    "task_idx": 9,
+    "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
+    "is_real": true,
+    "symmetry": "D3H",
+    "ion": "ER3+",
+    "trial_idx": 1,
+    "dim": 4,
+    "f0": 1129745.2929695186,
+    "final_ssd": 2.365453935898613,
+    "time_sec": 149.0174994468689,
+    "nfev": 6660,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 15.914136,
+      "AR40": -9.826589,
+      "AR60": -3.771022,
+      "AR66": 48.505897
+    },
+    "full_cfp": {
+      "AR20": 15.914136,
+      "AR40": -9.826589,
+      "AR60": -3.771022,
+      "AR66": 48.505897
+    }
+  },
+  {
+    "task_idx": 10,
+    "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
+    "is_real": true,
+    "symmetry": "D3H",
+    "ion": "ER3+",
+    "trial_idx": 2,
+    "dim": 4,
+    "f0": 5491792.718538425,
+    "final_ssd": 2.3654539354068245,
+    "time_sec": 156.39879751205444,
+    "nfev": 7326,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 15.914136,
+      "AR40": -9.826589,
+      "AR60": -3.771022,
+      "AR66": 48.505897
+    },
+    "full_cfp": {
+      "AR20": 15.914136,
+      "AR40": -9.826589,
+      "AR60": -3.771022,
+      "AR66": 48.505897
+    }
+  },
+  {
+    "task_idx": 11,
+    "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
+    "is_real": true,
+    "symmetry": "D3H",
+    "ion": "ER3+",
+    "trial_idx": 3,
+    "dim": 4,
+    "f0": 939869.5952111626,
+    "final_ssd": 2.365453936077241,
+    "time_sec": 155.04890275001526,
+    "nfev": 7965,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 15.914125,
+      "AR40": -9.826583,
+      "AR60": -3.771018,
+      "AR66": 48.505913
+    },
+    "full_cfp": {
+      "AR20": 15.914125,
+      "AR40": -9.826583,
+      "AR60": -3.771018,
+      "AR66": 48.505913
+    }
+  },
+  {
+    "task_idx": 12,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "is_real": true,
+    "symmetry": "D6",
+    "ion": "PR3+",
+    "trial_idx": 1,
+    "dim": 4,
+    "f0": 400326.7450107711,
+    "final_ssd": 1.2041501297593238,
+    "time_sec": 158.87392616271973,
+    "nfev": 10845,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -5.299577,
+      "AR40": -7.98871,
+      "AR60": 4.993983,
+      "AR66": 14.626129
+    },
+    "full_cfp": {
+      "AR20": -5.299577,
+      "AR40": -7.98871,
+      "AR60": 4.993983,
+      "AR66": 14.626129
+    }
+  },
+  {
+    "task_idx": 13,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "is_real": true,
+    "symmetry": "D6",
+    "ion": "PR3+",
+    "trial_idx": 2,
+    "dim": 4,
+    "f0": 340891.60208025534,
+    "final_ssd": 1.2698607763799727,
+    "time_sec": 155.18845224380493,
+    "nfev": 11052,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -5.267847,
+      "AR40": -7.688286,
+      "AR60": 5.332539,
+      "AR66": 16.2588
+    },
+    "full_cfp": {
+      "AR20": -5.267847,
+      "AR40": -7.688286,
+      "AR60": 5.332539,
+      "AR66": 16.2588
+    }
+  },
+  {
+    "task_idx": 14,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "is_real": true,
+    "symmetry": "D6",
+    "ion": "PR3+",
+    "trial_idx": 3,
+    "dim": 4,
+    "f0": 1398465.60735614,
+    "final_ssd": 1.2041501291091967,
+    "time_sec": 149.19391798973083,
+    "nfev": 9612,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -5.299573,
+      "AR40": -7.98871,
+      "AR60": 4.993985,
+      "AR66": -14.626114
+    },
+    "full_cfp": {
+      "AR20": -5.299573,
+      "AR40": -7.98871,
+      "AR60": 4.993985,
+      "AR66": -14.626114
+    }
+  },
+  {
+    "task_idx": 15,
+    "case_name": "(Koningstein J A et al, 1964) / (Koningstein J A et al, 1964).txt",
+    "is_real": true,
+    "symmetry": "C4V",
+    "ion": "ND3+",
+    "trial_idx": 1,
+    "dim": 5,
+    "f0": 14653.006089360799,
+    "final_ssd": 1.701991391047827e-15,
+    "time_sec": 102.36563563346863,
+    "nfev": 7480,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -22.607845,
+      "AR40": -32.167458,
+      "AR44": -8.155505,
+      "AR60": 0.064383,
+      "AR64": -108.129991
+    },
+    "full_cfp": {
+      "AR20": -22.607845,
+      "AR40": -32.167458,
+      "AR44": -8.155505,
+      "AR60": 0.064383,
+      "AR64": -108.129991
+    }
+  },
+  {
+    "task_idx": 16,
+    "case_name": "(Koningstein J A et al, 1964) / (Koningstein J A et al, 1964).txt",
+    "is_real": true,
+    "symmetry": "C4V",
+    "ion": "ND3+",
+    "trial_idx": 2,
+    "dim": 5,
+    "f0": 90967.31192221996,
+    "final_ssd": 2.2530134912886793e-15,
+    "time_sec": 49.53900480270386,
+    "nfev": 5687,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 39.80472,
+      "AR40": 15.109771,
+      "AR44": 81.778913,
+      "AR60": -18.879884,
+      "AR64": 131.234189
+    },
+    "full_cfp": {
+      "AR20": 39.80472,
+      "AR40": 15.109771,
+      "AR44": 81.778913,
+      "AR60": -18.879884,
+      "AR64": 131.234189
+    }
+  },
+  {
+    "task_idx": 17,
+    "case_name": "(Koningstein J A et al, 1964) / (Koningstein J A et al, 1964).txt",
+    "is_real": true,
+    "symmetry": "C4V",
+    "ion": "ND3+",
+    "trial_idx": 3,
+    "dim": 5,
+    "f0": 59933.23203498083,
+    "final_ssd": 4.9353976185674346e-14,
+    "time_sec": 47.55486726760864,
+    "nfev": 6083,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 37.971088,
+      "AR40": 13.167694,
+      "AR44": -124.091803,
+      "AR60": -18.594732,
+      "AR64": -35.556485
+    },
+    "full_cfp": {
+      "AR20": 37.971088,
+      "AR40": 13.167694,
+      "AR44": -124.091803,
+      "AR60": -18.594732,
+      "AR64": -35.556485
+    }
+  },
+  {
+    "task_idx": 18,
+    "case_name": "(Capobianco J A et al, 1997) / (Capobianco J A et al, 1997).txt",
+    "is_real": true,
+    "symmetry": "D2D",
+    "ion": "ER3+",
+    "trial_idx": 1,
+    "dim": 5,
+    "f0": 838046.000851601,
+    "final_ssd": 83.49357764559258,
+    "time_sec": 160.2637779712677,
+    "nfev": 11770,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -16.043355,
+      "AR40": 1.467919,
+      "AR44": -124.153047,
+      "AR60": -2.668063,
+      "AR64": -24.320829
+    },
+    "full_cfp": {
+      "AR20": -16.043355,
+      "AR40": 1.467919,
+      "AR44": -124.153047,
+      "AR60": -2.668063,
+      "AR64": -24.320829
+    }
+  },
+  {
+    "task_idx": 19,
+    "case_name": "(Capobianco J A et al, 1997) / (Capobianco J A et al, 1997).txt",
+    "is_real": true,
+    "symmetry": "D2D",
+    "ion": "ER3+",
+    "trial_idx": 2,
+    "dim": 5,
+    "f0": 5662222.283380308,
+    "final_ssd": 83.49357763815627,
+    "time_sec": 165.24411344528198,
+    "nfev": 13299,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -16.043394,
+      "AR40": 1.467918,
+      "AR44": -124.153049,
+      "AR60": -2.668061,
+      "AR64": -24.320824
+    },
+    "full_cfp": {
+      "AR20": -16.043394,
+      "AR40": 1.467918,
+      "AR44": -124.153049,
+      "AR60": -2.668061,
+      "AR64": -24.320824
+    }
+  },
+  {
+    "task_idx": 20,
+    "case_name": "(Capobianco J A et al, 1997) / (Capobianco J A et al, 1997).txt",
+    "is_real": true,
+    "symmetry": "D2D",
+    "ion": "ER3+",
+    "trial_idx": 3,
+    "dim": 5,
+    "f0": 6580726.518779178,
+    "final_ssd": 83.49357764486297,
+    "time_sec": 141.7638876438141,
+    "nfev": 11913,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -16.043375,
+      "AR40": 1.467896,
+      "AR44": -124.153131,
+      "AR60": -2.668057,
+      "AR64": -24.320809
+    },
+    "full_cfp": {
+      "AR20": -16.043375,
+      "AR40": 1.467896,
+      "AR44": -124.153131,
+      "AR60": -2.668057,
+      "AR64": -24.320809
+    }
+  },
+  {
+    "task_idx": 21,
+    "case_name": "(Popova M N et al, 2007) / (Popova M N et al, 2007).txt",
+    "is_real": true,
+    "symmetry": "D3",
+    "ion": "ND3+",
+    "trial_idx": 1,
+    "dim": 6,
+    "f0": 89798.0656433043,
+    "final_ssd": 10.079048483230643,
+    "time_sec": 142.5306715965271,
+    "nfev": 17745,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 31.515224,
+      "AR40": -16.912897,
+      "AR43": 222.886296,
+      "AR60": -3.272372,
+      "AR63": 83.068212,
+      "AR66": -8.403949
+    },
+    "full_cfp": {
+      "AR20": 31.515224,
+      "AR40": -16.912897,
+      "AR43": 222.886296,
+      "AR60": -3.272372,
+      "AR63": 83.068212,
+      "AR66": -8.403949
+    }
+  },
+  {
+    "task_idx": 22,
+    "case_name": "(Popova M N et al, 2007) / (Popova M N et al, 2007).txt",
+    "is_real": true,
+    "symmetry": "D3",
+    "ion": "ND3+",
+    "trial_idx": 2,
+    "dim": 6,
+    "f0": 1671433.319150745,
+    "final_ssd": 10.079048483061744,
+    "time_sec": 139.7687849998474,
+    "nfev": 17433,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 31.515184,
+      "AR40": -16.912907,
+      "AR43": -222.886772,
+      "AR60": -3.272371,
+      "AR63": -83.068119,
+      "AR66": -8.403859
+    },
+    "full_cfp": {
+      "AR20": 31.515184,
+      "AR40": -16.912907,
+      "AR43": -222.886772,
+      "AR60": -3.272371,
+      "AR63": -83.068119,
+      "AR66": -8.403859
+    }
+  },
+  {
+    "task_idx": 23,
+    "case_name": "(Popova M N et al, 2007) / (Popova M N et al, 2007).txt",
+    "is_real": true,
+    "symmetry": "D3",
+    "ion": "ND3+",
+    "trial_idx": 3,
+    "dim": 6,
+    "f0": 599720.8940974604,
+    "final_ssd": 18.00140812076272,
+    "time_sec": 138.11022973060608,
+    "nfev": 17108,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -41.027499,
+      "AR40": -11.102061,
+      "AR43": 135.267639,
+      "AR60": -6.852562,
+      "AR63": 40.745339,
+      "AR66": 23.861354
+    },
+    "full_cfp": {
+      "AR20": -41.027499,
+      "AR40": -11.102061,
+      "AR43": 135.267639,
+      "AR60": -6.852562,
+      "AR63": 40.745339,
+      "AR66": 23.861354
+    }
+  },
+  {
+    "task_idx": 24,
+    "case_name": "(Chen X Y et al, 2005) / (Chen X Y et al, 2005).txt",
+    "is_real": true,
+    "symmetry": "C2V",
+    "ion": "EU3+",
+    "trial_idx": 1,
+    "dim": 9,
+    "f0": 74399.67855869816,
+    "final_ssd": 1325.041593629002,
+    "time_sec": 213.6461730003357,
+    "nfev": 20197,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -19.462843,
+      "AR22": -26.181654,
+      "AR40": -28.357181,
+      "AR42": -100.0,
+      "AR44": 100.0,
+      "AR60": 3.212317,
+      "AR62": 100.0,
+      "AR64": -8.064938,
+      "AR66": 65.840029
+    },
+    "full_cfp": {
+      "AR20": -19.462843,
+      "AR22": -26.181654,
+      "AR40": -28.357181,
+      "AR42": -100.0,
+      "AR44": 100.0,
+      "AR60": 3.212317,
+      "AR62": 100.0,
+      "AR64": -8.064938,
+      "AR66": 65.840029
+    }
+  },
+  {
+    "task_idx": 25,
+    "case_name": "(Chen X Y et al, 2005) / (Chen X Y et al, 2005).txt",
+    "is_real": true,
+    "symmetry": "C2V",
+    "ion": "EU3+",
+    "trial_idx": 2,
+    "dim": 9,
+    "f0": 13260.945232389086,
+    "final_ssd": 552.362740588419,
+    "time_sec": 261.08409881591797,
+    "nfev": 31806,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -12.451554,
+      "AR22": -54.821442,
+      "AR40": -39.795664,
+      "AR42": 12.531095,
+      "AR44": 100.0,
+      "AR60": 2.379271,
+      "AR62": -3.162611,
+      "AR64": 88.200096,
+      "AR66": -10.146688
+    },
+    "full_cfp": {
+      "AR20": -12.451554,
+      "AR22": -54.821442,
+      "AR40": -39.795664,
+      "AR42": 12.531095,
+      "AR44": 100.0,
+      "AR60": 2.379271,
+      "AR62": -3.162611,
+      "AR64": 88.200096,
+      "AR66": -10.146688
+    }
+  },
+  {
+    "task_idx": 26,
+    "case_name": "(Chen X Y et al, 2005) / (Chen X Y et al, 2005).txt",
+    "is_real": true,
+    "symmetry": "C2V",
+    "ion": "EU3+",
+    "trial_idx": 3,
+    "dim": 9,
+    "f0": 57750.862705969674,
+    "final_ssd": 567.2440557154448,
+    "time_sec": 231.04457783699036,
+    "nfev": 23275,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -20.488223,
+      "AR22": 40.894435,
+      "AR40": -39.700646,
+      "AR42": -18.759811,
+      "AR44": -100.0,
+      "AR60": 2.499322,
+      "AR62": 10.234938,
+      "AR64": -87.545262,
+      "AR66": 10.574805
+    },
+    "full_cfp": {
+      "AR20": -20.488223,
+      "AR22": 40.894435,
+      "AR40": -39.700646,
+      "AR42": -18.759811,
+      "AR44": -100.0,
+      "AR60": 2.499322,
+      "AR62": 10.234938,
+      "AR64": -87.545262,
+      "AR66": 10.574805
+    }
+  },
+  {
+    "task_idx": 27,
+    "case_name": "Synthetic_01 [Dy3+ in C6V, 4 params, 6H5/2,6F7/2]",
+    "is_real": false,
+    "symmetry": "C6V",
+    "ion": "Dy3+",
+    "trial_idx": 1,
+    "dim": 4,
+    "f0": 304.72173103830926,
+    "final_ssd": 1.0599996602662018e-16,
+    "time_sec": 19.548097133636475,
+    "nfev": 5049,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -67.357048,
+      "AR40": -13.918122,
+      "AR60": 38.130838,
+      "AR66": -32.888078
+    },
+    "full_cfp": {
+      "AR20": -67.357048,
+      "AR40": -13.918122,
+      "AR60": 38.130838,
+      "AR66": -32.888078
+    }
+  },
+  {
+    "task_idx": 28,
+    "case_name": "Synthetic_01 [Dy3+ in C6V, 4 params, 6H5/2,6F7/2]",
+    "is_real": false,
+    "symmetry": "C6V",
+    "ion": "Dy3+",
+    "trial_idx": 2,
+    "dim": 4,
+    "f0": 34503.56797566342,
+    "final_ssd": 1.8534000064977015e-14,
+    "time_sec": 20.104077339172363,
+    "nfev": 5058,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -67.357048,
+      "AR40": -13.918122,
+      "AR60": 38.130838,
+      "AR66": -32.888081
+    },
+    "full_cfp": {
+      "AR20": -67.357048,
+      "AR40": -13.918122,
+      "AR60": 38.130838,
+      "AR66": -32.888081
+    }
+  },
+  {
+    "task_idx": 29,
+    "case_name": "Synthetic_01 [Dy3+ in C6V, 4 params, 6H5/2,6F7/2]",
+    "is_real": false,
+    "symmetry": "C6V",
+    "ion": "Dy3+",
+    "trial_idx": 3,
+    "dim": 4,
+    "f0": 8157.582899918749,
+    "final_ssd": 1.7157999835499173e-14,
+    "time_sec": 20.030587673187256,
+    "nfev": 5229,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -67.357048,
+      "AR40": -13.918122,
+      "AR60": 38.130838,
+      "AR66": 32.888083
+    },
+    "full_cfp": {
+      "AR20": -67.357048,
+      "AR40": -13.918122,
+      "AR60": 38.130838,
+      "AR66": 32.888083
+    }
+  },
+  {
+    "task_idx": 30,
+    "case_name": "Synthetic_02 [Sm3+ in C6V, 4 params, 6H7/2,6H5/2]",
+    "is_real": false,
+    "symmetry": "C6V",
+    "ion": "Sm3+",
+    "trial_idx": 1,
+    "dim": 4,
+    "f0": 10237.708440606031,
+    "final_ssd": 219.88042589571296,
+    "time_sec": 14.839135885238647,
+    "nfev": 3951,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 84.198591,
+      "AR40": -29.196639,
+      "AR60": 9.650083,
+      "AR66": 100.0
+    },
+    "full_cfp": {
+      "AR20": 84.198591,
+      "AR40": -29.196639,
+      "AR60": 9.650083,
+      "AR66": 100.0
+    }
+  },
+  {
+    "task_idx": 31,
+    "case_name": "Synthetic_02 [Sm3+ in C6V, 4 params, 6H7/2,6H5/2]",
+    "is_real": false,
+    "symmetry": "C6V",
+    "ion": "Sm3+",
+    "trial_idx": 2,
+    "dim": 4,
+    "f0": 4167.372886127485,
+    "final_ssd": 0.40359653937220746,
+    "time_sec": 30.296350479125977,
+    "nfev": 7839,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -68.173372,
+      "AR40": -42.971026,
+      "AR60": -21.527247,
+      "AR66": -0.001124
+    },
+    "full_cfp": {
+      "AR20": -68.173372,
+      "AR40": -42.971026,
+      "AR60": -21.527247,
+      "AR66": -0.001124
+    }
+  },
+  {
+    "task_idx": 32,
+    "case_name": "Synthetic_02 [Sm3+ in C6V, 4 params, 6H7/2,6H5/2]",
+    "is_real": false,
+    "symmetry": "C6V",
+    "ion": "Sm3+",
+    "trial_idx": 3,
+    "dim": 4,
+    "f0": 17255.196633790045,
+    "final_ssd": 0.4035965404342041,
+    "time_sec": 31.02733278274536,
+    "nfev": 8154,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -68.173376,
+      "AR40": -42.971025,
+      "AR60": -21.527247,
+      "AR66": -0.001476
+    },
+    "full_cfp": {
+      "AR20": -68.173376,
+      "AR40": -42.971025,
+      "AR60": -21.527247,
+      "AR66": -0.001476
+    }
+  },
+  {
+    "task_idx": 33,
+    "case_name": "Synthetic_03 [Pm3+ in D4, 5 params, 5I4]",
+    "is_real": false,
+    "symmetry": "D4",
+    "ion": "Pm3+",
+    "trial_idx": 1,
+    "dim": 5,
+    "f0": 1598461.2130096308,
+    "final_ssd": 1.409674016373626e-12,
+    "time_sec": 50.41387414932251,
+    "nfev": 17138,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 94.581236,
+      "AR40": -72.291986,
+      "AR44": 8.789161,
+      "AR60": 4.951511,
+      "AR64": 10.902829
+    },
+    "full_cfp": {
+      "AR20": 94.581236,
+      "AR40": -72.291986,
+      "AR44": 8.789161,
+      "AR60": 4.951511,
+      "AR64": 10.902829
+    }
+  },
+  {
+    "task_idx": 34,
+    "case_name": "Synthetic_03 [Pm3+ in D4, 5 params, 5I4]",
+    "is_real": false,
+    "symmetry": "D4",
+    "ion": "Pm3+",
+    "trial_idx": 2,
+    "dim": 5,
+    "f0": 12064593.740172729,
+    "final_ssd": 3.2900520705937106,
+    "time_sec": 43.787129640579224,
+    "nfev": 15345,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -106.21407,
+      "AR40": -29.114058,
+      "AR44": -150.0,
+      "AR60": 0.266881,
+      "AR64": -42.064157
+    },
+    "full_cfp": {
+      "AR20": -106.21407,
+      "AR40": -29.114058,
+      "AR44": -150.0,
+      "AR60": 0.266881,
+      "AR64": -42.064157
+    }
+  },
+  {
+    "task_idx": 35,
+    "case_name": "Synthetic_03 [Pm3+ in D4, 5 params, 5I4]",
+    "is_real": false,
+    "symmetry": "D4",
+    "ion": "Pm3+",
+    "trial_idx": 3,
+    "dim": 5,
+    "f0": 9728.98503464471,
+    "final_ssd": 3.2900520715405857,
+    "time_sec": 41.603646993637085,
+    "nfev": 14256,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -106.21407,
+      "AR40": -29.114062,
+      "AR44": -150.0,
+      "AR60": 0.266881,
+      "AR64": -42.064157
+    },
+    "full_cfp": {
+      "AR20": -106.21407,
+      "AR40": -29.114062,
+      "AR44": -150.0,
+      "AR60": 0.266881,
+      "AR64": -42.064157
+    }
+  },
+  {
+    "task_idx": 36,
+    "case_name": "Synthetic_04 [Ce3+ in D4, 5 params, 2F5/2]",
+    "is_real": false,
+    "symmetry": "D4",
+    "ion": "Ce3+",
+    "trial_idx": 1,
+    "dim": 5,
+    "f0": 9642.878493986327,
+    "final_ssd": 0.0,
+    "time_sec": 5.2945237159729,
+    "nfev": 2343,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -90.818978,
+      "AR40": 5.274984,
+      "AR44": 15.979803,
+      "AR60": 3.112274,
+      "AR64": 61.768123
+    },
+    "full_cfp": {
+      "AR20": -90.818978,
+      "AR40": 5.274984,
+      "AR44": 15.979803,
+      "AR60": 3.112274,
+      "AR64": 61.768123
+    }
+  },
+  {
+    "task_idx": 37,
+    "case_name": "Synthetic_04 [Ce3+ in D4, 5 params, 2F5/2]",
+    "is_real": false,
+    "symmetry": "D4",
+    "ion": "Ce3+",
+    "trial_idx": 2,
+    "dim": 5,
+    "f0": 19337.62840896502,
+    "final_ssd": 8.200007751828554e-17,
+    "time_sec": 6.482649803161621,
+    "nfev": 2673,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -75.501675,
+      "AR40": 23.627542,
+      "AR44": -75.926195,
+      "AR60": 92.201027,
+      "AR64": 47.412843
+    },
+    "full_cfp": {
+      "AR20": -75.501675,
+      "AR40": 23.627542,
+      "AR44": -75.926195,
+      "AR60": 92.201027,
+      "AR64": 47.412843
+    }
+  },
+  {
+    "task_idx": 38,
+    "case_name": "Synthetic_04 [Ce3+ in D4, 5 params, 2F5/2]",
+    "is_real": false,
+    "symmetry": "D4",
+    "ion": "Ce3+",
+    "trial_idx": 3,
+    "dim": 5,
+    "f0": 4205.35412609269,
+    "final_ssd": 1.6999975102015102e-16,
+    "time_sec": 6.0783116817474365,
+    "nfev": 2530,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -12.533645,
+      "AR40": -41.696216,
+      "AR44": 129.765318,
+      "AR60": 19.682369,
+      "AR64": 3.696489
+    },
+    "full_cfp": {
+      "AR20": -12.533645,
+      "AR40": -41.696216,
+      "AR44": 129.765318,
+      "AR60": 19.682369,
+      "AR64": 3.696489
+    }
+  },
+  {
+    "task_idx": 39,
+    "case_name": "Synthetic_05 [Dy3+ in D2D, 5 params, 6H7/2,6H13/2]",
+    "is_real": false,
+    "symmetry": "D2D",
+    "ion": "Dy3+",
+    "trial_idx": 1,
+    "dim": 5,
+    "f0": 132989.73612401244,
+    "final_ssd": 4.6529629946457464e-12,
+    "time_sec": 106.58404850959778,
+    "nfev": 18953,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -7.091725,
+      "AR40": 29.212401,
+      "AR44": -60.701293,
+      "AR60": 14.63363,
+      "AR64": -1.622913
+    },
+    "full_cfp": {
+      "AR20": -7.091725,
+      "AR40": 29.212401,
+      "AR44": -60.701293,
+      "AR60": 14.63363,
+      "AR64": -1.622913
+    }
+  },
+  {
+    "task_idx": 40,
+    "case_name": "Synthetic_05 [Dy3+ in D2D, 5 params, 6H7/2,6H13/2]",
+    "is_real": false,
+    "symmetry": "D2D",
+    "ion": "Dy3+",
+    "trial_idx": 2,
+    "dim": 5,
+    "f0": 103805.29223769029,
+    "final_ssd": 160.61358101266376,
+    "time_sec": 49.756667613983154,
+    "nfev": 8569,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -13.374457,
+      "AR40": -36.465855,
+      "AR44": -87.344901,
+      "AR60": -8.231038,
+      "AR64": 92.92825
+    },
+    "full_cfp": {
+      "AR20": -13.374457,
+      "AR40": -36.465855,
+      "AR44": -87.344901,
+      "AR60": -8.231038,
+      "AR64": 92.92825
+    }
+  },
+  {
+    "task_idx": 41,
+    "case_name": "Synthetic_05 [Dy3+ in D2D, 5 params, 6H7/2,6H13/2]",
+    "is_real": false,
+    "symmetry": "D2D",
+    "ion": "Dy3+",
+    "trial_idx": 3,
+    "dim": 5,
+    "f0": 73519.39590011792,
+    "final_ssd": 1.0284289995892123e-12,
+    "time_sec": 97.00140237808228,
+    "nfev": 17160,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -7.091725,
+      "AR40": 29.212399,
+      "AR44": -60.70129,
+      "AR60": 14.63363,
+      "AR64": -1.622922
+    },
+    "full_cfp": {
+      "AR20": -7.091725,
+      "AR40": 29.212399,
+      "AR44": -60.70129,
+      "AR60": 14.63363,
+      "AR64": -1.622922
+    }
+  },
+  {
+    "task_idx": 42,
+    "case_name": "Synthetic_06 [Pr3+ in D2D, 5 params, 3P1,1G4]",
+    "is_real": false,
+    "symmetry": "D2D",
+    "ion": "Pr3+",
+    "trial_idx": 1,
+    "dim": 5,
+    "f0": 218583.58223951724,
+    "final_ssd": 0.7544325994651824,
+    "time_sec": 39.12039113044739,
+    "nfev": 8976,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -7.873395,
+      "AR40": -39.449651,
+      "AR44": -17.754926,
+      "AR60": 5.14982,
+      "AR64": -6.326888
+    },
+    "full_cfp": {
+      "AR20": -7.873395,
+      "AR40": -39.449651,
+      "AR44": -17.754926,
+      "AR60": 5.14982,
+      "AR64": -6.326888
+    }
+  },
+  {
+    "task_idx": 43,
+    "case_name": "Synthetic_06 [Pr3+ in D2D, 5 params, 3P1,1G4]",
+    "is_real": false,
+    "symmetry": "D2D",
+    "ion": "Pr3+",
+    "trial_idx": 2,
+    "dim": 5,
+    "f0": 21100.649859732377,
+    "final_ssd": 517.2984003937315,
+    "time_sec": 35.42898154258728,
+    "nfev": 7854,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -8.851713,
+      "AR40": -10.914229,
+      "AR44": 120.043687,
+      "AR60": -7.860001,
+      "AR64": -100.0
+    },
+    "full_cfp": {
+      "AR20": -8.851713,
+      "AR40": -10.914229,
+      "AR44": 120.043687,
+      "AR60": -7.860001,
+      "AR64": -100.0
+    }
+  },
+  {
+    "task_idx": 44,
+    "case_name": "Synthetic_06 [Pr3+ in D2D, 5 params, 3P1,1G4]",
+    "is_real": false,
+    "symmetry": "D2D",
+    "ion": "Pr3+",
+    "trial_idx": 3,
+    "dim": 5,
+    "f0": 183923.22816447035,
+    "final_ssd": 2.78541469223382e-07,
+    "time_sec": 51.35271191596985,
+    "nfev": 11462,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -7.918694,
+      "AR40": -38.815654,
+      "AR44": -1.775125,
+      "AR60": 5.957688,
+      "AR64": 0.399878
+    },
+    "full_cfp": {
+      "AR20": -7.918694,
+      "AR40": -38.815654,
+      "AR44": -1.775125,
+      "AR60": 5.957688,
+      "AR64": 0.399878
+    }
+  },
+  {
+    "task_idx": 45,
+    "case_name": "Synthetic_07 [Pr3+ in D3, 6 params, 1G4,1D2]",
+    "is_real": false,
+    "symmetry": "D3",
+    "ion": "Pr3+",
+    "trial_idx": 1,
+    "dim": 6,
+    "f0": 215685.59950185567,
+    "final_ssd": 7.220214167741919,
+    "time_sec": 87.05487585067749,
+    "nfev": 17121,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 36.505837,
+      "AR40": 25.61826,
+      "AR43": -126.962148,
+      "AR60": -2.661829,
+      "AR63": 72.833401,
+      "AR66": 52.631588
+    },
+    "full_cfp": {
+      "AR20": 36.505837,
+      "AR40": 25.61826,
+      "AR43": -126.962148,
+      "AR60": -2.661829,
+      "AR63": 72.833401,
+      "AR66": 52.631588
+    }
+  },
+  {
+    "task_idx": 46,
+    "case_name": "Synthetic_07 [Pr3+ in D3, 6 params, 1G4,1D2]",
+    "is_real": false,
+    "symmetry": "D3",
+    "ion": "Pr3+",
+    "trial_idx": 2,
+    "dim": 6,
+    "f0": 397001.7094550781,
+    "final_ssd": 65.59924011578508,
+    "time_sec": 59.823190689086914,
+    "nfev": 11778,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -68.749749,
+      "AR40": -4.798779,
+      "AR43": -129.052346,
+      "AR60": -8.19176,
+      "AR63": 100.0,
+      "AR66": 100.0
+    },
+    "full_cfp": {
+      "AR20": -68.749749,
+      "AR40": -4.798779,
+      "AR43": -129.052346,
+      "AR60": -8.19176,
+      "AR63": 100.0,
+      "AR66": 100.0
+    }
+  },
+  {
+    "task_idx": 47,
+    "case_name": "Synthetic_07 [Pr3+ in D3, 6 params, 1G4,1D2]",
+    "is_real": false,
+    "symmetry": "D3",
+    "ion": "Pr3+",
+    "trial_idx": 3,
+    "dim": 6,
+    "f0": 84256.94287710474,
+    "final_ssd": 8.243822345256369,
+    "time_sec": 85.18656015396118,
+    "nfev": 17745,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 38.109033,
+      "AR40": 26.161069,
+      "AR43": 66.719777,
+      "AR60": 2.604016,
+      "AR63": 90.52873,
+      "AR66": -43.626682
+    },
+    "full_cfp": {
+      "AR20": 38.109033,
+      "AR40": 26.161069,
+      "AR43": 66.719777,
+      "AR60": 2.604016,
+      "AR63": 90.52873,
+      "AR66": -43.626682
+    }
+  },
+  {
+    "task_idx": 48,
+    "case_name": "Synthetic_08 [Eu3+ in D3, 6 params, 7F4,7F3]",
+    "is_real": false,
+    "symmetry": "D3",
+    "ion": "Eu3+",
+    "trial_idx": 1,
+    "dim": 6,
+    "f0": 85140.13975548532,
+    "final_ssd": 0.0003747921652951247,
+    "time_sec": 91.07118463516235,
+    "nfev": 19214,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -69.340236,
+      "AR40": -47.571789,
+      "AR43": 28.735453,
+      "AR60": 19.377364,
+      "AR63": 29.461646,
+      "AR66": 33.406316
+    },
+    "full_cfp": {
+      "AR20": -69.340236,
+      "AR40": -47.571789,
+      "AR43": 28.735453,
+      "AR60": 19.377364,
+      "AR63": 29.461646,
+      "AR66": 33.406316
+    }
+  },
+  {
+    "task_idx": 49,
+    "case_name": "Synthetic_08 [Eu3+ in D3, 6 params, 7F4,7F3]",
+    "is_real": false,
+    "symmetry": "D3",
+    "ion": "Eu3+",
+    "trial_idx": 2,
+    "dim": 6,
+    "f0": 39470.710386487044,
+    "final_ssd": 0.00037479213556367133,
+    "time_sec": 86.82278347015381,
+    "nfev": 18083,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -69.340232,
+      "AR40": -47.571787,
+      "AR43": 28.734861,
+      "AR60": 19.377364,
+      "AR63": 29.461933,
+      "AR66": 33.406322
+    },
+    "full_cfp": {
+      "AR20": -69.340232,
+      "AR40": -47.571787,
+      "AR43": 28.734861,
+      "AR60": 19.377364,
+      "AR63": 29.461933,
+      "AR66": 33.406322
+    }
+  },
+  {
+    "task_idx": 50,
+    "case_name": "Synthetic_08 [Eu3+ in D3, 6 params, 7F4,7F3]",
+    "is_real": false,
+    "symmetry": "D3",
+    "ion": "Eu3+",
+    "trial_idx": 3,
+    "dim": 6,
+    "f0": 60078.494335170195,
+    "final_ssd": 69.89800263754869,
+    "time_sec": 65.81203246116638,
+    "nfev": 13858,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -47.364231,
+      "AR40": 36.031529,
+      "AR43": -136.314452,
+      "AR60": -19.996786,
+      "AR63": -100.0,
+      "AR66": -98.884646
+    },
+    "full_cfp": {
+      "AR20": -47.364231,
+      "AR40": 36.031529,
+      "AR43": -136.314452,
+      "AR60": -19.996786,
+      "AR63": -100.0,
+      "AR66": -98.884646
+    }
+  },
+  {
+    "task_idx": 51,
+    "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
+    "is_real": false,
+    "symmetry": "C2V",
+    "ion": "Nd3+",
+    "trial_idx": 1,
+    "dim": 9,
+    "f0": 3897.6546070568593,
+    "final_ssd": 5.132010056993674e-13,
+    "time_sec": 74.60066652297974,
+    "nfev": 13490,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -167.716309,
+      "AR22": 94.765823,
+      "AR40": -77.374418,
+      "AR42": 48.148923,
+      "AR44": -114.405395,
+      "AR60": -1.710982,
+      "AR62": 90.048818,
+      "AR64": -28.96351,
+      "AR66": 23.576903
+    },
+    "full_cfp": {
+      "AR20": -167.716309,
+      "AR22": 94.765823,
+      "AR40": -77.374418,
+      "AR42": 48.148923,
+      "AR44": -114.405395,
+      "AR60": -1.710982,
+      "AR62": 90.048818,
+      "AR64": -28.96351,
+      "AR66": 23.576903
+    }
+  },
+  {
+    "task_idx": 52,
+    "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
+    "is_real": false,
+    "symmetry": "C2V",
+    "ion": "Nd3+",
+    "trial_idx": 2,
+    "dim": 9,
+    "f0": 10579.944326082827,
+    "final_ssd": 8.875999390469595e-15,
+    "time_sec": 90.73536849021912,
+    "nfev": 18069,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -58.919533,
+      "AR22": 53.992835,
+      "AR40": -76.687893,
+      "AR42": 36.976185,
+      "AR44": -137.883942,
+      "AR60": 12.628777,
+      "AR62": -15.308854,
+      "AR64": -12.405892,
+      "AR66": -38.931106
+    },
+    "full_cfp": {
+      "AR20": -58.919533,
+      "AR22": 53.992835,
+      "AR40": -76.687893,
+      "AR42": 36.976185,
+      "AR44": -137.883942,
+      "AR60": 12.628777,
+      "AR62": -15.308854,
+      "AR64": -12.405892,
+      "AR66": -38.931106
+    }
+  },
+  {
+    "task_idx": 53,
+    "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
+    "is_real": false,
+    "symmetry": "C2V",
+    "ion": "Nd3+",
+    "trial_idx": 3,
+    "dim": 9,
+    "f0": 8020.002449548663,
+    "final_ssd": 665.3465542883573,
+    "time_sec": 92.95683670043945,
+    "nfev": 19494,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -200.0,
+      "AR22": 200.0,
+      "AR40": 47.184356,
+      "AR42": 150.0,
+      "AR44": -116.936259,
+      "AR60": 8.814328,
+      "AR62": 35.649226,
+      "AR64": 89.438354,
+      "AR66": -26.662568
+    },
+    "full_cfp": {
+      "AR20": -200.0,
+      "AR22": 200.0,
+      "AR40": 47.184356,
+      "AR42": 150.0,
+      "AR44": -116.936259,
+      "AR60": 8.814328,
+      "AR62": 35.649226,
+      "AR64": 89.438354,
+      "AR66": -26.662568
+    }
+  },
+  {
+    "task_idx": 54,
+    "case_name": "Synthetic_10 [Yb3+ in C2V, 9 params, 2F7/2,2F5/2]",
+    "is_real": false,
+    "symmetry": "C2V",
+    "ion": "Yb3+",
+    "trial_idx": 1,
+    "dim": 9,
+    "f0": 6937.119437038085,
+    "final_ssd": 1.762299895854411e-14,
+    "time_sec": 70.0161817073822,
+    "nfev": 13490,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": -20.834542,
+      "AR22": 29.882099,
+      "AR40": -18.763337,
+      "AR42": -10.195305,
+      "AR44": -115.533432,
+      "AR60": 37.491336,
+      "AR62": -46.507229,
+      "AR64": 44.948557,
+      "AR66": -98.021769
+    },
+    "full_cfp": {
+      "AR20": -20.834542,
+      "AR22": 29.882099,
+      "AR40": -18.763337,
+      "AR42": -10.195305,
+      "AR44": -115.533432,
+      "AR60": 37.491336,
+      "AR62": -46.507229,
+      "AR64": 44.948557,
+      "AR66": -98.021769
+    }
+  },
+  {
+    "task_idx": 55,
+    "case_name": "Synthetic_10 [Yb3+ in C2V, 9 params, 2F7/2,2F5/2]",
+    "is_real": false,
+    "symmetry": "C2V",
+    "ion": "Yb3+",
+    "trial_idx": 2,
+    "dim": 9,
+    "f0": 62416.14510643878,
+    "final_ssd": 5.372199111217771e-14,
+    "time_sec": 66.45246577262878,
+    "nfev": 12844,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 19.620703,
+      "AR22": 58.962059,
+      "AR40": 11.16441,
+      "AR42": -77.476704,
+      "AR44": -57.538467,
+      "AR60": -36.59144,
+      "AR62": -73.201614,
+      "AR64": 65.159848,
+      "AR66": -94.721338
+    },
+    "full_cfp": {
+      "AR20": 19.620703,
+      "AR22": 58.962059,
+      "AR40": 11.16441,
+      "AR42": -77.476704,
+      "AR44": -57.538467,
+      "AR60": -36.59144,
+      "AR62": -73.201614,
+      "AR64": 65.159848,
+      "AR66": -94.721338
+    }
+  },
+  {
+    "task_idx": 56,
+    "case_name": "Synthetic_10 [Yb3+ in C2V, 9 params, 2F7/2,2F5/2]",
+    "is_real": false,
+    "symmetry": "C2V",
+    "ion": "Yb3+",
+    "trial_idx": 3,
+    "dim": 9,
+    "f0": 64042.14547922219,
+    "final_ssd": 1.9894899977540971e-13,
+    "time_sec": 77.43784880638123,
+    "nfev": 16511,
+    "nit": 25,
+    "success": true,
+    "independent_cfp": {
+      "AR20": 35.029094,
+      "AR22": -11.77324,
+      "AR40": 18.402821,
+      "AR42": -54.71824,
+      "AR44": 60.347879,
+      "AR60": 37.492376,
+      "AR62": 67.559606,
+      "AR64": -21.335428,
+      "AR66": 95.055171
+    },
+    "full_cfp": {
+      "AR20": 35.029094,
+      "AR22": -11.77324,
+      "AR40": 18.402821,
+      "AR42": -54.71824,
+      "AR44": 60.347879,
+      "AR60": 37.492376,
+      "AR62": 67.559606,
+      "AR64": -21.335428,
+      "AR66": 95.055171
+    }
+  }
+]

@@ -22,7 +22,7 @@ test_root = os.path.abspath(os.path.join(current_dir, "..", ".."))
 repo_root = os.path.abspath(os.path.join(current_dir, "..", "..", ".."))
 
 site_pkg = r"C:\ProgramData\anaconda3\envs\PyCrystalField\Lib\site-packages"
-if site_pkg not in sys.path:
+if os.path.exists(site_pkg) and site_pkg not in sys.path:
     sys.path.insert(0, site_pkg)
 
 if repo_root not in sys.path:

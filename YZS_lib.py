@@ -1240,9 +1240,9 @@ def worker(run_duration_minutes, individual_bounds, constraints, core_func, EXNR
         ),
         bounds=filtered_bounds,
         x0=mc_Ar,
-#       maxiter = 10000,
-#       visit = 2.9,
-#       maxfun = 1e10,
+        maxiter=1000,
+        initial_temp=10000.0,
+        restart_temp_ratio=1e-3,
         minimizer_kwargs={
             "method": "L-BFGS-B",
             "jac": "3-point",
