@@ -5,7 +5,6 @@ ION TM3+
 
 SYMMETRY C6V
 
-mctime 10
 alt_Thet  True
 
 BOUNDS (-60, 60)

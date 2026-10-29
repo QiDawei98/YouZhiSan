@@ -4,8 +4,7 @@ ION EU3+
 
 SYMMETRY C2V
 
-MCTIME 480
-BOUNDS (-100, 100)
+BOUNDS (-250, 250)
 
 
 **********************************

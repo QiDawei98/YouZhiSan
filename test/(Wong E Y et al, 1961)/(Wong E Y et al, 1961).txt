@@ -4,21 +4,20 @@ ION Tm3+
 
 Symmetry D3h
 
-MCTIME 5
-#BOUNDS (-100, 100)
+BOUNDS (-100, 100)
 
 *******************************************************
 
-#3H6
-#-166.3
-#-134.2
-#None
-#None
-#24.1
-#None
-#None
-#None
-#None
+3H6
+-20.6185713
+-16.6386787
+None
+None
+2.988019051
+None
+None
+None
+None
 
 3F4
 None

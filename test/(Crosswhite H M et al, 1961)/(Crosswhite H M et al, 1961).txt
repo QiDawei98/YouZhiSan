@@ -4,7 +4,8 @@ ION DY3+
 
 SYMMETRY C6V #for test only
 
-mctime 5
+
+mctime 15
 
 ************************************
 
