@@ -9,8 +9,7 @@ ION   EU3+
 SYMMETRY D2d
 
 #optional
-TIME    1   # minutes
-BOUNDS    (-200, 200)
+MCTIME    1   # minutesBOUNDS    (-200, 200)
 alt_Thet  False
  
 

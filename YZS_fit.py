@@ -69,7 +69,7 @@ if __name__ == "__main__":
     PAR_num = 0
     PAR_exist = False
     BOU_num = 0
-    TIME_num = 0
+    MCTIME_num = 0
      
     #specification  
     in_block = False    
@@ -110,7 +110,7 @@ if __name__ == "__main__":
         #r"BOUNDS\s+\(\s*(-?\d+\.\d+|-?\d+)\s*,\s*(-?\d+\.\d+|-?\d+)\s*\)"
             BOU_num += 1 
         elif re.fullmatch(r"MCTIME\s+(\d+(?:\.\d+)?)", line.rstrip()):
-            TIME_num += 1
+            MCTIME_num += 1
         elif re.fullmatch(r"ALT_THET\s+(TRUE|FALSE)", line.rstrip()):
             ALT_num += 1
         elif line.isspace():
@@ -141,8 +141,8 @@ if __name__ == "__main__":
     elif BOU_num > 1:
         print('More than one BOUNDS found.')
         raise SyntaxError
-    elif TIME_num > 1:
-        print("More than one TIME found.")
+    elif MCTIME_num > 1:
+        print("More than one MCTIME found.")
         raise SyntaxError
     elif ALT_num > 1:
         print("More than one ALT_THET found.")
@@ -197,8 +197,8 @@ if __name__ == "__main__":
     # Additional validations:
     # - lower bound < higher bound
     # - Supported SYMMETRY
-    # - Non-zero TIME
-    # - Default TIME if not specified
+    # - Non-zero MCTIME
+    # - Default MCTIME if not specified
     # - Valid ION type
     # - Alternative theta exists
     
@@ -208,7 +208,7 @@ if __name__ == "__main__":
     individual_bounds = []
     shared_bounds = None
     symmetry = None
-    time = None
+    mctime = None
     alt_thet_enabled = False
     for line in lines:
         if in_block:
@@ -259,7 +259,7 @@ if __name__ == "__main__":
         #r"BOUNDS\s+\(\s*(-?\d+\.\d+|-?\d+)\s*,\s*(-?\d+\.\d+|-?\d+)\s*\)"
             shared_bounds = (float(m.group(1)), float(m.group(2))) 
         elif m := re.fullmatch(r"MCTIME\s+(\d+(?:\.\d+)?)", line.rstrip()):
-            time = float(m.group(1))
+            mctime = float(m.group(1))
         elif m := re.fullmatch(r"ALT_THET\s+(TRUE|FALSE)", line.rstrip()):
             alt_thet_enabled = m.group(1) == "TRUE"
         elif line.isspace():
@@ -279,11 +279,11 @@ if __name__ == "__main__":
         print(f'Symmetry not allowed: {symmetry}')
         raise ValueError
         
-    if time == 0:
+    if mctime == 0:
         print("Execution time cannot be zero.")
         raise ValueError
-    elif time == None:
-        time = 5
+    elif mctime == None:
+        mctime = 5
     
     if ion not in {key[0].upper() for key in YZS_lib.Thet.keys()}:
         print(f'Ion not allowed: {ion}')
@@ -541,7 +541,7 @@ if __name__ == "__main__":
     
     with Pool(processes = cpu_count()) as pool:
         args_for_worker = [(
-            time,                 #for run_duration_minutes
+            mctime,               #for run_duration_minutes
             individual_bounds,    #for individual_bounds
             constraints,          #constraints
             YZS_lib.core_func,    #for core_func

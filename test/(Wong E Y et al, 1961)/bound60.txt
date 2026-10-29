@@ -2,8 +2,7 @@
 
 ION Tm3+
 
-TIME 5
-
+MCTIME 5
 Parameters
     AR20
     AR40

@@ -4,8 +4,7 @@ ion ND3+
 
 SYMMETRY D3
 
-time 15
-
+mctime 15
 ****************************
 
 4I9/2

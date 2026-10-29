@@ -4,8 +4,7 @@ symmetry D6 #only for test
 
 ion pr3+
 
-time 5
-
+mctime 5
 *********************
 
 3H4

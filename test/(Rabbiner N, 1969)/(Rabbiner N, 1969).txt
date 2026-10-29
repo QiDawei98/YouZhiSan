@@ -4,8 +4,7 @@ ION    Sm3+
 
 SYMMETRY C3V # only for test
 
-TIME   15
-
+MCTIME   15
 BOUNDS (-1100, 1100)
 
 alt_Thet  True
