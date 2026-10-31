@@ -8,7 +8,7 @@ import numpy as np
 
 
 if __name__ == "__main__":
-    file_path = r"D:\Calculation_Results\(Gruber J B et al, 1960)\#Gruber J B, Conway J G, 1960. Crys.txt"
+    file_path = r"D:\github\YouZhiSan\test\(高进云 等, 2015)\(高进云 等, 2015).txt"
     if len(sys.argv) > 1:
         file_path = sys.argv[1]
     with open (file_path, 'r') as file:

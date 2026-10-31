@@ -1,0 +1,28 @@
+*************************************************************
+**YouZhiSan    油纸伞                                      **
+**Qi Dawei and friends.                                    **
+**Powered by PyCrystalField                                **
+*************************************************************
+The following term symbols will be fitted:
+['5D4']
+Ion: TB3+
+Energy unit: mev
+ 
+==================================================================
+*************************Results**********************************
+ 
+Fitted Crystal Field Parameters:
+Ar40: -34.79950933188137
+Ar44: -173.99754665940685
+Ar60: -7.720984726478619
+Ar64: 162.140679256051
+ 
+Sum of Squared Differences: 0.00028205651358293447
+ 
+Comparison between theoretical and experimental energies: 
+Theoretical      Experimental
+5D4
+  0.000000  :    0.000000
+ 11.166540  :   11.158578
+ 12.508754  :   12.522404
+ 14.387854  :   14.382167
