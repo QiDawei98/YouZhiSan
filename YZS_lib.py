@@ -6,7 +6,10 @@ Created on Wed Aug 28 19:14:03 2024
 """
 
 print('*************************************************************')
-print('**YouZhiSan    油纸伞                                      **')
+try:
+    print('**YouZhiSan    油纸伞                                      **')
+except UnicodeEncodeError:
+    print('**YouZhiSan                                                **')
 print('**Qi Dawei and friends.                                    **')
 print('**Powered by PyCrystalField                                **')
 print('*************************************************************')

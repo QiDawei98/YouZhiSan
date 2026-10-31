@@ -11,7 +11,7 @@ if __name__ == "__main__":
     file_path = r"template_input/template_sym.txt"
     if len(sys.argv) > 1:
         file_path = sys.argv[1]
-    with open (file_path, 'r') as file:
+    with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
         lines = file.readlines()
         
     processed_lines = []
