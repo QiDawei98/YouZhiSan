@@ -8,7 +8,7 @@ import numpy as np
 
 
 if __name__ == "__main__":
-    file_path = r"D:\github\YouZhiSan\test\(高进云 等, 2015)\(高进云 等, 2015).txt"
+    file_path = r"template_input/template_sym.txt"
     if len(sys.argv) > 1:
         file_path = sys.argv[1]
     with open (file_path, 'r') as file:
