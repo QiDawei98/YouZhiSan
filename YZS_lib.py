@@ -278,7 +278,7 @@ def get_stark_levels_count(site_symmetry, J):
 
 def PCM_Ar(ciffile, mag_ion = None, Zaxis = None, Yaxis = None, 
            crystalImage = False, NumIonNeighbors = 1, ForceImaginary = False, 
-           CoordinateNumber = None, MaxDistance = None):
+           CoordinationNumber = None, MaxDistance = None):
     
     '''Estimates A^n_m<r^n> using the point charge model.
 
@@ -321,7 +321,7 @@ def PCM_Ar(ciffile, mag_ion = None, Zaxis = None, Yaxis = None,
         centralion, *_ = cef.FindPointGroupSymOps(cif, ion = mag_ion, Zaxis = Zaxis,
                                            Yaxis = Yaxis, crystalImage = crystalImage,
                                            NumIonNeighbors = NumIonNeighbors,
-                                           CoordinationNumber = CoordinateNumber,
+                                           CoordinationNumber = CoordinationNumber,
                                            maxDistance = MaxDistance)
         mag_ion = None #restore to None
     else:
@@ -329,7 +329,7 @@ def PCM_Ar(ciffile, mag_ion = None, Zaxis = None, Yaxis = None,
         centralion, *_ = cef.FindPointGroupSymOps(cif, ion = mag_ion, Zaxis = Zaxis,
                                            Yaxis = Yaxis, crystalImage = crystalImage,
                                            NumIonNeighbors = NumIonNeighbors,
-                                           CoordinationNumber = CoordinateNumber,
+                                           CoordinationNumber = CoordinationNumber,
                                            maxDistance = MaxDistance)
             
     
@@ -359,7 +359,7 @@ def PCM_Ar(ciffile, mag_ion = None, Zaxis = None, Yaxis = None,
     
 # =============================================================================
 #   PyCrystalField determines ligands based on the following priority: 
-#   maxDistance, CoordinateNumber, and then NumIonNeighbors.
+#   maxDistance, CoordinationNumber, and then NumIonNeighbors.
 #   Please see in 'FindGroupSymOps':
 #   if maxDistance != None:
 #       pass /* set CoordinationNumber based on maxDistance */
@@ -381,7 +381,7 @@ def PCM_Ar(ciffile, mag_ion = None, Zaxis = None, Yaxis = None,
                                  Yaxis = Yaxis, crystalImage = crystalImage, 
                                  NumIonNeighbors = NumIonNeighbors,
                                  ForceImaginary = ForceImaginary,
-                                 CoordinationNumber = CoordinateNumber,
+                                 CoordinationNumber = CoordinationNumber,
                                  MaxDistance =MaxDistance)
 
     
@@ -480,7 +480,7 @@ def PCM_Ar(ciffile, mag_ion = None, Zaxis = None, Yaxis = None,
             
 def PCM_Eigen(ciffile, mag_ion = None, Zaxis = None, Yaxis = None,
               crystalImage = False, NumIonNeighbors = 1, ForceImaginary = False,
-              CoordinateNumber = None, MaxDistance = None, LaTeX = False):
+              CoordinationNumber = None, MaxDistance = None, LaTeX = False):
     '''Estimates eigenvalues and eigenvectors using the point charge model.
     
     The LaTeX parameter controls whether the eigenvectors are output in the LaTeX format.'''
@@ -502,7 +502,7 @@ def PCM_Eigen(ciffile, mag_ion = None, Zaxis = None, Yaxis = None,
         centralion, *_ = cef.FindPointGroupSymOps(cif, ion = mag_ion, Zaxis = Zaxis,
                                            Yaxis = Yaxis, crystalImage = crystalImage,
                                            NumIonNeighbors = NumIonNeighbors,
-                                           CoordinationNumber = CoordinateNumber,
+                                           CoordinationNumber = CoordinationNumber,
                                            maxDistance = MaxDistance)
         mag_ion = None #restore to None
     else:
@@ -510,7 +510,7 @@ def PCM_Eigen(ciffile, mag_ion = None, Zaxis = None, Yaxis = None,
         centralion, *_ = cef.FindPointGroupSymOps(cif, ion = mag_ion, Zaxis = Zaxis,
                                            Yaxis = Yaxis, crystalImage = crystalImage,
                                            NumIonNeighbors = NumIonNeighbors,
-                                           CoordinationNumber = CoordinateNumber,
+                                           CoordinationNumber = CoordinationNumber,
                                            maxDistance = MaxDistance)
             
     
@@ -526,7 +526,7 @@ def PCM_Eigen(ciffile, mag_ion = None, Zaxis = None, Yaxis = None,
                                  Yaxis = Yaxis, crystalImage = crystalImage, 
                                  NumIonNeighbors = NumIonNeighbors,
                                  ForceImaginary = ForceImaginary,
-                                 CoordinationNumber = CoordinateNumber,
+                                 CoordinationNumber = CoordinationNumber,
                                  MaxDistance =MaxDistance)
 
     
