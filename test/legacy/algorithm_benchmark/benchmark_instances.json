@@ -1,0 +1,1250 @@
+[
+  {
+    "instance_idx": 0,
+    "case_name": "(Gruber J B et al, 1960) / #Gruber J B, Conway J G, 1960. Crys.txt",
+    "symmetry": "C6V",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      -15.055185738316503,
+      54.08571676918994,
+      27.839273017368612,
+      11.839018103644392
+    ],
+    "instance_seed": 1000
+  },
+  {
+    "instance_idx": 1,
+    "case_name": "(Wong E Y et al, 1961) / (Wong E Y et al, 1961).txt",
+    "symmetry": "D3H",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      -171.99067977878173,
+      -172.00273983189868,
+      -220.95819391590027,
+      183.0880728874676
+    ],
+    "instance_seed": 1017
+  },
+  {
+    "instance_idx": 2,
+    "case_name": "(Crosswhite H M et al, 1961) / (Crosswhite H M et al, 1961).txt",
+    "symmetry": "C6V",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      50.557505871604405,
+      104.03628889802275,
+      -239.70775285209876,
+      234.95492608099715
+    ],
+    "instance_seed": 1034
+  },
+  {
+    "instance_idx": 3,
+    "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
+    "symmetry": "D3H",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      166.22132040021086,
+      -143.83044466086193,
+      -159.0875163964497,
+      -158.2977450732831
+    ],
+    "instance_seed": 1051
+  },
+  {
+    "instance_idx": 4,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      -97.87887852023113,
+      12.378215816118939,
+      -34.027490678942115,
+      -104.38542990097903
+    ],
+    "instance_seed": 1068
+  },
+  {
+    "instance_idx": 5,
+    "case_name": "(Koningstein J A et al, 1964) / (Koningstein J A et al, 1964).txt",
+    "symmetry": "C4V",
+    "dim": 5,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      55.92644736118973,
+      -180.2530696739791,
+      -103.92767573239092,
+      -66.81907835315414,
+      -21.96500789148203
+    ],
+    "instance_seed": 1085
+  },
+  {
+    "instance_idx": 6,
+    "case_name": "(Capobianco J A et al, 1997) / (Capobianco J A et al, 1997).txt",
+    "symmetry": "D2D",
+    "dim": 5,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      142.5879806965068,
+      -150.16310892082015,
+      7.117219206805828,
+      46.20728443102121,
+      -226.77479364000115
+    ],
+    "instance_seed": 1102
+  },
+  {
+    "instance_idx": 7,
+    "case_name": "(Popova M N et al, 2007) / (Popova M N et al, 2007).txt",
+    "symmetry": "D3",
+    "dim": 6,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      53.772425950719196,
+      -164.73793815635423,
+      -217.47420350736024,
+      224.44276862666663,
+      232.81601653727967,
+      154.19867405823055
+    ],
+    "instance_seed": 1119
+  },
+  {
+    "instance_idx": 8,
+    "case_name": "(Chen X Y et al, 2005) / (Chen X Y et al, 2005).txt",
+    "symmetry": "C2V",
+    "dim": 9,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      -39.07724616532586,
+      -80.46557719872322,
+      36.846605302431385,
+      -11.969501252079738,
+      -75.59235303104424,
+      -0.9646179777459594,
+      -93.12229577695632,
+      81.8640804157564,
+      -48.24400367999662
+    ],
+    "instance_seed": 1136
+  },
+  {
+    "instance_idx": 9,
+    "case_name": "Synthetic_01 [Dy3+ in C6V, 4 params, 6H5/2,6F7/2]",
+    "symmetry": "C6V",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      65.00891374159278,
+      -56.486677173176716,
+      4.0136042355621555,
+      9.342055868655933
+    ],
+    "instance_seed": 1153
+  },
+  {
+    "instance_idx": 10,
+    "case_name": "Synthetic_02 [Sm3+ in C6V, 4 params, 6H7/2,6H5/2]",
+    "symmetry": "C6V",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      -126.05821778978918,
+      140.87538832936758,
+      55.02656467222292,
+      87.89978831283781
+    ],
+    "instance_seed": 1170
+  },
+  {
+    "instance_idx": 11,
+    "case_name": "Synthetic_03 [Pm3+ in D4, 5 params, 5I4]",
+    "symmetry": "D4",
+    "dim": 5,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      157.93094017105955,
+      29.36999364332553,
+      126.56227050693502,
+      -82.3014995896161,
+      -60.80342751617096
+    ],
+    "instance_seed": 1187
+  },
+  {
+    "instance_idx": 12,
+    "case_name": "Synthetic_04 [Ce3+ in D4, 5 params, 2F5/2]",
+    "symmetry": "D4",
+    "dim": 5,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      -181.90908443578476,
+      -52.4009007710207,
+      -33.3968130931554,
+      -45.730193645220815,
+      65.74750183038586
+    ],
+    "instance_seed": 1204
+  },
+  {
+    "instance_idx": 13,
+    "case_name": "Synthetic_05 [Dy3+ in D2D, 5 params, 6H7/2,6H13/2]",
+    "symmetry": "D2D",
+    "dim": 5,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      -57.29866932256428,
+      -65.71964709378577,
+      12.808824947474534,
+      -71.81515500504747,
+      60.43939615080794
+    ],
+    "instance_seed": 1221
+  },
+  {
+    "instance_idx": 14,
+    "case_name": "Synthetic_06 [Pr3+ in D2D, 5 params, 3P1,1G4]",
+    "symmetry": "D2D",
+    "dim": 5,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      -170.17974252809168,
+      146.06608098015516,
+      81.67343078899722,
+      -60.25686369316552,
+      -98.89557657527952
+    ],
+    "instance_seed": 1238
+  },
+  {
+    "instance_idx": 15,
+    "case_name": "Synthetic_07 [Pr3+ in D3, 6 params, 1G4,1D2]",
+    "symmetry": "D3",
+    "dim": 6,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      126.18457138193367,
+      62.05720315428513,
+      68.70215041229619,
+      54.25406933718915,
+      -85.19106965318193,
+      -28.306854291145484
+    ],
+    "instance_seed": 1255
+  },
+  {
+    "instance_idx": 16,
+    "case_name": "Synthetic_08 [Eu3+ in D3, 6 params, 7F4,7F3]",
+    "symmetry": "D3",
+    "dim": 6,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      -153.65237618994811,
+      108.93102776267807,
+      36.989438048267374,
+      -33.82039502947016,
+      -87.28832994279527,
+      -37.80353565686756
+    ],
+    "instance_seed": 1272
+  },
+  {
+    "instance_idx": 17,
+    "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
+    "symmetry": "C2V",
+    "dim": 9,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      -69.92667118930117,
+      91.84247133522564,
+      41.267241406563926,
+      116.16382277289796,
+      -8.335522451415216,
+      -76.08115081233966,
+      42.648957444599006,
+      52.157009723379474,
+      12.255439513899248
+    ],
+    "instance_seed": 1289
+  },
+  {
+    "instance_idx": 18,
+    "case_name": "Synthetic_10 [Yb3+ in C2V, 9 params, 2F7/2,2F5/2]",
+    "symmetry": "C2V",
+    "dim": 9,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "p0": [
+      108.38687198182441,
+      -2.4817614542436957,
+      6.819848814598231,
+      -21.73769449243511,
+      -142.37426197677144,
+      -78.42171460133912,
+      -93.71416286265315,
+      27.282082252756084,
+      -37.128803784734664
+    ],
+    "instance_seed": 1306
+  },
+  {
+    "instance_idx": 19,
+    "case_name": "(Gruber J B et al, 1960) / #Gruber J B, Conway J G, 1960. Crys.txt",
+    "symmetry": "C6V",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      15.082093,
+      -25.150115,
+      0.904535,
+      51.677866
+    ],
+    "instance_seed": 1323
+  },
+  {
+    "instance_idx": 20,
+    "case_name": "(Gruber J B et al, 1960) / #Gruber J B, Conway J G, 1960. Crys.txt",
+    "symmetry": "C6V",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      14.223019,
+      27.885473,
+      -16.118672,
+      13.29734
+    ],
+    "instance_seed": 1340
+  },
+  {
+    "instance_idx": 21,
+    "case_name": "(Gruber J B et al, 1960) / #Gruber J B, Conway J G, 1960. Crys.txt",
+    "symmetry": "C6V",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      15.082081,
+      -25.150119,
+      0.904537,
+      51.677891
+    ],
+    "instance_seed": 1357
+  },
+  {
+    "instance_idx": 22,
+    "case_name": "(Wong E Y et al, 1961) / (Wong E Y et al, 1961).txt",
+    "symmetry": "D3H",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      15.957156,
+      -9.423646,
+      -3.998947,
+      -50.619858
+    ],
+    "instance_seed": 1374
+  },
+  {
+    "instance_idx": 23,
+    "case_name": "(Wong E Y et al, 1961) / (Wong E Y et al, 1961).txt",
+    "symmetry": "D3H",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      15.95715,
+      -9.423647,
+      -3.998947,
+      -50.619853
+    ],
+    "instance_seed": 1391
+  },
+  {
+    "instance_idx": 24,
+    "case_name": "(Wong E Y et al, 1961) / (Wong E Y et al, 1961).txt",
+    "symmetry": "D3H",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      15.957157,
+      -9.423647,
+      -3.998948,
+      50.619858
+    ],
+    "instance_seed": 1408
+  },
+  {
+    "instance_idx": 25,
+    "case_name": "(Crosswhite H M et al, 1961) / (Crosswhite H M et al, 1961).txt",
+    "symmetry": "C6V",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      11.021147,
+      -4.995898,
+      -2.825919,
+      30.470431
+    ],
+    "instance_seed": 1425
+  },
+  {
+    "instance_idx": 26,
+    "case_name": "(Crosswhite H M et al, 1961) / (Crosswhite H M et al, 1961).txt",
+    "symmetry": "C6V",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      11.467015,
+      -5.315456,
+      -2.767066,
+      -26.692984
+    ],
+    "instance_seed": 1442
+  },
+  {
+    "instance_idx": 27,
+    "case_name": "(Crosswhite H M et al, 1961) / (Crosswhite H M et al, 1961).txt",
+    "symmetry": "C6V",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      11.021147,
+      -4.995899,
+      -2.825919,
+      30.47043
+    ],
+    "instance_seed": 1459
+  },
+  {
+    "instance_idx": 28,
+    "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
+    "symmetry": "D3H",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      15.914136,
+      -9.826589,
+      -3.771022,
+      48.505897
+    ],
+    "instance_seed": 1476
+  },
+  {
+    "instance_idx": 29,
+    "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
+    "symmetry": "D3H",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      15.914136,
+      -9.826589,
+      -3.771022,
+      48.505897
+    ],
+    "instance_seed": 1493
+  },
+  {
+    "instance_idx": 30,
+    "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
+    "symmetry": "D3H",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      15.914125,
+      -9.826583,
+      -3.771018,
+      48.505913
+    ],
+    "instance_seed": 1510
+  },
+  {
+    "instance_idx": 31,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      -5.299577,
+      -7.98871,
+      4.993983,
+      14.626129
+    ],
+    "instance_seed": 1527
+  },
+  {
+    "instance_idx": 32,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      -5.267847,
+      -7.688286,
+      5.332539,
+      16.2588
+    ],
+    "instance_seed": 1544
+  },
+  {
+    "instance_idx": 33,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      -5.299573,
+      -7.98871,
+      4.993985,
+      -14.626114
+    ],
+    "instance_seed": 1561
+  },
+  {
+    "instance_idx": 34,
+    "case_name": "(Koningstein J A et al, 1964) / (Koningstein J A et al, 1964).txt",
+    "symmetry": "C4V",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      -22.607845,
+      -32.167458,
+      -8.155505,
+      0.064383,
+      -108.129991
+    ],
+    "instance_seed": 1578
+  },
+  {
+    "instance_idx": 35,
+    "case_name": "(Koningstein J A et al, 1964) / (Koningstein J A et al, 1964).txt",
+    "symmetry": "C4V",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      39.80472,
+      15.109771,
+      81.778913,
+      -18.879884,
+      131.234189
+    ],
+    "instance_seed": 1595
+  },
+  {
+    "instance_idx": 36,
+    "case_name": "(Koningstein J A et al, 1964) / (Koningstein J A et al, 1964).txt",
+    "symmetry": "C4V",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      37.971088,
+      13.167694,
+      -124.091803,
+      -18.594732,
+      -35.556485
+    ],
+    "instance_seed": 1612
+  },
+  {
+    "instance_idx": 37,
+    "case_name": "(Capobianco J A et al, 1997) / (Capobianco J A et al, 1997).txt",
+    "symmetry": "D2D",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      -16.043355,
+      1.467919,
+      -124.153047,
+      -2.668063,
+      -24.320829
+    ],
+    "instance_seed": 1629
+  },
+  {
+    "instance_idx": 38,
+    "case_name": "(Capobianco J A et al, 1997) / (Capobianco J A et al, 1997).txt",
+    "symmetry": "D2D",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      -16.043394,
+      1.467918,
+      -124.153049,
+      -2.668061,
+      -24.320824
+    ],
+    "instance_seed": 1646
+  },
+  {
+    "instance_idx": 39,
+    "case_name": "(Capobianco J A et al, 1997) / (Capobianco J A et al, 1997).txt",
+    "symmetry": "D2D",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      -16.043375,
+      1.467896,
+      -124.153131,
+      -2.668057,
+      -24.320809
+    ],
+    "instance_seed": 1663
+  },
+  {
+    "instance_idx": 40,
+    "case_name": "(Popova M N et al, 2007) / (Popova M N et al, 2007).txt",
+    "symmetry": "D3",
+    "dim": 6,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      31.515224,
+      -16.912897,
+      222.886296,
+      -3.272372,
+      83.068212,
+      -8.403949
+    ],
+    "instance_seed": 1680
+  },
+  {
+    "instance_idx": 41,
+    "case_name": "(Popova M N et al, 2007) / (Popova M N et al, 2007).txt",
+    "symmetry": "D3",
+    "dim": 6,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      31.515184,
+      -16.912907,
+      -222.886772,
+      -3.272371,
+      -83.068119,
+      -8.403859
+    ],
+    "instance_seed": 1697
+  },
+  {
+    "instance_idx": 42,
+    "case_name": "(Popova M N et al, 2007) / (Popova M N et al, 2007).txt",
+    "symmetry": "D3",
+    "dim": 6,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      -41.027499,
+      -11.102061,
+      135.267639,
+      -6.852562,
+      40.745339,
+      23.861354
+    ],
+    "instance_seed": 1714
+  },
+  {
+    "instance_idx": 43,
+    "case_name": "(Chen X Y et al, 2005) / (Chen X Y et al, 2005).txt",
+    "symmetry": "C2V",
+    "dim": 9,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      -19.462843,
+      -26.181654,
+      -28.357181,
+      -100.0,
+      100.0,
+      3.212317,
+      100.0,
+      -8.064938,
+      65.840029
+    ],
+    "instance_seed": 1731
+  },
+  {
+    "instance_idx": 44,
+    "case_name": "(Chen X Y et al, 2005) / (Chen X Y et al, 2005).txt",
+    "symmetry": "C2V",
+    "dim": 9,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      -12.451554,
+      -54.821442,
+      -39.795664,
+      12.531095,
+      100.0,
+      2.379271,
+      -3.162611,
+      88.200096,
+      -10.146688
+    ],
+    "instance_seed": 1748
+  },
+  {
+    "instance_idx": 45,
+    "case_name": "(Chen X Y et al, 2005) / (Chen X Y et al, 2005).txt",
+    "symmetry": "C2V",
+    "dim": 9,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      -20.488223,
+      40.894435,
+      -39.700646,
+      -18.759811,
+      -100.0,
+      2.499322,
+      10.234938,
+      -87.545262,
+      10.574805
+    ],
+    "instance_seed": 1765
+  },
+  {
+    "instance_idx": 46,
+    "case_name": "Synthetic_01 [Dy3+ in C6V, 4 params, 6H5/2,6F7/2]",
+    "symmetry": "C6V",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      -67.357048,
+      -13.918122,
+      38.130838,
+      -32.888078
+    ],
+    "instance_seed": 1782
+  },
+  {
+    "instance_idx": 47,
+    "case_name": "Synthetic_01 [Dy3+ in C6V, 4 params, 6H5/2,6F7/2]",
+    "symmetry": "C6V",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      -67.357048,
+      -13.918122,
+      38.130838,
+      -32.888081
+    ],
+    "instance_seed": 1799
+  },
+  {
+    "instance_idx": 48,
+    "case_name": "Synthetic_01 [Dy3+ in C6V, 4 params, 6H5/2,6F7/2]",
+    "symmetry": "C6V",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      -67.357048,
+      -13.918122,
+      38.130838,
+      32.888083
+    ],
+    "instance_seed": 1816
+  },
+  {
+    "instance_idx": 49,
+    "case_name": "Synthetic_02 [Sm3+ in C6V, 4 params, 6H7/2,6H5/2]",
+    "symmetry": "C6V",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      84.198591,
+      -29.196639,
+      9.650083,
+      100.0
+    ],
+    "instance_seed": 1833
+  },
+  {
+    "instance_idx": 50,
+    "case_name": "Synthetic_02 [Sm3+ in C6V, 4 params, 6H7/2,6H5/2]",
+    "symmetry": "C6V",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      -68.173372,
+      -42.971026,
+      -21.527247,
+      -0.001124
+    ],
+    "instance_seed": 1850
+  },
+  {
+    "instance_idx": 51,
+    "case_name": "Synthetic_02 [Sm3+ in C6V, 4 params, 6H7/2,6H5/2]",
+    "symmetry": "C6V",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      -68.173376,
+      -42.971025,
+      -21.527247,
+      -0.001476
+    ],
+    "instance_seed": 1867
+  },
+  {
+    "instance_idx": 52,
+    "case_name": "Synthetic_03 [Pm3+ in D4, 5 params, 5I4]",
+    "symmetry": "D4",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      94.581236,
+      -72.291986,
+      8.789161,
+      4.951511,
+      10.902829
+    ],
+    "instance_seed": 1884
+  },
+  {
+    "instance_idx": 53,
+    "case_name": "Synthetic_03 [Pm3+ in D4, 5 params, 5I4]",
+    "symmetry": "D4",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      -106.21407,
+      -29.114058,
+      -150.0,
+      0.266881,
+      -42.064157
+    ],
+    "instance_seed": 1901
+  },
+  {
+    "instance_idx": 54,
+    "case_name": "Synthetic_03 [Pm3+ in D4, 5 params, 5I4]",
+    "symmetry": "D4",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      -106.21407,
+      -29.114062,
+      -150.0,
+      0.266881,
+      -42.064157
+    ],
+    "instance_seed": 1918
+  },
+  {
+    "instance_idx": 55,
+    "case_name": "Synthetic_04 [Ce3+ in D4, 5 params, 2F5/2]",
+    "symmetry": "D4",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      -90.818978,
+      5.274984,
+      15.979803,
+      3.112274,
+      61.768123
+    ],
+    "instance_seed": 1935
+  },
+  {
+    "instance_idx": 56,
+    "case_name": "Synthetic_04 [Ce3+ in D4, 5 params, 2F5/2]",
+    "symmetry": "D4",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      -75.501675,
+      23.627542,
+      -75.926195,
+      92.201027,
+      47.412843
+    ],
+    "instance_seed": 1952
+  },
+  {
+    "instance_idx": 57,
+    "case_name": "Synthetic_04 [Ce3+ in D4, 5 params, 2F5/2]",
+    "symmetry": "D4",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      -12.533645,
+      -41.696216,
+      129.765318,
+      19.682369,
+      3.696489
+    ],
+    "instance_seed": 1969
+  },
+  {
+    "instance_idx": 58,
+    "case_name": "Synthetic_05 [Dy3+ in D2D, 5 params, 6H7/2,6H13/2]",
+    "symmetry": "D2D",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      -7.091725,
+      29.212401,
+      -60.701293,
+      14.63363,
+      -1.622913
+    ],
+    "instance_seed": 1986
+  },
+  {
+    "instance_idx": 59,
+    "case_name": "Synthetic_05 [Dy3+ in D2D, 5 params, 6H7/2,6H13/2]",
+    "symmetry": "D2D",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      -13.374457,
+      -36.465855,
+      -87.344901,
+      -8.231038,
+      92.92825
+    ],
+    "instance_seed": 2003
+  },
+  {
+    "instance_idx": 60,
+    "case_name": "Synthetic_05 [Dy3+ in D2D, 5 params, 6H7/2,6H13/2]",
+    "symmetry": "D2D",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      -7.091725,
+      29.212399,
+      -60.70129,
+      14.63363,
+      -1.622922
+    ],
+    "instance_seed": 2020
+  },
+  {
+    "instance_idx": 61,
+    "case_name": "Synthetic_06 [Pr3+ in D2D, 5 params, 3P1,1G4]",
+    "symmetry": "D2D",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      -7.873395,
+      -39.449651,
+      -17.754926,
+      5.14982,
+      -6.326888
+    ],
+    "instance_seed": 2037
+  },
+  {
+    "instance_idx": 62,
+    "case_name": "Synthetic_06 [Pr3+ in D2D, 5 params, 3P1,1G4]",
+    "symmetry": "D2D",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      -8.851713,
+      -10.914229,
+      120.043687,
+      -7.860001,
+      -100.0
+    ],
+    "instance_seed": 2054
+  },
+  {
+    "instance_idx": 63,
+    "case_name": "Synthetic_06 [Pr3+ in D2D, 5 params, 3P1,1G4]",
+    "symmetry": "D2D",
+    "dim": 5,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      -7.918694,
+      -38.815654,
+      -1.775125,
+      5.957688,
+      0.399878
+    ],
+    "instance_seed": 2071
+  },
+  {
+    "instance_idx": 64,
+    "case_name": "Synthetic_07 [Pr3+ in D3, 6 params, 1G4,1D2]",
+    "symmetry": "D3",
+    "dim": 6,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      36.505837,
+      25.61826,
+      -126.962148,
+      -2.661829,
+      72.833401,
+      52.631588
+    ],
+    "instance_seed": 2088
+  },
+  {
+    "instance_idx": 65,
+    "case_name": "Synthetic_07 [Pr3+ in D3, 6 params, 1G4,1D2]",
+    "symmetry": "D3",
+    "dim": 6,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      -68.749749,
+      -4.798779,
+      -129.052346,
+      -8.19176,
+      100.0,
+      100.0
+    ],
+    "instance_seed": 2105
+  },
+  {
+    "instance_idx": 66,
+    "case_name": "Synthetic_07 [Pr3+ in D3, 6 params, 1G4,1D2]",
+    "symmetry": "D3",
+    "dim": 6,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      38.109033,
+      26.161069,
+      66.719777,
+      2.604016,
+      90.52873,
+      -43.626682
+    ],
+    "instance_seed": 2122
+  },
+  {
+    "instance_idx": 67,
+    "case_name": "Synthetic_08 [Eu3+ in D3, 6 params, 7F4,7F3]",
+    "symmetry": "D3",
+    "dim": 6,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      -69.340236,
+      -47.571789,
+      28.735453,
+      19.377364,
+      29.461646,
+      33.406316
+    ],
+    "instance_seed": 2139
+  },
+  {
+    "instance_idx": 68,
+    "case_name": "Synthetic_08 [Eu3+ in D3, 6 params, 7F4,7F3]",
+    "symmetry": "D3",
+    "dim": 6,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      -69.340232,
+      -47.571787,
+      28.734861,
+      19.377364,
+      29.461933,
+      33.406322
+    ],
+    "instance_seed": 2156
+  },
+  {
+    "instance_idx": 69,
+    "case_name": "Synthetic_08 [Eu3+ in D3, 6 params, 7F4,7F3]",
+    "symmetry": "D3",
+    "dim": 6,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      -47.364231,
+      36.031529,
+      -136.314452,
+      -19.996786,
+      -100.0,
+      -98.884646
+    ],
+    "instance_seed": 2173
+  },
+  {
+    "instance_idx": 70,
+    "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
+    "symmetry": "C2V",
+    "dim": 9,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      -167.716309,
+      94.765823,
+      -77.374418,
+      48.148923,
+      -114.405395,
+      -1.710982,
+      90.048818,
+      -28.96351,
+      23.576903
+    ],
+    "instance_seed": 2190
+  },
+  {
+    "instance_idx": 71,
+    "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
+    "symmetry": "C2V",
+    "dim": 9,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      -58.919533,
+      53.992835,
+      -76.687893,
+      36.976185,
+      -137.883942,
+      12.628777,
+      -15.308854,
+      -12.405892,
+      -38.931106
+    ],
+    "instance_seed": 2207
+  },
+  {
+    "instance_idx": 72,
+    "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
+    "symmetry": "C2V",
+    "dim": 9,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      -200.0,
+      200.0,
+      47.184356,
+      150.0,
+      -116.936259,
+      8.814328,
+      35.649226,
+      89.438354,
+      -26.662568
+    ],
+    "instance_seed": 2224
+  },
+  {
+    "instance_idx": 73,
+    "case_name": "Synthetic_10 [Yb3+ in C2V, 9 params, 2F7/2,2F5/2]",
+    "symmetry": "C2V",
+    "dim": 9,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "p0": [
+      -20.834542,
+      29.882099,
+      -18.763337,
+      -10.195305,
+      -115.533432,
+      37.491336,
+      -46.507229,
+      44.948557,
+      -98.021769
+    ],
+    "instance_seed": 2241
+  },
+  {
+    "instance_idx": 74,
+    "case_name": "Synthetic_10 [Yb3+ in C2V, 9 params, 2F7/2,2F5/2]",
+    "symmetry": "C2V",
+    "dim": 9,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "p0": [
+      19.620703,
+      58.962059,
+      11.16441,
+      -77.476704,
+      -57.538467,
+      -36.59144,
+      -73.201614,
+      65.159848,
+      -94.721338
+    ],
+    "instance_seed": 2258
+  },
+  {
+    "instance_idx": 75,
+    "case_name": "Synthetic_10 [Yb3+ in C2V, 9 params, 2F7/2,2F5/2]",
+    "symmetry": "C2V",
+    "dim": 9,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "p0": [
+      35.029094,
+      -11.77324,
+      18.402821,
+      -54.71824,
+      60.347879,
+      37.492376,
+      67.559606,
+      -21.335428,
+      95.055171
+    ],
+    "instance_seed": 2275
+  }
+]
