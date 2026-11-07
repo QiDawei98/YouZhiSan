@@ -639,6 +639,7 @@ if __name__ == "__main__":
                 raise ValueError
         print(' ')
         
+    sys.stdout.flush()
     YZS_lib.create_energy_level_plot(best_THNRG, EXNRG)
         
     if sys.platform == "win32":
