@@ -295,41 +295,6 @@
     }
   },
   {
-    "instance_idx": 4,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "random_fixed_seed",
-    "trial_idx": 1,
-    "cfg_name": "C01_Baseline_Default",
-    "f0": 22632.88163633413,
-    "final_ssd": 3.2146661215938384,
-    "ssd_drop": 22629.666970212533,
-    "nfev": 8910,
-    "nit": 1000,
-    "time_sec": 62.70271301269531,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      4.950309951979346,
-      -5.5634981152226475,
-      -0.9219059074548046,
-      -48.39674765235119
-    ],
-    "independent_cfp": {
-      "AR20": 4.95031,
-      "AR40": -5.563498,
-      "AR60": -0.921906,
-      "AR66": -48.396748
-    },
-    "full_cfp": {
-      "AR20": 4.95031,
-      "AR40": -5.563498,
-      "AR60": -0.921906,
-      "AR66": -48.396748
-    }
-  },
-  {
     "instance_idx": 1,
     "case_name": "(Wong E Y et al, 1961) / (Wong E Y et al, 1961).txt",
     "symmetry": "D3H",
@@ -984,41 +949,6 @@
     }
   },
   {
-    "instance_idx": 31,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 1,
-    "cfg_name": "C01_Baseline_Default",
-    "f0": 1.204150129529926,
-    "final_ssd": 1.204150129529926,
-    "ssd_drop": 0.0,
-    "nfev": 8127,
-    "nit": 1000,
-    "time_sec": 57.80571389198303,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299577,
-      -7.98871,
-      4.993983,
-      14.626129
-    ],
-    "independent_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    },
-    "full_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    }
-  },
-  {
     "instance_idx": 29,
     "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
     "symmetry": "D3H",
@@ -1051,41 +981,6 @@
       "AR40": -9.826589,
       "AR60": -3.771022,
       "AR66": 48.505897
-    }
-  },
-  {
-    "instance_idx": 32,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 2,
-    "cfg_name": "C01_Baseline_Default",
-    "f0": 1.2698607784949851,
-    "final_ssd": 1.269860776457265,
-    "ssd_drop": 2.0377202147869866e-09,
-    "nfev": 8028,
-    "nit": 1000,
-    "time_sec": 51.489262342453,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.267846285190108,
-      -7.688289610995973,
-      5.332538963398678,
-      16.25880006939576
-    ],
-    "independent_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    },
-    "full_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
     }
   },
   {
@@ -1297,41 +1192,6 @@
       "AR62": 80.214063,
       "AR64": 5.48635,
       "AR66": -65.205851
-    }
-  },
-  {
-    "instance_idx": 33,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 3,
-    "cfg_name": "C01_Baseline_Default",
-    "f0": 1.2041501297245185,
-    "final_ssd": 1.2041501297245185,
-    "ssd_drop": 0.0,
-    "nfev": 8298,
-    "nit": 1000,
-    "time_sec": 53.95212435722351,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299573,
-      -7.98871,
-      4.993985,
-      -14.626114
-    ],
-    "independent_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
-    },
-    "full_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
     }
   },
   {
@@ -2762,41 +2622,6 @@
     }
   },
   {
-    "instance_idx": 4,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "random_fixed_seed",
-    "trial_idx": 1,
-    "cfg_name": "C02_Restart_1e-4",
-    "f0": 22632.88163633413,
-    "final_ssd": 3.2146661215938384,
-    "ssd_drop": 22629.666970212533,
-    "nfev": 8930,
-    "nit": 1000,
-    "time_sec": 54.16585350036621,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      4.950309951979346,
-      -5.5634981152226475,
-      -0.9219059074548046,
-      -48.39674765235119
-    ],
-    "independent_cfp": {
-      "AR20": 4.95031,
-      "AR40": -5.563498,
-      "AR60": -0.921906,
-      "AR66": -48.396748
-    },
-    "full_cfp": {
-      "AR20": 4.95031,
-      "AR40": -5.563498,
-      "AR60": -0.921906,
-      "AR66": -48.396748
-    }
-  },
-  {
     "instance_idx": 44,
     "case_name": "(Chen X Y et al, 2005) / (Chen X Y et al, 2005).txt",
     "symmetry": "C2V",
@@ -4009,41 +3834,6 @@
     }
   },
   {
-    "instance_idx": 31,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 1,
-    "cfg_name": "C02_Restart_1e-4",
-    "f0": 1.204150129529926,
-    "final_ssd": 1.204150129529926,
-    "ssd_drop": 0.0,
-    "nfev": 8318,
-    "nit": 1000,
-    "time_sec": 52.58475375175476,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299577,
-      -7.98871,
-      4.993983,
-      14.626129
-    ],
-    "independent_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    },
-    "full_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    }
-  },
-  {
     "instance_idx": 28,
     "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
     "symmetry": "D3H",
@@ -4076,41 +3866,6 @@
       "AR40": -9.826589,
       "AR60": -3.771022,
       "AR66": 48.505897
-    }
-  },
-  {
-    "instance_idx": 32,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 2,
-    "cfg_name": "C02_Restart_1e-4",
-    "f0": 1.2698607784949851,
-    "final_ssd": 1.2698607759929228,
-    "ssd_drop": 2.5020623350968663e-09,
-    "nfev": 8318,
-    "nit": 1000,
-    "time_sec": 52.80178904533386,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.267846285190108,
-      -7.688289610995973,
-      5.332538963398678,
-      16.25880006939576
-    ],
-    "independent_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    },
-    "full_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
     }
   },
   {
@@ -4246,41 +4001,6 @@
       "AR62": 80.214063,
       "AR64": 5.48635,
       "AR66": -65.205851
-    }
-  },
-  {
-    "instance_idx": 33,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 3,
-    "cfg_name": "C02_Restart_1e-4",
-    "f0": 1.2041501297245185,
-    "final_ssd": 1.2041501297245185,
-    "ssd_drop": 0.0,
-    "nfev": 8822,
-    "nit": 1000,
-    "time_sec": 55.59569525718689,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299573,
-      -7.98871,
-      4.993985,
-      -14.626114
-    ],
-    "independent_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
-    },
-    "full_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
     }
   },
   {
@@ -5661,41 +5381,6 @@
     }
   },
   {
-    "instance_idx": 4,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "random_fixed_seed",
-    "trial_idx": 1,
-    "cfg_name": "C03_Restart_5e-4",
-    "f0": 22632.88163633413,
-    "final_ssd": 2.152131183441108,
-    "ssd_drop": 22630.729505150688,
-    "nfev": 9338,
-    "nit": 1000,
-    "time_sec": 56.96186542510986,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.293930966634886,
-      -6.0498785647408555,
-      -0.8689428069721833,
-      -59.4668362464032
-    ],
-    "independent_cfp": {
-      "AR20": -5.293931,
-      "AR40": -6.049879,
-      "AR60": -0.868943,
-      "AR66": -59.466836
-    },
-    "full_cfp": {
-      "AR20": -5.293931,
-      "AR40": -6.049879,
-      "AR60": -0.868943,
-      "AR66": -59.466836
-    }
-  },
-  {
     "instance_idx": 3,
     "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
     "symmetry": "D3H",
@@ -6958,41 +6643,6 @@
     }
   },
   {
-    "instance_idx": 31,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 1,
-    "cfg_name": "C03_Restart_5e-4",
-    "f0": 1.204150129529926,
-    "final_ssd": 1.204150129529926,
-    "ssd_drop": 0.0,
-    "nfev": 8222,
-    "nit": 1000,
-    "time_sec": 49.03700852394104,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299577,
-      -7.98871,
-      4.993983,
-      14.626129
-    ],
-    "independent_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    },
-    "full_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    }
-  },
-  {
     "instance_idx": 27,
     "case_name": "(Crosswhite H M et al, 1961) / (Crosswhite H M et al, 1961).txt",
     "symmetry": "C6V",
@@ -7148,41 +6798,6 @@
     }
   },
   {
-    "instance_idx": 32,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 2,
-    "cfg_name": "C03_Restart_5e-4",
-    "f0": 1.2698607784949851,
-    "final_ssd": 1.2698607759929228,
-    "ssd_drop": 2.5020623350968663e-09,
-    "nfev": 8753,
-    "nit": 1000,
-    "time_sec": 53.5275444984436,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.267846285190108,
-      -7.688289610995973,
-      5.332538963398678,
-      16.25880006939576
-    ],
-    "independent_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    },
-    "full_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    }
-  },
-  {
     "instance_idx": 18,
     "case_name": "Synthetic_10 [Yb3+ in C2V, 9 params, 2F7/2,2F5/2]",
     "symmetry": "C2V",
@@ -7265,41 +6880,6 @@
       "AR40": -9.826583,
       "AR60": -3.771021,
       "AR66": 48.505913
-    }
-  },
-  {
-    "instance_idx": 33,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 3,
-    "cfg_name": "C03_Restart_5e-4",
-    "f0": 1.2041501297245185,
-    "final_ssd": 1.2041501297245185,
-    "ssd_drop": 0.0,
-    "nfev": 9347,
-    "nit": 1000,
-    "time_sec": 58.54202628135681,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299573,
-      -7.98871,
-      4.993985,
-      -14.626114
-    ],
-    "independent_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
-    },
-    "full_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
     }
   },
   {
@@ -8645,41 +8225,6 @@
     }
   },
   {
-    "instance_idx": 4,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "random_fixed_seed",
-    "trial_idx": 1,
-    "cfg_name": "C04_Restart_1e-3_Standard",
-    "f0": 22632.88163633413,
-    "final_ssd": 3.2146661215938384,
-    "ssd_drop": 22629.666970212533,
-    "nfev": 9000,
-    "nit": 1000,
-    "time_sec": 55.57596707344055,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      4.950309951979346,
-      -5.5634981152226475,
-      -0.9219059074548046,
-      -48.39674765235119
-    ],
-    "independent_cfp": {
-      "AR20": 4.95031,
-      "AR40": -5.563498,
-      "AR60": -0.921906,
-      "AR66": -48.396748
-    },
-    "full_cfp": {
-      "AR20": 4.95031,
-      "AR40": -5.563498,
-      "AR60": -0.921906,
-      "AR66": -48.396748
-    }
-  },
-  {
     "instance_idx": 70,
     "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
     "symmetry": "C2V",
@@ -9977,41 +9522,6 @@
     }
   },
   {
-    "instance_idx": 31,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 1,
-    "cfg_name": "C04_Restart_1e-3_Standard",
-    "f0": 1.204150129529926,
-    "final_ssd": 1.204150129529926,
-    "ssd_drop": 0.0,
-    "nfev": 8442,
-    "nit": 1000,
-    "time_sec": 51.33108115196228,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299577,
-      -7.98871,
-      4.993983,
-      14.626129
-    ],
-    "independent_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    },
-    "full_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    }
-  },
-  {
     "instance_idx": 17,
     "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
     "symmetry": "C2V",
@@ -10097,41 +9607,6 @@
     }
   },
   {
-    "instance_idx": 32,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 2,
-    "cfg_name": "C04_Restart_1e-3_Standard",
-    "f0": 1.2698607784949851,
-    "final_ssd": 1.2698607759929228,
-    "ssd_drop": 2.5020623350968663e-09,
-    "nfev": 9333,
-    "nit": 1000,
-    "time_sec": 56.356006145477295,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.267846285190108,
-      -7.688289610995973,
-      5.332538963398678,
-      16.25880006939576
-    ],
-    "independent_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    },
-    "full_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    }
-  },
-  {
     "instance_idx": 29,
     "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
     "symmetry": "D3H",
@@ -10214,41 +9689,6 @@
       "AR62": -62.763577,
       "AR64": -96.591114,
       "AR66": 3.783638
-    }
-  },
-  {
-    "instance_idx": 33,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 3,
-    "cfg_name": "C04_Restart_1e-3_Standard",
-    "f0": 1.2041501297245185,
-    "final_ssd": 1.2041501297245185,
-    "ssd_drop": 0.0,
-    "nfev": 10260,
-    "nit": 1000,
-    "time_sec": 64.0880937576294,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299573,
-      -7.98871,
-      4.993985,
-      -14.626114
-    ],
-    "independent_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
-    },
-    "full_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
     }
   },
   {
@@ -11629,41 +11069,6 @@
     }
   },
   {
-    "instance_idx": 4,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "random_fixed_seed",
-    "trial_idx": 1,
-    "cfg_name": "C05_Restart_2e-3_Frequent",
-    "f0": 22632.88163633413,
-    "final_ssd": 3.2146661215938384,
-    "ssd_drop": 22629.666970212533,
-    "nfev": 9050,
-    "nit": 1000,
-    "time_sec": 59.057175397872925,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      4.950309951979346,
-      -5.5634981152226475,
-      -0.9219059074548046,
-      -48.39674765235119
-    ],
-    "independent_cfp": {
-      "AR20": 4.95031,
-      "AR40": -5.563498,
-      "AR60": -0.921906,
-      "AR66": -48.396748
-    },
-    "full_cfp": {
-      "AR20": 4.95031,
-      "AR40": -5.563498,
-      "AR60": -0.921906,
-      "AR66": -48.396748
-    }
-  },
-  {
     "instance_idx": 71,
     "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
     "symmetry": "C2V",
@@ -12996,41 +12401,6 @@
     }
   },
   {
-    "instance_idx": 31,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 1,
-    "cfg_name": "C05_Restart_2e-3_Frequent",
-    "f0": 1.204150129529926,
-    "final_ssd": 1.204150129529926,
-    "ssd_drop": 0.0,
-    "nfev": 8375,
-    "nit": 1000,
-    "time_sec": 50.823734760284424,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299577,
-      -7.98871,
-      4.993983,
-      14.626129
-    ],
-    "independent_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    },
-    "full_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    }
-  },
-  {
     "instance_idx": 17,
     "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
     "symmetry": "C2V",
@@ -13163,76 +12533,6 @@
       "AR40": -9.826589,
       "AR60": -3.771022,
       "AR66": 48.505897
-    }
-  },
-  {
-    "instance_idx": 32,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 2,
-    "cfg_name": "C05_Restart_2e-3_Frequent",
-    "f0": 1.2698607784949851,
-    "final_ssd": 1.2698607759929228,
-    "ssd_drop": 2.5020623350968663e-09,
-    "nfev": 10058,
-    "nit": 1000,
-    "time_sec": 65.04152941703796,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.267846285190108,
-      -7.688289610995973,
-      5.332538963398678,
-      16.25880006939576
-    ],
-    "independent_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    },
-    "full_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    }
-  },
-  {
-    "instance_idx": 33,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 3,
-    "cfg_name": "C05_Restart_2e-3_Frequent",
-    "f0": 1.2041501297245185,
-    "final_ssd": 1.2041501297245185,
-    "ssd_drop": 0.0,
-    "nfev": 10931,
-    "nit": 1000,
-    "time_sec": 67.96159934997559,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299573,
-      -7.98871,
-      4.993985,
-      -14.626114
-    ],
-    "independent_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
-    },
-    "full_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
     }
   },
   {
@@ -14648,41 +13948,6 @@
     }
   },
   {
-    "instance_idx": 4,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "random_fixed_seed",
-    "trial_idx": 1,
-    "cfg_name": "C06_Gentle_Visit_2.50_Restart_1e-3",
-    "f0": 22632.88163633413,
-    "final_ssd": 3.6030866949374447,
-    "ssd_drop": 22629.27854963919,
-    "nfev": 9663,
-    "nit": 1000,
-    "time_sec": 58.179078340530396,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      5.305224163912116,
-      -4.866479821608009,
-      -0.46741017078926134,
-      -48.11352246040943
-    ],
-    "independent_cfp": {
-      "AR20": 5.305224,
-      "AR40": -4.86648,
-      "AR60": -0.46741,
-      "AR66": -48.113522
-    },
-    "full_cfp": {
-      "AR20": 5.305224,
-      "AR40": -4.86648,
-      "AR60": -0.46741,
-      "AR66": -48.113522
-    }
-  },
-  {
     "instance_idx": 9,
     "case_name": "Synthetic_01 [Dy3+ in C6V, 4 params, 6H5/2,6F7/2]",
     "symmetry": "C6V",
@@ -15945,41 +15210,6 @@
     }
   },
   {
-    "instance_idx": 31,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 1,
-    "cfg_name": "C06_Gentle_Visit_2.50_Restart_1e-3",
-    "f0": 1.204150129529926,
-    "final_ssd": 1.204150129529926,
-    "ssd_drop": 0.0,
-    "nfev": 8259,
-    "nit": 1000,
-    "time_sec": 53.69018816947937,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299577,
-      -7.98871,
-      4.993983,
-      14.626129
-    ],
-    "independent_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    },
-    "full_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    }
-  },
-  {
     "instance_idx": 17,
     "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
     "symmetry": "C2V",
@@ -16150,41 +15380,6 @@
     }
   },
   {
-    "instance_idx": 32,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 2,
-    "cfg_name": "C06_Gentle_Visit_2.50_Restart_1e-3",
-    "f0": 1.2698607784949851,
-    "final_ssd": 1.2698607759929228,
-    "ssd_drop": 2.5020623350968663e-09,
-    "nfev": 8898,
-    "nit": 1000,
-    "time_sec": 55.35389757156372,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.267846285190108,
-      -7.688289610995973,
-      5.332538963398678,
-      16.25880006939576
-    ],
-    "independent_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    },
-    "full_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    }
-  },
-  {
     "instance_idx": 30,
     "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
     "symmetry": "D3H",
@@ -16217,41 +15412,6 @@
       "AR40": -9.826583,
       "AR60": -3.771021,
       "AR66": 48.505913
-    }
-  },
-  {
-    "instance_idx": 33,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 3,
-    "cfg_name": "C06_Gentle_Visit_2.50_Restart_1e-3",
-    "f0": 1.2041501297245185,
-    "final_ssd": 1.2041501297245185,
-    "ssd_drop": 0.0,
-    "nfev": 9537,
-    "nit": 1000,
-    "time_sec": 58.428863763809204,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299573,
-      -7.98871,
-      4.993985,
-      -14.626114
-    ],
-    "independent_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
-    },
-    "full_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
     }
   },
   {
@@ -17732,41 +16892,6 @@
     }
   },
   {
-    "instance_idx": 4,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "random_fixed_seed",
-    "trial_idx": 1,
-    "cfg_name": "C07_Moderate_Visit_2.70_Restart_1e-3",
-    "f0": 22632.88163633413,
-    "final_ssd": 3.2146661203831313,
-    "ssd_drop": 22629.666970213744,
-    "nfev": 10108,
-    "nit": 1000,
-    "time_sec": 63.99071431159973,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      4.950307962580172,
-      -5.563499854064014,
-      -0.9219068477422259,
-      -48.39677156434245
-    ],
-    "independent_cfp": {
-      "AR20": 4.950308,
-      "AR40": -5.5635,
-      "AR60": -0.921907,
-      "AR66": -48.396772
-    },
-    "full_cfp": {
-      "AR20": 4.950308,
-      "AR40": -5.5635,
-      "AR60": -0.921907,
-      "AR66": -48.396772
-    }
-  },
-  {
     "instance_idx": 9,
     "case_name": "Synthetic_01 [Dy3+ in C6V, 4 params, 6H5/2,6F7/2]",
     "symmetry": "C6V",
@@ -19029,41 +18154,6 @@
     }
   },
   {
-    "instance_idx": 31,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 1,
-    "cfg_name": "C07_Moderate_Visit_2.70_Restart_1e-3",
-    "f0": 1.204150129529926,
-    "final_ssd": 1.204150129529926,
-    "ssd_drop": 0.0,
-    "nfev": 8389,
-    "nit": 1000,
-    "time_sec": 50.51970887184143,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299577,
-      -7.98871,
-      4.993983,
-      14.626129
-    ],
-    "independent_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    },
-    "full_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    }
-  },
-  {
     "instance_idx": 29,
     "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
     "symmetry": "D3H",
@@ -19131,76 +18221,6 @@
       "AR40": -9.826589,
       "AR60": -3.771022,
       "AR66": 48.505897
-    }
-  },
-  {
-    "instance_idx": 32,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 2,
-    "cfg_name": "C07_Moderate_Visit_2.70_Restart_1e-3",
-    "f0": 1.2698607784949851,
-    "final_ssd": 1.2698607759929228,
-    "ssd_drop": 2.5020623350968663e-09,
-    "nfev": 9478,
-    "nit": 1000,
-    "time_sec": 57.409995555877686,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.267846285190108,
-      -7.688289610995973,
-      5.332538963398678,
-      16.25880006939576
-    ],
-    "independent_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    },
-    "full_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    }
-  },
-  {
-    "instance_idx": 33,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 3,
-    "cfg_name": "C07_Moderate_Visit_2.70_Restart_1e-3",
-    "f0": 1.2041501297245185,
-    "final_ssd": 1.2041501297245185,
-    "ssd_drop": 0.0,
-    "nfev": 10162,
-    "nit": 1000,
-    "time_sec": 64.10500407218933,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299573,
-      -7.98871,
-      4.993985,
-      -14.626114
-    ],
-    "independent_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
-    },
-    "full_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
     }
   },
   {
@@ -20631,41 +19651,6 @@
     }
   },
   {
-    "instance_idx": 4,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "random_fixed_seed",
-    "trial_idx": 1,
-    "cfg_name": "C08_Extended_Visit_2.75_Restart_1e-3",
-    "f0": 22632.88163633413,
-    "final_ssd": 3.2146661203831313,
-    "ssd_drop": 22629.666970213744,
-    "nfev": 10380,
-    "nit": 1000,
-    "time_sec": 63.23213076591492,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      4.950307962580172,
-      -5.563499854064014,
-      -0.9219068477422259,
-      -48.39677156434245
-    ],
-    "independent_cfp": {
-      "AR20": 4.950308,
-      "AR40": -5.5635,
-      "AR60": -0.921907,
-      "AR66": -48.396772
-    },
-    "full_cfp": {
-      "AR20": 4.950308,
-      "AR40": -5.5635,
-      "AR60": -0.921907,
-      "AR66": -48.396772
-    }
-  },
-  {
     "instance_idx": 71,
     "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
     "symmetry": "C2V",
@@ -21913,41 +20898,6 @@
     }
   },
   {
-    "instance_idx": 31,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 1,
-    "cfg_name": "C08_Extended_Visit_2.75_Restart_1e-3",
-    "f0": 1.204150129529926,
-    "final_ssd": 1.204150129529926,
-    "ssd_drop": 0.0,
-    "nfev": 8391,
-    "nit": 1000,
-    "time_sec": 50.470463275909424,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299577,
-      -7.98871,
-      4.993983,
-      14.626129
-    ],
-    "independent_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    },
-    "full_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    }
-  },
-  {
     "instance_idx": 17,
     "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
     "symmetry": "C2V",
@@ -22115,76 +21065,6 @@
       "AR40": -9.826589,
       "AR60": -3.771022,
       "AR66": 48.505897
-    }
-  },
-  {
-    "instance_idx": 32,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 2,
-    "cfg_name": "C08_Extended_Visit_2.75_Restart_1e-3",
-    "f0": 1.2698607784949851,
-    "final_ssd": 1.2698607759929228,
-    "ssd_drop": 2.5020623350968663e-09,
-    "nfev": 9768,
-    "nit": 1000,
-    "time_sec": 58.1668221950531,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.267846285190108,
-      -7.688289610995973,
-      5.332538963398678,
-      16.25880006939576
-    ],
-    "independent_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    },
-    "full_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    }
-  },
-  {
-    "instance_idx": 33,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 3,
-    "cfg_name": "C08_Extended_Visit_2.75_Restart_1e-3",
-    "f0": 1.2041501297245185,
-    "final_ssd": 1.2041501297245185,
-    "ssd_drop": 0.0,
-    "nfev": 10830,
-    "nit": 1000,
-    "time_sec": 66.6952817440033,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299573,
-      -7.98871,
-      4.993985,
-      -14.626114
-    ],
-    "independent_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
-    },
-    "full_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
     }
   },
   {
@@ -23700,41 +22580,6 @@
     }
   },
   {
-    "instance_idx": 4,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "random_fixed_seed",
-    "trial_idx": 1,
-    "cfg_name": "C09_Levy_Visit_2.90_Restart_1e-3",
-    "f0": 22632.88163633413,
-    "final_ssd": 3.2146661203831313,
-    "ssd_drop": 22629.666970213744,
-    "nfev": 10788,
-    "nit": 1000,
-    "time_sec": 64.50224900245667,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      4.950307962580172,
-      -5.563499854064014,
-      -0.9219068477422259,
-      -48.39677156434245
-    ],
-    "independent_cfp": {
-      "AR20": 4.950308,
-      "AR40": -5.5635,
-      "AR60": -0.921907,
-      "AR66": -48.396772
-    },
-    "full_cfp": {
-      "AR20": 4.950308,
-      "AR40": -5.5635,
-      "AR60": -0.921907,
-      "AR66": -48.396772
-    }
-  },
-  {
     "instance_idx": 71,
     "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
     "symmetry": "C2V",
@@ -24859,41 +23704,6 @@
     }
   },
   {
-    "instance_idx": 31,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 1,
-    "cfg_name": "C09_Levy_Visit_2.90_Restart_1e-3",
-    "f0": 1.204150129529926,
-    "final_ssd": 1.204150129529926,
-    "ssd_drop": 0.0,
-    "nfev": 8475,
-    "nit": 1000,
-    "time_sec": 50.30840706825256,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299577,
-      -7.98871,
-      4.993983,
-      14.626129
-    ],
-    "independent_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    },
-    "full_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    }
-  },
-  {
     "instance_idx": 17,
     "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
     "symmetry": "C2V",
@@ -25099,76 +23909,6 @@
       "AR44": -124.091803,
       "AR60": -18.594732,
       "AR64": -35.556485
-    }
-  },
-  {
-    "instance_idx": 32,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 2,
-    "cfg_name": "C09_Levy_Visit_2.90_Restart_1e-3",
-    "f0": 1.2698607784949851,
-    "final_ssd": 1.2698607759929228,
-    "ssd_drop": 2.5020623350968663e-09,
-    "nfev": 10203,
-    "nit": 1000,
-    "time_sec": 60.5441632270813,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.267846285190108,
-      -7.688289610995973,
-      5.332538963398678,
-      16.25880006939576
-    ],
-    "independent_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    },
-    "full_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    }
-  },
-  {
-    "instance_idx": 33,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 3,
-    "cfg_name": "C09_Levy_Visit_2.90_Restart_1e-3",
-    "f0": 1.2041501297245185,
-    "final_ssd": 1.2041501297245185,
-    "ssd_drop": 0.0,
-    "nfev": 11355,
-    "nit": 1000,
-    "time_sec": 67.99201250076294,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299573,
-      -7.98871,
-      4.993985,
-      -14.626114
-    ],
-    "independent_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
-    },
-    "full_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
     }
   },
   {
@@ -26599,41 +25339,6 @@
     }
   },
   {
-    "instance_idx": 4,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "random_fixed_seed",
-    "trial_idx": 1,
-    "cfg_name": "C10_Warm_Temp_10000_Restart_1e-3",
-    "f0": 22632.88163633413,
-    "final_ssd": 3.2146661203831313,
-    "ssd_drop": 22629.666970213744,
-    "nfev": 9972,
-    "nit": 1000,
-    "time_sec": 61.06237578392029,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      4.950307962580172,
-      -5.563499854064014,
-      -0.9219068477422259,
-      -48.39677156434245
-    ],
-    "independent_cfp": {
-      "AR20": 4.950308,
-      "AR40": -5.5635,
-      "AR60": -0.921907,
-      "AR66": -48.396772
-    },
-    "full_cfp": {
-      "AR20": 4.950308,
-      "AR40": -5.5635,
-      "AR60": -0.921907,
-      "AR66": -48.396772
-    }
-  },
-  {
     "instance_idx": 9,
     "case_name": "Synthetic_01 [Dy3+ in C6V, 4 params, 6H5/2,6F7/2]",
     "symmetry": "C6V",
@@ -27881,41 +26586,6 @@
     }
   },
   {
-    "instance_idx": 31,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 1,
-    "cfg_name": "C10_Warm_Temp_10000_Restart_1e-3",
-    "f0": 1.204150129529926,
-    "final_ssd": 1.204150129529926,
-    "ssd_drop": 0.0,
-    "nfev": 8334,
-    "nit": 1000,
-    "time_sec": 49.29725527763367,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299577,
-      -7.98871,
-      4.993983,
-      14.626129
-    ],
-    "independent_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    },
-    "full_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    }
-  },
-  {
     "instance_idx": 18,
     "case_name": "Synthetic_10 [Yb3+ in C2V, 9 params, 2F7/2,2F5/2]",
     "symmetry": "C2V",
@@ -28051,41 +26721,6 @@
     }
   },
   {
-    "instance_idx": 32,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 2,
-    "cfg_name": "C10_Warm_Temp_10000_Restart_1e-3",
-    "f0": 1.2698607784949851,
-    "final_ssd": 1.2698607759929228,
-    "ssd_drop": 2.5020623350968663e-09,
-    "nfev": 9333,
-    "nit": 1000,
-    "time_sec": 55.52000427246094,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.267846285190108,
-      -7.688289610995973,
-      5.332538963398678,
-      16.25880006939576
-    ],
-    "independent_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    },
-    "full_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    }
-  },
-  {
     "instance_idx": 29,
     "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
     "symmetry": "D3H",
@@ -28118,41 +26753,6 @@
       "AR40": -9.826589,
       "AR60": -3.771022,
       "AR66": 48.505897
-    }
-  },
-  {
-    "instance_idx": 33,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 3,
-    "cfg_name": "C10_Warm_Temp_10000_Restart_1e-3",
-    "f0": 1.2041501297245185,
-    "final_ssd": 1.2041501297245185,
-    "ssd_drop": 0.0,
-    "nfev": 10017,
-    "nit": 1000,
-    "time_sec": 59.39293193817139,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299573,
-      -7.98871,
-      4.993985,
-      -14.626114
-    ],
-    "independent_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
-    },
-    "full_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
     }
   },
   {
@@ -29533,41 +28133,6 @@
     }
   },
   {
-    "instance_idx": 4,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "random_fixed_seed",
-    "trial_idx": 1,
-    "cfg_name": "C11_Hot_Temp_20000_Restart_1e-3",
-    "f0": 22632.88163633413,
-    "final_ssd": 3.2146661203831313,
-    "ssd_drop": 22629.666970213744,
-    "nfev": 9972,
-    "nit": 1000,
-    "time_sec": 58.76837348937988,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      4.950307962580172,
-      -5.563499854064014,
-      -0.9219068477422259,
-      -48.39677156434245
-    ],
-    "independent_cfp": {
-      "AR20": 4.950308,
-      "AR40": -5.5635,
-      "AR60": -0.921907,
-      "AR66": -48.396772
-    },
-    "full_cfp": {
-      "AR20": 4.950308,
-      "AR40": -5.5635,
-      "AR60": -0.921907,
-      "AR66": -48.396772
-    }
-  },
-  {
     "instance_idx": 3,
     "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
     "symmetry": "D3H",
@@ -30865,41 +29430,6 @@
     }
   },
   {
-    "instance_idx": 31,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 1,
-    "cfg_name": "C11_Hot_Temp_20000_Restart_1e-3",
-    "f0": 1.204150129529926,
-    "final_ssd": 1.204150129529926,
-    "ssd_drop": 0.0,
-    "nfev": 8361,
-    "nit": 1000,
-    "time_sec": 49.87183618545532,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299577,
-      -7.98871,
-      4.993983,
-      14.626129
-    ],
-    "independent_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    },
-    "full_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    }
-  },
-  {
     "instance_idx": 17,
     "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
     "symmetry": "C2V",
@@ -31067,76 +29597,6 @@
       "AR40": -9.826589,
       "AR60": -3.771022,
       "AR66": 48.505897
-    }
-  },
-  {
-    "instance_idx": 32,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 2,
-    "cfg_name": "C11_Hot_Temp_20000_Restart_1e-3",
-    "f0": 1.2698607784949851,
-    "final_ssd": 1.2698607759929228,
-    "ssd_drop": 2.5020623350968663e-09,
-    "nfev": 9333,
-    "nit": 1000,
-    "time_sec": 55.01882457733154,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.267846285190108,
-      -7.688289610995973,
-      5.332538963398678,
-      16.25880006939576
-    ],
-    "independent_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    },
-    "full_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    }
-  },
-  {
-    "instance_idx": 33,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 3,
-    "cfg_name": "C11_Hot_Temp_20000_Restart_1e-3",
-    "f0": 1.2041501297245185,
-    "final_ssd": 1.2041501297245185,
-    "ssd_drop": 0.0,
-    "nfev": 10044,
-    "nit": 1000,
-    "time_sec": 59.22461152076721,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299573,
-      -7.98871,
-      4.993985,
-      -14.626114
-    ],
-    "independent_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
-    },
-    "full_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
     }
   },
   {
@@ -32517,41 +30977,6 @@
     }
   },
   {
-    "instance_idx": 4,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "random_fixed_seed",
-    "trial_idx": 1,
-    "cfg_name": "C12_Selective_Accept_m15_Restart_1e-3",
-    "f0": 22632.88163633413,
-    "final_ssd": 3.2146661215938384,
-    "ssd_drop": 22629.666970212533,
-    "nfev": 9000,
-    "nit": 1000,
-    "time_sec": 54.35502219200134,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      4.950309951979346,
-      -5.5634981152226475,
-      -0.9219059074548046,
-      -48.39674765235119
-    ],
-    "independent_cfp": {
-      "AR20": 4.95031,
-      "AR40": -5.563498,
-      "AR60": -0.921906,
-      "AR66": -48.396748
-    },
-    "full_cfp": {
-      "AR20": 4.95031,
-      "AR40": -5.563498,
-      "AR60": -0.921906,
-      "AR66": -48.396748
-    }
-  },
-  {
     "instance_idx": 9,
     "case_name": "Synthetic_01 [Dy3+ in C6V, 4 params, 6H5/2,6F7/2]",
     "symmetry": "C6V",
@@ -33849,41 +32274,6 @@
     }
   },
   {
-    "instance_idx": 31,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 1,
-    "cfg_name": "C12_Selective_Accept_m15_Restart_1e-3",
-    "f0": 1.204150129529926,
-    "final_ssd": 1.204150129529926,
-    "ssd_drop": 0.0,
-    "nfev": 8325,
-    "nit": 1000,
-    "time_sec": 49.1509690284729,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299577,
-      -7.98871,
-      4.993983,
-      14.626129
-    ],
-    "independent_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    },
-    "full_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    }
-  },
-  {
     "instance_idx": 18,
     "case_name": "Synthetic_10 [Yb3+ in C2V, 9 params, 2F7/2,2F5/2]",
     "symmetry": "C2V",
@@ -34051,76 +32441,6 @@
       "AR40": -9.826589,
       "AR60": -3.771022,
       "AR66": 48.505897
-    }
-  },
-  {
-    "instance_idx": 32,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 2,
-    "cfg_name": "C12_Selective_Accept_m15_Restart_1e-3",
-    "f0": 1.2698607784949851,
-    "final_ssd": 1.2698607759929228,
-    "ssd_drop": 2.5020623350968663e-09,
-    "nfev": 9333,
-    "nit": 1000,
-    "time_sec": 55.14671444892883,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.267846285190108,
-      -7.688289610995973,
-      5.332538963398678,
-      16.25880006939576
-    ],
-    "independent_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    },
-    "full_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    }
-  },
-  {
-    "instance_idx": 33,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 3,
-    "cfg_name": "C12_Selective_Accept_m15_Restart_1e-3",
-    "f0": 1.2041501297245185,
-    "final_ssd": 1.2041501297245185,
-    "ssd_drop": 0.0,
-    "nfev": 10089,
-    "nit": 1000,
-    "time_sec": 60.489075660705566,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299573,
-      -7.98871,
-      4.993985,
-      -14.626114
-    ],
-    "independent_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
-    },
-    "full_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
     }
   },
   {
@@ -35501,41 +33821,6 @@
     }
   },
   {
-    "instance_idx": 4,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "random_fixed_seed",
-    "trial_idx": 1,
-    "cfg_name": "C13_Strict_Accept_m30_Restart_1e-3",
-    "f0": 22632.88163633413,
-    "final_ssd": 3.2146661215938384,
-    "ssd_drop": 22629.666970212533,
-    "nfev": 9000,
-    "nit": 1000,
-    "time_sec": 52.85235810279846,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      4.950309951979346,
-      -5.5634981152226475,
-      -0.9219059074548046,
-      -48.39674765235119
-    ],
-    "independent_cfp": {
-      "AR20": 4.95031,
-      "AR40": -5.563498,
-      "AR60": -0.921906,
-      "AR66": -48.396748
-    },
-    "full_cfp": {
-      "AR20": 4.95031,
-      "AR40": -5.563498,
-      "AR60": -0.921906,
-      "AR66": -48.396748
-    }
-  },
-  {
     "instance_idx": 3,
     "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
     "symmetry": "D3H",
@@ -36868,41 +35153,6 @@
     }
   },
   {
-    "instance_idx": 31,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 1,
-    "cfg_name": "C13_Strict_Accept_m30_Restart_1e-3",
-    "f0": 1.204150129529926,
-    "final_ssd": 1.204150129529926,
-    "ssd_drop": 0.0,
-    "nfev": 8685,
-    "nit": 1000,
-    "time_sec": 51.96440601348877,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299577,
-      -7.98871,
-      4.993983,
-      14.626129
-    ],
-    "independent_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    },
-    "full_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    }
-  },
-  {
     "instance_idx": 17,
     "case_name": "Synthetic_09 [Nd3+ in C2V, 9 params, 4G5/2,4G7/2]",
     "symmetry": "C2V",
@@ -37035,76 +35285,6 @@
       "AR40": -9.826589,
       "AR60": -3.771022,
       "AR66": 48.505897
-    }
-  },
-  {
-    "instance_idx": 32,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 2,
-    "cfg_name": "C13_Strict_Accept_m30_Restart_1e-3",
-    "f0": 1.2698607784949851,
-    "final_ssd": 1.2698607759929228,
-    "ssd_drop": 2.5020623350968663e-09,
-    "nfev": 9333,
-    "nit": 1000,
-    "time_sec": 55.18672251701355,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.267846285190108,
-      -7.688289610995973,
-      5.332538963398678,
-      16.25880006939576
-    ],
-    "independent_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    },
-    "full_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    }
-  },
-  {
-    "instance_idx": 33,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 3,
-    "cfg_name": "C13_Strict_Accept_m30_Restart_1e-3",
-    "f0": 1.2041501297245185,
-    "final_ssd": 1.2041501297245185,
-    "ssd_drop": 0.0,
-    "nfev": 10053,
-    "nit": 1000,
-    "time_sec": 60.823060035705566,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299573,
-      -7.98871,
-      4.993985,
-      -14.626114
-    ],
-    "independent_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
-    },
-    "full_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
     }
   },
   {
@@ -38444,41 +36624,6 @@
     }
   },
   {
-    "instance_idx": 4,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "random_fixed_seed",
-    "trial_idx": 1,
-    "cfg_name": "C14_Fast_Budget_500_Restart_1e-3",
-    "f0": 22632.88163633413,
-    "final_ssd": 3.2146661215938384,
-    "ssd_drop": 22629.666970212533,
-    "nfev": 4950,
-    "nit": 500,
-    "time_sec": 29.603148698806763,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      4.950309951979346,
-      -5.5634981152226475,
-      -0.9219059074548046,
-      -48.39674765235119
-    ],
-    "independent_cfp": {
-      "AR20": 4.95031,
-      "AR40": -5.563498,
-      "AR60": -0.921906,
-      "AR66": -48.396748
-    },
-    "full_cfp": {
-      "AR20": 4.95031,
-      "AR40": -5.563498,
-      "AR60": -0.921906,
-      "AR66": -48.396748
-    }
-  },
-  {
     "instance_idx": 69,
     "case_name": "Synthetic_08 [Eu3+ in D3, 6 params, 7F4,7F3]",
     "symmetry": "D3",
@@ -39814,41 +37959,6 @@
     }
   },
   {
-    "instance_idx": 31,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 1,
-    "cfg_name": "C14_Fast_Budget_500_Restart_1e-3",
-    "f0": 1.204150129529926,
-    "final_ssd": 1.204150129529926,
-    "ssd_drop": 0.0,
-    "nfev": 4050,
-    "nit": 500,
-    "time_sec": 23.964282274246216,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299577,
-      -7.98871,
-      4.993983,
-      14.626129
-    ],
-    "independent_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    },
-    "full_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626129
-    }
-  },
-  {
     "instance_idx": 36,
     "case_name": "(Koningstein J A et al, 1964) / (Koningstein J A et al, 1964).txt",
     "symmetry": "C4V",
@@ -40022,41 +38132,6 @@
     }
   },
   {
-    "instance_idx": 32,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 2,
-    "cfg_name": "C14_Fast_Budget_500_Restart_1e-3",
-    "f0": 1.2698607784949851,
-    "final_ssd": 1.2698607759929228,
-    "ssd_drop": 2.5020623350968663e-09,
-    "nfev": 4608,
-    "nit": 500,
-    "time_sec": 28.293217182159424,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.267846285190108,
-      -7.688289610995973,
-      5.332538963398678,
-      16.25880006939576
-    ],
-    "independent_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    },
-    "full_cfp": {
-      "AR20": -5.267846,
-      "AR40": -7.68829,
-      "AR60": 5.332539,
-      "AR66": 16.2588
-    }
-  },
-  {
     "instance_idx": 30,
     "case_name": "(Erath E H, 1961) / (Erath E H, 1961).txt",
     "symmetry": "D3H",
@@ -40089,41 +38164,6 @@
       "AR40": -9.826583,
       "AR60": -3.771021,
       "AR66": 48.505913
-    }
-  },
-  {
-    "instance_idx": 33,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 3,
-    "cfg_name": "C14_Fast_Budget_500_Restart_1e-3",
-    "f0": 1.2041501297245185,
-    "final_ssd": 1.2041501297245185,
-    "ssd_drop": 0.0,
-    "nfev": 4905,
-    "nit": 500,
-    "time_sec": 29.157866954803467,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299573,
-      -7.98871,
-      4.993985,
-      -14.626114
-    ],
-    "independent_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
-    },
-    "full_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
     }
   },
   {
@@ -42179,41 +40219,6 @@
     }
   },
   {
-    "instance_idx": 4,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "random_fixed_seed",
-    "trial_idx": 1,
-    "cfg_name": "C15_Deep_Budget_1500_Restart_1e-3",
-    "f0": 22632.88163633413,
-    "final_ssd": 1.2041501292351835,
-    "ssd_drop": 22631.67748620489,
-    "nfev": 43496,
-    "nit": 1500,
-    "time_sec": 275.78471970558167,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299577944260524,
-      -7.988710091401305,
-      4.9939834314363525,
-      14.626127469591722
-    ],
-    "independent_cfp": {
-      "AR20": -5.299578,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626127
-    },
-    "full_cfp": {
-      "AR20": -5.299578,
-      "AR40": -7.98871,
-      "AR60": 4.993983,
-      "AR66": 14.626127
-    }
-  },
-  {
     "instance_idx": 20,
     "case_name": "(Gruber J B et al, 1960) / #Gruber J B, Conway J G, 1960. Crys.txt",
     "symmetry": "C6V",
@@ -42986,41 +40991,6 @@
     }
   },
   {
-    "instance_idx": 32,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 2,
-    "cfg_name": "C15_Deep_Budget_1500_Restart_1e-3",
-    "f0": 1.2698607784949851,
-    "final_ssd": 1.2041501296005686,
-    "ssd_drop": 0.06571064889441658,
-    "nfev": 30032,
-    "nit": 1500,
-    "time_sec": 192.2538185119629,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299573756962455,
-      -7.988709332545835,
-      4.993983430499562,
-      14.626117431422973
-    ],
-    "independent_cfp": {
-      "AR20": -5.299574,
-      "AR40": -7.988709,
-      "AR60": 4.993983,
-      "AR66": 14.626117
-    },
-    "full_cfp": {
-      "AR20": -5.299574,
-      "AR40": -7.988709,
-      "AR60": 4.993983,
-      "AR66": 14.626117
-    }
-  },
-  {
     "instance_idx": 46,
     "case_name": "Synthetic_01 [Dy3+ in C6V, 4 params, 6H5/2,6F7/2]",
     "symmetry": "C6V",
@@ -43053,41 +41023,6 @@
       "AR40": -13.918122,
       "AR60": 38.130838,
       "AR66": 32.888076
-    }
-  },
-  {
-    "instance_idx": 31,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 1,
-    "cfg_name": "C15_Deep_Budget_1500_Restart_1e-3",
-    "f0": 1.204150129529926,
-    "final_ssd": 1.204150128882265,
-    "ssd_drop": 6.476610359129609e-10,
-    "nfev": 50822,
-    "nit": 1500,
-    "time_sec": 335.85074257850647,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299576662606224,
-      -7.988710760845537,
-      4.993984940710295,
-      14.626118352777578
-    ],
-    "independent_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.988711,
-      "AR60": 4.993985,
-      "AR66": 14.626118
-    },
-    "full_cfp": {
-      "AR20": -5.299577,
-      "AR40": -7.988711,
-      "AR60": 4.993985,
-      "AR66": 14.626118
     }
   },
   {
@@ -43485,41 +41420,6 @@
       "AR44": -150.0,
       "AR60": 0.266881,
       "AR64": -42.064157
-    }
-  },
-  {
-    "instance_idx": 33,
-    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
-    "symmetry": "D6",
-    "dim": 4,
-    "origin": "basinhopping_10pct_reflect",
-    "trial_idx": 3,
-    "cfg_name": "C15_Deep_Budget_1500_Restart_1e-3",
-    "f0": 1.2041501297245185,
-    "final_ssd": 1.2041501297245185,
-    "ssd_drop": 0.0,
-    "nfev": 67382,
-    "nit": 1500,
-    "time_sec": 427.1260528564453,
-    "success": true,
-    "message": "Maximum number of iteration reached",
-    "best_x": [
-      -5.299573,
-      -7.98871,
-      4.993985,
-      -14.626114
-    ],
-    "independent_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
-    },
-    "full_cfp": {
-      "AR20": -5.299573,
-      "AR40": -7.98871,
-      "AR60": 4.993985,
-      "AR66": -14.626114
     }
   },
   {
@@ -44757,6 +42657,2106 @@
       "AR62": 86.061428,
       "AR64": -95.028457,
       "AR66": 62.110722
+    }
+  },
+  {
+    "instance_idx": 33,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "cfg_name": "C01_Baseline_Default",
+    "f0": 1.4699523811821096,
+    "final_ssd": 1.4699523800256387,
+    "ssd_drop": 1.156470919028152e-09,
+    "nfev": 8028,
+    "nit": 1000,
+    "time_sec": 55.07693123817444,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.16357295120213,
+      -5.169073594446374,
+      -5.050416381012454,
+      -44.874791156530314
+    ],
+    "independent_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    },
+    "full_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    }
+  },
+  {
+    "instance_idx": 33,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "cfg_name": "C02_Restart_1e-4",
+    "f0": 1.4699523811821096,
+    "final_ssd": 1.469952379198489,
+    "ssd_drop": 1.9836206011092372e-09,
+    "nfev": 8309,
+    "nit": 1000,
+    "time_sec": 55.30977153778076,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163572994204424,
+      -5.169073558471453,
+      -5.050416398164932,
+      -44.87479115704164
+    ],
+    "independent_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    },
+    "full_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    }
+  },
+  {
+    "instance_idx": 32,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "cfg_name": "C01_Baseline_Default",
+    "f0": 1.4699523800433851,
+    "final_ssd": 1.46995237903145,
+    "ssd_drop": 1.0119352022996964e-09,
+    "nfev": 8289,
+    "nit": 1000,
+    "time_sec": 55.42989802360535,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163578655916007,
+      -5.169068894466641,
+      -5.050416613243574,
+      44.87485940509365
+    ],
+    "independent_cfp": {
+      "AR20": 5.163579,
+      "AR40": -5.169069,
+      "AR60": -5.050417,
+      "AR66": 44.874859
+    },
+    "full_cfp": {
+      "AR20": 5.163579,
+      "AR40": -5.169069,
+      "AR60": -5.050417,
+      "AR66": 44.874859
+    }
+  },
+  {
+    "instance_idx": 4,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "cfg_name": "C01_Baseline_Default",
+    "f0": 12528.438299455102,
+    "final_ssd": 1.4699523813748192,
+    "ssd_drop": 12526.968347073727,
+    "nfev": 8631,
+    "nit": 1000,
+    "time_sec": 57.353498220443726,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163577330614546,
+      -5.169068087291428,
+      -5.050412455060697,
+      -44.87466627787072
+    ],
+    "independent_cfp": {
+      "AR20": 5.163577,
+      "AR40": -5.169068,
+      "AR60": -5.050412,
+      "AR66": -44.874666
+    },
+    "full_cfp": {
+      "AR20": 5.163577,
+      "AR40": -5.169068,
+      "AR60": -5.050412,
+      "AR66": -44.874666
+    }
+  },
+  {
+    "instance_idx": 31,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "cfg_name": "C01_Baseline_Default",
+    "f0": 1.46995238079854,
+    "final_ssd": 1.46995238079854,
+    "ssd_drop": 0.0,
+    "nfev": 8244,
+    "nit": 1000,
+    "time_sec": 57.66446113586426,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163547,
+      -5.169076,
+      -5.050422,
+      44.874871
+    ],
+    "independent_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    },
+    "full_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    }
+  },
+  {
+    "instance_idx": 32,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "cfg_name": "C02_Restart_1e-4",
+    "f0": 1.4699523800433851,
+    "final_ssd": 1.4699523800433851,
+    "ssd_drop": 0.0,
+    "nfev": 8660,
+    "nit": 1000,
+    "time_sec": 58.095131158828735,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163581,
+      -5.169055,
+      -5.050413,
+      44.874869
+    ],
+    "independent_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    },
+    "full_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    }
+  },
+  {
+    "instance_idx": 33,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "cfg_name": "C03_Restart_5e-4",
+    "f0": 1.4699523811821096,
+    "final_ssd": 1.469952379198489,
+    "ssd_drop": 1.9836206011092372e-09,
+    "nfev": 8690,
+    "nit": 1000,
+    "time_sec": 58.861736536026,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163572994204424,
+      -5.169073558471453,
+      -5.050416398164932,
+      -44.87479115704164
+    ],
+    "independent_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    },
+    "full_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    }
+  },
+  {
+    "instance_idx": 31,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "cfg_name": "C02_Restart_1e-4",
+    "f0": 1.46995238079854,
+    "final_ssd": 1.46995238079854,
+    "ssd_drop": 0.0,
+    "nfev": 8822,
+    "nit": 1000,
+    "time_sec": 59.87643527984619,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163547,
+      -5.169076,
+      -5.050422,
+      44.874871
+    ],
+    "independent_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    },
+    "full_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    }
+  },
+  {
+    "instance_idx": 31,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "cfg_name": "C03_Restart_5e-4",
+    "f0": 1.46995238079854,
+    "final_ssd": 1.46995238079854,
+    "ssd_drop": 0.0,
+    "nfev": 9212,
+    "nit": 1000,
+    "time_sec": 59.99803423881531,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163547,
+      -5.169076,
+      -5.050422,
+      44.874871
+    ],
+    "independent_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    },
+    "full_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    }
+  },
+  {
+    "instance_idx": 33,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "cfg_name": "C04_Restart_1e-3_Standard",
+    "f0": 1.4699523811821096,
+    "final_ssd": 1.469952379198489,
+    "ssd_drop": 1.9836206011092372e-09,
+    "nfev": 9198,
+    "nit": 1000,
+    "time_sec": 62.008649826049805,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163572994204424,
+      -5.169073558471453,
+      -5.050416398164932,
+      -44.87479115704164
+    ],
+    "independent_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    },
+    "full_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    }
+  },
+  {
+    "instance_idx": 32,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "cfg_name": "C03_Restart_5e-4",
+    "f0": 1.4699523800433851,
+    "final_ssd": 1.4699523800433851,
+    "ssd_drop": 0.0,
+    "nfev": 9122,
+    "nit": 1000,
+    "time_sec": 63.29127025604248,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163581,
+      -5.169055,
+      -5.050413,
+      44.874869
+    ],
+    "independent_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    },
+    "full_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    }
+  },
+  {
+    "instance_idx": 4,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "cfg_name": "C03_Restart_5e-4",
+    "f0": 12528.438299455102,
+    "final_ssd": 1.4699523803401326,
+    "ssd_drop": 12526.968347074762,
+    "nfev": 8897,
+    "nit": 1000,
+    "time_sec": 63.43763542175293,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.16357781215402,
+      -5.169068944173035,
+      -5.0504148407170275,
+      44.87479832976179
+    ],
+    "independent_cfp": {
+      "AR20": 5.163578,
+      "AR40": -5.169069,
+      "AR60": -5.050415,
+      "AR66": 44.874798
+    },
+    "full_cfp": {
+      "AR20": 5.163578,
+      "AR40": -5.169069,
+      "AR60": -5.050415,
+      "AR66": 44.874798
+    }
+  },
+  {
+    "instance_idx": 4,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "cfg_name": "C02_Restart_1e-4",
+    "f0": 12528.438299455102,
+    "final_ssd": 1.4699523813748192,
+    "ssd_drop": 12526.968347073727,
+    "nfev": 8651,
+    "nit": 1000,
+    "time_sec": 63.53954839706421,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163577330614546,
+      -5.169068087291428,
+      -5.050412455060697,
+      -44.87466627787072
+    ],
+    "independent_cfp": {
+      "AR20": 5.163577,
+      "AR40": -5.169068,
+      "AR60": -5.050412,
+      "AR66": -44.874666
+    },
+    "full_cfp": {
+      "AR20": 5.163577,
+      "AR40": -5.169068,
+      "AR60": -5.050412,
+      "AR66": -44.874666
+    }
+  },
+  {
+    "instance_idx": 32,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "cfg_name": "C04_Restart_1e-3_Standard",
+    "f0": 1.4699523800433851,
+    "final_ssd": 1.4699523800433851,
+    "ssd_drop": 0.0,
+    "nfev": 9819,
+    "nit": 1000,
+    "time_sec": 64.21359014511108,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163581,
+      -5.169055,
+      -5.050413,
+      44.874869
+    ],
+    "independent_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    },
+    "full_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    }
+  },
+  {
+    "instance_idx": 31,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "cfg_name": "C04_Restart_1e-3_Standard",
+    "f0": 1.46995238079854,
+    "final_ssd": 1.46995238079854,
+    "ssd_drop": 0.0,
+    "nfev": 9972,
+    "nit": 1000,
+    "time_sec": 70.07539677619934,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163547,
+      -5.169076,
+      -5.050422,
+      44.874871
+    ],
+    "independent_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    },
+    "full_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    }
+  },
+  {
+    "instance_idx": 4,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "cfg_name": "C04_Restart_1e-3_Standard",
+    "f0": 12528.438299455102,
+    "final_ssd": 2.2122067550858717,
+    "ssd_drop": 12526.226092700015,
+    "nfev": 10152,
+    "nit": 1000,
+    "time_sec": 72.24383759498596,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.589213031659036,
+      -2.6573629262831093,
+      -4.938888400794892,
+      -45.22273815436207
+    ],
+    "independent_cfp": {
+      "AR20": 5.589213,
+      "AR40": -2.657363,
+      "AR60": -4.938888,
+      "AR66": -45.222738
+    },
+    "full_cfp": {
+      "AR20": 5.589213,
+      "AR40": -2.657363,
+      "AR60": -4.938888,
+      "AR66": -45.222738
+    }
+  },
+  {
+    "instance_idx": 4,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "cfg_name": "C07_Moderate_Visit_2.70_Restart_1e-3",
+    "f0": 12528.438299455102,
+    "final_ssd": 1.4699523806858488,
+    "ssd_drop": 12526.968347074415,
+    "nfev": 8641,
+    "nit": 1000,
+    "time_sec": 56.48467445373535,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163578308537269,
+      -5.169061706264567,
+      -5.050413392109632,
+      -44.874815746437335
+    ],
+    "independent_cfp": {
+      "AR20": 5.163578,
+      "AR40": -5.169062,
+      "AR60": -5.050413,
+      "AR66": -44.874816
+    },
+    "full_cfp": {
+      "AR20": 5.163578,
+      "AR40": -5.169062,
+      "AR60": -5.050413,
+      "AR66": -44.874816
+    }
+  },
+  {
+    "instance_idx": 32,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "cfg_name": "C06_Gentle_Visit_2.50_Restart_1e-3",
+    "f0": 1.4699523800433851,
+    "final_ssd": 1.4699523800433851,
+    "ssd_drop": 0.0,
+    "nfev": 9321,
+    "nit": 1000,
+    "time_sec": 60.77122735977173,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163581,
+      -5.169055,
+      -5.050413,
+      44.874869
+    ],
+    "independent_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    },
+    "full_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    }
+  },
+  {
+    "instance_idx": 33,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "cfg_name": "C05_Restart_2e-3_Frequent",
+    "f0": 1.4699523811821096,
+    "final_ssd": 1.469952379198489,
+    "ssd_drop": 1.9836206011092372e-09,
+    "nfev": 9833,
+    "nit": 1000,
+    "time_sec": 62.70415997505188,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163572994204424,
+      -5.169073558471453,
+      -5.050416398164932,
+      -44.87479115704164
+    ],
+    "independent_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    },
+    "full_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    }
+  },
+  {
+    "instance_idx": 33,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "cfg_name": "C06_Gentle_Visit_2.50_Restart_1e-3",
+    "f0": 1.4699523811821096,
+    "final_ssd": 1.469952379198489,
+    "ssd_drop": 1.9836206011092372e-09,
+    "nfev": 8817,
+    "nit": 1000,
+    "time_sec": 60.64535403251648,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163572994204424,
+      -5.169073558471453,
+      -5.050416398164932,
+      -44.87479115704164
+    ],
+    "independent_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    },
+    "full_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    }
+  },
+  {
+    "instance_idx": 31,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "cfg_name": "C06_Gentle_Visit_2.50_Restart_1e-3",
+    "f0": 1.46995238079854,
+    "final_ssd": 1.46995238079854,
+    "ssd_drop": 0.0,
+    "nfev": 9519,
+    "nit": 1000,
+    "time_sec": 62.95047092437744,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163547,
+      -5.169076,
+      -5.050422,
+      44.874871
+    ],
+    "independent_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    },
+    "full_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    }
+  },
+  {
+    "instance_idx": 33,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "cfg_name": "C07_Moderate_Visit_2.70_Restart_1e-3",
+    "f0": 1.4699523811821096,
+    "final_ssd": 1.469952379198489,
+    "ssd_drop": 1.9836206011092372e-09,
+    "nfev": 9325,
+    "nit": 1000,
+    "time_sec": 59.72262096405029,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163572994204424,
+      -5.169073558471453,
+      -5.050416398164932,
+      -44.87479115704164
+    ],
+    "independent_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    },
+    "full_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    }
+  },
+  {
+    "instance_idx": 31,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "cfg_name": "C07_Moderate_Visit_2.70_Restart_1e-3",
+    "f0": 1.46995238079854,
+    "final_ssd": 1.46995238079854,
+    "ssd_drop": 0.0,
+    "nfev": 10171,
+    "nit": 1000,
+    "time_sec": 62.89150428771973,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163547,
+      -5.169076,
+      -5.050422,
+      44.874871
+    ],
+    "independent_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    },
+    "full_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    }
+  },
+  {
+    "instance_idx": 4,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "cfg_name": "C06_Gentle_Visit_2.50_Restart_1e-3",
+    "f0": 12528.438299455102,
+    "final_ssd": 1.4699523799992322,
+    "ssd_drop": 12526.968347075102,
+    "nfev": 10077,
+    "nit": 1000,
+    "time_sec": 67.603994846344,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.1635803009401675,
+      -5.169073848232993,
+      -5.050411927204086,
+      -44.87470385876424
+    ],
+    "independent_cfp": {
+      "AR20": 5.16358,
+      "AR40": -5.169074,
+      "AR60": -5.050412,
+      "AR66": -44.874704
+    },
+    "full_cfp": {
+      "AR20": 5.16358,
+      "AR40": -5.169074,
+      "AR60": -5.050412,
+      "AR66": -44.874704
+    }
+  },
+  {
+    "instance_idx": 32,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "cfg_name": "C05_Restart_2e-3_Frequent",
+    "f0": 1.4699523800433851,
+    "final_ssd": 1.4699523800433851,
+    "ssd_drop": 0.0,
+    "nfev": 10706,
+    "nit": 1000,
+    "time_sec": 69.87360501289368,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163581,
+      -5.169055,
+      -5.050413,
+      44.874869
+    ],
+    "independent_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    },
+    "full_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    }
+  },
+  {
+    "instance_idx": 31,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "cfg_name": "C05_Restart_2e-3_Frequent",
+    "f0": 1.46995238079854,
+    "final_ssd": 1.46995238079854,
+    "ssd_drop": 0.0,
+    "nfev": 10949,
+    "nit": 1000,
+    "time_sec": 70.45689392089844,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163547,
+      -5.169076,
+      -5.050422,
+      44.874871
+    ],
+    "independent_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    },
+    "full_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    }
+  },
+  {
+    "instance_idx": 4,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "cfg_name": "C05_Restart_2e-3_Frequent",
+    "f0": 12528.438299455102,
+    "final_ssd": 1.4699523791627316,
+    "ssd_drop": 12526.96834707594,
+    "nfev": 11156,
+    "nit": 1000,
+    "time_sec": 72.27109622955322,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163588475870772,
+      -5.169068285237707,
+      -5.05041468120708,
+      44.874836461909666
+    ],
+    "independent_cfp": {
+      "AR20": 5.163588,
+      "AR40": -5.169068,
+      "AR60": -5.050415,
+      "AR66": 44.874836
+    },
+    "full_cfp": {
+      "AR20": 5.163588,
+      "AR40": -5.169068,
+      "AR60": -5.050415,
+      "AR66": 44.874836
+    }
+  },
+  {
+    "instance_idx": 4,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "cfg_name": "C08_Extended_Visit_2.75_Restart_1e-3",
+    "f0": 12528.438299455102,
+    "final_ssd": 1.4699523798404723,
+    "ssd_drop": 12526.96834707526,
+    "nfev": 9741,
+    "nit": 1000,
+    "time_sec": 66.05874705314636,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163579012914565,
+      -5.1690546836338225,
+      -5.050413056196099,
+      -44.874656934707076
+    ],
+    "independent_cfp": {
+      "AR20": 5.163579,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": -44.874657
+    },
+    "full_cfp": {
+      "AR20": 5.163579,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": -44.874657
+    }
+  },
+  {
+    "instance_idx": 32,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "cfg_name": "C07_Moderate_Visit_2.70_Restart_1e-3",
+    "f0": 1.4699523800433851,
+    "final_ssd": 1.4699523800433851,
+    "ssd_drop": 0.0,
+    "nfev": 9964,
+    "nit": 1000,
+    "time_sec": 66.66181325912476,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163581,
+      -5.169055,
+      -5.050413,
+      44.874869
+    ],
+    "independent_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    },
+    "full_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    }
+  },
+  {
+    "instance_idx": 31,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "cfg_name": "C08_Extended_Visit_2.75_Restart_1e-3",
+    "f0": 1.46995238079854,
+    "final_ssd": 1.46995238079854,
+    "ssd_drop": 0.0,
+    "nfev": 10650,
+    "nit": 1000,
+    "time_sec": 69.66159319877625,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163547,
+      -5.169076,
+      -5.050422,
+      44.874871
+    ],
+    "independent_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    },
+    "full_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    }
+  },
+  {
+    "instance_idx": 33,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "cfg_name": "C08_Extended_Visit_2.75_Restart_1e-3",
+    "f0": 1.4699523811821096,
+    "final_ssd": 1.469952379198489,
+    "ssd_drop": 1.9836206011092372e-09,
+    "nfev": 9579,
+    "nit": 1000,
+    "time_sec": 62.62728786468506,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163572994204424,
+      -5.169073558471453,
+      -5.050416398164932,
+      -44.87479115704164
+    ],
+    "independent_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    },
+    "full_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    }
+  },
+  {
+    "instance_idx": 32,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "cfg_name": "C08_Extended_Visit_2.75_Restart_1e-3",
+    "f0": 1.4699523800433851,
+    "final_ssd": 1.4699523800433851,
+    "ssd_drop": 0.0,
+    "nfev": 10344,
+    "nit": 1000,
+    "time_sec": 69.32944321632385,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163581,
+      -5.169055,
+      -5.050413,
+      44.874869
+    ],
+    "independent_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    },
+    "full_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    }
+  },
+  {
+    "instance_idx": 4,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "cfg_name": "C10_Warm_Temp_10000_Restart_1e-3",
+    "f0": 12528.438299455102,
+    "final_ssd": 3.5111487309247584,
+    "ssd_drop": 12524.927150724177,
+    "nfev": 8910,
+    "nit": 1000,
+    "time_sec": 56.74073505401611,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      -5.35487057770636,
+      0.5470176727568179,
+      -4.01059499002385,
+      42.685803810913434
+    ],
+    "independent_cfp": {
+      "AR20": -5.354871,
+      "AR40": 0.547018,
+      "AR60": -4.010595,
+      "AR66": 42.685804
+    },
+    "full_cfp": {
+      "AR20": -5.354871,
+      "AR40": 0.547018,
+      "AR60": -4.010595,
+      "AR66": 42.685804
+    }
+  },
+  {
+    "instance_idx": 33,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "cfg_name": "C09_Levy_Visit_2.90_Restart_1e-3",
+    "f0": 1.4699523811821096,
+    "final_ssd": 1.469952379198489,
+    "ssd_drop": 1.9836206011092372e-09,
+    "nfev": 9960,
+    "nit": 1000,
+    "time_sec": 62.849751710891724,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163572994204424,
+      -5.169073558471453,
+      -5.050416398164932,
+      -44.87479115704164
+    ],
+    "independent_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    },
+    "full_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    }
+  },
+  {
+    "instance_idx": 4,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "cfg_name": "C12_Selective_Accept_m15_Restart_1e-3",
+    "f0": 12528.438299455102,
+    "final_ssd": 1.469952381210151,
+    "ssd_drop": 12526.968347073891,
+    "nfev": 8559,
+    "nit": 1000,
+    "time_sec": 55.95396113395691,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163580375463405,
+      -5.169067933441961,
+      -5.0504164927124995,
+      44.87484440722424
+    ],
+    "independent_cfp": {
+      "AR20": 5.16358,
+      "AR40": -5.169068,
+      "AR60": -5.050416,
+      "AR66": 44.874844
+    },
+    "full_cfp": {
+      "AR20": 5.16358,
+      "AR40": -5.169068,
+      "AR60": -5.050416,
+      "AR66": 44.874844
+    }
+  },
+  {
+    "instance_idx": 33,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "cfg_name": "C10_Warm_Temp_10000_Restart_1e-3",
+    "f0": 1.4699523811821096,
+    "final_ssd": 1.469952379198489,
+    "ssd_drop": 1.9836206011092372e-09,
+    "nfev": 9198,
+    "nit": 1000,
+    "time_sec": 61.30220103263855,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163572994204424,
+      -5.169073558471453,
+      -5.050416398164932,
+      -44.87479115704164
+    ],
+    "independent_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    },
+    "full_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    }
+  },
+  {
+    "instance_idx": 33,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "cfg_name": "C11_Hot_Temp_20000_Restart_1e-3",
+    "f0": 1.4699523811821096,
+    "final_ssd": 1.469952379198489,
+    "ssd_drop": 1.9836206011092372e-09,
+    "nfev": 9198,
+    "nit": 1000,
+    "time_sec": 57.11408877372742,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163572994204424,
+      -5.169073558471453,
+      -5.050416398164932,
+      -44.87479115704164
+    ],
+    "independent_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    },
+    "full_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    }
+  },
+  {
+    "instance_idx": 31,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "cfg_name": "C10_Warm_Temp_10000_Restart_1e-3",
+    "f0": 1.46995238079854,
+    "final_ssd": 1.46995238079854,
+    "ssd_drop": 0.0,
+    "nfev": 9990,
+    "nit": 1000,
+    "time_sec": 64.06941413879395,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163547,
+      -5.169076,
+      -5.050422,
+      44.874871
+    ],
+    "independent_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    },
+    "full_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    }
+  },
+  {
+    "instance_idx": 31,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "cfg_name": "C09_Levy_Visit_2.90_Restart_1e-3",
+    "f0": 1.46995238079854,
+    "final_ssd": 1.46995238079854,
+    "ssd_drop": 0.0,
+    "nfev": 11031,
+    "nit": 1000,
+    "time_sec": 68.66574311256409,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163547,
+      -5.169076,
+      -5.050422,
+      44.874871
+    ],
+    "independent_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    },
+    "full_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    }
+  },
+  {
+    "instance_idx": 4,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "cfg_name": "C11_Hot_Temp_20000_Restart_1e-3",
+    "f0": 12528.438299455102,
+    "final_ssd": 1.4699523798833254,
+    "ssd_drop": 12526.968347075219,
+    "nfev": 9738,
+    "nit": 1000,
+    "time_sec": 63.674914598464966,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163577155911355,
+      -5.169068445902159,
+      -5.050419231853302,
+      -44.8748930149129
+    ],
+    "independent_cfp": {
+      "AR20": 5.163577,
+      "AR40": -5.169068,
+      "AR60": -5.050419,
+      "AR66": -44.874893
+    },
+    "full_cfp": {
+      "AR20": 5.163577,
+      "AR40": -5.169068,
+      "AR60": -5.050419,
+      "AR66": -44.874893
+    }
+  },
+  {
+    "instance_idx": 32,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "cfg_name": "C10_Warm_Temp_10000_Restart_1e-3",
+    "f0": 1.4699523800433851,
+    "final_ssd": 1.4699523800433851,
+    "ssd_drop": 0.0,
+    "nfev": 9810,
+    "nit": 1000,
+    "time_sec": 65.42110967636108,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163581,
+      -5.169055,
+      -5.050413,
+      44.874869
+    ],
+    "independent_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    },
+    "full_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    }
+  },
+  {
+    "instance_idx": 4,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "cfg_name": "C09_Levy_Visit_2.90_Restart_1e-3",
+    "f0": 12528.438299455102,
+    "final_ssd": 1.4699523797931895,
+    "ssd_drop": 12526.968347075308,
+    "nfev": 11373,
+    "nit": 1000,
+    "time_sec": 74.64327049255371,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163562999485254,
+      -5.16906818937425,
+      -5.050411914628039,
+      44.87444315710685
+    ],
+    "independent_cfp": {
+      "AR20": 5.163563,
+      "AR40": -5.169068,
+      "AR60": -5.050412,
+      "AR66": 44.874443
+    },
+    "full_cfp": {
+      "AR20": 5.163563,
+      "AR40": -5.169068,
+      "AR60": -5.050412,
+      "AR66": 44.874443
+    }
+  },
+  {
+    "instance_idx": 32,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "cfg_name": "C09_Levy_Visit_2.90_Restart_1e-3",
+    "f0": 1.4699523800433851,
+    "final_ssd": 1.4699523800433851,
+    "ssd_drop": 0.0,
+    "nfev": 10752,
+    "nit": 1000,
+    "time_sec": 72.02565002441406,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163581,
+      -5.169055,
+      -5.050413,
+      44.874869
+    ],
+    "independent_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    },
+    "full_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    }
+  },
+  {
+    "instance_idx": 31,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "cfg_name": "C11_Hot_Temp_20000_Restart_1e-3",
+    "f0": 1.46995238079854,
+    "final_ssd": 1.46995238079854,
+    "ssd_drop": 0.0,
+    "nfev": 9990,
+    "nit": 1000,
+    "time_sec": 66.22430944442749,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163547,
+      -5.169076,
+      -5.050422,
+      44.874871
+    ],
+    "independent_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    },
+    "full_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    }
+  },
+  {
+    "instance_idx": 32,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "cfg_name": "C11_Hot_Temp_20000_Restart_1e-3",
+    "f0": 1.4699523800433851,
+    "final_ssd": 1.4699523800433851,
+    "ssd_drop": 0.0,
+    "nfev": 9864,
+    "nit": 1000,
+    "time_sec": 64.97591757774353,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163581,
+      -5.169055,
+      -5.050413,
+      44.874869
+    ],
+    "independent_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    },
+    "full_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    }
+  },
+  {
+    "instance_idx": 32,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "cfg_name": "C12_Selective_Accept_m15_Restart_1e-3",
+    "f0": 1.4699523800433851,
+    "final_ssd": 1.4699523800433851,
+    "ssd_drop": 0.0,
+    "nfev": 9819,
+    "nit": 1000,
+    "time_sec": 63.013978481292725,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163581,
+      -5.169055,
+      -5.050413,
+      44.874869
+    ],
+    "independent_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    },
+    "full_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    }
+  },
+  {
+    "instance_idx": 31,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "cfg_name": "C12_Selective_Accept_m15_Restart_1e-3",
+    "f0": 1.46995238079854,
+    "final_ssd": 1.46995238079854,
+    "ssd_drop": 0.0,
+    "nfev": 10062,
+    "nit": 1000,
+    "time_sec": 65.0438129901886,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163547,
+      -5.169076,
+      -5.050422,
+      44.874871
+    ],
+    "independent_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    },
+    "full_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    }
+  },
+  {
+    "instance_idx": 33,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "cfg_name": "C12_Selective_Accept_m15_Restart_1e-3",
+    "f0": 1.4699523811821096,
+    "final_ssd": 1.469952379198489,
+    "ssd_drop": 1.9836206011092372e-09,
+    "nfev": 9198,
+    "nit": 1000,
+    "time_sec": 61.152082681655884,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163572994204424,
+      -5.169073558471453,
+      -5.050416398164932,
+      -44.87479115704164
+    ],
+    "independent_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    },
+    "full_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    }
+  },
+  {
+    "instance_idx": 33,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "cfg_name": "C14_Fast_Budget_500_Restart_1e-3",
+    "f0": 1.4699523811821096,
+    "final_ssd": 1.469952379198489,
+    "ssd_drop": 1.9836206011092372e-09,
+    "nfev": 4563,
+    "nit": 500,
+    "time_sec": 25.986586332321167,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163572994204424,
+      -5.169073558471453,
+      -5.050416398164932,
+      -44.87479115704164
+    ],
+    "independent_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    },
+    "full_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    }
+  },
+  {
+    "instance_idx": 31,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "cfg_name": "C14_Fast_Budget_500_Restart_1e-3",
+    "f0": 1.46995238079854,
+    "final_ssd": 1.46995238079854,
+    "ssd_drop": 0.0,
+    "nfev": 4905,
+    "nit": 500,
+    "time_sec": 28.068641901016235,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163547,
+      -5.169076,
+      -5.050422,
+      44.874871
+    ],
+    "independent_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    },
+    "full_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    }
+  },
+  {
+    "instance_idx": 32,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "cfg_name": "C14_Fast_Budget_500_Restart_1e-3",
+    "f0": 1.4699523800433851,
+    "final_ssd": 1.4699523800433851,
+    "ssd_drop": 0.0,
+    "nfev": 4815,
+    "nit": 500,
+    "time_sec": 27.528621673583984,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163581,
+      -5.169055,
+      -5.050413,
+      44.874869
+    ],
+    "independent_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    },
+    "full_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    }
+  },
+  {
+    "instance_idx": 4,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "cfg_name": "C14_Fast_Budget_500_Restart_1e-3",
+    "f0": 12528.438299455102,
+    "final_ssd": 2.2122067550858717,
+    "ssd_drop": 12526.226092700015,
+    "nfev": 5202,
+    "nit": 500,
+    "time_sec": 29.912710189819336,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.589213031659036,
+      -2.6573629262831093,
+      -4.938888400794892,
+      -45.22273815436207
+    ],
+    "independent_cfp": {
+      "AR20": 5.589213,
+      "AR40": -2.657363,
+      "AR60": -4.938888,
+      "AR66": -45.222738
+    },
+    "full_cfp": {
+      "AR20": 5.589213,
+      "AR40": -2.657363,
+      "AR60": -4.938888,
+      "AR66": -45.222738
+    }
+  },
+  {
+    "instance_idx": 4,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "cfg_name": "C13_Strict_Accept_m30_Restart_1e-3",
+    "f0": 12528.438299455102,
+    "final_ssd": 1.4699523807584205,
+    "ssd_drop": 12526.968347074344,
+    "nfev": 8559,
+    "nit": 1000,
+    "time_sec": 47.80795383453369,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.1635796647159715,
+      -5.1690682734800255,
+      -5.050415792274683,
+      -44.87481657127856
+    ],
+    "independent_cfp": {
+      "AR20": 5.16358,
+      "AR40": -5.169068,
+      "AR60": -5.050416,
+      "AR66": -44.874817
+    },
+    "full_cfp": {
+      "AR20": 5.16358,
+      "AR40": -5.169068,
+      "AR60": -5.050416,
+      "AR66": -44.874817
+    }
+  },
+  {
+    "instance_idx": 33,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "cfg_name": "C13_Strict_Accept_m30_Restart_1e-3",
+    "f0": 1.4699523811821096,
+    "final_ssd": 1.469952379198489,
+    "ssd_drop": 1.9836206011092372e-09,
+    "nfev": 9198,
+    "nit": 1000,
+    "time_sec": 46.01985239982605,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163572994204424,
+      -5.169073558471453,
+      -5.050416398164932,
+      -44.87479115704164
+    ],
+    "independent_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    },
+    "full_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    }
+  },
+  {
+    "instance_idx": 31,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "cfg_name": "C13_Strict_Accept_m30_Restart_1e-3",
+    "f0": 1.46995238079854,
+    "final_ssd": 1.46995238079854,
+    "ssd_drop": 0.0,
+    "nfev": 9981,
+    "nit": 1000,
+    "time_sec": 50.4499990940094,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163547,
+      -5.169076,
+      -5.050422,
+      44.874871
+    ],
+    "independent_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    },
+    "full_cfp": {
+      "AR20": 5.163547,
+      "AR40": -5.169076,
+      "AR60": -5.050422,
+      "AR66": 44.874871
+    }
+  },
+  {
+    "instance_idx": 32,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "cfg_name": "C13_Strict_Accept_m30_Restart_1e-3",
+    "f0": 1.4699523800433851,
+    "final_ssd": 1.4699523800433851,
+    "ssd_drop": 0.0,
+    "nfev": 9945,
+    "nit": 1000,
+    "time_sec": 48.97895169258118,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163581,
+      -5.169055,
+      -5.050413,
+      44.874869
+    ],
+    "independent_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    },
+    "full_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    }
+  },
+  {
+    "instance_idx": 4,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "random_fixed_seed",
+    "trial_idx": 1,
+    "cfg_name": "C15_Deep_Budget_1500_Restart_1e-3",
+    "f0": 12528.438299455102,
+    "final_ssd": 1.4699523799493401,
+    "ssd_drop": 12526.968347075152,
+    "nfev": 26558,
+    "nit": 1500,
+    "time_sec": 101.09511995315552,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163578983294642,
+      -5.169069498387253,
+      -5.050417808491516,
+      -44.87489016570404
+    ],
+    "independent_cfp": {
+      "AR20": 5.163579,
+      "AR40": -5.169069,
+      "AR60": -5.050418,
+      "AR66": -44.87489
+    },
+    "full_cfp": {
+      "AR20": 5.163579,
+      "AR40": -5.169069,
+      "AR60": -5.050418,
+      "AR66": -44.87489
+    }
+  },
+  {
+    "instance_idx": 33,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 3,
+    "cfg_name": "C15_Deep_Budget_1500_Restart_1e-3",
+    "f0": 1.4699523811821096,
+    "final_ssd": 1.469952379198489,
+    "ssd_drop": 1.9836206011092372e-09,
+    "nfev": 39014,
+    "nit": 1500,
+    "time_sec": 130.25489974021912,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163572994204424,
+      -5.169073558471453,
+      -5.050416398164932,
+      -44.87479115704164
+    ],
+    "independent_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    },
+    "full_cfp": {
+      "AR20": 5.163573,
+      "AR40": -5.169074,
+      "AR60": -5.050416,
+      "AR66": -44.874791
+    }
+  },
+  {
+    "instance_idx": 31,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 1,
+    "cfg_name": "C15_Deep_Budget_1500_Restart_1e-3",
+    "f0": 1.46995238079854,
+    "final_ssd": 1.4699523798743654,
+    "ssd_drop": 9.241745146937319e-10,
+    "nfev": 41516,
+    "nit": 1500,
+    "time_sec": 136.55393147468567,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163564935003678,
+      -5.169084917076017,
+      -5.050416706674765,
+      44.874736784160845
+    ],
+    "independent_cfp": {
+      "AR20": 5.163565,
+      "AR40": -5.169085,
+      "AR60": -5.050417,
+      "AR66": 44.874737
+    },
+    "full_cfp": {
+      "AR20": 5.163565,
+      "AR40": -5.169085,
+      "AR60": -5.050417,
+      "AR66": 44.874737
+    }
+  },
+  {
+    "instance_idx": 32,
+    "case_name": "(Judd B R et al, 1957) / (Judd B R et al, 1957).txt",
+    "symmetry": "D6",
+    "dim": 4,
+    "origin": "basinhopping_10pct_reflect",
+    "trial_idx": 2,
+    "cfg_name": "C15_Deep_Budget_1500_Restart_1e-3",
+    "f0": 1.4699523800433851,
+    "final_ssd": 1.4699523800433851,
+    "ssd_drop": 0.0,
+    "nfev": 56735,
+    "nit": 1500,
+    "time_sec": 163.80722522735596,
+    "success": true,
+    "message": "Maximum number of iteration reached",
+    "best_x": [
+      5.163581,
+      -5.169055,
+      -5.050413,
+      44.874869
+    ],
+    "independent_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
+    },
+    "full_cfp": {
+      "AR20": 5.163581,
+      "AR40": -5.169055,
+      "AR60": -5.050413,
+      "AR66": 44.874869
     }
   }
 ]
