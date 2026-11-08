@@ -550,8 +550,8 @@ def analyze_and_print_results(results):
         log("\n" + "-" * 80)
         log(f"  METRICS REPORT: {group_name} (Sample Count: {len(group_data)})")
         log("-" * 80)
-        log(f"{'Configuration':<45} | {'Mean SSD':<12} | {'Median SSD':<12} | {'Premature%':<11} | {'Mean nfev':<10} | {'Time/run(s)':<11} | {'Score'}")
-        log("-" * 120)
+        log(f"{'Configuration':<45} | {'Mean SSD':<12} | {'Median SSD':<12} | {'Premature%':<11} | {'Mean nfev':<10} | {'Time/run(s)':<11}")
+        log("-" * 110)
 
         cfg_stats = {}
         for cfg_name in CONFIGURATIONS.keys():
@@ -590,35 +590,18 @@ def analyze_and_print_results(results):
                 "mean_drop": mean_drop,
             }
 
-        sorted_by_ssd = sorted(cfg_stats.keys(), key=lambda k: cfg_stats[k]["mean_ssd"])
-        sorted_by_prem = sorted(cfg_stats.keys(), key=lambda k: cfg_stats[k]["premature_pct"])
-        sorted_by_time = sorted(cfg_stats.keys(), key=lambda k: cfg_stats[k]["mean_time"])
-
-        ranks = {}
-        for k in cfg_stats.keys():
-            ranks[k] = sorted_by_ssd.index(k) + 2.0 * sorted_by_prem.index(k) + 0.5 * sorted_by_time.index(k)
-
-        best_cfg = min(ranks.keys(), key=lambda k: ranks[k])
-
-        for k in sorted(cfg_stats.keys(), key=lambda x: ranks[x]):
+        # Output in fixed order (C1..C8) matching CONFIGURATIONS and manuscript Table 1
+        for k in CONFIGURATIONS.keys():
+            if k not in cfg_stats:
+                continue
             s = cfg_stats[k]
-            mark = " [BEST]" if k == best_cfg else ""
-            log(f"{k:<45} | {s['mean_ssd']:<12.3f} | {s['median_ssd']:<12.3f} | {s['premature_pct']:<10.1f}% | {s['mean_nfev']:<10.1f} | {s['mean_time']:<11.3f} | {ranks[k]:.1f}{mark}")
+            log(f"{k:<45} | {s['mean_ssd']:<12.3f} | {s['median_ssd']:<12.3f} | {s['premature_pct']:<10.1f}% | {s['mean_nfev']:<10.1f} | {s['mean_time']:<11.3f}")
 
-        log(f"\n>>> Best Configuration for {group_name}: {best_cfg}")
-        return best_cfg, cfg_stats
+        return cfg_stats
 
-    best_real, stats_real = evaluate_group("REAL EXPERIMENTAL CASES", real_res)
-    best_synth, stats_synth = evaluate_group("SYNTHETIC CASES", synth_res)
-    best_overall, stats_all = evaluate_group("OVERALL (REAL + SYNTHETIC)", valid_res)
-
-    log("\n" + "=" * 80)
-    log("  FINAL CONCLUSION & RECOMMENDATION")
-    log("=" * 80)
-    log(f"1. Best L-BFGS-B Configuration on REAL Data    : {best_real}")
-    log(f"2. Best L-BFGS-B Configuration on SYNTHETIC Data: {best_synth}")
-    log(f"3. Overall Best Configuration (Global Combined) : {best_overall}")
-    log("=" * 80)
+    stats_real = evaluate_group("REAL EXPERIMENTAL CASES", real_res)
+    stats_synth = evaluate_group("SYNTHETIC CASES", synth_res)
+    stats_all = evaluate_group("OVERALL (REAL + SYNTHETIC)", valid_res)
 
     return "\n".join(lines)
 
