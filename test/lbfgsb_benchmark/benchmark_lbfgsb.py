@@ -415,7 +415,8 @@ def run_benchmark():
         os.path.join(r, f)
         for r, _, files in os.walk(test_dir)
         if not any(ex in r.split(os.sep) for ex in exclude_dirs)
-        for f in files if f.endswith('.txt') and 'res' not in f.lower() and 'koningstein' not in f.lower() and 'koningstein' not in r.lower()
+        for f in files if f.endswith('.txt') and 'res' not in f.lower()
+        and 'koningstein' not in f.lower() and 'koningstein' not in r.lower()  # This one is ill-conditioned
     ])
 
     real_cases = []
