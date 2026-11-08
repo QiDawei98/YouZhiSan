@@ -410,11 +410,12 @@ def run_benchmark():
     # 1. Collect real cases (test_dir is the parent 'test' folder)
     benchmark_dir = os.path.dirname(os.path.abspath(__file__))
     test_dir = os.path.dirname(benchmark_dir)
+    exclude_dirs = {'legacy', 'basinhopping', 'dual_annealing_benchmark', 'lbfgsb_benchmark', '__pycache__'}
     txt_files = sorted([
         os.path.join(r, f)
         for r, _, files in os.walk(test_dir)
-        if not r.startswith(benchmark_dir)
-        for f in files if f.endswith('.txt') and 'res' not in f.lower()
+        if not any(ex in r.split(os.sep) for ex in exclude_dirs)
+        for f in files if f.endswith('.txt') and 'res' not in f.lower() and 'koningstein' not in f.lower() and 'koningstein' not in r.lower()
     ])
 
     real_cases = []
@@ -549,8 +550,8 @@ def analyze_and_print_results(results):
         log("\n" + "-" * 80)
         log(f"  METRICS REPORT: {group_name} (Sample Count: {len(group_data)})")
         log("-" * 80)
-        log(f"{'Configuration':<45} | {'Mean SSD':<12} | {'Premature%':<11} | {'Mean nfev':<10} | {'Time/run(s)':<11} | {'Score'}")
-        log("-" * 105)
+        log(f"{'Configuration':<45} | {'Mean SSD':<12} | {'Median SSD':<12} | {'Premature%':<11} | {'Mean nfev':<10} | {'Time/run(s)':<11} | {'Score'}")
+        log("-" * 120)
 
         cfg_stats = {}
         for cfg_name in CONFIGURATIONS.keys():
@@ -561,7 +562,7 @@ def analyze_and_print_results(results):
             ssd_drops = []
 
             for item in group_data:
-                c = item["config_results"].get(cfg_name)
+                c = (item.get("config_results") or item.get("configs") or {}).get(cfg_name)
                 if not c:
                     continue
                 ssds.append(c["final_ssd"])
@@ -602,7 +603,7 @@ def analyze_and_print_results(results):
         for k in sorted(cfg_stats.keys(), key=lambda x: ranks[x]):
             s = cfg_stats[k]
             mark = " [BEST]" if k == best_cfg else ""
-            log(f"{k:<45} | {s['mean_ssd']:<12.3f} | {s['premature_pct']:<10.1f}% | {s['mean_nfev']:<10.1f} | {s['mean_time']:<11.3f} | {ranks[k]:.1f}{mark}")
+            log(f"{k:<45} | {s['mean_ssd']:<12.3f} | {s['median_ssd']:<12.3f} | {s['premature_pct']:<10.1f}% | {s['mean_nfev']:<10.1f} | {s['mean_time']:<11.3f} | {ranks[k]:.1f}{mark}")
 
         log(f"\n>>> Best Configuration for {group_name}: {best_cfg}")
         return best_cfg, cfg_stats
