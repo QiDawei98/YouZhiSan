@@ -28,6 +28,5 @@ Start by executing [YZS_fit.py](YZS_fit.py) with an [Input File](template_input/
 
 For any enquiries, suggestions, bug reports, or anything really, just drop me an email at qidawei98@outlook.com.
 
-**How to Cite**
-As this software is currently unpublished, please cite the GitHub repository:
-https://github.com/QiDawei98/YouZhiSan
+**Please Cite**
+https://doi.org/10.5281/zenodo.24093314
